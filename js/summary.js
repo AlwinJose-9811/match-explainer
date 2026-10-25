@@ -25,7 +25,18 @@ function statRow(row, hs, as) {
   return h('tr', null, cell('h', hs, a), h('th', { scope: 'row' }, term(row.key, row.label)), cell('a', as, b));
 }
 
-export async function render({ load }) {
+const crest = (side, name, big = false) => h('span', { class: `crest ${side}${big ? ' big' : ''}`, 'aria-hidden': 'true' }, name.slice(0, 3).toUpperCase());
+
+/** A strip of match cards (like a fixtures ticker): the current match is highlighted, any card opens that match. */
+function fixtures(index, current) {
+  return h('nav', { class: 'fixtures', 'aria-label': 'Choose a match' }, h('ul', null, index.matches.map(m => h('li', null,
+    h('a', { class: m.match_id === current ? 'fx on' : 'fx', href: `#summary?m=${m.match_id}`, 'aria-current': m.match_id === current ? 'true' : null },
+      h('span', { class: 'fx-stage' }, m.label.split(':')[0]),
+      h('span', { class: 'fx-row' }, crest('home', m.home), h('b', null, m.score.replace('-', '–')), crest('away', m.away)),
+      h('span', { class: 'fx-teams' }, `${m.home} v ${m.away}`))))));
+}
+
+export async function render({ load, index, matchId }) {
   const s = await load('summary');
   const { home, away } = s.teams, sc = s.score;
   const meta = [s.competition + ' ' + s.season, s.stage, s.date].filter(Boolean).join(' · ');
@@ -33,13 +44,14 @@ export async function render({ load }) {
   const listen = story ? listenButton(() => story.speech || story.text, 'Listen to the story', story.audio) : null;
 
   return h('div', null,
-    h('section', { class: 'card center', 'aria-labelledby': 'score-h' },
+    index ? fixtures(index, matchId) : null,
+    h('section', { class: 'card scoreboard center', 'aria-labelledby': 'score-h' },
       h('p', { class: 'eyebrow' }, meta),
       h('h1', { id: 'score-h', tabindex: '-1', class: 'visually-hidden' }, `${home.name} ${sc.home}, ${away.name} ${sc.away}`),
-      h('div', { class: 'scoreline', 'aria-hidden': 'true' },
-        h('span', { class: 'team' }, h('i', { class: 'swatch home' }), home.name),
-        h('span', { class: 'score' }, `${sc.home}–${sc.away}`),
-        h('span', { class: 'team' }, away.name, h('i', { class: 'swatch away' }))),
+      h('div', { class: 'board3', 'aria-hidden': 'true' },
+        h('div', { class: 'side' }, crest('home', home.name, true), h('span', { class: 'tname' }, home.name)),
+        h('div', { class: 'score' }, `${sc.home}–${sc.away}`),
+        h('div', { class: 'side' }, crest('away', away.name, true), h('span', { class: 'tname' }, away.name))),
       sc.shootout ? h('p', null, h('strong', null, `Penalty shootout ${sc.shootout.home}–${sc.shootout.away}`)) : null,
       sc.note ? h('p', { class: 'note' }, sc.note) : null),
 

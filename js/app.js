@@ -6,6 +6,7 @@ import * as summary from './summary.js';
 import * as pitch from './pitch.js';
 import * as shots from './shots.js';
 import * as glossary from './glossary.js';
+import { mountBackdrop } from './flow.js';
 
 const lazy = name => ({ render: async ctx => (await import(`./${name}.js`)).render(ctx) });
 
@@ -40,8 +41,11 @@ function showError(e) {
       h('code', null, 'python tasks.py build'), ' first.')));
 }
 
+const backdrop = mountBackdrop();   // the liquid-pitch canvas behind every page; it only animates on the landing page
+
 async function showLanding() {
   document.body.classList.add('is-landing');
+  backdrop.setAnimated(!/still/.test(location.hash));
   clear(nav);
   document.title = 'Match Explainer · See why the goal happened';
   try {
@@ -52,9 +56,11 @@ async function showLanding() {
 
 async function route() {
   stopSpeaking();
+  document.body.classList.toggle('still', /still/.test(location.hash));   // "#...?still" freezes every animation (for screenshots)
   const { page, matchId } = parseHash();
   if (page === 'home') { await showLanding(); return; }
   document.body.classList.remove('is-landing');
+  backdrop.setAnimated(false);
   const id = matchId && index.matches.some(m => m.match_id === matchId) ? matchId : index.default;
   if (matchId !== id) { location.replace(hashFor(page, id)); return; }
   picker.value = String(id);

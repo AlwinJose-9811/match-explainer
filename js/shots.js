@@ -2,6 +2,7 @@
 import { h, s, clear, num } from './dom.js';
 import { term } from './glossary.js';
 import { pitchSvg, marker } from './pitch.js';
+import { stage } from './stage.js';
 
 let ui = { team: 'both', goalsOnly: false };
 const xgOf = sh => sh.xg_model ?? sh.xg_statsbomb ?? 0;
@@ -16,6 +17,7 @@ export async function render({ load }) {
   const teams = summary.teams, shots = data.shots;
   const svg = pitchSvg('Shot map: each marker is a shot, larger means a better chance');
   const layer = s('g'); svg.append(layer);
+  const st = stage(svg);
   const info = h('p', { class: 'shotinfo', 'aria-live': 'polite' }, 'Hover over or tab to a shot to see who took it and how good the chance was.');
   const totals = h('div', { class: 'grid2' });
   const tbody = h('tbody');
@@ -33,7 +35,7 @@ export async function render({ load }) {
       const r = .9 + 4.2 * Math.sqrt(xgOf(sh)), label = describe(sh, teams[side].name);
       const g = s('g', { tabindex: 0, role: 'img', 'aria-label': label, opacity: sh.is_goal ? 1 : .55 },
         s('title', null, label), marker(side, px, py, r, null));
-      if (sh.is_goal) g.prepend(s('circle', { cx: px, cy: py, r: r + 1.4, fill: 'none', stroke: 'var(--navy)', 'stroke-width': .6 }));
+      if (sh.is_goal) g.prepend(s('circle', { cx: px, cy: py, r: r + 1.4, fill: 'none', stroke: '#FFD84A', 'stroke-width': .7 }));
       for (const ev of ['mouseenter', 'focus']) g.addEventListener(ev, () => { info.textContent = label; });
       layer.append(g);
     }
@@ -59,7 +61,7 @@ export async function render({ load }) {
     h('p', { class: 'muted' }, 'Every shot in normal time and extra time. A bigger marker means a better chance (higher ', term('xg_model', 'xG'), '). Outlined, solid markers are goals; faded markers did not score. The penalty shootout is not shown.'),
     h('div', { class: 'card' },
       h('div', { class: 'btn-row', role: 'group', 'aria-label': 'Filter shots' }, teamBtns, goalsBtn),
-      h('div', { class: 'pitch-wrap' }, svg), info,
+      st.node, info,
       h('div', { class: 'legend' },
         h('span', { class: 'item' }, h('i', { class: 'swatch home' }), `${teams.home.name} (circles) attack right →`),
         h('span', { class: 'item' }, h('i', { class: 'swatch away' }), `← ${teams.away.name} (squares) attack left`),

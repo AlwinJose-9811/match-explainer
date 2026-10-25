@@ -1,12 +1,13 @@
-// Landing page: a flowing "liquid pitch" (canvas, drawn in code), a real goal's ball path as a multi-exposure trail
-// (SVG, from the match data), and the entry points. Everything is drawn here: no images, fonts or requests are loaded.
-// With reduced motion the background is a single still frame and the trail is shown complete.
+// Landing page: the shared "liquid pitch" backdrop (flow.js) behind a real goal's ball path drawn as a multi-exposure
+// trail (SVG, from the match data), and the entry points. Everything is drawn in code: no images, fonts or requests.
+// With reduced motion (or #home?still) the trail is shown complete and nothing moves.
 import { h, s } from './dom.js';
 
-const SKY = '#1D4E9E', CREAM = '#F4EFD8';
+export { horizon, warp, paintFlow } from './flow.js';
+
+const CREAM = '#F4EFD8';
 const prefersReduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-// ---------- pure helpers (also tested under Node) ----------
 /** Smooth SVG path through points (Catmull-Rom converted to cubic Beziers). */
 export function catmullRom(pts) {
   if (pts.length < 2) return '';
@@ -17,68 +18,6 @@ export function catmullRom(pts) {
     d += ` C${f(p1[0] + (p2[0] - p0[0]) / 6)} ${f(p1[1] + (p2[1] - p0[1]) / 6)} ${f(p2[0] - (p3[0] - p1[0]) / 6)} ${f(p2[1] - (p3[1] - p1[1]) / 6)} ${f(p2[0])} ${f(p2[1])}`;
   }
   return d;
-}
-
-/** Height of the wavy horizon (the edge between the blue sky and the lawn) at x. */
-export const horizon = (x, h, t) => h * 0.27 + h * 0.03 * Math.sin(x * 0.0055 + t * 0.25) + h * 0.015 * Math.sin(x * 0.013 - t * 0.35);
-
-/** Bend a lawn point: a slow vortex plus rolling waves, so straight mowing stripes flow like liquid. */
-export function warp(x, y, w, h, t) {
-  const cx = w * 0.62, cy = h * 0.68, R = w * 0.3;
-  const dx = x - cx, dy = y - cy, ang = (2.1 + 0.25 * Math.sin(t * 0.3)) * Math.exp(-(dx * dx + dy * dy) / (2 * R * R));
-  const c = Math.cos(ang), sn = Math.sin(ang);
-  const nx = cx + dx * c - dy * sn;
-  let ny = cy + dx * sn + dy * c;
-  ny += h * 0.028 * Math.sin(nx * 0.006 + y * 0.01 + t * 0.4) + h * 0.012 * Math.sin(nx * 0.015 - t * 0.5);
-  return [nx, ny];
-}
-
-export function paintFlow(ctx, w, h, t) {
-  const step = Math.max(6, w / 120), gap = h / 24;
-  ctx.fillStyle = '#0B3C1F'; ctx.fillRect(0, 0, w, h);
-  ctx.lineCap = 'round'; ctx.lineJoin = 'round';
-  for (let i = 0, n = Math.ceil((h * 1.1) / gap); i < n; i++) {
-    const y0 = h * 0.2 + i * gap, fade = Math.max(0, 1 - i / 8);
-    ctx.beginPath();
-    for (let x = -step; x <= w + step; x += step) {
-      const [px, py] = warp(x, y0, w, h, t);
-      const hy = py + (horizon(x, h, t) - h * 0.27) * fade;
-      x === -step ? ctx.moveTo(px, hy) : ctx.lineTo(px, hy);
-    }
-    ctx.strokeStyle = `hsl(${138 + (i % 3) * 4} 58% ${15 + 7 * Math.sin(i * 0.8 + t * 0.2)}%)`;
-    ctx.lineWidth = gap * 1.2;
-    ctx.stroke();
-    if (i % 4 === 1) {                                   // cream highlights: light catching a mown stripe
-      ctx.strokeStyle = `rgba(244,239,216,${0.42 + 0.3 * Math.sin(i * 1.7)})`;
-      ctx.lineWidth = gap * (0.14 + 0.1 * Math.abs(Math.sin(i)));
-      ctx.translate(0, -gap * 0.3); ctx.stroke(); ctx.translate(0, gap * 0.3);
-    }
-  }
-  ctx.fillStyle = SKY;                                   // sky on top, so stripes never cross the horizon
-  ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(w, 0);
-  for (let x = w; x >= 0; x -= step) ctx.lineTo(x, horizon(x, h, t));
-  ctx.closePath(); ctx.fill();
-  ctx.beginPath();
-  for (let x = 0; x <= w; x += step) (x === 0 ? ctx.moveTo(x, horizon(x, h, t)) : ctx.lineTo(x, horizon(x, h, t)));
-  ctx.strokeStyle = CREAM; ctx.lineWidth = Math.max(4, h * 0.016); ctx.globalAlpha = 0.9; ctx.stroke(); ctx.globalAlpha = 1;
-}
-
-function startFlow(canvas) {
-  const ctx = canvas.getContext('2d');
-  let t = 3.2, last = performance.now(), raf = 0, visible = !document.hidden;
-  const draw = () => paintFlow(ctx, canvas.width, canvas.height, t);
-  const fit = () => { canvas.width = Math.max(360, Math.round(canvas.clientWidth * 0.55)); canvas.height = Math.max(240, Math.round(canvas.clientHeight * 0.55)); draw(); };
-  const frame = now => {
-    if (!canvas.isConnected) return;                     // the page was left
-    raf = requestAnimationFrame(frame);
-    if (!visible || now - last < 40) return;             // about 25 fps is plenty for slow liquid motion
-    t += ((now - last) / 1000) * 0.55; last = now; draw();
-  };
-  new ResizeObserver(fit).observe(canvas);
-  document.addEventListener('visibilitychange', () => { visible = !document.hidden; last = performance.now(); });
-  fit();                                                 // always paint one frame (this is the still image for reduced motion)
-  if (!prefersReduced()) raf = requestAnimationFrame(frame);
-  return () => cancelAnimationFrame(raf);
 }
 
 // ---------- the ball-path trail ----------
@@ -122,7 +61,7 @@ function buildTrail(steps, caption) {
 }
 
 /** Place a multi-exposure of balls along the finished path (needs the SVG attached to measure it). */
-function placeBalls(svg, d) {
+function placeBalls(svg) {
   const probe = svg.querySelector('path.line'), len = probe.getTotalLength(), n = 9, reduced = prefersReduced();
   probe.style.setProperty('--len', len.toFixed(1));
   svg.querySelector('path.glow').style.setProperty('--len', len.toFixed(1));
@@ -149,8 +88,7 @@ export async function render({ index, load }) {
   const chip = m => h('a', { class: 'lp-chip', href: `#summary?m=${m.match_id}` }, h('span', null, `${m.home} ${m.score} ${m.away}`));
   const still = prefersReduced() || /still/.test(location.hash);   // "#home?still" shows the finished composition (for screenshots)
   const node = h('section', { class: still ? 'lp lp-still' : 'lp', 'aria-labelledby': 'lp-title' },
-    h('canvas', { class: 'lp-canvas', 'aria-hidden': 'true' }),
-    h('div', { class: 'lp-grain', 'aria-hidden': 'true' }), h('div', { class: 'lp-scrim', 'aria-hidden': 'true' }),
+    h('div', { class: 'lp-scrim', 'aria-hidden': 'true' }),
     h('div', { class: 'lp-trailwrap' }, trail ? trail.svg : null,
       trail ? h('p', { class: 'lp-caption' }, caption) : null),
     h('div', { class: 'lp-copy' },
@@ -165,10 +103,6 @@ export async function render({ index, load }) {
     h('p', { class: 'lp-credit' }, 'Data provided by ', h('a', { href: 'https://github.com/statsbomb/open-data', target: '_blank', rel: 'noopener' }, 'StatsBomb'),
       ' · All explanations are automated analysis built from event data. The artwork on this page is drawn in code.'));
 
-  setTimeout(() => {                                       // after the router has attached the page
-    const cv = node.querySelector('canvas');
-    if (cv && cv.isConnected) startFlow(cv);
-    if (trail && trail.svg.isConnected) placeBalls(trail.svg, trail.d);
-  }, 0);
+  setTimeout(() => { if (trail && trail.svg.isConnected) placeBalls(trail.svg); }, 0);   // after the router has attached the page
   return node;
 }
