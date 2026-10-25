@@ -74,8 +74,8 @@ def test_replay_separates_ball_from_players_and_shows_both_teams():  # owner req
                    "Last visible defender", "movement", "trackAt", "defendSide"):
         assert needle in replay_js, needle
     # layer order: players are appended before the ball layer so the ball is always on top
-    assert replay_js.index("svg.append(lineLayer, playerLayer, ballLayer)") > 0
-    assert "white casing" in replay_js
+    assert replay_js.index("svg.append(lineLayer, playerLayer, distLayer, ballLayer)") > 0
+    assert "casing" in replay_js and "Distances" in replay_js
 
 
 def test_moments_page_filters_goals_and_labels_output():  # FR-K5, FR-E5

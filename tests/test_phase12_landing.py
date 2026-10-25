@@ -12,7 +12,7 @@ from pipeline.config import ROOT
 from tests.test_phase8_quality import TOKENS, contrast
 
 WEB = ROOT / "web"
-LP = (WEB / "js" / "landing.js").read_text(encoding="utf8")
+LP = (WEB / "js" / "landing.js").read_text(encoding="utf8") + (WEB / "js" / "flow.js").read_text(encoding="utf8")   # the backdrop lives in flow.js
 CSS = (WEB / "css" / "style.css").read_text(encoding="utf8")
 APP = (WEB / "js" / "app.js").read_text(encoding="utf8")
 node = shutil.which("node")
@@ -76,6 +76,8 @@ console.log(JSON.stringify({d, segs: (d.match(/C/g) || []).length, endsAt: nums.
     assert r["farShift"] < 0.12 * 600                                                    # far from the vortex only gentle waves move a point
 
 
-def test_app_pages_keep_light_cards_on_a_dark_header():
-    assert re.search(r"--card:\s*#FFFFFF", CSS) and ".top {" in CSS
-    assert contrast(TOKENS["text"], TOKENS["card"]) >= 7 and contrast(TOKENS["text"], TOKENS["bg"]) >= 7
+def test_inner_pages_use_dark_glass_panels_with_readable_text():
+    assert ".card {" in CSS and "backdrop-filter" in CSS and ".top {" in CSS
+    assert contrast(TOKENS["text"], TOKENS["panel"]) >= 7 and contrast(TOKENS["text"], TOKENS["bg"]) >= 7
+    glass = over(TOKENS["panel"], 0.78, TOKENS["cream"])         # the glass panel over the brightest highlight of the backdrop
+    assert contrast(TOKENS["text"], glass) >= 4.5 and contrast(TOKENS["muted"], glass) >= 4.5, glass

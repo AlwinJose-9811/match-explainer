@@ -4,6 +4,7 @@ import { term } from './glossary.js';
 import { listenButton, stopSpeaking } from './speech.js';
 import { createReplay } from './replay.js';
 import { pitchSvg } from './pitch.js';
+import { stage } from './stage.js';
 
 const KIND = m => ({ goal: m.is_penalty ? 'Penalty goal' : 'Goal', penalty: 'Missed penalty', red_card: 'Red card', own_goal: 'Own goal', shot: 'Big chance' })[m.type];
 let ui = { goalsOnly: false };
@@ -12,12 +13,14 @@ let replay = null;
 function penaltyCard(m, teams) {
   const svg = pitchSvg(`Penalty at ${m.clock}`);
   svg.append(
-    s('defs', null, s('marker', { id: 'ah-pen', viewBox: '0 0 6 6', refX: 5, refY: 3, markerWidth: 4, markerHeight: 4, orient: 'auto' }, s('path', { d: 'M0 0 L6 3 L0 6 z', fill: '#1F3864' }))),
-    s('line', { x1: 108, y1: 40, x2: 119.4, y2: m.is_goal ? 40 : 37, stroke: '#1F3864', 'stroke-width': 1.1, 'marker-end': 'url(#ah-pen)' }),
-    s('circle', { cx: 108, cy: 40, r: 1.3, fill: '#fff', stroke: '#1F3864', 'stroke-width': .5 }),
-    s('text', { x: 100, y: 58, 'text-anchor': 'middle', 'font-size': 3, 'font-weight': 700, fill: '#1F3864' }, 'Penalty spot'));
-  return h('div', { class: 'replay' }, h('div', { class: 'pitch-wrap' }, svg),
-    h('p', { class: 'caption' }, `A penalty has no build-up: ${teams[m.team].name} take a free shot from the spot, with only the goalkeeper to beat.`));
+    s('defs', null, s('marker', { id: 'ah-pen', viewBox: '0 0 6 6', refX: 5, refY: 3, markerWidth: 4, markerHeight: 4, orient: 'auto' }, s('path', { d: 'M0 0 L6 3 L0 6 z', fill: '#FFD84A' }))),
+    s('line', { x1: 108, y1: 40, x2: 119.4, y2: m.is_goal ? 40 : 37, stroke: 'rgba(4,20,11,.72)', 'stroke-width': 2.4, 'stroke-linecap': 'round' }),
+    s('line', { x1: 108, y1: 40, x2: 119.4, y2: m.is_goal ? 40 : 37, stroke: '#FFD84A', 'stroke-width': 1.2, 'stroke-linecap': 'round', 'marker-end': 'url(#ah-pen)' }),
+    s('circle', { cx: 108, cy: 40, r: 1.6, fill: '#F7F4E8', stroke: '#16301F', 'stroke-width': .25 }),
+    s('text', { x: 108, y: 47, 'text-anchor': 'middle', 'font-size': 2.6, fill: '#F4EFD8', stroke: 'rgba(4,20,11,.9)', 'stroke-width': 1, 'paint-order': 'stroke', 'font-weight': 800 }, 'Penalty spot'));
+  const stg = stage(svg);
+  stg.hud.prepend(h('p', { class: 'pill' }, `A penalty has no build-up: ${teams[m.team].name} take a free shot from the spot, with only the goalkeeper to beat.`));
+  return h('div', { class: 'replay' }, stg.node);
 }
 
 function detail(m, ctx) {

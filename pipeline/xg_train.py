@@ -98,20 +98,29 @@ def ece(y: np.ndarray, p: np.ndarray, bins: int = 10) -> float:
 
 
 def plot_calibration(y, p_model, p_sb, path: Path) -> list[dict[str, float]]:
-    fig, (a1, a2) = plt.subplots(1, 2, figsize=(10, 4.2), gridspec_kw={"width_ratios": [3, 2]})
+    """Calibration plot in the site's dark theme (cream text on the panel colour), so it sits naturally on the model card."""
+    bg, ink, soft = "#0E2619", "#F4EFD8", "#B7C4AE"
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(10, 4.2), gridspec_kw={"width_ratios": [3, 2]}, facecolor=bg)
     curve = []
-    for p, lab, col in ((p_model, "Our model", "#2E75B6"), (p_sb, "StatsBomb xG", "#B75410")):
+    for p, lab, col in ((p_model, "Our model", "#8CC0F5"), (p_sb, "StatsBomb xG", "#F5A66B")):
         frac, mean = calibration_curve(y, p, n_bins=10, strategy="quantile")
-        a1.plot(mean, frac, "o-", c=col, label=lab)
+        a1.plot(mean, frac, "o-", c=col, label=lab, lw=2)
         if lab == "Our model":
             curve = [{"predicted": round(float(m), 3), "actual": round(float(f), 3)} for m, f in zip(mean, frac)]
-    a1.plot([0, 1], [0, 1], "--", c="#888", label="perfect")
+    a1.plot([0, 1], [0, 1], "--", c=soft, label="perfect")
     a1.set(xlabel="predicted chance of a goal", ylabel="share that were goals", title="Calibration on Euro 2020 (held out)")
-    a1.legend()
-    a2.hist(p_model, bins=30, color="#2E75B6")
+    leg = a1.legend(facecolor=bg, edgecolor=soft, labelcolor=ink)
+    a2.hist(p_model, bins=30, color="#8CC0F5")
     a2.set(xlabel="predicted xG", ylabel="shots", title="Distribution of predictions")
+    for ax in (a1, a2):
+        ax.set_facecolor(bg)
+        ax.title.set_color(ink); ax.xaxis.label.set_color(ink); ax.yaxis.label.set_color(ink)
+        ax.tick_params(colors=soft)
+        for sp in ax.spines.values():
+            sp.set_color(soft)
+        ax.grid(alpha=.15, color=soft)
     fig.tight_layout()
-    fig.savefig(path, dpi=110)
+    fig.savefig(path, dpi=110, facecolor=bg)
     plt.close(fig)
     return curve
 

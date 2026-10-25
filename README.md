@@ -27,7 +27,21 @@ multi-exposure ball trail, and one-click entry to the final or any of the ten ma
 (canvas and SVG, no images or fonts are loaded), keeps still for people who prefer reduced motion, and pauses when the
 tab is hidden. The pages inside keep light cards on a deep-green header.
 
+The pages inside use a "stadium night" look: dark glass panels over the same liquid-pitch backdrop, a lime accent, a
+fixtures strip to jump between matches, and a floodlit pitch (mowing stripes, glowing lines, goals with nets, a crowd and
+advertising boards) with an optional tilted 3D camera.
+
 ![A match summary](docs/screens/summary.jpg)
+
+The key-moment replay has a glass control bar, switches for the other players, runs, distances and the last-defender line,
+a floating card for the player on the ball (what he did, how long, how far the closest defender is, and the chance quality
+of a shot), and panels listing the move and its players:
+
+![A replay](docs/screens/replay.jpg)
+
+![The pitch page with its players panel](docs/screens/pitch.jpg)
+
+![The tilted 3D view](docs/screens/replay-3d.jpg)
 
 ## What is in the site
 

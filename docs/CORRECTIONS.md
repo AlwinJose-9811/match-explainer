@@ -37,6 +37,22 @@ Verified against statsbomb/open-data on 2026-10-25.
   it is a diagnostic in positions.json and not shown in the UI.
 - Windows: named (full, first half, second half, extra time) plus 15-minute windows every 5 minutes.
 
+## Stadium-night redesign of the inner pages (owner request: same look, plus two reference UIs)
+- The owner first asked for light cards, then asked for the landing look on the inner pages with two dark UI references, so the
+  inner pages are now dark glass panels over the dimmed liquid-pitch backdrop (flow.js; it animates on the landing page only).
+  The light cards are gone; all text colours are tested for 4.5:1 or better, including over the brightest highlight under a glass panel.
+- From the dashboard reference (image 3): a tilted 3D pitch in a stadium frame (CSS perspective on the turf, optional "3D view"),
+  a fixtures strip of match cards, and a tabbed players table with role badges.
+- From the AR overlay reference (image 4): a floating glass card beside the ball, dashed distance lines with labels (ball to the
+  closest defender, in yards), a glass transport bar with a scrubber, switch-style toggles, and "The move" / "Players in the move"
+  panels. The reference's squad, win-probability and AI-tracker panels have no data behind them here and were not copied.
+- Pitch realism: twelve mowing stripes aligned with the 120 x 80 frame, floodlight and vignette, grain, glowing lines, corner arcs,
+  goals with nets, crowd and advertising boards; markers have ground shadows. All of it is CSS and SVG (no images).
+- The ball path is now white (lime for the key pass, gold for the shot) with a dark casing, so it reads clearly over the dark turf.
+- Fixed on the way: an opaque body background hid the backdrop canvas (a test now guards this); the model card's calibration plot is
+  drawn in the dark theme (model and metrics are byte-identical).
+- Deep links for checking pages: `#...&still` freezes animations, `&at=0.8` opens a replay 80% through, `&tilt` opens the 3D view.
+
 ## Landing page and look (owner request: aesthetic opening page from two reference images)
 - The reference images were not used as assets (about 736 px wide, one watermarked, unclear rights). Their style was
   recreated in code: `web/js/landing.js` paints a flowing "liquid pitch" on a canvas (mowing stripes bent by a slow vortex and

@@ -27,8 +27,9 @@ def colour(x: str) -> str:
     return x if x.startswith("#") else TOKENS[x]
 
 
-PAIRS = [("text", "card"), ("text", "bg"), ("muted", "card"), ("muted", "bg"), ("navy", "card"), ("navy", "#EEF3FA"),
-         ("navy", "#E3EAF6"), ("#FFFFFF", "navy"), ("#FFFFFF", "home"), ("#FFFFFF", "away"), ("home", "card"), ("away", "card")]
+PAIRS = [("text", "panel"), ("text", "bg"), ("muted", "panel"), ("muted", "bg"), ("head", "panel"), ("accent", "panel"), ("on-accent", "accent"),
+         ("#FFFFFF", "home"), ("#FFFFFF", "away"), ("home-ink", "panel"), ("away-ink", "panel"), ("cream", "lawn"), ("cream-dim", "lawn"),
+         ("text", "#2C4A36"), ("muted", "#2C4A36")]   # the last two: text on a glass panel over the brightest backdrop highlight
 
 
 @pytest.mark.parametrize("fg,bg", PAIRS)
