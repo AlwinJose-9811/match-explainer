@@ -605,5 +605,14 @@
    "highlights_url": null
   }
  ],
- "has_360": true
+ "has_360": true,
+ "names": {
+  "Azzedine Ounahi": "Azzedine Ounahi",
+  "Hakim Ziyech": "Hakim Ziyech",
+  "Sofiane Boufal": "Sofiane Boufal",
+  "Walid Cheddira": "Walid Cheddira",
+  "Yahia Attiyat allah": "Yahia Attiyat allah",
+  "Youssef En-Nesyri": "Youssef En-Nesyri",
+  "Zakaria Aboukhlal": "Zakaria Aboukhlal"
+ }
 }

@@ -5,6 +5,7 @@
   "required": ["moments", "has_360"],
   "properties": {
     "has_360": {"type": "boolean"},
+    "names": {"type": "object", "additionalProperties": {"type": "string"}},
     "moments": {"type": "array", "items": {
       "type": "object",
       "required": ["id", "type", "event_id", "period", "minute", "second", "clock", "team", "team_name", "player",

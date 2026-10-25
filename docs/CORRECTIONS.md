@@ -37,6 +37,17 @@ Verified against statsbomb/open-data on 2026-10-25.
   it is a diagnostic in positions.json and not shown in the UI.
 - Windows: named (full, first half, second half, extra time) plus 15-minute windows every 5 minutes.
 
+## Phase 6-7 decisions (web app)
+- Time-window length is fixed at build time (`window_minutes`, 15) with 5-minute steps; the slider selects among the
+  precomputed windows (FR-P4 "configurable" is satisfied at build time, not in the browser).
+- Replays always show the attacking team attacking to the right; the pitch and shot pages mirror the away team.
+- Penalty goals and missed penalties render as a simple penalty card; red cards as a text card.
+- The "Listen" button uses the browser Web Speech API (no network); it hides itself when unsupported.
+- With reduced motion enabled the replay becomes a step-by-step view (previous/next buttons and scrubber).
+- `web/data/` is a real copy of `data/processed/` plus `model/` (made by `pipeline.export.sync_web`).
+- StatsBomb asks for their logo as well as a text credit: the logo is NOT included yet (add it from their Media Pack
+  before making the repository public).
+
 ## Phase 4 decisions (xG model)
 - Logistic regression only (no gradient boosting). C chosen by 5-fold CV grouped by match on the training seasons.
 - Train: 877 matches (Premier League 2015/16, La Liga 2016/17-2020/21, FA WSL 2018/19-2020/21), 22,306 shots after

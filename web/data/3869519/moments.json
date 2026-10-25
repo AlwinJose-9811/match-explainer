@@ -596,5 +596,11 @@
    "highlights_url": null
   }
  ],
- "has_360": true
+ "has_360": true,
+ "names": {
+  "Julián Álvarez": "Julián Álvarez",
+  "Lionel Andrés Messi Cuccittini": "Lionel Messi",
+  "Nahuel Molina Lucero": "Nahuel Molina",
+  "Nicolás Hernán Otamendi": "Nicolás Otamendi"
+ }
 }

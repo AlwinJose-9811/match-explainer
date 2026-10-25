@@ -1387,5 +1387,19 @@
    "highlights_url": null
   }
  ],
- "has_360": true
+ "has_360": true,
+ "names": {
+  "Adrien Rabiot": "Adrien Rabiot",
+  "Antoine Griezmann": "Antoine Griezmann",
+  "Aurélien Djani Tchouaméni": "Aurélien Tchouaméni",
+  "Dayotchanculle Upamecano": "Dayotchanculle Upamecano",
+  "Harry Kane": "Harry Kane",
+  "Jordan Brian Henderson": "Jordan Henderson",
+  "Jude Bellingham": "Jude Bellingham",
+  "Jules Koundé": "Jules Koundé",
+  "Kylian Mbappé Lottin": "Kylian Mbappé",
+  "Olivier Giroud": "Olivier Giroud",
+  "Ousmane Dembélé": "Ousmane Dembélé",
+  "Theo Bernard François Hernández": "Theo Hernández"
+ }
 }

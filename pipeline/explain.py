@@ -171,3 +171,7 @@ def explain_match(summary: dict[str, Any], moments: dict[str, Any], lineups: lis
     for m in moments["moments"]:
         m["explanation"] = explain_moment(m, summary, names)
     summary["story"] = explain_story(summary, moments, names)
+    used = {m["player"] for m in moments["moments"]} | {m["facts"].get("assist_player") for m in moments["moments"]}
+    for m in moments["moments"]:
+        used |= {s["player"] for s in m["sequence"]} | {s["recipient"] for s in m["sequence"]}
+    moments["names"] = {n: names.get(n, n) for n in sorted(x for x in used if x)}  # full name -> display name for the UI
