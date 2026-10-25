@@ -1,5 +1,7 @@
 # Match Explainer
 
+**Live site: https://alwinjose-9811.github.io/match-explainer/**
+
 Explains finished football matches to complete beginners: plain-English statistics, a tactical pitch view, animated
 replays of the key moments, and a trained expected-goals (xG) model with an honest model card.
 
@@ -117,9 +119,15 @@ It beats the baselines, is well calibrated (error 0.017), and lands behind Stats
 
 ## Data and attribution
 
-Data provided by [StatsBomb](https://github.com/statsbomb/open-data) under their user agreement. StatsBomb asks for
-their logo as well as a text credit when work is published: add it from their Media Pack before making this site public.
-No broadcast footage is used or hosted.
+Data provided by [StatsBomb](https://github.com/statsbomb/open-data) (the repository is now under the Hudl organisation; the old
+link redirects). StatsBomb's terms ask anyone publishing analysis based on the data to credit StatsBomb as the source and to use
+their logo from their Media Pack. The credit and link are on every page; **the logo is not included yet** (it comes from the
+Media Pack, so it has to be added by the project owner). No broadcast footage is used or hosted.
+
+## Publishing the live site
+
+The site is served by GitHub Pages from the `gh-pages` branch, which holds a copy of the `web/` folder. After changing anything
+under `web/`, commit it and run `python tasks.py publish`; the live site updates within a minute or two.
 
 ## Tests
 
