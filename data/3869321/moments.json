@@ -1747,6 +1747,7 @@
    "explanation": {
     "text": "At 34:04, Nahuel Molina scored for Argentina after a 3-pass move that started from a throw-in. The chance was worth 0.28 xG (expected goals), meaning about 3 in 10 shots like this are goals. The last pass before the shot came from Lionel Messi.",
     "why": "The defence was stretched: the key pass reached 5.1 units beyond the last visible defender, leaving space to attack.",
+    "speech": "Goal! Nahuel Molina scores for Argentina in the thirty-fifth minute! A smooth move of three passes opens the defence. Our model says about three in ten shots like that are goals. Lionel Messi played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -1781,6 +1782,7 @@
    "explanation": {
     "text": "At 72:39, Lionel Messi scored a penalty for Argentina. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "speech": "The seventy-third minute, penalty for Argentina. Lionel Messi steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -4311,6 +4313,7 @@
    "explanation": {
     "text": "At 82:17, Wout Weghorst scored for Netherlands from a free kick. The chance was worth 0.07 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Steven Berghuis.",
     "why": "The team created a clear shooting chance from this move.",
+    "speech": "The eighty-third minute, and it's Wout Weghorst for Netherlands! It comes from a free kick. Our model says about one in ten shots like that are goals. Steven Berghuis played the pass that made it. A clear chance, from a clean move.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -5309,6 +5312,7 @@
    "explanation": {
     "text": "At 100:32, Wout Weghorst scored for Netherlands from a free kick. The chance was worth 0.38 xG (expected goals), meaning about 4 in 10 shots like this are goals. The last pass before the shot came from Teun Koopmeiners.",
     "why": "The shot came from very close to goal, where chances are usually at their best.",
+    "speech": "Goal! Wout Weghorst scores for Netherlands in the one hundred and first minute! It comes from a free kick. Our model says about four in ten shots like that are goals. Teun Koopmeiners played the pass that made it. From that close to goal, chances are usually at their best.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -8119,6 +8123,7 @@
    "explanation": {
     "text": "At 113:47, Lautaro Martínez had a big chance for Argentina from a free kick, but a defender blocked it. The chance was worth 0.17 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Enzo Fernandez.",
     "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "speech": "The one hundred and fourteenth minute, and Argentina have a big chance. Lautaro Martínez shoots... but a defender gets in the way! It comes from a free kick. Our model says about two in ten shots like that are goals. Enzo Fernandez played the pass that made it. Hit first time, the goalkeeper had almost no time to react.",
     "source": "template",
     "label": "Automated analysis"
    },

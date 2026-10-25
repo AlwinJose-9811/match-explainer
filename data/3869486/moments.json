@@ -786,6 +786,7 @@
    "explanation": {
     "text": "At 5:56, Youssef En-Nesyri had a big chance for Morocco from a corner, but it went off target. The chance was worth 0.17 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Hakim Ziyech.",
     "why": "The shot came from very close to goal, where chances are usually at their best.",
+    "speech": "Big chance in the sixth minute! Youssef En-Nesyri shoots for Morocco... but it goes wide! It comes from a corner. Our model says about two in ten shots like that are goals. Hakim Ziyech played the pass that made it. From that close to goal, chances are usually at their best.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -3312,6 +3313,7 @@
    "explanation": {
     "text": "At 41:36, Youssef En-Nesyri scored for Morocco from a free kick. The chance was worth 0.24 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Yahia Attiyat allah.",
     "why": "The defence was stretched: the key pass reached 7.3 units beyond the last visible defender, leaving space to attack.",
+    "speech": "Morocco strike! Youssef En-Nesyri finds the net in the forty-second minute! It comes from a free kick. Our model says about two in ten shots like that are goals. Yahia Attiyat allah played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -6394,6 +6396,7 @@
    "explanation": {
     "text": "At 57:28, Gonçalo Ramos had a big chance for Portugal after a 6-pass move that started from a goal kick, but it went off target. The chance was worth 0.12 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Otavinho.",
     "why": "The defence was stretched: the key pass reached 6.0 units beyond the last visible defender, leaving space to attack.",
+    "speech": "The fifty-eighth minute, and Portugal have a big chance. Gonçalo Ramos shoots... but it goes wide! A smooth move of six passes opens the defence. Our model says about one in ten shots like that are goals. Otavinho played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -7215,6 +7218,7 @@
    "explanation": {
     "text": "At 70:44, Bernardo Silva had a big chance for Portugal from a free kick, but it went well off target. The chance was worth 0.22 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Bruno Fernandes.",
     "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "speech": "Big chance in the seventy-first minute! Bernardo Silva shoots for Portugal... but it sails well wide! It comes from a free kick. Our model says about two in ten shots like that are goals. Bruno Fernandes played the pass that made it. Hit first time, the goalkeeper had almost no time to react.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -7249,6 +7253,7 @@
    "explanation": {
     "text": "At 92:09, Walid Cheddira of Morocco was sent off after a second yellow card. A sent-off player cannot be replaced, so Morocco played the rest of the match with one player fewer.",
     "why": "With fewer players, a team has less pitch covered and usually has to defend deeper.",
+    "speech": "The ninety-third minute, red card! Walid Cheddira of Morocco is sent off after a second yellow card. Morocco must play on with one player fewer.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -7358,6 +7363,7 @@
    "explanation": {
     "text": "At 95:20, Zakaria Aboukhlal had a big chance for Morocco with a direct shot, but the goalkeeper saved it. The chance was worth 0.49 xG (expected goals), meaning about 5 in 10 shots like this are goals.",
     "why": "The team created a clear shooting chance from this move.",
+    "speech": "The ninety-sixth minute, and Morocco have a big chance. Zakaria Aboukhlal shoots... but the goalkeeper saves it! A direct shot, and the defence is caught out. Our model says about five in ten shots like that are goals. A clear chance, from a clean move.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -9690,6 +9696,7 @@
    "explanation": {
     "text": "At 96:40, Pepe had a big chance for Portugal after a 4-pass move that started from a throw-in, but it went off target. The chance was worth 0.15 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Rafael Leão.",
     "why": "The shot came from very close to goal, where chances are usually at their best.",
+    "speech": "Big chance in the ninety-seventh minute! Pepe shoots for Portugal... but it goes wide! A smooth move of four passes opens the defence. Our model says about one in ten shots like that are goals. Rafael Leão played the pass that made it. From that close to goal, chances are usually at their best.",
     "source": "template",
     "label": "Automated analysis"
    },

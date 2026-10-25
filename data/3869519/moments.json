@@ -29,6 +29,7 @@
    "explanation": {
     "text": "At 33:27, Lionel Messi scored a penalty for Argentina. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "speech": "The thirty-fourth minute, penalty for Argentina. Lionel Messi steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -1028,6 +1029,7 @@
    "explanation": {
     "text": "At 38:26, Julián Álvarez scored for Argentina on a fast counter-attack. The chance was worth 0.36 xG (expected goals), meaning about 4 in 10 shots like this are goals. The last pass before the shot came from Nicolás Otamendi.",
     "why": "The attack started on a quick counter, before the defence could get back into position.",
+    "speech": "Argentina strike! Julián Álvarez finds the net in the thirty-ninth minute! It all starts with a lightning counter-attack. Our model says about four in ten shots like that are goals. Nicolás Otamendi played the pass that made it. The defence simply could not get back in time.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -3922,6 +3924,7 @@
    "explanation": {
     "text": "At 57:05, Lionel Messi had a big chance for Argentina after a 7-pass move, but the goalkeeper saved it. The chance was worth 0.16 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Enzo Fernandez.",
     "why": "A long passing move gave the team time to work a shooting chance.",
+    "speech": "The fifty-eighth minute, and Argentina have a big chance. Lionel Messi shoots... but the goalkeeper saves it! A smooth move of seven passes opens the defence. Our model says about two in ten shots like that are goals. Enzo Fernandez played the pass that made it. Patient build-up, and in the end the chance opened up.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -4725,6 +4728,7 @@
    "explanation": {
     "text": "At 68:46, Julián Álvarez scored for Argentina after a 3-pass move that started from a throw-in. The chance was worth 0.30 xG (expected goals), meaning about 3 in 10 shots like this are goals. The last pass before the shot came from Lionel Messi.",
     "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "speech": "Goal! Julián Álvarez scores for Argentina in the sixty-ninth minute! A smooth move of three passes opens the defence. Our model says about three in ten shots like that are goals. Lionel Messi played the pass that made it. Hit first time, the goalkeeper had almost no time to react.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -5390,6 +5394,7 @@
    "explanation": {
     "text": "At 82:12, Alexis MacAllister had a big chance for Argentina from a free kick, but it went off target. The chance was worth 0.12 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Paulo Dybala.",
     "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "speech": "The eighty-third minute, and Argentina have a big chance. Alexis MacAllister shoots... but it goes wide! It comes from a free kick. Our model says about one in ten shots like that are goals. Paulo Dybala played the pass that made it. Hit first time, the goalkeeper had almost no time to react.",
     "source": "template",
     "label": "Automated analysis"
    },

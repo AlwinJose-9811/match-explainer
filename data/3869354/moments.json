@@ -2000,6 +2000,7 @@
    "explanation": {
     "text": "At 10:35, Olivier Giroud had a big chance for France after a 5-pass move, but the goalkeeper saved it. The chance was worth 0.26 xG (expected goals), meaning about 3 in 10 shots like this are goals. The last pass before the shot came from Ousmane Dembélé.",
     "why": "A long passing move gave the team time to work a shooting chance.",
+    "speech": "Big chance in the eleventh minute! Olivier Giroud shoots for France... but the goalkeeper saves it! A smooth move of five passes opens the defence. Our model says about three in ten shots like that are goals. Ousmane Dembélé played the pass that made it. Patient build-up, and in the end the chance opened up.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -4092,6 +4093,7 @@
    "explanation": {
     "text": "At 16:22, Aurélien Tchouaméni scored for France after a 5-pass move. The chance was worth 0.03 xG (expected goals), meaning fewer than 1 in 10 shots like this are goals. The last pass before the shot came from Antoine Griezmann.",
     "why": "A long passing move gave the team time to work a shooting chance.",
+    "speech": "France strike! Aurélien Tchouaméni finds the net in the seventeenth minute! A smooth move of five passes opens the defence. Our model says fewer than one in ten shots like that are goals. Antoine Griezmann played the pass that made it. Patient build-up, and in the end the chance opened up.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -4255,6 +4257,7 @@
    "explanation": {
     "text": "At 21:33, Jude Bellingham had a big chance for England from a rebound after an earlier shot in the same move, but a defender blocked it. The chance was worth 0.11 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Jordan Henderson.",
     "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
+    "speech": "The twenty-second minute, and England have a big chance. Jude Bellingham shoots... but a defender gets in the way! Jude Bellingham is first to the rebound. Our model says about one in ten shots like that are goals. Jordan Henderson played the pass that made it. The first shot was saved, and the defence was caught out as the ball ran loose.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -4289,6 +4292,7 @@
    "explanation": {
     "text": "At 53:27, Harry Kane scored a penalty for England. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "speech": "The fifty-fourth minute, penalty for England. Harry Kane steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -5288,6 +5292,7 @@
    "explanation": {
     "text": "At 77:10, Olivier Giroud scored for France from a corner. The chance was worth 0.12 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Antoine Griezmann.",
     "why": "The defence was stretched: the key pass reached 9.7 units beyond the last visible defender, leaving space to attack.",
+    "speech": "France strike! Olivier Giroud finds the net in the seventy-eighth minute! It comes from a corner. Our model says about one in ten shots like that are goals. Antoine Griezmann played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -5322,6 +5327,7 @@
    "explanation": {
     "text": "At 83:35, Harry Kane took a penalty for England, but it went off target. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
     "why": "Even though most penalties are scored, a save, a miss or the post can still stop one.",
+    "speech": "The eighty-fourth minute, penalty for England. Harry Kane steps up, but it goes wide! Most penalties go in, so that one really hurts.",
     "source": "template",
     "label": "Automated analysis"
    },
