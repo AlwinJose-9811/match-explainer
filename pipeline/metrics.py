@@ -18,7 +18,7 @@ from .normalize import ADMIN_TYPES, regulation, shootout_score
 
 POSSESSION_METHOD = "sum of possession-sequence duration (penalty shootout excluded)"
 ON_TARGET = ("Goal", "Saved", "Saved to Post")
-HOME_COLOR, AWAY_COLOR = "#2E75B6", "#C55A11"
+HOME_COLOR, AWAY_COLOR = "#2E75B6", "#B75410"  # away darkened from the spec's #C55A11 to reach 4.5:1 with white text
 
 
 def possession_share(reg: pd.DataFrame) -> dict[str, float]:

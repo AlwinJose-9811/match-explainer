@@ -42,7 +42,7 @@ def main() -> int:
     axes = [axes] if len(wins) == 1 else list(axes)
     for ax, wid in zip(axes, wins):
         pitch(ax)
-        for side, color, marker in (("home", "#2E75B6", "o"), ("away", "#C55A11", "s")):
+        for side, color, marker in (("home", "#2E75B6", "o"), ("away", "#B75410", "s")):
             v = pos["data"][wid][side]
             for p in v["players"]:
                 ax.scatter(p["x"], p["y"], s=230, c=color, marker=marker, ec="white", zorder=3)

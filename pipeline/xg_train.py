@@ -100,7 +100,7 @@ def ece(y: np.ndarray, p: np.ndarray, bins: int = 10) -> float:
 def plot_calibration(y, p_model, p_sb, path: Path) -> list[dict[str, float]]:
     fig, (a1, a2) = plt.subplots(1, 2, figsize=(10, 4.2), gridspec_kw={"width_ratios": [3, 2]})
     curve = []
-    for p, lab, col in ((p_model, "Our model", "#2E75B6"), (p_sb, "StatsBomb xG", "#C55A11")):
+    for p, lab, col in ((p_model, "Our model", "#2E75B6"), (p_sb, "StatsBomb xG", "#B75410")):
         frac, mean = calibration_curve(y, p, n_bins=10, strategy="quantile")
         a1.plot(mean, frac, "o-", c=col, label=lab)
         if lab == "Our model":

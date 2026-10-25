@@ -37,6 +37,10 @@ Verified against statsbomb/open-data on 2026-10-25.
   it is a diagnostic in positions.json and not shown in the UI.
 - Windows: named (full, first half, second half, extra time) plus 15-minute windows every 5 minutes.
 
+## Phase 8 fixes
+- Away team colour darkened from #C55A11 to #B75410: white text on #C55A11 was only 4.34:1 (needs 4.5:1, NFR-4);
+  the new colour gives 4.9:1 and is still clearly distinct from the blue. A test now checks all text/background pairs.
+
 ## Phase 6-7 decisions (web app)
 - Time-window length is fixed at build time (`window_minutes`, 15) with 5-minute steps; the slider selects among the
   precomputed windows (FR-P4 "configurable" is satisfied at build time, not in the browser).
