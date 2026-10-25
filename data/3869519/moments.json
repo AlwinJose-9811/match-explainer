@@ -357,6 +357,435 @@
    "highlights_url": null
   },
   {
+   "type": "shot",
+   "event_id": "a78187f3-3fb7-4c35-9d65-aef9e119c5b2",
+   "period": 2,
+   "minute": 57,
+   "second": 5,
+   "clock": "57:05",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Lionel Andrés Messi Cuccittini",
+   "xg_statsbomb": 0.106,
+   "xg_model": 0.157,
+   "outcome": "Saved",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m03",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "dff88591-02f0-44e6-b7c5-1c4828b9f500",
+     "from": [
+      76.7,
+      5.2
+     ],
+     "to": [
+      76.7,
+      5.7
+     ],
+     "player": "Nicolás Alejandro Tagliafico",
+     "recipient": null,
+     "t": 0.0,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "cb7585ba-a846-4598-b436-e7726cc80f1d",
+     "from": [
+      76.7,
+      5.7
+     ],
+     "to": [
+      57.1,
+      16.7
+     ],
+     "player": "Nicolás Alejandro Tagliafico",
+     "recipient": "Leandro Daniel Paredes",
+     "t": 1.05,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "0da85f09-e6ff-45f1-9a89-cdd70e9dfb8f",
+     "from": [
+      57.1,
+      16.7
+     ],
+     "to": [
+      57.1,
+      16.7
+     ],
+     "player": "Leandro Daniel Paredes",
+     "recipient": null,
+     "t": 2.18,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "b0cac234-094c-495e-934a-262419772d1e",
+     "from": [
+      57.1,
+      16.7
+     ],
+     "to": [
+      66.8,
+      20.6
+     ],
+     "player": "Leandro Daniel Paredes",
+     "recipient": "Alexis Mac Allister",
+     "t": 3.04,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "pass",
+     "event_id": "8ea3d553-1e86-40c4-b8d6-ecff0f16f925",
+     "from": [
+      68.9,
+      21.5
+     ],
+     "to": [
+      38.6,
+      41.3
+     ],
+     "player": "Alexis Mac Allister",
+     "recipient": "Cristian Gabriel Romero",
+     "t": 3.82,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "pass",
+     "event_id": "697606c8-0e34-48e5-b877-46849e96607e",
+     "from": [
+      38.6,
+      41.3
+     ],
+     "to": [
+      62.4,
+      44.2
+     ],
+     "player": "Cristian Gabriel Romero",
+     "recipient": "Rodrigo Javier De Paul",
+     "t": 6.99,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "53705e48-ede9-41bb-8f8f-dc220dd1e6ca",
+     "from": [
+      62.4,
+      44.2
+     ],
+     "to": [
+      68.0,
+      44.2
+     ],
+     "player": "Rodrigo Javier De Paul",
+     "recipient": null,
+     "t": 8.92,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "6e0a4590-f657-40de-90c2-705fa07a1204",
+     "from": [
+      68.0,
+      44.2
+     ],
+     "to": [
+      76.7,
+      42.7
+     ],
+     "player": "Rodrigo Javier De Paul",
+     "recipient": "Lionel Andrés Messi Cuccittini",
+     "t": 10.99,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "56d4fd50-7307-4a96-93bf-3d97c13c3132",
+     "from": [
+      76.7,
+      42.7
+     ],
+     "to": [
+      99.8,
+      26.3
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 11.83,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "afe5590e-af74-42ca-bec3-708a5a0bf52f",
+     "from": [
+      99.8,
+      26.3
+     ],
+     "to": [
+      99.8,
+      32.1
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": "Enzo Fernandez",
+     "t": 16.67,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "pass",
+     "event_id": "f8bbaba3-3593-4982-b955-a24e640ca694",
+     "from": [
+      101.9,
+      30.7
+     ],
+     "to": [
+      108.7,
+      28.8
+     ],
+     "player": "Enzo Fernandez",
+     "recipient": "Lionel Andrés Messi Cuccittini",
+     "t": 17.91,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "cf5c6383-a65b-41d3-b848-160623efac43",
+     "from": [
+      108.7,
+      28.8
+     ],
+     "to": [
+      112.7,
+      30.1
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 18.75,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "a78187f3-3fb7-4c35-9d65-aef9e119c5b2",
+     "from": [
+      112.7,
+      30.1
+     ],
+     "to": [
+      117.5,
+      34.5
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 19.91,
+     "key": false,
+     "outcome": "Saved"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 91.1,
+       "y": 31.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 95.7,
+       "y": 21.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.3,
+       "y": 27.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.9,
+       "y": 30.7,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 102.2,
+       "y": 24.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.6,
+       "y": 33.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.8,
+       "y": 52.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.3,
+       "y": 23.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.7,
+       "y": 28.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.1,
+       "y": 36.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.8,
+       "y": 41.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.3,
+       "y": 33.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 119.2,
+       "y": 37.6,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 108.3
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 96.1,
+       "y": 36.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 99.1,
+       "y": 24.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.5,
+       "y": 37.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.3,
+       "y": 30.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.5,
+       "y": 31.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.0,
+       "y": 54.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 108.6,
+       "y": 32.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.7,
+       "y": 41.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.5,
+       "y": 38.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.5,
+       "y": 30.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.7,
+       "y": 30.1,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 114.0,
+       "y": 34.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.7,
+       "y": 35.5,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 114.0
+    }
+   },
+   "facts": {
+    "sequence_len": 7,
+    "duration_s": 19.91,
+    "play_pattern": "Regular Play",
+    "body_part": "Left Foot",
+    "technique": "Normal",
+    "shot_distance": 12.3,
+    "under_pressure": true,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Enzo Fernandez",
+    "defensive_line_height": 11.7,
+    "gap_to_line": 0.4
+   },
+   "explanation": {
+    "text": "At 57:05, Lionel Messi had a big chance for Argentina after a 7-pass move, but the goalkeeper saved it. The chance was worth 0.16 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Enzo Fernandez.",
+    "why": "A long passing move gave the team time to work a shooting chance.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
    "type": "goal",
    "event_id": "60dc7f46-0b61-4198-ae9d-c11c096367dc",
    "period": 2,
@@ -371,7 +800,7 @@
    "outcome": "Goal",
    "is_goal": true,
    "is_penalty": false,
-   "id": "m03",
+   "id": "m04",
    "sequence": [
     {
      "kind": "pass",
@@ -594,13 +1023,309 @@
     "label": "Automated analysis"
    },
    "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "7eb91d56-2d0f-48ba-8df3-e418d4b13f34",
+   "period": 2,
+   "minute": 82,
+   "second": 12,
+   "clock": "82:12",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Alexis Mac Allister",
+   "xg_statsbomb": 0.141,
+   "xg_model": 0.123,
+   "outcome": "Off T",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m05",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "431563ae-e20d-4cf3-a811-598a303bd639",
+     "from": [
+      82.4,
+      29.2
+     ],
+     "to": [
+      99.8,
+      30.4
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": "Paulo Bruno Exequiel Dybala",
+     "t": 0.0,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "pass",
+     "event_id": "01358aa6-0d99-4c84-93f7-9c30ddbcfda1",
+     "from": [
+      100.2,
+      30.9
+     ],
+     "to": [
+      107.1,
+      46.7
+     ],
+     "player": "Paulo Bruno Exequiel Dybala",
+     "recipient": "Alexis Mac Allister",
+     "t": 3.37,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "7eb91d56-2d0f-48ba-8df3-e418d4b13f34",
+     "from": [
+      107.1,
+      46.7
+     ],
+     "to": [
+      120.0,
+      44.6
+     ],
+     "player": "Alexis Mac Allister",
+     "recipient": null,
+     "t": 4.69,
+     "key": false,
+     "outcome": "Off T"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 80.6,
+       "y": 29.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 84.0,
+       "y": 12.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 87.8,
+       "y": 49.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 90.5,
+       "y": 31.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 91.4,
+       "y": 29.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 92.6,
+       "y": 23.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 95.2,
+       "y": 36.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 96.8,
+       "y": 38.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 97.5,
+       "y": 29.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.6,
+       "y": 38.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.2,
+       "y": 30.9,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 100.2,
+       "y": 30.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.0,
+       "y": 26.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.2,
+       "y": 35.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.4,
+       "y": 32.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.7,
+       "y": 36.3,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 103.4
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 85.7,
+       "y": 17.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 91.8,
+       "y": 51.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 92.7,
+       "y": 37.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 94.4,
+       "y": 33.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 96.2,
+       "y": 28.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.0,
+       "y": 36.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.7,
+       "y": 36.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.8,
+       "y": 48.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.0,
+       "y": 36.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.8,
+       "y": 45.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.1,
+       "y": 31.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.1,
+       "y": 46.7,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 107.3,
+       "y": 34.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.1,
+       "y": 43.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.5,
+       "y": 42.6,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 109.1
+    }
+   },
+   "facts": {
+    "sequence_len": 2,
+    "duration_s": 4.69,
+    "play_pattern": "From Free Kick",
+    "body_part": "Right Foot",
+    "technique": "Volley",
+    "shot_distance": 14.5,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": false,
+    "assist_player": "Paulo Bruno Exequiel Dybala",
+    "defensive_line_height": 16.6,
+    "gap_to_line": 3.7
+   },
+   "explanation": {
+    "text": "At 82:12, Alexis MacAllister had a big chance for Argentina from a free kick, but it went off target. The chance was worth 0.12 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Paulo Dybala.",
+    "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
   }
  ],
  "has_360": true,
  "names": {
+  "Alexis Mac Allister": "Alexis MacAllister",
+  "Cristian Gabriel Romero": "Cristian Romero",
+  "Enzo Fernandez": "Enzo Fernandez",
   "Julián Álvarez": "Julián Álvarez",
+  "Leandro Daniel Paredes": "Leandro Paredes",
   "Lionel Andrés Messi Cuccittini": "Lionel Messi",
   "Nahuel Molina Lucero": "Nahuel Molina",
-  "Nicolás Hernán Otamendi": "Nicolás Otamendi"
+  "Nicolás Alejandro Tagliafico": "Nicolás Tagliafico",
+  "Nicolás Hernán Otamendi": "Nicolás Otamendi",
+  "Paulo Bruno Exequiel Dybala": "Paulo Dybala",
+  "Rodrigo Javier De Paul": "Rodrigo De Paul"
  }
 }
