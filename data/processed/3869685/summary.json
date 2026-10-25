@@ -1,0 +1,62 @@
+{
+ "match_id": 3869685,
+ "competition": "FIFA World Cup",
+ "season": "2022",
+ "stage": "Final",
+ "date": "2022-12-18",
+ "teams": {
+  "home": {
+   "id": 779,
+   "name": "Argentina",
+   "color": "#2E75B6"
+  },
+  "away": {
+   "id": 771,
+   "name": "France",
+   "color": "#C55A11"
+  }
+ },
+ "score": {
+  "home": 3,
+  "away": 3,
+  "shootout": {
+   "home": 4,
+   "away": 2
+  },
+  "note": "Argentina won 4-2 on penalties after extra time."
+ },
+ "possession": {
+  "method": "sum of possession-sequence duration (penalty shootout excluded)",
+  "home": 0.5484,
+  "away": 0.4516
+ },
+ "stats": {
+  "home": {
+   "shots": 20,
+   "on_target": 10,
+   "passes": 693,
+   "passes_completed": 560,
+   "pass_accuracy": 0.8081,
+   "xg_model": null,
+   "xg_statsbomb": 2.758,
+   "fouls": 29,
+   "corners": 6,
+   "yellow": 4,
+   "red": 0
+  },
+  "away": {
+   "shots": 10,
+   "on_target": 5,
+   "passes": 570,
+   "passes_completed": 434,
+   "pass_accuracy": 0.7614,
+   "xg_model": null,
+   "xg_statsbomb": 2.273,
+   "fouls": 19,
+   "corners": 5,
+   "yellow": 3,
+   "red": 0
+  }
+ },
+ "story": null
+}

@@ -1,0 +1,59 @@
+{
+ "match_id": 3869486,
+ "competition": "FIFA World Cup",
+ "season": "2022",
+ "stage": "Quarter-finals",
+ "date": "2022-12-10",
+ "teams": {
+  "home": {
+   "id": 788,
+   "name": "Morocco",
+   "color": "#2E75B6"
+  },
+  "away": {
+   "id": 780,
+   "name": "Portugal",
+   "color": "#C55A11"
+  }
+ },
+ "score": {
+  "home": 1,
+  "away": 0,
+  "shootout": null,
+  "note": null
+ },
+ "possession": {
+  "method": "sum of possession-sequence duration (penalty shootout excluded)",
+  "home": 0.2364,
+  "away": 0.7636
+ },
+ "stats": {
+  "home": {
+   "shots": 9,
+   "on_target": 3,
+   "passes": 249,
+   "passes_completed": 184,
+   "pass_accuracy": 0.739,
+   "xg_model": null,
+   "xg_statsbomb": 0.972,
+   "fouls": 18,
+   "corners": 3,
+   "yellow": 3,
+   "red": 1
+  },
+  "away": {
+   "shots": 12,
+   "on_target": 3,
+   "passes": 731,
+   "passes_completed": 616,
+   "pass_accuracy": 0.8427,
+   "xg_model": null,
+   "xg_statsbomb": 0.744,
+   "fouls": 9,
+   "corners": 9,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "story": null
+}

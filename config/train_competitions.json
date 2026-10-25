@@ -1,8 +1,15 @@
 {
   "note": "Training/test competition-seasons for the xG model. FIFA World Cup 2022 is never used for training. Events only are fetched for these (shot freeze frames are inside the events files).",
   "train": [
-    {"competition_id": 7, "season_id": 108, "name": "Ligue 1 2021/22"},
-    {"competition_id": 9, "season_id": 281, "name": "1. Bundesliga 2023/24"}
+    {"competition_id": 2, "season_id": 27, "name": "Premier League 2015/16"},
+    {"competition_id": 11, "season_id": 2, "name": "La Liga 2016/17"},
+    {"competition_id": 11, "season_id": 1, "name": "La Liga 2017/18"},
+    {"competition_id": 11, "season_id": 4, "name": "La Liga 2018/19"},
+    {"competition_id": 11, "season_id": 42, "name": "La Liga 2019/20"},
+    {"competition_id": 11, "season_id": 90, "name": "La Liga 2020/21"},
+    {"competition_id": 37, "season_id": 4, "name": "FA Women's Super League 2018/19"},
+    {"competition_id": 37, "season_id": 42, "name": "FA Women's Super League 2019/20"},
+    {"competition_id": 37, "season_id": 90, "name": "FA Women's Super League 2020/21"}
   ],
   "test": [
     {"competition_id": 55, "season_id": 43, "name": "UEFA Euro 2020"}

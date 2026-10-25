@@ -1,0 +1,59 @@
+{
+ "match_id": 3869354,
+ "competition": "FIFA World Cup",
+ "season": "2022",
+ "stage": "Quarter-finals",
+ "date": "2022-12-10",
+ "teams": {
+  "home": {
+   "id": 768,
+   "name": "England",
+   "color": "#2E75B6"
+  },
+  "away": {
+   "id": 771,
+   "name": "France",
+   "color": "#C55A11"
+  }
+ },
+ "score": {
+  "home": 1,
+  "away": 2,
+  "shootout": null,
+  "note": null
+ },
+ "possession": {
+  "method": "sum of possession-sequence duration (penalty shootout excluded)",
+  "home": 0.6017,
+  "away": 0.3983
+ },
+ "stats": {
+  "home": {
+   "shots": 16,
+   "on_target": 7,
+   "passes": 554,
+   "passes_completed": 465,
+   "pass_accuracy": 0.8394,
+   "xg_model": null,
+   "xg_statsbomb": 2.353,
+   "fouls": 10,
+   "corners": 5,
+   "yellow": 1,
+   "red": 0
+  },
+  "away": {
+   "shots": 8,
+   "on_target": 5,
+   "passes": 412,
+   "passes_completed": 328,
+   "pass_accuracy": 0.7961,
+   "xg_model": null,
+   "xg_statsbomb": 0.839,
+   "fouls": 15,
+   "corners": 2,
+   "yellow": 3,
+   "red": 0
+  }
+ },
+ "story": null
+}
