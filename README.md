@@ -85,7 +85,10 @@ It beats the baselines, is well calibrated (error 0.017), and lands behind Stats
 - Penalties use one fixed chance (79%); they are shown as a simple card with no build-up.
 - Explanations are templates filled with facts from the data and labelled **Automated analysis**. No language model is used.
 - Only five matches are included; more need the build steps above and are limited to matches in StatsBomb's free data.
-- The Listen button uses the browser's built-in voice, so quality depends on your device.
+- The Listen button reads a separate commentary-style script (numbers as words, exclamations on goals, a pause before
+  the punchline) with the best English voice your browser has. Quality depends on the voices installed: Microsoft Edge
+  offers neural "Natural" voices (they work online), while the basic Windows voices sound robotic. A voice picker lets you
+  choose; ★ marks the most natural ones.
 
 ## Data and attribution
 

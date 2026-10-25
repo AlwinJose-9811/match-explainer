@@ -17,10 +17,11 @@ def main() -> int:
         d = ROOT / "data" / "processed" / str(mid)
         s = json.loads((d / "summary.json").read_text(encoding="utf8"))
         moments = json.loads((d / "moments.json").read_text(encoding="utf8"))["moments"]
-        print(f"=== {mid}\nSTORY: {s['story']['text']}  [{s['story']['label']}]\n")
+        print(f"=== {mid}\nSTORY: {s['story']['text']}  [{s['story']['label']}]\nSPOKEN: {s['story']['speech']}\n")
         for m in moments:
             print(f"[{m['id']} {m['clock']} {m['type']}] {m['explanation']['text']}")
-            print(f"    WHY: {m['explanation']['why']}\n")
+            print(f"    WHY: {m['explanation']['why']}")
+            print(f"    SPOKEN: {m['explanation']['speech']}\n")
     return 0
 
 

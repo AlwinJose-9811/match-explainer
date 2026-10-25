@@ -14,7 +14,8 @@ BANNED = ("deliberately", "on purpose", "intended to", "marking", "marked ", "mi
           "should have", "clearly", "obviously", "definitely")
 COMMON_STARTERS = frozenset({"The", "A", "An", "At", "In", "With", "After", "From", "Penalties", "Own", "It", "This",
                              "When", "Even", "Playing", "Because", "They", "Both", "Goals", "Most", "That", "As", "But",
-                             "Then", "Players", "Defenders", "One", "Two", "Three", "Straight", "Fewer", "Not", "Their"})
+                             "Then", "Players", "Defenders", "One", "Two", "Three", "Straight", "Fewer", "Not", "Their",
+                             "Goal", "Big", "Hit", "Patient", "Our", "Red", "Penalty", "No", "Another", "Chances"})
 _NUM = re.compile(r"\d+(?:\.\d+)?")
 _WORD = re.compile(r"(?<![\w'’])[A-ZÀ-ÝĀ-Ž][\w'’\-]*")
 

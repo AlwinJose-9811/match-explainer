@@ -92,6 +92,9 @@ table.plain { width: 100%; border-collapse: collapse; font-size: .95rem; } table
 table.plain th { color: var(--navy); } table.plain td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .scroll { overflow-x: auto; }
 .gl dt { font-weight: 700; color: var(--navy); margin-top: 14px; } .gl dd { margin: 2px 0 0; }
+.listen { display: inline-flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; }
+.voice-pick { font: inherit; padding: 6px 8px; border: 1px solid #9AA6BB; border-radius: 8px; background: #fff; color: var(--text); max-width: 16em; }
+.voice-hint { font-size: .85rem; }
 /* moments + replay */
 .moments { display: grid; grid-template-columns: 290px 1fr; gap: var(--gap); align-items: start; }
 @media (max-width: 860px) { .moments { grid-template-columns: 1fr; } }

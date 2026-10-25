@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from typing import Any
 
+from .speech_script import spoken_moment, spoken_story
 from .validate import validate_text
 
 LABEL = "Automated analysis"
@@ -120,9 +121,17 @@ def explain_moment(m: dict[str, Any], summary: dict[str, Any], names: dict[str, 
         why = _why(f, facts)
     problems = validate_text(text, facts, max_sentences=3, max_words=80) + validate_text(
         why, {**facts, "extra": ""}, max_sentences=1, max_words=35)
+    speech = spoken_moment(m, facts)
+    problems += check_speech(speech, facts, 110)
     if problems:
-        raise ValueError(f"moment {m['id']} explanation failed validation: {problems}\n{text}\n{why}")
-    return {"text": text, "why": why, "source": "template", "label": LABEL}
+        raise ValueError(f"moment {m['id']} explanation failed validation: {problems}\n{text}\n{why}\n{speech}")
+    return {"text": text, "why": why, "speech": speech, "source": "template", "label": LABEL}
+
+
+def check_speech(speech: str, facts: dict[str, Any], max_words: int) -> list[str]:
+    """Spoken text must be grounded like written text, and must contain no digits (they are spoken as words)."""
+    problems = validate_text(speech, facts, max_sentences=9, max_words=max_words)
+    return problems + (["spoken text contains digits"] if any(c.isdigit() for c in speech) else [])
 
 
 def story_facts(summary: dict[str, Any], moments: dict[str, Any], names: dict[str, str]) -> dict[str, Any]:
@@ -159,9 +168,11 @@ def explain_story(summary: dict[str, Any], moments: dict[str, Any], names: dict[
     flat = {k: v for k, v in f.items() if k != "xg"}
     flat["goals"] = " ".join(goals)
     problems = validate_text(text, flat, max_sentences=6, max_words=150)
+    speech = spoken_story(summary, moments, names)
+    problems += check_speech(speech, flat, 150)
     if problems:
-        raise ValueError(f"story failed validation: {problems}\n{text}")
-    return {"text": text, "label": LABEL}
+        raise ValueError(f"story failed validation: {problems}\n{text}\n{speech}")
+    return {"text": text, "speech": speech, "label": LABEL}
 
 
 def explain_match(summary: dict[str, Any], moments: dict[str, Any], lineups: list[dict[str, Any]],

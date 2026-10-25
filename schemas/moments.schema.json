@@ -43,7 +43,7 @@
           "key_pass": {"$ref": "#/$defs/snapshot"}, "shot": {"$ref": "#/$defs/snapshot"}}},
         "facts": {"type": "object"},
         "explanation": {"oneOf": [{"type": "null"}, {"type": "object", "required": ["text", "why", "source", "label"],
-          "properties": {"text": {"type": "string"}, "why": {"type": "string"}, "source": {"enum": ["template", "llm"]},
+          "properties": {"text": {"type": "string"}, "why": {"type": "string"}, "speech": {"type": "string"}, "source": {"enum": ["template", "llm"]},
                          "label": {"const": "Automated analysis"}}}]},
         "highlights_url": {"type": ["string", "null"]}
       }}}

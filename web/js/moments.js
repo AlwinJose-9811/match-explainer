@@ -28,7 +28,7 @@ function detail(m, ctx) {
   if (m.sequence.length) { replay = createReplay(m, ctx); visual = replay.node; }
   else if (m.is_penalty) visual = penaltyCard(m, teams);
   else visual = h('div', { class: 'card redcard' }, h('span', { class: 'card-icon', 'aria-hidden': 'true' }), h('p', null, `${nm(m.player)} (${teams[m.team].name}) at ${m.clock}`));
-  const listen = listenButton(() => `${exp.text} ${exp.why}`, 'Listen');
+  const listen = listenButton(() => exp.speech || `${exp.text} ${exp.why}`, 'Listen to the commentary');
   return h('div', null,
     h('h2', { id: 'moment-h', tabindex: '-1' }, `${KIND(m)} · ${m.clock}`),
     h('p', { class: 'muted' }, h('i', { class: `swatch ${m.team}` }), ` ${nm(m.player) || teams[m.team].name} for ${teams[m.team].name}`,

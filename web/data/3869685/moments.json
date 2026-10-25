@@ -29,6 +29,7 @@
    "explanation": {
     "text": "At 22:24, Lionel Messi scored a penalty for Argentina. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "speech": "The twenty-third minute, penalty for Argentina. Lionel Messi steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -1417,6 +1418,7 @@
    "explanation": {
     "text": "At 35:22, Ángel Di María scored for Argentina on a fast counter-attack. The chance was worth 0.40 xG (expected goals), meaning about 4 in 10 shots like this are goals. The last pass before the shot came from Alexis MacAllister.",
     "why": "The attack started on a quick counter, before the defence could get back into position.",
+    "speech": "Argentina strike! Ángel Di María finds the net in the thirty-sixth minute! It all starts with a lightning counter-attack. Our model says about four in ten shots like that are goals. Alexis MacAllister played the pass that made it. The defence simply could not get back in time.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -2799,6 +2801,7 @@
    "explanation": {
     "text": "At 59:51, Lionel Messi had a big chance for Argentina after a 2-pass move, but it went off target. The chance was worth 0.18 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Ángel Di María.",
     "why": "The team created a clear shooting chance from this move.",
+    "speech": "The sixtieth minute, and Argentina have a big chance. Lionel Messi shoots... but it goes wide! A smooth move of two passes opens the defence. Our model says about two in ten shots like that are goals. Ángel Di María played the pass that made it. A clear chance, from a clean move.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -2833,6 +2836,7 @@
    "explanation": {
     "text": "At 79:24, Kylian Mbappé scored a penalty for France. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "speech": "The eightieth minute, penalty for France. Kylian Mbappé steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -4166,6 +4170,7 @@
    "explanation": {
     "text": "At 80:59, Kylian Mbappé scored for France after a 4-pass move that started from a throw-in. The chance was worth 0.07 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Marcus Thuram.",
     "why": "The defence was stretched: the key pass reached 5.5 units beyond the last visible defender, leaving space to attack.",
+    "speech": "France strike! Kylian Mbappé finds the net in the eighty-first minute! A smooth move of four passes opens the defence. Our model says about one in ten shots like that are goals. Marcus Thuram played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -6658,6 +6663,7 @@
    "explanation": {
     "text": "At 104:28, Lautaro Martínez had a big chance for Argentina after a 6-pass move, but a defender blocked it. The chance was worth 0.23 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Lionel Messi.",
     "why": "A long passing move gave the team time to work a shooting chance.",
+    "speech": "The one hundred and fifth minute, and Argentina have a big chance. Lautaro Martínez shoots... but a defender gets in the way! A smooth move of six passes opens the defence. Our model says about two in ten shots like that are goals. Lionel Messi played the pass that made it. Patient build-up, and in the end the chance opened up.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -7379,6 +7385,7 @@
    "explanation": {
     "text": "At 105:41, Lautaro Martínez had a big chance for Argentina on a fast counter-attack, but it went off target. The chance was worth 0.17 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Marcos Acuña.",
     "why": "The attack started on a quick counter, before the defence could get back into position.",
+    "speech": "Big chance in the one hundred and sixth minute! Lautaro Martínez shoots for Argentina... but it goes wide! It all starts with a lightning counter-attack. Our model says about two in ten shots like that are goals. Marcos Acuña played the pass that made it. The defence simply could not get back in time.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -7788,6 +7795,7 @@
    "explanation": {
     "text": "At 107:58, Lionel Messi scored for Argentina from a rebound after an earlier shot in the same move. The chance was worth 0.58 xG (expected goals), meaning about 6 in 10 shots like this are goals.",
     "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
+    "speech": "Argentina strike! Lionel Messi finds the net in the one hundred and eighth minute! Lionel Messi is first to the rebound. Our model says about six in ten shots like that are goals. The first shot was saved, and the defence was caught out as the ball ran loose.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -7822,6 +7830,7 @@
    "explanation": {
     "text": "At 117:05, Kylian Mbappé scored a penalty for France. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "speech": "The one hundred and eighteenth minute, penalty for France. Kylian Mbappé steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
     "label": "Automated analysis"
    },
@@ -8710,6 +8719,7 @@
    "explanation": {
     "text": "At 122:44, Randal Kolo Muani had a big chance for France from a free kick, but the goalkeeper saved it. The chance was worth 0.19 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Ibrahima Konaté.",
     "why": "The defence was stretched: the key pass reached 12.8 units beyond the last visible defender, leaving space to attack.",
+    "speech": "Big chance in the one hundred and twenty-third minute! Randal Kolo Muani shoots for France... but the goalkeeper saves it! It comes from a free kick. Our model says about two in ten shots like that are goals. Ibrahima Konaté played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
     "label": "Automated analysis"
    },

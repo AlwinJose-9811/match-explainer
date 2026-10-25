@@ -37,6 +37,16 @@ Verified against statsbomb/open-data on 2026-10-25.
   it is a diagnostic in positions.json and not shown in the UI.
 - Windows: named (full, first half, second half, extra time) plus 15-minute windows every 5 minutes.
 
+## Voice v2 (owner request: more natural, human, exciting)
+- Each explanation and story now carries a separate `speech` script (`pipeline/speech_script.py`) written to be heard:
+  numbers and clock times become words ("the thirty-sixth minute", "three all"), no "xG" jargon, exclamations on goals,
+  "..." before a penalty's punchline. It passes the same fact-grounding validator and must contain no digits.
+- `web/js/speech.js` ranks the installed English voices (neural/"Natural"/online first, old robotic Windows voices last),
+  reads sentence by sentence (excited, building or plain prosody, human-sized pauses) and offers a voice picker.
+- Limit: this uses the browser's own voices, so the result depends on the device (the in-app browser only had the basic
+  Windows voices). A truly human-sounding offline voice needs a neural speech model rendered to audio files at build
+  time; that needs a model download and is not done yet.
+
 ## Replay v2: opposition and off-the-ball movement (owner request)
 - Replays now run in REAL time (ball steps use the events' real durations) instead of compressed 0.6-2 s steps; speeds 0.5x/1x/2x.
 - Player movement is reconstructed from the 360 snapshot attached to every event in the move (both teams): snapshots of
