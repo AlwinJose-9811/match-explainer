@@ -16,5 +16,6 @@
   "block_thresholds": [48, 54],
   "replay_compression": 0.35,
   "seed": 42,
-  "listen_button": true
+  "listen_button": true,
+  "name_overrides": {"Randal Kolo Muani": "Randal Kolo Muani"}
 }

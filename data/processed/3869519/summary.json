@@ -55,5 +55,8 @@
    "red": 0
   }
  },
- "story": null
+ "story": {
+  "text": "Argentina beat Croatia 3-0 in the Semi-finals of the FIFA World Cup 2022. Croatia had more of the ball (59 percent to 41 percent), and Argentina created the better chances by expected goals, or xG, a measure of chance quality (1.90 to 0.77). The goals came from Lionel Messi at 33:27 (penalty), Julián Álvarez at 38:26 and Julián Álvarez at 68:46.",
+  "label": "Automated analysis"
+ }
 }

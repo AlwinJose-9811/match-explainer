@@ -25,7 +25,12 @@
     "is_penalty": true,
     "outcome": "Goal"
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 33:27, Lionel Messi scored a penalty for Argentina. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
+    "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -343,7 +348,12 @@
     "defensive_line_height": 86.3,
     "gap_to_line": 0.2
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 38:26, Julián Álvarez scored for Argentina on a fast counter-attack. The chance was worth 0.36 xG (expected goals), meaning about 4 in 10 shots like this are goals. The last pass before the shot came from Nicolás Otamendi.",
+    "why": "The attack started on a quick counter, before the defence could get back into position.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -577,7 +587,12 @@
     "defensive_line_height": 0.9,
     "gap_to_line": -5.8
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 68:46, Julián Álvarez scored for Argentina after a 3-pass move that started from a throw-in. The chance was worth 0.30 xG (expected goals), meaning about 3 in 10 shots like this are goals. The last pass before the shot came from Lionel Messi.",
+    "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   }
  ],

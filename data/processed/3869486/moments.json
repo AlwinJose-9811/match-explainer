@@ -457,7 +457,12 @@
     "defensive_line_height": 14.7,
     "gap_to_line": 7.3
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 41:36, Youssef En-Nesyri scored for Morocco from a free kick. The chance was worth 0.24 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Yahia Attiyat allah.",
+    "why": "The defence was stretched: the key pass reached 7.3 units beyond the last visible defender, leaving space to attack.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -485,7 +490,12 @@
    "facts": {
     "card": "Second Yellow"
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 92:09, Walid Cheddira of Morocco was sent off after a second yellow card. A sent-off player cannot be replaced, so Morocco played the rest of the match with one player fewer.",
+    "why": "With fewer players, a team has less pitch covered and usually has to defend deeper.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -586,7 +596,12 @@
     "defensive_line_height": 22.7,
     "gap_to_line": null
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 95:20, Zakaria Aboukhlal had a big chance for Morocco with a direct shot, but the goalkeeper saved it. The chance was worth 0.49 xG (expected goals), meaning about 5 in 10 shots like this are goals.",
+    "why": "The team created a clear shooting chance from this move.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   }
  ],

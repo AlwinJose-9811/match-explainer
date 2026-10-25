@@ -9,6 +9,7 @@ import argparse
 import sys
 
 from .config import load_config, processed_dir, raw_dir
+from .explain import explain_match
 from .export import update_index, write_json, write_summary
 from .load import DataError, load_match
 from .metrics import build_summary
@@ -35,6 +36,7 @@ def run(match_id: int) -> dict:
               file=sys.stderr)
     shots = predict_shots(regulation(df), t["home"]["name"], bundle)
     attach_xg(summary, moments, shots)
+    explain_match(summary, moments, data.lineups, cfg.get("name_overrides"))
     validate_json(summary, "summary")
     validate_json(shots, "shots")
     validate_json(moments, "moments")

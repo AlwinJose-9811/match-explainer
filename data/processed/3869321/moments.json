@@ -348,7 +348,12 @@
     "defensive_line_height": 21.7,
     "gap_to_line": 5.1
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 34:04, Nahuel Molina scored for Argentina after a 3-pass move that started from a throw-in. The chance was worth 0.28 xG (expected goals), meaning about 3 in 10 shots like this are goals. The last pass before the shot came from Lionel Messi.",
+    "why": "The defence was stretched: the key pass reached 5.1 units beyond the last visible defender, leaving space to attack.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -376,7 +381,12 @@
     "is_penalty": true,
     "outcome": "Goal"
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 72:39, Lionel Messi scored a penalty for Argentina. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
+    "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -839,7 +849,12 @@
     "defensive_line_height": 15.3,
     "gap_to_line": 4.0
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 82:17, Wout Weghorst scored for Netherlands from a free kick. The chance was worth 0.07 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Steven Berghuis.",
+    "why": "The team created a clear shooting chance from this move.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -1171,7 +1186,12 @@
     "defensive_line_height": 11.6,
     "gap_to_line": -1.1
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 100:32, Wout Weghorst scored for Netherlands from a free kick. The chance was worth 0.38 xG (expected goals), meaning about 4 in 10 shots like this are goals. The last pass before the shot came from Teun Koopmeiners.",
+    "why": "The shot came from very close to goal, where chances are usually at their best.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -1598,7 +1618,12 @@
     "defensive_line_height": 3.8,
     "gap_to_line": -6.7
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 113:47, Lautaro Martínez had a big chance for Argentina from a free kick, but a defender blocked it. The chance was worth 0.17 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Enzo Fernandez.",
+    "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   }
  ],

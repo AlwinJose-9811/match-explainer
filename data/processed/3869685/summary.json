@@ -58,5 +58,8 @@
    "red": 0
   }
  },
- "story": null
+ "story": {
+  "text": "Argentina and France drew 3-3 in the Final of the FIFA World Cup 2022. Argentina won 4-2 on penalties after extra time. Argentina had more of the ball (55 percent to 45 percent), and Argentina also created the better chances by expected goals, or xG, a measure of chance quality (3.10 to 2.18). The goals came from Lionel Messi at 22:24 (penalty), Ángel Di María at 35:22, Kylian Mbappé at 79:24 (penalty), Kylian Mbappé at 80:59, Lionel Messi at 107:58 and Kylian Mbappé at 117:05 (penalty).",
+  "label": "Automated analysis"
+ }
 }

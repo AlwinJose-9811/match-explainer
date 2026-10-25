@@ -353,7 +353,12 @@
     "defensive_line_height": 12.8,
     "gap_to_line": 3.1
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 10:35, Olivier Giroud had a big chance for France after a 5-pass move, but the goalkeeper saved it. The chance was worth 0.26 xG (expected goals), meaning about 3 in 10 shots like this are goals. The last pass before the shot came from Ousmane Dembélé.",
+    "why": "A long passing move gave the team time to work a shooting chance.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -831,7 +836,12 @@
     "defensive_line_height": 9.2,
     "gap_to_line": -17.8
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 16:22, Aurélien Tchouaméni scored for France after a 5-pass move. The chance was worth 0.03 xG (expected goals), meaning fewer than 1 in 10 shots like this are goals. The last pass before the shot came from Antoine Griezmann.",
+    "why": "A long passing move gave the team time to work a shooting chance.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -986,7 +996,12 @@
     "defensive_line_height": 1.3,
     "gap_to_line": -1.4
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 21:33, Jude Bellingham had a big chance for England from a rebound after an earlier shot in the same move, but a defender blocked it. The chance was worth 0.11 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Jordan Henderson.",
+    "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -1014,7 +1029,12 @@
     "is_penalty": true,
     "outcome": "Goal"
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 53:27, Harry Kane scored a penalty for England. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
+    "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -1325,7 +1345,12 @@
     "defensive_line_height": 15.0,
     "gap_to_line": 9.7
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 77:10, Olivier Giroud scored for France from a corner. The chance was worth 0.12 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Antoine Griezmann.",
+    "why": "The defence was stretched: the key pass reached 9.7 units beyond the last visible defender, leaving space to attack.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   },
   {
@@ -1353,7 +1378,12 @@
     "is_penalty": true,
     "outcome": "Off T"
    },
-   "explanation": null,
+   "explanation": {
+    "text": "At 83:35, Harry Kane took a penalty for England, but it went off target. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
+    "why": "Even though most penalties are scored, a save, a miss or the post can still stop one.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
    "highlights_url": null
   }
  ],
