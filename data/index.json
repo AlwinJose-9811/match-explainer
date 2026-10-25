@@ -45,6 +45,51 @@
    "away": "Portugal",
    "score": "1-0",
    "path": "3869486/"
+  },
+  {
+   "match_id": 3857300,
+   "label": "Group stage: Argentina v Saudi Arabia",
+   "date": "2022-11-22",
+   "home": "Argentina",
+   "away": "Saudi Arabia",
+   "score": "1-2",
+   "path": "3857300/"
+  },
+  {
+   "match_id": 3857284,
+   "label": "Group stage: Germany v Japan",
+   "date": "2022-11-23",
+   "home": "Germany",
+   "away": "Japan",
+   "score": "1-2",
+   "path": "3857284/"
+  },
+  {
+   "match_id": 3869420,
+   "label": "Quarter-final: Croatia v Brazil",
+   "date": "2022-12-09",
+   "home": "Croatia",
+   "away": "Brazil",
+   "score": "1-1",
+   "path": "3869420/"
+  },
+  {
+   "match_id": 3869552,
+   "label": "Semi-final: France v Morocco",
+   "date": "2022-12-14",
+   "home": "France",
+   "away": "Morocco",
+   "score": "2-0",
+   "path": "3869552/"
+  },
+  {
+   "match_id": 3869254,
+   "label": "Round of 16: Portugal v Switzerland",
+   "date": "2022-12-06",
+   "home": "Portugal",
+   "away": "Switzerland",
+   "score": "6-1",
+   "path": "3869254/"
   }
  ]
 }

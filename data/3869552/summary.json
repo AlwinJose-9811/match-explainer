@@ -1,0 +1,64 @@
+{
+ "match_id": 3869552,
+ "competition": "FIFA World Cup",
+ "season": "2022",
+ "stage": "Semi-finals",
+ "date": "2022-12-14",
+ "teams": {
+  "home": {
+   "id": 771,
+   "name": "France",
+   "color": "#2E75B6"
+  },
+  "away": {
+   "id": 788,
+   "name": "Morocco",
+   "color": "#B75410"
+  }
+ },
+ "score": {
+  "home": 2,
+  "away": 0,
+  "shootout": null,
+  "note": null
+ },
+ "possession": {
+  "method": "sum of possession-sequence duration (penalty shootout excluded)",
+  "home": 0.3846,
+  "away": 0.6154
+ },
+ "stats": {
+  "home": {
+   "shots": 14,
+   "on_target": 2,
+   "passes": 387,
+   "passes_completed": 316,
+   "pass_accuracy": 0.8165,
+   "xg_model": 2.064,
+   "xg_statsbomb": 2.002,
+   "fouls": 14,
+   "corners": 2,
+   "yellow": 0,
+   "red": 0
+  },
+  "away": {
+   "shots": 13,
+   "on_target": 2,
+   "passes": 615,
+   "passes_completed": 529,
+   "pass_accuracy": 0.8602,
+   "xg_model": 1.06,
+   "xg_statsbomb": 1.23,
+   "fouls": 14,
+   "corners": 3,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "story": {
+  "text": "France beat Morocco 2-0 in the Semi-finals of the FIFA World Cup 2022. Morocco had more of the ball (62 percent to 38 percent), and France created the better chances by expected goals, or xG, a measure of chance quality (2.06 to 1.06). The goals came from Theo Hernández at 4:40 and Randal Kolo Muani at 78:49.",
+  "speech": "France beat Morocco in the Semi-finals of the FIFA World Cup twenty twenty-two, two nil. Morocco had more of the ball, sixty-two percent, and France created the better chances. The goals came from Theo Hernández in the fifth minute, and Randal Kolo Muani in the seventy-ninth minute.",
+  "label": "Automated analysis",
+  "audio": "audio/3869552/story-473bb7b7.ogg"
+ }
+}

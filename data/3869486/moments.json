@@ -788,7 +788,8 @@
     "why": "The shot came from very close to goal, where chances are usually at their best.",
     "speech": "Big chance in the sixth minute! Youssef En-Nesyri shoots for Morocco... but it goes wide! It comes from a corner. Our model says about two in ten shots like that are goals. Hakim Ziyech played the pass that made it. From that close to goal, chances are usually at their best.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869486/m01-5b0b1a6f.ogg"
    },
    "highlights_url": null
   },
@@ -3315,7 +3316,8 @@
     "why": "The defence was stretched: the key pass reached 7.3 units beyond the last visible defender, leaving space to attack.",
     "speech": "Morocco strike! Youssef En-Nesyri finds the net in the forty-second minute! It comes from a free kick. Our model says about two in ten shots like that are goals. Yahia Attiyat allah played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869486/m02-abaf864a.ogg"
    },
    "highlights_url": null
   },
@@ -6398,7 +6400,8 @@
     "why": "The defence was stretched: the key pass reached 6.0 units beyond the last visible defender, leaving space to attack.",
     "speech": "The fifty-eighth minute, and Portugal have a big chance. Gonçalo Ramos shoots... but it goes wide! A smooth move of six passes opens the defence. Our model says about one in ten shots like that are goals. Otavinho played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869486/m03-ee101b4e.ogg"
    },
    "highlights_url": null
   },
@@ -7220,7 +7223,8 @@
     "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
     "speech": "Big chance in the seventy-first minute! Bernardo Silva shoots for Portugal... but it sails well wide! It comes from a free kick. Our model says about two in ten shots like that are goals. Bruno Fernandes played the pass that made it. Hit first time, the goalkeeper had almost no time to react.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869486/m04-ac0aac48.ogg"
    },
    "highlights_url": null
   },
@@ -7255,7 +7259,8 @@
     "why": "With fewer players, a team has less pitch covered and usually has to defend deeper.",
     "speech": "The ninety-third minute, red card! Walid Cheddira of Morocco is sent off after a second yellow card. Morocco must play on with one player fewer.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869486/m05-21255ad2.ogg"
    },
    "highlights_url": null
   },
@@ -7365,7 +7370,8 @@
     "why": "The team created a clear shooting chance from this move.",
     "speech": "The ninety-sixth minute, and Morocco have a big chance. Zakaria Aboukhlal shoots... but the goalkeeper saves it! A direct shot, and the defence is caught out. Our model says about five in ten shots like that are goals. A clear chance, from a clean move.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869486/m06-78c1328b.ogg"
    },
    "highlights_url": null
   },
@@ -9698,7 +9704,8 @@
     "why": "The shot came from very close to goal, where chances are usually at their best.",
     "speech": "Big chance in the ninety-seventh minute! Pepe shoots for Portugal... but it goes wide! A smooth move of four passes opens the defence. Our model says about one in ten shots like that are goals. Rafael Leão played the pass that made it. From that close to goal, chances are usually at their best.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869486/m07-e9e1c029.ogg"
    },
    "highlights_url": null
   }

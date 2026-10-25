@@ -19,7 +19,7 @@ export const TERMS = {
   length: ['Team length', 'The distance between a team\'s attack line and its defensive line. A short team is tightly packed.'],
   width: ['Team width', 'How far apart the team\'s widest players are, from side to side.'],
   compactness: ['Compactness', 'How close together a team\'s lines are, from 0 to 100 percent. Higher means defenders and forwards are closer, leaving smaller gaps.'],
-  block: ['Block label', 'A plain label for how high the defence stands: "low block" is deep near their own goal, "mid block" is in between, "high line" is far up the pitch. The cut-offs come from the five matches shown here, so the label is relative.'],
+  block: ['Block label', 'A plain label for how high the defence stands: "low block" is deep near their own goal, "mid block" is in between, "high line" is far up the pitch. The cut-offs come from the ten matches shown here, so the label is relative.'],
   build_up: ['Build-up', 'The passing sequence that leads to a shot.'],
   carry: ['Carry', 'A player running with the ball at their feet.'],
   key_pass: ['Key pass', 'The last pass before a shot.'],
