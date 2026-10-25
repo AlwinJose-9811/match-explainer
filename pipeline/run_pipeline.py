@@ -10,7 +10,7 @@ import sys
 
 from .config import load_config, processed_dir, raw_dir
 from .explain import explain_match
-from .export import update_index, write_json, write_summary
+from .export import sync_web, update_index, write_json, write_summary
 from .load import DataError, load_match
 from .metrics import build_summary
 from .moments import build_moments
@@ -45,6 +45,7 @@ def run(match_id: int) -> dict:
     write_json(processed_dir(match_id) / "positions.json", positions)
     write_json(processed_dir(match_id) / "moments.json", moments)
     update_index(summary)
+    sync_web()
     return summary
 
 

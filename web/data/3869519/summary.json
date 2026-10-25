@@ -1,0 +1,62 @@
+{
+ "match_id": 3869519,
+ "competition": "FIFA World Cup",
+ "season": "2022",
+ "stage": "Semi-finals",
+ "date": "2022-12-13",
+ "teams": {
+  "home": {
+   "id": 779,
+   "name": "Argentina",
+   "color": "#2E75B6"
+  },
+  "away": {
+   "id": 785,
+   "name": "Croatia",
+   "color": "#C55A11"
+  }
+ },
+ "score": {
+  "home": 3,
+  "away": 0,
+  "shootout": null,
+  "note": null
+ },
+ "possession": {
+  "method": "sum of possession-sequence duration (penalty shootout excluded)",
+  "home": 0.4065,
+  "away": 0.5935
+ },
+ "stats": {
+  "home": {
+   "shots": 9,
+   "on_target": 7,
+   "passes": 432,
+   "passes_completed": 358,
+   "pass_accuracy": 0.8287,
+   "xg_model": 1.903,
+   "xg_statsbomb": 1.864,
+   "fouls": 20,
+   "corners": 2,
+   "yellow": 2,
+   "red": 0
+  },
+  "away": {
+   "shots": 12,
+   "on_target": 2,
+   "passes": 648,
+   "passes_completed": 559,
+   "pass_accuracy": 0.8627,
+   "xg_model": 0.766,
+   "xg_statsbomb": 0.41,
+   "fouls": 10,
+   "corners": 4,
+   "yellow": 2,
+   "red": 0
+  }
+ },
+ "story": {
+  "text": "Argentina beat Croatia 3-0 in the Semi-finals of the FIFA World Cup 2022. Croatia had more of the ball (59 percent to 41 percent), and Argentina created the better chances by expected goals, or xG, a measure of chance quality (1.90 to 0.77). The goals came from Lionel Messi at 33:27 (penalty), Julián Álvarez at 38:26 and Julián Álvarez at 68:46.",
+  "label": "Automated analysis"
+ }
+}

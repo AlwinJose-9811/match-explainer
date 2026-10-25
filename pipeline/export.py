@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 from pathlib import Path
 from typing import Any
 
@@ -17,6 +18,17 @@ def write_summary(match_id: int, summary: dict[str, Any]) -> Path:
     path = processed_dir(match_id) / "summary.json"
     write_json(path, summary)
     return path
+
+
+def sync_web() -> Path:
+    """Copy data/processed and the model artefacts into web/data (a real copy: symlinks are unreliable on Windows)."""
+    dest = ROOT / "web" / "data"
+    shutil.copytree(ROOT / "data" / "processed", dest, dirs_exist_ok=True)
+    (dest / "model").mkdir(exist_ok=True)
+    for name in ("xg_metrics.json", "xg_calibration.png"):
+        if (ROOT / "models" / name).exists():
+            shutil.copy2(ROOT / "models" / name, dest / "model" / name)
+    return dest
 
 
 def update_index(summary: dict[str, Any]) -> Path:

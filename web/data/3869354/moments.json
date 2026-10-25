@@ -1,0 +1,1391 @@
+{
+ "moments": [
+  {
+   "type": "shot",
+   "event_id": "76a926ab-d769-4f19-97da-d7d329d90325",
+   "period": 1,
+   "minute": 10,
+   "second": 35,
+   "clock": "10:35",
+   "team": "away",
+   "team_name": "France",
+   "player": "Olivier Giroud",
+   "xg_statsbomb": 0.215,
+   "xg_model": 0.256,
+   "outcome": "Saved",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m01",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "93e569bc-ce11-4dd1-8793-dfd13b5a7eba",
+     "from": [
+      56.3,
+      61.1
+     ],
+     "to": [
+      63.8,
+      59.3
+     ],
+     "player": "Dayotchanculle Upamecano",
+     "recipient": "Adrien Rabiot",
+     "t": 0.0,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "9b2b4ed9-a85b-4be2-863a-099fce3514d7",
+     "from": [
+      63.8,
+      59.3
+     ],
+     "to": [
+      57.4,
+      64.6
+     ],
+     "player": "Adrien Rabiot",
+     "recipient": null,
+     "t": 1.42,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "fe65595b-d90d-4d38-91df-216d0d1fdd70",
+     "from": [
+      57.4,
+      64.6
+     ],
+     "to": [
+      67.8,
+      74.5
+     ],
+     "player": "Adrien Rabiot",
+     "recipient": "Ousmane Dembélé",
+     "t": 2.8,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "pass",
+     "event_id": "603237df-66c0-4534-86b8-a5ded54179c1",
+     "from": [
+      67.8,
+      75.9
+     ],
+     "to": [
+      71.6,
+      69.4
+     ],
+     "player": "Ousmane Dembélé",
+     "recipient": "Antoine Griezmann",
+     "t": 3.38,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "6088c8ce-6940-44b8-aa8e-f9cbd953ba98",
+     "from": [
+      71.6,
+      69.4
+     ],
+     "to": [
+      90.2,
+      66.4
+     ],
+     "player": "Antoine Griezmann",
+     "recipient": null,
+     "t": 4.04,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "af58f26d-2917-4029-96cc-5bb050af301d",
+     "from": [
+      90.2,
+      66.4
+     ],
+     "to": [
+      104.8,
+      75.2
+     ],
+     "player": "Antoine Griezmann",
+     "recipient": "Ousmane Dembélé",
+     "t": 6.91,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "5f5dcc83-026a-493f-84ce-a0865a35d68c",
+     "from": [
+      104.8,
+      75.2
+     ],
+     "to": [
+      104.7,
+      75.0
+     ],
+     "player": "Ousmane Dembélé",
+     "recipient": null,
+     "t": 8.75,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "168bcc6d-9c20-406c-8e20-6d8a4548083f",
+     "from": [
+      104.7,
+      75.0
+     ],
+     "to": [
+      110.3,
+      38.2
+     ],
+     "player": "Ousmane Dembélé",
+     "recipient": "Olivier Giroud",
+     "t": 8.79,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "76a926ab-d769-4f19-97da-d7d329d90325",
+     "from": [
+      110.3,
+      38.2
+     ],
+     "to": [
+      118.2,
+      40.1
+     ],
+     "player": "Olivier Giroud",
+     "recipient": null,
+     "t": 10.12,
+     "key": false,
+     "outcome": "Saved"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 76.3,
+       "y": 32.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 80.9,
+       "y": 33.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 91.5,
+       "y": 50.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 92.2,
+       "y": 52.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 95.3,
+       "y": 37.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.1,
+       "y": 62.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 98.4,
+       "y": 60.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 101.9,
+       "y": 36.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.5,
+       "y": 65.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.7,
+       "y": 75.0,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 105.0,
+       "y": 41.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.4,
+       "y": 55.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.2,
+       "y": 45.4,
+       "role": "defender",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 107.2
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 90.4,
+       "y": 28.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.8,
+       "y": 43.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.1,
+       "y": 45.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.3,
+       "y": 40.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.3,
+       "y": 50.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.9,
+       "y": 52.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.3,
+       "y": 38.2,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 111.0,
+       "y": 59.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.1,
+       "y": 37.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.1,
+       "y": 41.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.6,
+       "y": 66.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.5,
+       "y": 50.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 118.2,
+       "y": 40.0,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 112.5
+    }
+   },
+   "facts": {
+    "sequence_len": 5,
+    "duration_s": 10.12,
+    "play_pattern": "Regular Play",
+    "body_part": "Head",
+    "technique": "Diving Header",
+    "shot_distance": 9.9,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Ousmane Dembélé",
+    "defensive_line_height": 12.8,
+    "gap_to_line": 3.1
+   },
+   "explanation": {
+    "text": "At 10:35, Olivier Giroud had a big chance for France after a 5-pass move, but the goalkeeper saved it. The chance was worth 0.26 xG (expected goals), meaning about 3 in 10 shots like this are goals. The last pass before the shot came from Ousmane Dembélé.",
+    "why": "A long passing move gave the team time to work a shooting chance.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "392c7c17-aff2-48c8-becc-d23b5bf60640",
+   "period": 1,
+   "minute": 16,
+   "second": 22,
+   "clock": "16:22",
+   "team": "away",
+   "team_name": "France",
+   "player": "Aurélien Djani Tchouaméni",
+   "xg_statsbomb": 0.028,
+   "xg_model": 0.031,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m02",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "62db69bf-cbe1-42cf-be8a-bf1482492e88",
+     "from": [
+      62.5,
+      4.3
+     ],
+     "to": [
+      84.6,
+      7.7
+     ],
+     "player": "Kylian Mbappé Lottin",
+     "recipient": null,
+     "t": 0.0,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "a69ff76e-df93-48d2-8259-897057be82d6",
+     "from": [
+      84.6,
+      7.7
+     ],
+     "to": [
+      81.1,
+      21.7
+     ],
+     "player": "Kylian Mbappé Lottin",
+     "recipient": "Dayotchanculle Upamecano",
+     "t": 3.71,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "0621a456-b64c-4a86-a241-197dddb2ad4f",
+     "from": [
+      81.1,
+      21.7
+     ],
+     "to": [
+      83.5,
+      17.8
+     ],
+     "player": "Dayotchanculle Upamecano",
+     "recipient": null,
+     "t": 5.28,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "7163e929-74e4-4ab3-88dc-1afea90972cf",
+     "from": [
+      83.5,
+      17.8
+     ],
+     "to": [
+      87.5,
+      34.7
+     ],
+     "player": "Dayotchanculle Upamecano",
+     "recipient": "Kylian Mbappé Lottin",
+     "t": 6.29,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "8af0d331-bf0b-4c68-b4c1-0ff8ab3dd30c",
+     "from": [
+      87.5,
+      34.7
+     ],
+     "to": [
+      88.9,
+      42.1
+     ],
+     "player": "Kylian Mbappé Lottin",
+     "recipient": null,
+     "t": 7.68,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "carry",
+     "event_id": "a410cdfe-7200-4e54-84e6-792ed6a4fc9d",
+     "from": [
+      88.9,
+      42.1
+     ],
+     "to": [
+      93.0,
+      49.1
+     ],
+     "player": "Kylian Mbappé Lottin",
+     "recipient": null,
+     "t": 7.99,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "396df48a-88ae-48c9-b76b-e0551bcb2ea1",
+     "from": [
+      93.0,
+      49.1
+     ],
+     "to": [
+      101.3,
+      70.4
+     ],
+     "player": "Kylian Mbappé Lottin",
+     "recipient": "Ousmane Dembélé",
+     "t": 9.78,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "a9f254f7-e69c-4ed4-b5c0-ee28274e8f96",
+     "from": [
+      101.3,
+      70.4
+     ],
+     "to": [
+      104.5,
+      59.9
+     ],
+     "player": "Ousmane Dembélé",
+     "recipient": null,
+     "t": 11.28,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "c5100f72-339e-4c43-a93b-e778c591c3cb",
+     "from": [
+      104.5,
+      59.9
+     ],
+     "to": [
+      97.2,
+      55.3
+     ],
+     "player": "Ousmane Dembélé",
+     "recipient": "Antoine Griezmann",
+     "t": 14.49,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "748ca6ba-8524-409d-b072-5d383434944b",
+     "from": [
+      97.2,
+      55.3
+     ],
+     "to": [
+      98.8,
+      55.7
+     ],
+     "player": "Antoine Griezmann",
+     "recipient": null,
+     "t": 15.56,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "d13170eb-a5a7-496d-88ad-0481fd6302d3",
+     "from": [
+      98.8,
+      55.7
+     ],
+     "to": [
+      93.0,
+      50.4
+     ],
+     "player": "Antoine Griezmann",
+     "recipient": "Aurélien Djani Tchouaméni",
+     "t": 16.42,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "ec69d037-c641-4d88-b68d-b5046a56e59b",
+     "from": [
+      93.0,
+      50.4
+     ],
+     "to": [
+      92.5,
+      43.5
+     ],
+     "player": "Aurélien Djani Tchouaméni",
+     "recipient": null,
+     "t": 17.33,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "392c7c17-aff2-48c8-becc-d23b5bf60640",
+     "from": [
+      92.5,
+      43.5
+     ],
+     "to": [
+      120.0,
+      36.5
+     ],
+     "player": "Aurélien Djani Tchouaméni",
+     "recipient": null,
+     "t": 18.16,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 90.2,
+       "y": 22.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 92.8,
+       "y": 42.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 93.9,
+       "y": 26.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 98.8,
+       "y": 55.7,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 100.7,
+       "y": 53.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.2,
+       "y": 73.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.9,
+       "y": 46.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.4,
+       "y": 42.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.1,
+       "y": 61.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.8,
+       "y": 53.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.1,
+       "y": 61.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.7,
+       "y": 55.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.6,
+       "y": 54.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.0,
+       "y": 39.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 110.7,
+       "y": 41.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.8,
+       "y": 37.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 119.6,
+       "y": 43.4,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 110.8
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 83.6,
+       "y": 26.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 92.1,
+       "y": 19.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 92.5,
+       "y": 43.5,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 94.9,
+       "y": 43.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 97.8,
+       "y": 25.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.0,
+       "y": 40.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.2,
+       "y": 49.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.5,
+       "y": 71.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.2,
+       "y": 58.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.1,
+       "y": 59.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.2,
+       "y": 52.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.3,
+       "y": 47.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.7,
+       "y": 50.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.8,
+       "y": 49.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.4,
+       "y": 39.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.2,
+       "y": 38.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.6,
+       "y": 33.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 118.7,
+       "y": 40.1,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 106.6
+    }
+   },
+   "facts": {
+    "sequence_len": 5,
+    "duration_s": 18.16,
+    "play_pattern": "Regular Play",
+    "body_part": "Right Foot",
+    "technique": "Normal",
+    "shot_distance": 27.7,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Antoine Griezmann",
+    "defensive_line_height": 9.2,
+    "gap_to_line": -17.8
+   },
+   "explanation": {
+    "text": "At 16:22, Aurélien Tchouaméni scored for France after a 5-pass move. The chance was worth 0.03 xG (expected goals), meaning fewer than 1 in 10 shots like this are goals. The last pass before the shot came from Antoine Griezmann.",
+    "why": "A long passing move gave the team time to work a shooting chance.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "7698af86-50b1-41d3-a751-88cbb32b875d",
+   "period": 1,
+   "minute": 21,
+   "second": 33,
+   "clock": "21:33",
+   "team": "home",
+   "team_name": "England",
+   "player": "Jude Bellingham",
+   "xg_statsbomb": 0.218,
+   "xg_model": 0.114,
+   "outcome": "Blocked",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m03",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "2767b72f-7d41-4b42-8bd1-eae79921c667",
+     "from": [
+      112.8,
+      55.4
+     ],
+     "to": [
+      117.3,
+      35.7
+     ],
+     "player": "Jordan Brian Henderson",
+     "recipient": "Jude Bellingham",
+     "t": 0.0,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "7698af86-50b1-41d3-a751-88cbb32b875d",
+     "from": [
+      117.3,
+      35.7
+     ],
+     "to": [
+      118.1,
+      36.1
+     ],
+     "player": "Jude Bellingham",
+     "recipient": null,
+     "t": 2.27,
+     "key": false,
+     "outcome": "Blocked"
+    }
+   ],
+   "snapshots": {
+    "key_pass": null,
+    "shot": {
+     "players": [
+      {
+       "x": 104.7,
+       "y": 48.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.3,
+       "y": 64.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 110.1,
+       "y": 55.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.3,
+       "y": 42.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.0,
+       "y": 48.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.5,
+       "y": 41.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 116.3,
+       "y": 36.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.5,
+       "y": 44.7,
+       "role": "keeper",
+       "actor": false
+      },
+      {
+       "x": 117.0,
+       "y": 38.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.2,
+       "y": 36.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.3,
+       "y": 35.7,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 118.7,
+       "y": 40.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 119.3,
+       "y": 49.1,
+       "role": "attacker",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 118.7
+    }
+   },
+   "facts": {
+    "sequence_len": 1,
+    "duration_s": 2.27,
+    "play_pattern": "From Throw In",
+    "body_part": "Head",
+    "technique": "Normal",
+    "shot_distance": 5.1,
+    "under_pressure": true,
+    "first_time": false,
+    "rebound": true,
+    "assist_player": "Jordan Brian Henderson",
+    "defensive_line_height": 1.3,
+    "gap_to_line": -1.4
+   },
+   "explanation": {
+    "text": "At 21:33, Jude Bellingham had a big chance for England from a rebound after an earlier shot in the same move, but a defender blocked it. The chance was worth 0.11 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Jordan Henderson.",
+    "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "b740db70-9fad-40ed-8069-5e3d26521a44",
+   "period": 2,
+   "minute": 53,
+   "second": 27,
+   "clock": "53:27",
+   "team": "home",
+   "team_name": "England",
+   "player": "Harry Kane",
+   "xg_statsbomb": 0.783,
+   "xg_model": 0.786,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": true,
+   "id": "m04",
+   "sequence": [],
+   "snapshots": {
+    "key_pass": null,
+    "shot": null
+   },
+   "facts": {
+    "is_penalty": true,
+    "outcome": "Goal"
+   },
+   "explanation": {
+    "text": "At 53:27, Harry Kane scored a penalty for England. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
+    "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "2effbf64-b445-4aa5-a87e-7ff2f38c90ee",
+   "period": 2,
+   "minute": 77,
+   "second": 10,
+   "clock": "77:10",
+   "team": "away",
+   "team_name": "France",
+   "player": "Olivier Giroud",
+   "xg_statsbomb": 0.147,
+   "xg_model": 0.121,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m05",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "82736a8e-ef80-410a-9a9f-022dd87eb650",
+     "from": [
+      88.0,
+      40.3
+     ],
+     "to": [
+      75.3,
+      14.4
+     ],
+     "player": "Jules Koundé",
+     "recipient": "Theo Bernard François Hernández",
+     "t": 0.0,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "a658a9a1-3ea9-4bc3-8bbf-4043ab701522",
+     "from": [
+      75.3,
+      14.4
+     ],
+     "to": [
+      74.5,
+      12.2
+     ],
+     "player": "Theo Bernard François Hernández",
+     "recipient": null,
+     "t": 2.81,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "64c05a99-d17a-4ade-ad05-d74b35404167",
+     "from": [
+      74.5,
+      12.2
+     ],
+     "to": [
+      93.5,
+      4.0
+     ],
+     "player": "Theo Bernard François Hernández",
+     "recipient": "Antoine Griezmann",
+     "t": 2.91,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "9b6b7bf2-76b3-4e5a-adf7-7a2d2fac2035",
+     "from": [
+      93.5,
+      4.0
+     ],
+     "to": [
+      97.9,
+      3.1
+     ],
+     "player": "Antoine Griezmann",
+     "recipient": null,
+     "t": 4.68,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "a41efd98-9524-42f6-99c0-1caaeca64c35",
+     "from": [
+      97.9,
+      3.1
+     ],
+     "to": [
+      114.7,
+      36.4
+     ],
+     "player": "Antoine Griezmann",
+     "recipient": "Olivier Giroud",
+     "t": 6.29,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "2effbf64-b445-4aa5-a87e-7ff2f38c90ee",
+     "from": [
+      114.7,
+      36.4
+     ],
+     "to": [
+      120.0,
+      37.4
+     ],
+     "player": "Olivier Giroud",
+     "recipient": null,
+     "t": 7.63,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 77.8,
+       "y": 15.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 87.9,
+       "y": 42.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 96.5,
+       "y": 44.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 97.9,
+       "y": 3.1,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 98.0,
+       "y": 24.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.1,
+       "y": 6.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.8,
+       "y": 29.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.1,
+       "y": 43.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.8,
+       "y": 25.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.0,
+       "y": 37.9,
+       "role": "defender",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 105.0
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 94.2,
+       "y": 41.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.0,
+       "y": 39.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.5,
+       "y": 23.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.0,
+       "y": 61.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.1,
+       "y": 44.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.5,
+       "y": 47.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.0,
+       "y": 27.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.5,
+       "y": 48.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.6,
+       "y": 24.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.0,
+       "y": 54.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.1,
+       "y": 36.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.1,
+       "y": 38.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.9,
+       "y": 44.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.5,
+       "y": 34.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.7,
+       "y": 36.4,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 115.1,
+       "y": 36.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 119.6,
+       "y": 40.0,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 115.1
+    }
+   },
+   "facts": {
+    "sequence_len": 3,
+    "duration_s": 7.63,
+    "play_pattern": "From Corner",
+    "body_part": "Head",
+    "technique": "Normal",
+    "shot_distance": 6.4,
+    "under_pressure": true,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Antoine Griezmann",
+    "defensive_line_height": 15.0,
+    "gap_to_line": 9.7
+   },
+   "explanation": {
+    "text": "At 77:10, Olivier Giroud scored for France from a corner. The chance was worth 0.12 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Antoine Griezmann.",
+    "why": "The defence was stretched: the key pass reached 9.7 units beyond the last visible defender, leaving space to attack.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "penalty",
+   "event_id": "7559464d-104b-4f53-b4f6-1f71e069fb0d",
+   "period": 2,
+   "minute": 83,
+   "second": 35,
+   "clock": "83:35",
+   "team": "home",
+   "team_name": "England",
+   "player": "Harry Kane",
+   "xg_statsbomb": 0.783,
+   "xg_model": 0.786,
+   "outcome": "Off T",
+   "is_goal": false,
+   "is_penalty": true,
+   "id": "m06",
+   "sequence": [],
+   "snapshots": {
+    "key_pass": null,
+    "shot": null
+   },
+   "facts": {
+    "is_penalty": true,
+    "outcome": "Off T"
+   },
+   "explanation": {
+    "text": "At 83:35, Harry Kane took a penalty for England, but it went off target. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
+    "why": "Even though most penalties are scored, a save, a miss or the post can still stop one.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  }
+ ],
+ "has_360": true
+}

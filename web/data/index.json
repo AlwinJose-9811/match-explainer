@@ -1,0 +1,50 @@
+{
+ "default": 3869685,
+ "matches": [
+  {
+   "match_id": 3869685,
+   "label": "Final: Argentina v France",
+   "date": "2022-12-18",
+   "home": "Argentina",
+   "away": "France",
+   "score": "3-3",
+   "path": "3869685/"
+  },
+  {
+   "match_id": 3869321,
+   "label": "Quarter-final: Netherlands v Argentina",
+   "date": "2022-12-09",
+   "home": "Netherlands",
+   "away": "Argentina",
+   "score": "2-2",
+   "path": "3869321/"
+  },
+  {
+   "match_id": 3869354,
+   "label": "Quarter-final: England v France",
+   "date": "2022-12-10",
+   "home": "England",
+   "away": "France",
+   "score": "1-2",
+   "path": "3869354/"
+  },
+  {
+   "match_id": 3869519,
+   "label": "Semi-final: Argentina v Croatia",
+   "date": "2022-12-13",
+   "home": "Argentina",
+   "away": "Croatia",
+   "score": "3-0",
+   "path": "3869519/"
+  },
+  {
+   "match_id": 3869486,
+   "label": "Quarter-final: Morocco v Portugal",
+   "date": "2022-12-10",
+   "home": "Morocco",
+   "away": "Portugal",
+   "score": "1-0",
+   "path": "3869486/"
+  }
+ ]
+}
