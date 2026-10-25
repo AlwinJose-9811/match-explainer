@@ -1,0 +1,1631 @@
+{
+ "moments": [
+  {
+   "type": "goal",
+   "event_id": "ba0291a6-1cd3-43f0-8394-b91c7cd6d4e2",
+   "period": 1,
+   "minute": 34,
+   "second": 4,
+   "clock": "34:04",
+   "team": "away",
+   "team_name": "Argentina",
+   "player": "Nahuel Molina Lucero",
+   "xg_statsbomb": 0.434,
+   "xg_model": 0.281,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m01",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "56e750c1-b96f-42d2-925a-512b8fb1e008",
+     "from": [
+      46.0,
+      47.6
+     ],
+     "to": [
+      47.2,
+      50.3
+     ],
+     "player": "Nicolás Hernán Otamendi",
+     "recipient": null,
+     "t": 0.0,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "01a9ca70-08fc-43eb-9492-2827ad46b073",
+     "from": [
+      47.2,
+      50.3
+     ],
+     "to": [
+      57.8,
+      69.2
+     ],
+     "player": "Nicolás Hernán Otamendi",
+     "recipient": "Nahuel Molina Lucero",
+     "t": 1.04,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "508244a8-dc41-41a3-a491-7609fa55cfa1",
+     "from": [
+      57.8,
+      69.2
+     ],
+     "to": [
+      81.5,
+      69.2
+     ],
+     "player": "Nahuel Molina Lucero",
+     "recipient": null,
+     "t": 2.46,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "2c02d2fd-aa7a-4131-8c08-6a09f7bcf66a",
+     "from": [
+      81.5,
+      69.2
+     ],
+     "to": [
+      74.2,
+      71.1
+     ],
+     "player": "Nahuel Molina Lucero",
+     "recipient": "Lionel Andrés Messi Cuccittini",
+     "t": 8.91,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "29738d64-1cc7-4bec-b406-816b1116d819",
+     "from": [
+      74.2,
+      71.1
+     ],
+     "to": [
+      85.6,
+      44.9
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 9.25,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "96e4e446-e913-4113-999c-d992a53774c3",
+     "from": [
+      85.6,
+      44.9
+     ],
+     "to": [
+      103.4,
+      50.6
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": "Nahuel Molina Lucero",
+     "t": 13.83,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "1adcb096-6ded-447b-a074-091e72e3040a",
+     "from": [
+      103.4,
+      50.6
+     ],
+     "to": [
+      109.1,
+      42.4
+     ],
+     "player": "Nahuel Molina Lucero",
+     "recipient": null,
+     "t": 14.77,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "ba0291a6-1cd3-43f0-8394-b91c7cd6d4e2",
+     "from": [
+      109.1,
+      42.4
+     ],
+     "to": [
+      120.0,
+      36.5
+     ],
+     "player": "Nahuel Molina Lucero",
+     "recipient": null,
+     "t": 15.89,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 80.1,
+       "y": 35.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 81.3,
+       "y": 46.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 82.5,
+       "y": 75.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 84.9,
+       "y": 21.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 85.6,
+       "y": 44.9,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 87.3,
+       "y": 46.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 88.6,
+       "y": 52.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 89.2,
+       "y": 42.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 94.2,
+       "y": 27.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 94.9,
+       "y": 47.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 95.2,
+       "y": 46.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 96.8,
+       "y": 55.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.1,
+       "y": 59.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 98.3,
+       "y": 46.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.6,
+       "y": 41.6,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 98.3
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 89.3,
+       "y": 30.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 94.6,
+       "y": 38.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 95.3,
+       "y": 42.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 97.4,
+       "y": 46.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 97.7,
+       "y": 40.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.1,
+       "y": 24.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.6,
+       "y": 26.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.8,
+       "y": 42.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.6,
+       "y": 45.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.8,
+       "y": 38.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.2,
+       "y": 42.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.1,
+       "y": 42.4,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 113.1,
+       "y": 41.6,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 108.2
+    }
+   },
+   "facts": {
+    "sequence_len": 3,
+    "duration_s": 15.89,
+    "play_pattern": "From Throw In",
+    "body_part": "Right Foot",
+    "technique": "Normal",
+    "shot_distance": 11.2,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Lionel Andrés Messi Cuccittini",
+    "defensive_line_height": 21.7,
+    "gap_to_line": 5.1
+   },
+   "explanation": {
+    "text": "At 34:04, Nahuel Molina scored for Argentina after a 3-pass move that started from a throw-in. The chance was worth 0.28 xG (expected goals), meaning about 3 in 10 shots like this are goals. The last pass before the shot came from Lionel Messi.",
+    "why": "The defence was stretched: the key pass reached 5.1 units beyond the last visible defender, leaving space to attack.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "dc11fa36-49c6-41db-a883-9991c8711696",
+   "period": 2,
+   "minute": 72,
+   "second": 39,
+   "clock": "72:39",
+   "team": "away",
+   "team_name": "Argentina",
+   "player": "Lionel Andrés Messi Cuccittini",
+   "xg_statsbomb": 0.783,
+   "xg_model": 0.786,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": true,
+   "id": "m02",
+   "sequence": [],
+   "snapshots": {
+    "key_pass": null,
+    "shot": null
+   },
+   "facts": {
+    "is_penalty": true,
+    "outcome": "Goal"
+   },
+   "explanation": {
+    "text": "At 72:39, Lionel Messi scored a penalty for Argentina. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
+    "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "758f3a76-791e-4a71-8cb4-d776a6bd293d",
+   "period": 2,
+   "minute": 82,
+   "second": 17,
+   "clock": "82:17",
+   "team": "home",
+   "team_name": "Netherlands",
+   "player": "Wout Weghorst",
+   "xg_statsbomb": 0.047,
+   "xg_model": 0.074,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m03",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "7485cca8-b661-448d-b064-892ae8728fd9",
+     "from": [
+      66.1,
+      67.9
+     ],
+     "to": [
+      66.5,
+      68.5
+     ],
+     "player": "Teun Koopmeiners",
+     "recipient": null,
+     "t": 0.0,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "d0daf330-5967-42f3-b919-47a96fd058bf",
+     "from": [
+      66.5,
+      68.5
+     ],
+     "to": [
+      86.6,
+      78.0
+     ],
+     "player": "Teun Koopmeiners",
+     "recipient": "Steven Berghuis",
+     "t": 0.8,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "d999288a-4765-44c4-9e6c-4355b393d41e",
+     "from": [
+      86.6,
+      78.0
+     ],
+     "to": [
+      109.9,
+      79.0
+     ],
+     "player": "Steven Berghuis",
+     "recipient": null,
+     "t": 2.21,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "carry",
+     "event_id": "35d6dbd3-f58a-4143-914c-14ac9c218c9f",
+     "from": [
+      73.3,
+      49.9
+     ],
+     "to": [
+      73.3,
+      50.3
+     ],
+     "player": "Jurriën David Norman Timber",
+     "recipient": null,
+     "t": 11.7,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "01424dfa-888a-44a5-9eab-2a2b0cefb655",
+     "from": [
+      73.3,
+      50.3
+     ],
+     "to": [
+      82.4,
+      62.1
+     ],
+     "player": "Jurriën David Norman Timber",
+     "recipient": "Teun Koopmeiners",
+     "t": 12.76,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "1b43f878-a6e3-441e-baed-9d702df62c64",
+     "from": [
+      82.4,
+      62.1
+     ],
+     "to": [
+      82.4,
+      62.1
+     ],
+     "player": "Teun Koopmeiners",
+     "recipient": null,
+     "t": 13.87,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "18277025-8bba-4408-a015-14768a4421f8",
+     "from": [
+      82.4,
+      62.1
+     ],
+     "to": [
+      91.8,
+      78.6
+     ],
+     "player": "Teun Koopmeiners",
+     "recipient": "Steven Berghuis",
+     "t": 14.62,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "b0752f68-f919-4f78-a59c-98506a9ecb87",
+     "from": [
+      91.8,
+      78.6
+     ],
+     "to": [
+      91.8,
+      76.8
+     ],
+     "player": "Steven Berghuis",
+     "recipient": null,
+     "t": 15.73,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "17b9dc16-f239-4de7-9f9e-a86e3e2c81b7",
+     "from": [
+      91.8,
+      76.8
+     ],
+     "to": [
+      108.7,
+      46.4
+     ],
+     "player": "Steven Berghuis",
+     "recipient": "Wout Weghorst",
+     "t": 16.53,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "758f3a76-791e-4a71-8cb4-d776a6bd293d",
+     "from": [
+      108.7,
+      46.4
+     ],
+     "to": [
+      120.0,
+      37.2
+     ],
+     "player": "Wout Weghorst",
+     "recipient": null,
+     "t": 17.92,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 71.6,
+       "y": 52.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 77.8,
+       "y": 36.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 82.8,
+       "y": 42.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 84.4,
+       "y": 68.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 90.9,
+       "y": 65.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 91.8,
+       "y": 76.8,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 95.4,
+       "y": 73.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.0,
+       "y": 17.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.5,
+       "y": 59.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 101.2,
+       "y": 41.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.3,
+       "y": 60.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.9,
+       "y": 41.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.3,
+       "y": 37.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.6,
+       "y": 35.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.9,
+       "y": 35.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.1,
+       "y": 49.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.2,
+       "y": 38.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.4,
+       "y": 32.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.6,
+       "y": 32.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.7,
+       "y": 45.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.9,
+       "y": 42.5,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 104.7
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 81.4,
+       "y": 38.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 84.1,
+       "y": 40.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 85.9,
+       "y": 64.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 91.3,
+       "y": 61.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 92.2,
+       "y": 66.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 95.1,
+       "y": 76.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 101.1,
+       "y": 55.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.1,
+       "y": 55.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.0,
+       "y": 39.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.8,
+       "y": 17.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.9,
+       "y": 48.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.7,
+       "y": 31.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.7,
+       "y": 46.4,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 109.5,
+       "y": 31.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.7,
+       "y": 37.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.9,
+       "y": 38.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.2,
+       "y": 44.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.2,
+       "y": 35.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.3,
+       "y": 33.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 117.8,
+       "y": 40.8,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 111.2
+    }
+   },
+   "facts": {
+    "sequence_len": 4,
+    "duration_s": 17.92,
+    "play_pattern": "From Free Kick",
+    "body_part": "Head",
+    "technique": "Normal",
+    "shot_distance": 13.0,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Steven Berghuis",
+    "defensive_line_height": 15.3,
+    "gap_to_line": 4.0
+   },
+   "explanation": {
+    "text": "At 82:17, Wout Weghorst scored for Netherlands from a free kick. The chance was worth 0.07 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Steven Berghuis.",
+    "why": "The team created a clear shooting chance from this move.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "1a46edaa-ca09-435a-b841-aa201d1f0e14",
+   "period": 2,
+   "minute": 100,
+   "second": 32,
+   "clock": "100:32",
+   "team": "home",
+   "team_name": "Netherlands",
+   "player": "Wout Weghorst",
+   "xg_statsbomb": 0.22,
+   "xg_model": 0.382,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m04",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "64d3c14b-f388-482c-8816-9294824c2f37",
+     "from": [
+      96.8,
+      31.8
+     ],
+     "to": [
+      107.3,
+      35.4
+     ],
+     "player": "Teun Koopmeiners",
+     "recipient": "Wout Weghorst",
+     "t": 0.0,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "9b217f1f-3302-4a6a-ac05-b5e9883a4c00",
+     "from": [
+      107.3,
+      35.4
+     ],
+     "to": [
+      111.8,
+      39.9
+     ],
+     "player": "Wout Weghorst",
+     "recipient": null,
+     "t": 0.69,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "1a46edaa-ca09-435a-b841-aa201d1f0e14",
+     "from": [
+      111.8,
+      39.9
+     ],
+     "to": [
+      120.0,
+      42.2
+     ],
+     "player": "Wout Weghorst",
+     "recipient": null,
+     "t": 1.39,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 96.0,
+       "y": 28.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 96.2,
+       "y": 48.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 96.8,
+       "y": 31.8,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 106.7,
+       "y": 37.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.8,
+       "y": 35.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.2,
+       "y": 36.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.2,
+       "y": 32.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.2,
+       "y": 33.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.4,
+       "y": 46.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.4,
+       "y": 33.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.5,
+       "y": 45.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.5,
+       "y": 45.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.6,
+       "y": 41.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.8,
+       "y": 35.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.8,
+       "y": 32.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.9,
+       "y": 45.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.3,
+       "y": 34.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.3,
+       "y": 50.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 108.4,
+       "y": 38.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 118.7,
+       "y": 37.6,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 108.4
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 96.0,
+       "y": 31.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 96.0,
+       "y": 34.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.5,
+       "y": 34.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.3,
+       "y": 49.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.4,
+       "y": 36.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.5,
+       "y": 35.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.0,
+       "y": 33.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.4,
+       "y": 43.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.9,
+       "y": 39.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 108.9,
+       "y": 48.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.3,
+       "y": 41.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.3,
+       "y": 36.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.3,
+       "y": 49.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.5,
+       "y": 38.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.7,
+       "y": 38.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.8,
+       "y": 39.9,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 113.2,
+       "y": 45.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.5,
+       "y": 48.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 116.8,
+       "y": 38.5,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 113.2
+    }
+   },
+   "facts": {
+    "sequence_len": 1,
+    "duration_s": 1.39,
+    "play_pattern": "From Free Kick",
+    "body_part": "Left Foot",
+    "technique": "Normal",
+    "shot_distance": 8.2,
+    "under_pressure": true,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Teun Koopmeiners",
+    "defensive_line_height": 11.6,
+    "gap_to_line": -1.1
+   },
+   "explanation": {
+    "text": "At 100:32, Wout Weghorst scored for Netherlands from a free kick. The chance was worth 0.38 xG (expected goals), meaning about 4 in 10 shots like this are goals. The last pass before the shot came from Teun Koopmeiners.",
+    "why": "The shot came from very close to goal, where chances are usually at their best.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "2704ab9f-8047-4d97-b1d5-d91b82af0418",
+   "period": 4,
+   "minute": 113,
+   "second": 47,
+   "clock": "113:47",
+   "team": "away",
+   "team_name": "Argentina",
+   "player": "Lautaro Javier Martínez",
+   "xg_statsbomb": 0.225,
+   "xg_model": 0.172,
+   "outcome": "Blocked",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m05",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "7c877539-92b8-4565-b040-55307db771b6",
+     "from": [
+      57.5,
+      36.3
+     ],
+     "to": [
+      62.6,
+      56.9
+     ],
+     "player": "Leandro Daniel Paredes",
+     "recipient": "Enzo Fernandez",
+     "t": 0.0,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "a30b0180-812f-4aeb-a27a-1448d2279c9f",
+     "from": [
+      62.6,
+      56.9
+     ],
+     "to": [
+      80.2,
+      55.2
+     ],
+     "player": "Enzo Fernandez",
+     "recipient": null,
+     "t": 1.12,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "9fe9117c-d296-41b3-87e8-0d1093b6149b",
+     "from": [
+      80.2,
+      55.2
+     ],
+     "to": [
+      115.6,
+      54.6
+     ],
+     "player": "Enzo Fernandez",
+     "recipient": "Lautaro Javier Martínez",
+     "t": 4.61,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "5df5eda9-e290-4a38-8ed6-6f429cbc6af0",
+     "from": [
+      115.6,
+      54.6
+     ],
+     "to": [
+      116.2,
+      54.3
+     ],
+     "player": "Lautaro Javier Martínez",
+     "recipient": null,
+     "t": 7.08,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "carry",
+     "event_id": "3f4818f5-c540-4981-975c-1c7d86804799",
+     "from": [
+      115.2,
+      73.9
+     ],
+     "to": [
+      109.3,
+      72.8
+     ],
+     "player": "Ángel Fabián Di María Hernández",
+     "recipient": null,
+     "t": 13.2,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "f0f493ea-e502-4323-bade-d8708cc7be64",
+     "from": [
+      109.3,
+      72.8
+     ],
+     "to": [
+      104.2,
+      57.0
+     ],
+     "player": "Ángel Fabián Di María Hernández",
+     "recipient": "Enzo Fernandez",
+     "t": 14.88,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "0c5eb97f-324a-45fd-aeb7-ec59164fbcea",
+     "from": [
+      104.2,
+      57.0
+     ],
+     "to": [
+      106.4,
+      56.0
+     ],
+     "player": "Enzo Fernandez",
+     "recipient": null,
+     "t": 15.71,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "carry",
+     "event_id": "db03acf4-ef9c-48a3-b48f-05fb6f2f5d49",
+     "from": [
+      106.4,
+      56.0
+     ],
+     "to": [
+      116.5,
+      55.8
+     ],
+     "player": "Enzo Fernandez",
+     "recipient": null,
+     "t": 17.22,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "75c6745e-3ddc-4211-82f7-66c0f0be146a",
+     "from": [
+      116.5,
+      55.8
+     ],
+     "to": [
+      109.5,
+      45.9
+     ],
+     "player": "Enzo Fernandez",
+     "recipient": "Lautaro Javier Martínez",
+     "t": 18.76,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "2704ab9f-8047-4d97-b1d5-d91b82af0418",
+     "from": [
+      109.5,
+      45.9
+     ],
+     "to": [
+      114.6,
+      44.7
+     ],
+     "player": "Lautaro Javier Martínez",
+     "recipient": null,
+     "t": 19.53,
+     "key": false,
+     "outcome": "Blocked"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 103.6,
+       "y": 30.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.5,
+       "y": 48.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.8,
+       "y": 53.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.1,
+       "y": 49.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.5,
+       "y": 39.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 108.5,
+       "y": 34.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.0,
+       "y": 38.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.4,
+       "y": 40.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.7,
+       "y": 34.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.7,
+       "y": 34.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 115.2,
+       "y": 34.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.0,
+       "y": 53.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.0,
+       "y": 46.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.2,
+       "y": 40.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.5,
+       "y": 55.8,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 117.0,
+       "y": 41.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 120.2,
+       "y": 41.0,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 116.2
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 89.3,
+       "y": 51.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.9,
+       "y": 33.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.6,
+       "y": 54.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.1,
+       "y": 48.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.3,
+       "y": 50.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.3,
+       "y": 45.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.3,
+       "y": 36.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.3,
+       "y": 43.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.5,
+       "y": 45.9,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 111.0,
+       "y": 39.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.0,
+       "y": 41.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 114.3,
+       "y": 40.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.2,
+       "y": 45.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.9,
+       "y": 46.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 116.0,
+       "y": 49.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.6,
+       "y": 55.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.8,
+       "y": 59.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 118.2,
+       "y": 43.1,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 116.6
+    }
+   },
+   "facts": {
+    "sequence_len": 4,
+    "duration_s": 19.53,
+    "play_pattern": "From Free Kick",
+    "body_part": "Right Foot",
+    "technique": "Normal",
+    "shot_distance": 12.0,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": false,
+    "assist_player": "Enzo Fernandez",
+    "defensive_line_height": 3.8,
+    "gap_to_line": -6.7
+   },
+   "explanation": {
+    "text": "At 113:47, Lautaro Martínez had a big chance for Argentina from a free kick, but a defender blocked it. The chance was worth 0.17 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Enzo Fernandez.",
+    "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  }
+ ],
+ "has_360": true
+}

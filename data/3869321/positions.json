@@ -1,0 +1,6376 @@
+{
+ "frame": "away team mirrored (x' = 120 - x, y' = 80 - y); lines are in each team's own frame",
+ "match_end_minute": 122,
+ "window_minutes": 15,
+ "windows": [
+  {
+   "id": "full",
+   "label": "Full match",
+   "start": 0,
+   "end": 122,
+   "kind": "full"
+  },
+  {
+   "id": "p1",
+   "label": "First half",
+   "start": 0,
+   "end": 45,
+   "kind": "period"
+  },
+  {
+   "id": "p2",
+   "label": "Second half",
+   "start": 45,
+   "end": 90,
+   "kind": "period"
+  },
+  {
+   "id": "et",
+   "label": "Extra time",
+   "start": 90,
+   "end": 122,
+   "kind": "period"
+  },
+  {
+   "id": "m0_15",
+   "label": "0-15 min",
+   "start": 0,
+   "end": 15,
+   "kind": "slide"
+  },
+  {
+   "id": "m5_20",
+   "label": "5-20 min",
+   "start": 5,
+   "end": 20,
+   "kind": "slide"
+  },
+  {
+   "id": "m10_25",
+   "label": "10-25 min",
+   "start": 10,
+   "end": 25,
+   "kind": "slide"
+  },
+  {
+   "id": "m15_30",
+   "label": "15-30 min",
+   "start": 15,
+   "end": 30,
+   "kind": "slide"
+  },
+  {
+   "id": "m20_35",
+   "label": "20-35 min",
+   "start": 20,
+   "end": 35,
+   "kind": "slide"
+  },
+  {
+   "id": "m25_40",
+   "label": "25-40 min",
+   "start": 25,
+   "end": 40,
+   "kind": "slide"
+  },
+  {
+   "id": "m30_45",
+   "label": "30-45 min",
+   "start": 30,
+   "end": 45,
+   "kind": "slide"
+  },
+  {
+   "id": "m35_50",
+   "label": "35-50 min",
+   "start": 35,
+   "end": 50,
+   "kind": "slide"
+  },
+  {
+   "id": "m40_55",
+   "label": "40-55 min",
+   "start": 40,
+   "end": 55,
+   "kind": "slide"
+  },
+  {
+   "id": "m45_60",
+   "label": "45-60 min",
+   "start": 45,
+   "end": 60,
+   "kind": "slide"
+  },
+  {
+   "id": "m50_65",
+   "label": "50-65 min",
+   "start": 50,
+   "end": 65,
+   "kind": "slide"
+  },
+  {
+   "id": "m55_70",
+   "label": "55-70 min",
+   "start": 55,
+   "end": 70,
+   "kind": "slide"
+  },
+  {
+   "id": "m60_75",
+   "label": "60-75 min",
+   "start": 60,
+   "end": 75,
+   "kind": "slide"
+  },
+  {
+   "id": "m65_80",
+   "label": "65-80 min",
+   "start": 65,
+   "end": 80,
+   "kind": "slide"
+  },
+  {
+   "id": "m70_85",
+   "label": "70-85 min",
+   "start": 70,
+   "end": 85,
+   "kind": "slide"
+  },
+  {
+   "id": "m75_90",
+   "label": "75-90 min",
+   "start": 75,
+   "end": 90,
+   "kind": "slide"
+  },
+  {
+   "id": "m80_95",
+   "label": "80-95 min",
+   "start": 80,
+   "end": 95,
+   "kind": "slide"
+  },
+  {
+   "id": "m85_100",
+   "label": "85-100 min",
+   "start": 85,
+   "end": 100,
+   "kind": "slide"
+  },
+  {
+   "id": "m90_105",
+   "label": "90-105 min",
+   "start": 90,
+   "end": 105,
+   "kind": "slide"
+  },
+  {
+   "id": "m95_110",
+   "label": "95-110 min",
+   "start": 95,
+   "end": 110,
+   "kind": "slide"
+  },
+  {
+   "id": "m100_115",
+   "label": "100-115 min",
+   "start": 100,
+   "end": 115,
+   "kind": "slide"
+  },
+  {
+   "id": "m105_120",
+   "label": "105-120 min",
+   "start": 105,
+   "end": 120,
+   "kind": "slide"
+  },
+  {
+   "id": "m107_122",
+   "label": "107-122 min",
+   "start": 107,
+   "end": 122,
+   "kind": "slide"
+  }
+ ],
+ "data": {
+  "full": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 76.6,
+      "y": 24.4,
+      "n": 131
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 46.9,
+      "y": 15.0,
+      "n": 200
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 63.1,
+      "y": 9.2,
+      "n": 79
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 39.3,
+      "y": 34.9,
+      "n": 260
+     },
+     {
+      "id": 6994,
+      "name": "Marten de Roon",
+      "jersey": 15,
+      "role": "MID",
+      "x": 47.9,
+      "y": 42.3,
+      "n": 77
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 78.0,
+      "y": 61.3,
+      "n": 106
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 73.8,
+      "y": 33.1,
+      "n": 32
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 60.2,
+      "y": 44.1,
+      "n": 100
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 55.9,
+      "y": 36.1,
+      "n": 242
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 71.0,
+      "y": 71.7,
+      "n": 121
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 75.3,
+      "y": 49.9,
+      "n": 54
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 11.4,
+      "y": 36.8,
+      "n": 114
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 80.7,
+      "y": 39.4,
+      "n": 50
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 76.7,
+      "y": 28.9,
+      "n": 138
+     },
+     {
+      "id": 21547,
+      "name": "Noa Lang",
+      "jersey": 12,
+      "role": "MID",
+      "x": 49.3,
+      "y": 30.2,
+      "n": 7
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 44.6,
+      "y": 59.0,
+      "n": 268
+     }
+    ],
+    "lines": {
+     "def": 53.0,
+     "mid": 61.3,
+     "att": 76.6
+    },
+    "shape": {
+     "length": 23.6,
+     "width": 62.5,
+     "compact": 0.71,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 2995,
+      "name": "Ángel Di María",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 32.9,
+      "y": 30.5,
+      "n": 33
+     },
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 77.1,
+      "y": 35.9,
+      "n": 230
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 45.7,
+      "y": 25.2,
+      "n": 189
+     },
+     {
+      "id": 5507,
+      "name": "Nicolás Tagliafico",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 43.3,
+      "y": 64.6,
+      "n": 32
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 109.9,
+      "y": 39.5,
+      "n": 63
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 71.3,
+      "y": 20.2,
+      "n": 84
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 52.3,
+      "y": 17.6,
+      "n": 163
+     },
+     {
+      "id": 11456,
+      "name": "Lautaro Martínez",
+      "jersey": 22,
+      "role": "ATT",
+      "x": 44.1,
+      "y": 46.6,
+      "n": 51
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 69.3,
+      "y": 42.0,
+      "n": 129
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 61.8,
+      "y": 69.9,
+      "n": 83
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 66.4,
+      "y": 10.5,
+      "n": 132
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 76.5,
+      "y": 60.1,
+      "n": 100
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 45.1,
+      "y": 51.7,
+      "n": 152
+     },
+     {
+      "id": 28263,
+      "name": "Gonzalo Montiel",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 44.7,
+      "y": 14.2,
+      "n": 33
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 52.1,
+      "y": 8.8,
+      "n": 131
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 42.5,
+      "y": 55.4,
+      "n": 72
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 60.6,
+      "y": 30.7,
+      "n": 209
+     }
+    ],
+    "lines": {
+     "def": 58.4,
+     "mid": 63.2,
+     "att": 78.7
+    },
+    "shape": {
+     "length": 20.3,
+     "width": 61.1,
+     "compact": 0.75,
+     "label": "high line"
+    }
+   }
+  },
+  "p1": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 76.5,
+      "y": 21.9,
+      "n": 96
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 41.6,
+      "y": 14.4,
+      "n": 105
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 61.4,
+      "y": 5.7,
+      "n": 53
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 35.1,
+      "y": 35.6,
+      "n": 137
+     },
+     {
+      "id": 6994,
+      "name": "Marten de Roon",
+      "jersey": 15,
+      "role": "MID",
+      "x": 47.9,
+      "y": 42.3,
+      "n": 77
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 52.1,
+      "y": 34.6,
+      "n": 103
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 73.4,
+      "y": 72.5,
+      "n": 57
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 75.3,
+      "y": 49.9,
+      "n": 54
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 9.6,
+      "y": 35.1,
+      "n": 50
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 72.6,
+      "y": 32.9,
+      "n": 59
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 41.1,
+      "y": 62.0,
+      "n": 118
+     }
+    ],
+    "lines": {
+     "def": 50.5,
+     "mid": 57.6,
+     "att": 75.9
+    },
+    "shape": {
+     "length": 25.4,
+     "width": 66.8,
+     "compact": 0.68,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 75.0,
+      "y": 33.5,
+      "n": 90
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 50.0,
+      "y": 19.9,
+      "n": 56
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 110.7,
+      "y": 39.3,
+      "n": 22
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 53.1,
+      "y": 13.3,
+      "n": 107
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 54.0,
+      "y": 68.1,
+      "n": 43
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 66.3,
+      "y": 9.6,
+      "n": 92
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 77.7,
+      "y": 62.8,
+      "n": 40
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 40.2,
+      "y": 45.6,
+      "n": 54
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 53.9,
+      "y": 7.5,
+      "n": 75
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 38.1,
+      "y": 48.2,
+      "n": 42
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 63.7,
+      "y": 28.6,
+      "n": 73
+     }
+    ],
+    "lines": {
+     "def": 54.6,
+     "mid": 67.7,
+     "att": 76.0
+    },
+    "shape": {
+     "length": 21.4,
+     "width": 60.5,
+     "compact": 0.73,
+     "label": "high line"
+    }
+   }
+  },
+  "p2": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 76.8,
+      "y": 31.2,
+      "n": 35
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 54.4,
+      "y": 15.6,
+      "n": 73
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 66.7,
+      "y": 16.2,
+      "n": 26
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 48.0,
+      "y": 35.4,
+      "n": 102
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 78.1,
+      "y": 61.4,
+      "n": 91
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 87.5,
+      "y": 29.9,
+      "n": 19
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 61.9,
+      "y": 44.8,
+      "n": 92
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 62.4,
+      "y": 39.2,
+      "n": 107
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 74.5,
+      "y": 71.2,
+      "n": 55
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 15.5,
+      "y": 38.3,
+      "n": 43
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 86.4,
+      "y": 40.6,
+      "n": 19
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 82.3,
+      "y": 28.6,
+      "n": 66
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 52.0,
+      "y": 59.8,
+      "n": 111
+     }
+    ],
+    "lines": {
+     "def": 59.1,
+     "mid": 71.2,
+     "att": 83.6
+    },
+    "shape": {
+     "length": 24.5,
+     "width": 55.7,
+     "compact": 0.69,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 86.8,
+      "y": 33.3,
+      "n": 70
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 50.8,
+      "y": 28.4,
+      "n": 66
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 109.3,
+      "y": 39.8,
+      "n": 28
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 75.4,
+      "y": 15.1,
+      "n": 11
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 50.8,
+      "y": 26.0,
+      "n": 56
+     },
+     {
+      "id": 11456,
+      "name": "Lautaro Martínez",
+      "jersey": 22,
+      "role": "ATT",
+      "x": 51.2,
+      "y": 54.7,
+      "n": 13
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 77.9,
+      "y": 44.7,
+      "n": 21
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 70.2,
+      "y": 71.9,
+      "n": 40
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 66.8,
+      "y": 12.5,
+      "n": 40
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 83.9,
+      "y": 52.2,
+      "n": 25
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 53.4,
+      "y": 54.6,
+      "n": 43
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 49.1,
+      "y": 11.5,
+      "n": 41
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 48.6,
+      "y": 65.5,
+      "n": 30
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 68.7,
+      "y": 38.1,
+      "n": 61
+     }
+    ],
+    "lines": {
+     "def": 48.0,
+     "mid": 57.3,
+     "att": 69.8
+    },
+    "shape": {
+     "length": 21.8,
+     "width": 60.4,
+     "compact": 0.73,
+     "label": "mid block"
+    }
+   }
+  },
+  "et": {
+   "home": {
+    "players": [
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 47.7,
+      "y": 15.7,
+      "n": 22
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 23.8,
+      "y": 27.9,
+      "n": 21
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 76.9,
+      "y": 60.4,
+      "n": 15
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 53.7,
+      "y": 37.7,
+      "n": 13
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 40.0,
+      "y": 36.4,
+      "n": 8
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 45.9,
+      "y": 30.7,
+      "n": 32
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 33.8,
+      "y": 69.3,
+      "n": 9
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 7.1,
+      "y": 37.9,
+      "n": 21
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 77.2,
+      "y": 38.6,
+      "n": 31
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 66.7,
+      "y": 12.8,
+      "n": 13
+     },
+     {
+      "id": 21547,
+      "name": "Noa Lang",
+      "jersey": 12,
+      "role": "MID",
+      "x": 49.3,
+      "y": 30.2,
+      "n": 7
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 34.3,
+      "y": 47.7,
+      "n": 39
+     }
+    ],
+    "lines": {
+     "def": 34.9,
+     "mid": 55.8,
+     "att": 65.5
+    },
+    "shape": {
+     "length": 30.6,
+     "width": 56.5,
+     "compact": 0.62,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 2995,
+      "name": "Ángel Di María",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 32.9,
+      "y": 30.5,
+      "n": 33
+     },
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 69.9,
+      "y": 41.7,
+      "n": 70
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 37.1,
+      "y": 26.5,
+      "n": 67
+     },
+     {
+      "id": 5507,
+      "name": "Nicolás Tagliafico",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 36.0,
+      "y": 65.2,
+      "n": 28
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 110.0,
+      "y": 38.9,
+      "n": 13
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 70.6,
+      "y": 21.0,
+      "n": 73
+     },
+     {
+      "id": 11456,
+      "name": "Lautaro Martínez",
+      "jersey": 22,
+      "role": "ATT",
+      "x": 41.7,
+      "y": 43.8,
+      "n": 38
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 67.7,
+      "y": 41.5,
+      "n": 108
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 69.8,
+      "y": 62.6,
+      "n": 35
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 43.5,
+      "y": 55.5,
+      "n": 55
+     },
+     {
+      "id": 28263,
+      "name": "Gonzalo Montiel",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 44.7,
+      "y": 14.2,
+      "n": 33
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 51.4,
+      "y": 7.8,
+      "n": 15
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 51.1,
+      "y": 26.7,
+      "n": 75
+     }
+    ],
+    "lines": {
+     "def": 62.9,
+     "mid": 65.9,
+     "att": 82.8
+    },
+    "shape": {
+     "length": 19.9,
+     "width": 57.4,
+     "compact": 0.75,
+     "label": "high line"
+    }
+   }
+  },
+  "m0_15": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 71.6,
+      "y": 20.1,
+      "n": 18
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 37.8,
+      "y": 14.3,
+      "n": 41
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 52.8,
+      "y": 3.4,
+      "n": 16
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 35.9,
+      "y": 31.6,
+      "n": 46
+     },
+     {
+      "id": 6994,
+      "name": "Marten de Roon",
+      "jersey": 15,
+      "role": "MID",
+      "x": 45.1,
+      "y": 35.0,
+      "n": 26
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 47.6,
+      "y": 34.8,
+      "n": 31
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 76.5,
+      "y": 73.1,
+      "n": 20
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 69.2,
+      "y": 52.2,
+      "n": 18
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 6.1,
+      "y": 37.0,
+      "n": 17
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 63.3,
+      "y": 29.9,
+      "n": 22
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 34.9,
+      "y": 59.6,
+      "n": 33
+     }
+    ],
+    "lines": {
+     "def": 47.6,
+     "mid": 52.0,
+     "att": 70.4
+    },
+    "shape": {
+     "length": 22.8,
+     "width": 69.7,
+     "compact": 0.71,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 79.3,
+      "y": 29.9,
+      "n": 41
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 56.8,
+      "y": 18.1,
+      "n": 26
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 51.9,
+      "y": 7.8,
+      "n": 36
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 45.8,
+      "y": 70.4,
+      "n": 19
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 72.0,
+      "y": 8.3,
+      "n": 48
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 77.2,
+      "y": 61.8,
+      "n": 18
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 38.3,
+      "y": 44.7,
+      "n": 16
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 50.0,
+      "y": 6.1,
+      "n": 34
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 35.1,
+      "y": 40.5,
+      "n": 8
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 63.8,
+      "y": 26.4,
+      "n": 25
+     }
+    ],
+    "lines": {
+     "def": 55.1,
+     "mid": 68.7,
+     "att": 74.0
+    },
+    "shape": {
+     "length": 18.9,
+     "width": 64.3,
+     "compact": 0.76,
+     "label": "high line"
+    }
+   }
+  },
+  "m5_20": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 73.2,
+      "y": 20.4,
+      "n": 26
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 42.7,
+      "y": 13.7,
+      "n": 35
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 56.4,
+      "y": 5.3,
+      "n": 19
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 37.7,
+      "y": 37.4,
+      "n": 65
+     },
+     {
+      "id": 6994,
+      "name": "Marten de Roon",
+      "jersey": 15,
+      "role": "MID",
+      "x": 48.2,
+      "y": 42.1,
+      "n": 29
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 53.4,
+      "y": 32.8,
+      "n": 50
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 83.4,
+      "y": 71.7,
+      "n": 22
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 74.7,
+      "y": 52.6,
+      "n": 25
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 7.1,
+      "y": 38.7,
+      "n": 17
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 69.2,
+      "y": 35.3,
+      "n": 24
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 43.4,
+      "y": 62.1,
+      "n": 50
+     }
+    ],
+    "lines": {
+     "def": 52.7,
+     "mid": 56.9,
+     "att": 74.0
+    },
+    "shape": {
+     "length": 21.3,
+     "width": 66.4,
+     "compact": 0.73,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 82.5,
+      "y": 29.3,
+      "n": 27
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 58.5,
+      "y": 20.1,
+      "n": 17
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 57.0,
+      "y": 8.2,
+      "n": 33
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 50.4,
+      "y": 70.1,
+      "n": 13
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 74.8,
+      "y": 7.3,
+      "n": 27
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 86.5,
+      "y": 62.8,
+      "n": 13
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 28.7,
+      "y": 44.6,
+      "n": 8
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 57.3,
+      "y": 7.1,
+      "n": 29
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 41.3,
+      "y": 51.3,
+      "n": 12
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 67.1,
+      "y": 26.7,
+      "n": 19
+     }
+    ],
+    "lines": {
+     "def": 49.7,
+     "mid": 69.0,
+     "att": 70.1
+    },
+    "shape": {
+     "length": 20.4,
+     "width": 63.0,
+     "compact": 0.75,
+     "label": "mid block"
+    }
+   }
+  },
+  "m10_25": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 79.1,
+      "y": 19.3,
+      "n": 46
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 50.9,
+      "y": 13.7,
+      "n": 31
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 58.5,
+      "y": 5.6,
+      "n": 24
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 36.8,
+      "y": 35.8,
+      "n": 56
+     },
+     {
+      "id": 6994,
+      "name": "Marten de Roon",
+      "jersey": 15,
+      "role": "MID",
+      "x": 50.0,
+      "y": 45.1,
+      "n": 36
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 56.4,
+      "y": 30.9,
+      "n": 49
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 72.3,
+      "y": 70.1,
+      "n": 14
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 78.9,
+      "y": 42.4,
+      "n": 18
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 10.8,
+      "y": 31.0,
+      "n": 11
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 75.3,
+      "y": 22.8,
+      "n": 24
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 46.2,
+      "y": 61.5,
+      "n": 39
+     }
+    ],
+    "lines": {
+     "def": 52.9,
+     "mid": 60.6,
+     "att": 79.0
+    },
+    "shape": {
+     "length": 26.1,
+     "width": 64.6,
+     "compact": 0.67,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 84.4,
+      "y": 30.2,
+      "n": 21
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 51.3,
+      "y": 15.4,
+      "n": 16
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 61.6,
+      "y": 7.1,
+      "n": 30
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 61.3,
+      "y": 74.2,
+      "n": 12
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 73.9,
+      "y": 6.3,
+      "n": 20
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 32.0,
+      "y": 50.2,
+      "n": 10
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 71.1,
+      "y": 6.2,
+      "n": 30
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 47.2,
+      "y": 53.3,
+      "n": 15
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 79.8,
+      "y": 21.5,
+      "n": 18
+     }
+    ],
+    "lines": {
+     "def": 47.3,
+     "mid": 62.2,
+     "att": 70.7
+    },
+    "shape": {
+     "length": 23.4,
+     "width": 68.0,
+     "compact": 0.71,
+     "label": "low block"
+    }
+   }
+  },
+  "m15_30": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 80.5,
+      "y": 22.3,
+      "n": 46
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 49.2,
+      "y": 12.1,
+      "n": 31
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 65.9,
+      "y": 8.1,
+      "n": 19
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 36.2,
+      "y": 36.8,
+      "n": 68
+     },
+     {
+      "id": 6994,
+      "name": "Marten de Roon",
+      "jersey": 15,
+      "role": "MID",
+      "x": 50.6,
+      "y": 47.8,
+      "n": 36
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 58.0,
+      "y": 31.9,
+      "n": 41
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 83.7,
+      "y": 72.5,
+      "n": 16
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 85.4,
+      "y": 48.5,
+      "n": 18
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 13.1,
+      "y": 32.0,
+      "n": 13
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 86.7,
+      "y": 36.6,
+      "n": 22
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 44.7,
+      "y": 63.5,
+      "n": 53
+     }
+    ],
+    "lines": {
+     "def": 56.0,
+     "mid": 65.1,
+     "att": 82.9
+    },
+    "shape": {
+     "length": 26.9,
+     "width": 64.4,
+     "compact": 0.66,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 71.1,
+      "y": 41.2,
+      "n": 23
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 47.5,
+      "y": 26.7,
+      "n": 11
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 109.3,
+      "y": 42.7,
+      "n": 7
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 59.7,
+      "y": 15.1,
+      "n": 42
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 63.2,
+      "y": 72.4,
+      "n": 12
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 61.6,
+      "y": 10.1,
+      "n": 16
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 72.6,
+      "y": 67.1,
+      "n": 9
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 39.4,
+      "y": 53.6,
+      "n": 18
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 75.2,
+      "y": 8.1,
+      "n": 17
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 47.5,
+      "y": 57.7,
+      "n": 16
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 71.5,
+      "y": 35.7,
+      "n": 26
+     }
+    ],
+    "lines": {
+     "def": 51.3,
+     "mid": 63.1,
+     "att": 72.5
+    },
+    "shape": {
+     "length": 21.2,
+     "width": 64.3,
+     "compact": 0.73,
+     "label": "mid block"
+    }
+   }
+  },
+  "m20_35": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 81.4,
+      "y": 25.8,
+      "n": 34
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 42.9,
+      "y": 14.0,
+      "n": 24
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 62.3,
+      "y": 8.1,
+      "n": 10
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 34.8,
+      "y": 36.5,
+      "n": 27
+     },
+     {
+      "id": 6994,
+      "name": "Marten de Roon",
+      "jersey": 15,
+      "role": "MID",
+      "x": 49.4,
+      "y": 46.5,
+      "n": 27
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 56.6,
+      "y": 34.2,
+      "n": 16
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 79.4,
+      "y": 72.3,
+      "n": 11
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 93.4,
+      "y": 41.7,
+      "n": 9
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 11.9,
+      "y": 32.5,
+      "n": 13
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 80.2,
+      "y": 30.3,
+      "n": 18
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 39.9,
+      "y": 63.1,
+      "n": 28
+     }
+    ],
+    "lines": {
+     "def": 51.8,
+     "mid": 62.0,
+     "att": 87.4
+    },
+    "shape": {
+     "length": 35.6,
+     "width": 64.3,
+     "compact": 0.55,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 67.4,
+      "y": 36.9,
+      "n": 33
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 43.3,
+      "y": 19.5,
+      "n": 22
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 109.5,
+      "y": 42.0,
+      "n": 6
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 49.2,
+      "y": 14.8,
+      "n": 60
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 65.3,
+      "y": 68.5,
+      "n": 16
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 55.1,
+      "y": 8.7,
+      "n": 34
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 68.2,
+      "y": 65.2,
+      "n": 11
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 38.9,
+      "y": 46.8,
+      "n": 30
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 49.3,
+      "y": 8.4,
+      "n": 27
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 39.8,
+      "y": 43.3,
+      "n": 17
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 59.7,
+      "y": 29.0,
+      "n": 38
+     }
+    ],
+    "lines": {
+     "def": 58.9,
+     "mid": 70.7,
+     "att": 78.5
+    },
+    "shape": {
+     "length": 19.6,
+     "width": 60.1,
+     "compact": 0.76,
+     "label": "high line"
+    }
+   }
+  },
+  "m25_40": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 64.8,
+      "y": 29.7,
+      "n": 13
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 33.2,
+      "y": 15.1,
+      "n": 27
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 57.4,
+      "y": 7.5,
+      "n": 11
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 33.6,
+      "y": 38.3,
+      "n": 24
+     },
+     {
+      "id": 6994,
+      "name": "Marten de Roon",
+      "jersey": 15,
+      "role": "MID",
+      "x": 49.1,
+      "y": 46.3,
+      "n": 19
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 43.4,
+      "y": 34.0,
+      "n": 18
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 80.0,
+      "y": 70.2,
+      "n": 12
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 77.4,
+      "y": 48.5,
+      "n": 7
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 11.1,
+      "y": 35.9,
+      "n": 14
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 68.0,
+      "y": 42.7,
+      "n": 15
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 46.9,
+      "y": 61.9,
+      "n": 25
+     }
+    ],
+    "lines": {
+     "def": 50.2,
+     "mid": 53.5,
+     "att": 71.1
+    },
+    "shape": {
+     "length": 20.9,
+     "width": 62.7,
+     "compact": 0.74,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 65.7,
+      "y": 37.2,
+      "n": 31
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 46.0,
+      "y": 21.6,
+      "n": 23
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 109.9,
+      "y": 40.6,
+      "n": 9
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 46.9,
+      "y": 19.0,
+      "n": 52
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 57.0,
+      "y": 60.3,
+      "n": 13
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 55.0,
+      "y": 8.8,
+      "n": 32
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 70.5,
+      "y": 62.5,
+      "n": 15
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 39.1,
+      "y": 45.6,
+      "n": 30
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 39.6,
+      "y": 9.5,
+      "n": 20
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 30.3,
+      "y": 41.1,
+      "n": 15
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 56.5,
+      "y": 30.8,
+      "n": 35
+     }
+    ],
+    "lines": {
+     "def": 62.4,
+     "mid": 72.5,
+     "att": 81.9
+    },
+    "shape": {
+     "length": 19.5,
+     "width": 53.7,
+     "compact": 0.76,
+     "label": "high line"
+    }
+   }
+  },
+  "m30_45": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 68.5,
+      "y": 22.2,
+      "n": 13
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 36.2,
+      "y": 17.4,
+      "n": 23
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 52.0,
+      "y": 4.8,
+      "n": 10
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 29.5,
+      "y": 39.1,
+      "n": 17
+     },
+     {
+      "id": 6994,
+      "name": "Marten de Roon",
+      "jersey": 15,
+      "role": "MID",
+      "x": 46.8,
+      "y": 40.9,
+      "n": 11
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 41.4,
+      "y": 32.2,
+      "n": 15
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 68.7,
+      "y": 70.2,
+      "n": 12
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 70.8,
+      "y": 46.5,
+      "n": 7
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 10.0,
+      "y": 35.0,
+      "n": 15
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 55.5,
+      "y": 30.1,
+      "n": 11
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 41.5,
+      "y": 59.5,
+      "n": 20
+     }
+    ],
+    "lines": {
+     "def": 45.6,
+     "mid": 47.9,
+     "att": 69.7
+    },
+    "shape": {
+     "length": 24.1,
+     "width": 65.3,
+     "compact": 0.7,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 70.3,
+      "y": 33.0,
+      "n": 20
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 41.2,
+      "y": 18.1,
+      "n": 18
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 109.9,
+      "y": 38.6,
+      "n": 5
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 45.1,
+      "y": 17.3,
+      "n": 28
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 59.0,
+      "y": 58.4,
+      "n": 10
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 55.8,
+      "y": 9.0,
+      "n": 21
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 76.2,
+      "y": 58.2,
+      "n": 9
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 39.5,
+      "y": 39.3,
+      "n": 14
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 42.8,
+      "y": 10.0,
+      "n": 20
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 29.5,
+      "y": 37.6,
+      "n": 12
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 54.3,
+      "y": 22.1,
+      "n": 21
+     }
+    ],
+    "lines": {
+     "def": 59.2,
+     "mid": 73.7,
+     "att": 84.7
+    },
+    "shape": {
+     "length": 25.5,
+     "width": 49.4,
+     "compact": 0.68,
+     "label": "high line"
+    }
+   }
+  },
+  "m35_50": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 77.0,
+      "y": 17.8,
+      "n": 30
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 42.4,
+      "y": 18.0,
+      "n": 39
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 62.4,
+      "y": 10.2,
+      "n": 24
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 32.5,
+      "y": 35.4,
+      "n": 26
+     },
+     {
+      "id": 6994,
+      "name": "Marten de Roon",
+      "jersey": 15,
+      "role": "MID",
+      "x": 50.6,
+      "y": 42.6,
+      "n": 13
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 67.1,
+      "y": 53.4,
+      "n": 15
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 53.2,
+      "y": 31.4,
+      "n": 10
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 48.9,
+      "y": 39.5,
+      "n": 35
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 72.8,
+      "y": 74.8,
+      "n": 30
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 70.7,
+      "y": 50.0,
+      "n": 17
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 11.2,
+      "y": 37.9,
+      "n": 20
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 85.3,
+      "y": 47.4,
+      "n": 16
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 41.4,
+      "y": 62.7,
+      "n": 33
+     }
+    ],
+    "lines": {
+     "def": 50.3,
+     "mid": 61.0,
+     "att": 73.9
+    },
+    "shape": {
+     "length": 23.6,
+     "width": 64.6,
+     "compact": 0.7,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 78.6,
+      "y": 31.7,
+      "n": 19
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 37.4,
+      "y": 26.1,
+      "n": 23
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 110.3,
+      "y": 40.2,
+      "n": 13
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 54.6,
+      "y": 21.2,
+      "n": 17
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 56.0,
+      "y": 65.1,
+      "n": 14
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 62.2,
+      "y": 10.1,
+      "n": 22
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 59.3,
+      "y": 43.3,
+      "n": 9
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 39.5,
+      "y": 41.0,
+      "n": 9
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 50.7,
+      "y": 7.1,
+      "n": 15
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 31.6,
+      "y": 49.6,
+      "n": 14
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 59.8,
+      "y": 25.1,
+      "n": 16
+     }
+    ],
+    "lines": {
+     "def": 58.7,
+     "mid": 68.7,
+     "att": 85.5
+    },
+    "shape": {
+     "length": 26.8,
+     "width": 58.1,
+     "compact": 0.67,
+     "label": "high line"
+    }
+   }
+  },
+  "m40_55": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 78.1,
+      "y": 23.5,
+      "n": 41
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 47.1,
+      "y": 19.4,
+      "n": 38
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 67.5,
+      "y": 12.6,
+      "n": 25
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 38.5,
+      "y": 42.3,
+      "n": 43
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 67.7,
+      "y": 47.9,
+      "n": 26
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 53.3,
+      "y": 38.7,
+      "n": 37
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 60.7,
+      "y": 38.5,
+      "n": 45
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 75.6,
+      "y": 77.3,
+      "n": 36
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 72.6,
+      "y": 50.9,
+      "n": 14
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 10.4,
+      "y": 37.3,
+      "n": 16
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 87.0,
+      "y": 50.1,
+      "n": 24
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 44.9,
+      "y": 65.9,
+      "n": 43
+     }
+    ],
+    "lines": {
+     "def": 54.7,
+     "mid": 60.6,
+     "att": 79.2
+    },
+    "shape": {
+     "length": 24.5,
+     "width": 64.7,
+     "compact": 0.69,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 84.4,
+      "y": 32.9,
+      "n": 32
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 41.7,
+      "y": 27.8,
+      "n": 25
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 111.4,
+      "y": 36.8,
+      "n": 19
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 59.3,
+      "y": 20.5,
+      "n": 23
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 58.2,
+      "y": 68.5,
+      "n": 9
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 69.7,
+      "y": 12.3,
+      "n": 36
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 75.5,
+      "y": 47.6,
+      "n": 11
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 54.2,
+      "y": 41.5,
+      "n": 17
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 50.3,
+      "y": 8.2,
+      "n": 19
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 48.8,
+      "y": 54.6,
+      "n": 15
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 66.8,
+      "y": 32.3,
+      "n": 24
+     }
+    ],
+    "lines": {
+     "def": 52.4,
+     "mid": 59.9,
+     "att": 74.8
+    },
+    "shape": {
+     "length": 22.4,
+     "width": 60.2,
+     "compact": 0.72,
+     "label": "mid block"
+    }
+   }
+  },
+  "m45_60": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 78.5,
+      "y": 26.5,
+      "n": 41
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 45.3,
+      "y": 18.5,
+      "n": 38
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 68.1,
+      "y": 11.5,
+      "n": 31
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 42.1,
+      "y": 40.9,
+      "n": 50
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 73.0,
+      "y": 49.7,
+      "n": 46
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 57.9,
+      "y": 44.8,
+      "n": 49
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 62.0,
+      "y": 43.6,
+      "n": 69
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 79.9,
+      "y": 76.5,
+      "n": 38
+     },
+     {
+      "id": 8259,
+      "name": "Steven Bergwijn",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 71.7,
+      "y": 50.6,
+      "n": 11
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 11.0,
+      "y": 40.7,
+      "n": 9
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 88.4,
+      "y": 55.3,
+      "n": 28
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 54.7,
+      "y": 68.3,
+      "n": 49
+     }
+    ],
+    "lines": {
+     "def": 58.0,
+     "mid": 64.3,
+     "att": 79.5
+    },
+    "shape": {
+     "length": 21.5,
+     "width": 65.0,
+     "compact": 0.73,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 83.9,
+      "y": 33.9,
+      "n": 53
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 47.6,
+      "y": 30.5,
+      "n": 32
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 111.1,
+      "y": 39.8,
+      "n": 21
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 53.9,
+      "y": 24.1,
+      "n": 41
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 68.4,
+      "y": 71.9,
+      "n": 25
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 68.2,
+      "y": 12.3,
+      "n": 41
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 80.1,
+      "y": 54.4,
+      "n": 20
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 54.1,
+      "y": 51.2,
+      "n": 32
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 41.6,
+      "y": 9.5,
+      "n": 20
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 53.7,
+      "y": 62.9,
+      "n": 23
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 69.9,
+      "y": 35.3,
+      "n": 39
+     }
+    ],
+    "lines": {
+     "def": 51.5,
+     "mid": 60.7,
+     "att": 69.3
+    },
+    "shape": {
+     "length": 17.8,
+     "width": 62.4,
+     "compact": 0.78,
+     "label": "mid block"
+    }
+   }
+  },
+  "m50_65": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 74.5,
+      "y": 35.5,
+      "n": 23
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 42.7,
+      "y": 17.5,
+      "n": 22
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 75.8,
+      "y": 16.0,
+      "n": 16
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 41.6,
+      "y": 42.6,
+      "n": 44
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 75.8,
+      "y": 47.9,
+      "n": 31
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 60.5,
+      "y": 47.9,
+      "n": 43
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 65.1,
+      "y": 42.1,
+      "n": 51
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 83.3,
+      "y": 73.0,
+      "n": 21
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 5.9,
+      "y": 42.0,
+      "n": 5
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 83.0,
+      "y": 54.3,
+      "n": 20
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 58.5,
+      "y": 69.1,
+      "n": 37
+     }
+    ],
+    "lines": {
+     "def": 60.4,
+     "mid": 67.1,
+     "att": 78.7
+    },
+    "shape": {
+     "length": 18.3,
+     "width": 57.0,
+     "compact": 0.77,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 86.9,
+      "y": 35.4,
+      "n": 43
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 61.8,
+      "y": 33.5,
+      "n": 25
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 111.9,
+      "y": 39.8,
+      "n": 15
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 54.3,
+      "y": 31.3,
+      "n": 40
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 75.3,
+      "y": 74.1,
+      "n": 23
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 77.9,
+      "y": 15.8,
+      "n": 21
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 88.8,
+      "y": 60.1,
+      "n": 16
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 58.4,
+      "y": 57.7,
+      "n": 32
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 47.3,
+      "y": 12.4,
+      "n": 14
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 63.6,
+      "y": 67.1,
+      "n": 18
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 75.7,
+      "y": 43.2,
+      "n": 35
+     }
+    ],
+    "lines": {
+     "def": 44.8,
+     "mid": 57.2,
+     "att": 57.3
+    },
+    "shape": {
+     "length": 12.5,
+     "width": 61.7,
+     "compact": 0.84,
+     "label": "low block"
+    }
+   }
+  },
+  "m55_70": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 75.1,
+      "y": 37.9,
+      "n": 13
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 50.9,
+      "y": 13.1,
+      "n": 25
+     },
+     {
+      "id": 3311,
+      "name": "Daley Blind",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 75.7,
+      "y": 17.0,
+      "n": 9
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 47.1,
+      "y": 37.8,
+      "n": 34
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 77.4,
+      "y": 62.3,
+      "n": 34
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 71.3,
+      "y": 57.2,
+      "n": 26
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 61.5,
+      "y": 49.3,
+      "n": 53
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 84.0,
+      "y": 66.0,
+      "n": 10
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 8.6,
+      "y": 41.3,
+      "n": 10
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 73.3,
+      "y": 32.4,
+      "n": 18
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 50.0,
+      "y": 63.4,
+      "n": 49
+     }
+    ],
+    "lines": {
+     "def": 61.6,
+     "mid": 70.1,
+     "att": 74.2
+    },
+    "shape": {
+     "length": 12.6,
+     "width": 53.0,
+     "compact": 0.84,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 83.9,
+      "y": 35.1,
+      "n": 29
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 63.6,
+      "y": 34.1,
+      "n": 21
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 110.0,
+      "y": 52.1,
+      "n": 5
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 46.7,
+      "y": 29.3,
+      "n": 35
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 71.3,
+      "y": 73.4,
+      "n": 26
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 66.9,
+      "y": 20.3,
+      "n": 12
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 83.1,
+      "y": 60.8,
+      "n": 11
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 53.2,
+      "y": 64.1,
+      "n": 25
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 30.6,
+      "y": 9.7,
+      "n": 13
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 48.4,
+      "y": 68.6,
+      "n": 20
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 75.3,
+      "y": 44.0,
+      "n": 26
+     }
+    ],
+    "lines": {
+     "def": 52.8,
+     "mid": 61.6,
+     "att": 64.0
+    },
+    "shape": {
+     "length": 11.2,
+     "width": 63.7,
+     "compact": 0.86,
+     "label": "mid block"
+    }
+   }
+  },
+  "m60_75": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "MID",
+      "x": 69.2,
+      "y": 35.5,
+      "n": 10
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 51.7,
+      "y": 11.5,
+      "n": 21
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 46.3,
+      "y": 36.3,
+      "n": 20
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 77.5,
+      "y": 77.0,
+      "n": 16
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 70.8,
+      "y": 51.7,
+      "n": 14
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 58.9,
+      "y": 46.6,
+      "n": 28
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 10.5,
+      "y": 39.6,
+      "n": 12
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 68.1,
+      "y": 12.7,
+      "n": 11
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 41.6,
+      "y": 59.6,
+      "n": 28
+     }
+    ],
+    "lines": {
+     "def": 46.5,
+     "mid": 66.3,
+     "att": 72.8
+    },
+    "shape": {
+     "length": 26.3,
+     "width": 65.5,
+     "compact": 0.67,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 91.8,
+      "y": 36.6,
+      "n": 6
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 57.3,
+      "y": 31.6,
+      "n": 14
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 42.4,
+      "y": 30.6,
+      "n": 16
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 62.5,
+      "y": 70.2,
+      "n": 12
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 59.7,
+      "y": 22.1,
+      "n": 6
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 48.9,
+      "y": 62.0,
+      "n": 12
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 42.1,
+      "y": 8.8,
+      "n": 12
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 39.8,
+      "y": 66.8,
+      "n": 10
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 73.9,
+      "y": 44.2,
+      "n": 13
+     }
+    ],
+    "lines": {
+     "def": 56.0,
+     "mid": 64.9,
+     "att": 71.5
+    },
+    "shape": {
+     "length": 15.5,
+     "width": 61.4,
+     "compact": 0.81,
+     "label": "high line"
+    }
+   }
+  },
+  "m65_80": {
+   "home": {
+    "players": [
+     {
+      "id": 2988,
+      "name": "Memphis Depay",
+      "jersey": 10,
+      "role": "MID",
+      "x": 77.9,
+      "y": 34.1,
+      "n": 9
+     },
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 61.2,
+      "y": 9.3,
+      "n": 24
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 50.9,
+      "y": 31.6,
+      "n": 24
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 78.9,
+      "y": 76.8,
+      "n": 19
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 69.6,
+      "y": 54.5,
+      "n": 10
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 61.7,
+      "y": 45.5,
+      "n": 28
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 70.6,
+      "y": 72.6,
+      "n": 5
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 15.5,
+      "y": 34.7,
+      "n": 11
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 82.1,
+      "y": 32.0,
+      "n": 6
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 72.1,
+      "y": 9.8,
+      "n": 14
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 44.2,
+      "y": 56.7,
+      "n": 35
+     }
+    ],
+    "lines": {
+     "def": 56.7,
+     "mid": 69.7,
+     "att": 77.7
+    },
+    "shape": {
+     "length": 21.0,
+     "width": 67.5,
+     "compact": 0.74,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 84.5,
+      "y": 23.3,
+      "n": 12
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 47.6,
+      "y": 29.4,
+      "n": 11
+     },
+     {
+      "id": 7797,
+      "name": "Rodrigo De Paul",
+      "jersey": 7,
+      "role": "MID",
+      "x": 29.7,
+      "y": 6.0,
+      "n": 5
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 78.0,
+      "y": 57.7,
+      "n": 6
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 65.8,
+      "y": 69.0,
+      "n": 10
+     },
+     {
+      "id": 20572,
+      "name": "Cristian Romero",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 59.7,
+      "y": 22.1,
+      "n": 6
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 102.3,
+      "y": 55.8,
+      "n": 5
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 47.7,
+      "y": 53.2,
+      "n": 6
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 45.7,
+      "y": 8.1,
+      "n": 11
+     },
+     {
+      "id": 29560,
+      "name": "Julián Álvarez",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 36.6,
+      "y": 74.6,
+      "n": 7
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 67.4,
+      "y": 34.5,
+      "n": 7
+     }
+    ],
+    "lines": {
+     "def": 48.4,
+     "mid": 64.3,
+     "att": 77.9
+    },
+    "shape": {
+     "length": 29.5,
+     "width": 68.6,
+     "compact": 0.63,
+     "label": "mid block"
+    }
+   }
+  },
+  "m70_85": {
+   "home": {
+    "players": [
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 58.2,
+      "y": 11.1,
+      "n": 14
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 43.3,
+      "y": 23.3,
+      "n": 21
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 93.4,
+      "y": 74.2,
+      "n": 16
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 89.2,
+      "y": 36.9,
+      "n": 6
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 74.3,
+      "y": 65.1,
+      "n": 6
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 69.1,
+      "y": 20.6,
+      "n": 7
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 62.1,
+      "y": 72.2,
+      "n": 7
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 27.0,
+      "y": 33.3,
+      "n": 9
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 102.3,
+      "y": 44.1,
+      "n": 5
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 86.2,
+      "y": 9.5,
+      "n": 12
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 50.5,
+      "y": 51.0,
+      "n": 19
+     }
+    ],
+    "lines": {
+     "def": 53.5,
+     "mid": 80.8,
+     "att": 95.7
+    },
+    "shape": {
+     "length": 42.2,
+     "width": 64.7,
+     "compact": 0.47,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 88.9,
+      "y": 25.0,
+      "n": 11
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 46.5,
+      "y": 29.0,
+      "n": 8
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 76.0,
+      "y": 11.3,
+      "n": 6
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 70.2,
+      "y": 54.3,
+      "n": 6
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 76.7,
+      "y": 69.4,
+      "n": 7
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 105.2,
+      "y": 53.8,
+      "n": 5
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 48.8,
+      "y": 40.8,
+      "n": 6
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 67.9,
+      "y": 14.6,
+      "n": 7
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 54.8,
+      "y": 32.5,
+      "n": 11
+     }
+    ],
+    "lines": {
+     "def": 37.1,
+     "mid": 62.0,
+     "att": null
+    },
+    "shape": null
+   }
+  },
+  "m75_90": {
+   "home": {
+    "players": [
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 63.6,
+      "y": 11.4,
+      "n": 18
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 50.5,
+      "y": 22.9,
+      "n": 28
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 89.8,
+      "y": 71.7,
+      "n": 20
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 89.6,
+      "y": 37.3,
+      "n": 8
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 65.2,
+      "y": 37.6,
+      "n": 19
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 64.6,
+      "y": 22.4,
+      "n": 17
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 66.8,
+      "y": 67.0,
+      "n": 15
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 26.8,
+      "y": 37.0,
+      "n": 12
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 98.6,
+      "y": 45.9,
+      "n": 7
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 85.8,
+      "y": 8.5,
+      "n": 17
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 51.5,
+      "y": 49.2,
+      "n": 32
+     }
+    ],
+    "lines": {
+     "def": 58.1,
+     "mid": 76.3,
+     "att": 94.1
+    },
+    "shape": {
+     "length": 36.0,
+     "width": 63.2,
+     "compact": 0.55,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 90.3,
+      "y": 28.9,
+      "n": 16
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 52.2,
+      "y": 25.6,
+      "n": 13
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 105.0,
+      "y": 32.7,
+      "n": 7
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 73.7,
+      "y": 13.4,
+      "n": 10
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 71.4,
+      "y": 43.3,
+      "n": 11
+     },
+     {
+      "id": 19597,
+      "name": "Marcos Acuña",
+      "jersey": 8,
+      "role": "DEF",
+      "x": 90.5,
+      "y": 73.9,
+      "n": 5
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 105.2,
+      "y": 53.8,
+      "n": 5
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 81.3,
+      "y": 14.7,
+      "n": 5
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 56.4,
+      "y": 37.1,
+      "n": 9
+     }
+    ],
+    "lines": {
+     "def": 31.8,
+     "mid": 56.1,
+     "att": null
+    },
+    "shape": null
+   }
+  },
+  "m80_95": {
+   "home": {
+    "players": [
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 56.0,
+      "y": 11.7,
+      "n": 24
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 47.6,
+      "y": 30.3,
+      "n": 34
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 86.2,
+      "y": 70.8,
+      "n": 24
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 94.3,
+      "y": 28.0,
+      "n": 9
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 64.1,
+      "y": 43.1,
+      "n": 26
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 52.4,
+      "y": 25.8,
+      "n": 27
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 61.2,
+      "y": 64.5,
+      "n": 15
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 20.0,
+      "y": 36.2,
+      "n": 19
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 88.4,
+      "y": 41.2,
+      "n": 9
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 81.6,
+      "y": 8.8,
+      "n": 29
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 53.2,
+      "y": 51.8,
+      "n": 38
+     }
+    ],
+    "lines": {
+     "def": 54.5,
+     "mid": 71.0,
+     "att": 91.3
+    },
+    "shape": {
+     "length": 36.8,
+     "width": 62.0,
+     "compact": 0.54,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 79.7,
+      "y": 37.2,
+      "n": 31
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 42.9,
+      "y": 25.7,
+      "n": 15
+     },
+     {
+      "id": 5507,
+      "name": "Nicolás Tagliafico",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 42.1,
+      "y": 66.1,
+      "n": 10
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 107.3,
+      "y": 43.9,
+      "n": 10
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 71.4,
+      "y": 13.4,
+      "n": 33
+     },
+     {
+      "id": 11456,
+      "name": "Lautaro Martínez",
+      "jersey": 22,
+      "role": "ATT",
+      "x": 59.7,
+      "y": 46.6,
+      "n": 10
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 68.4,
+      "y": 36.8,
+      "n": 32
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 72.8,
+      "y": 59.9,
+      "n": 13
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 36.8,
+      "y": 58.6,
+      "n": 8
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 55.3,
+      "y": 21.9,
+      "n": 26
+     }
+    ],
+    "lines": {
+     "def": 53.5,
+     "mid": 66.5,
+     "att": 68.7
+    },
+    "shape": {
+     "length": 15.2,
+     "width": 52.7,
+     "compact": 0.81,
+     "label": "mid block"
+    }
+   }
+  },
+  "m85_100": {
+   "home": {
+    "players": [
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 60.2,
+      "y": 14.0,
+      "n": 27
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 56.3,
+      "y": 34.6,
+      "n": 25
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 76.6,
+      "y": 66.4,
+      "n": 22
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 80.2,
+      "y": 23.6,
+      "n": 10
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 56.7,
+      "y": 35.1,
+      "n": 27
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 55.6,
+      "y": 26.8,
+      "n": 41
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 47.9,
+      "y": 65.0,
+      "n": 24
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 12.8,
+      "y": 38.3,
+      "n": 27
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 80.8,
+      "y": 43.1,
+      "n": 24
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 80.4,
+      "y": 9.9,
+      "n": 26
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 44.5,
+      "y": 49.6,
+      "n": 43
+     }
+    ],
+    "lines": {
+     "def": 52.2,
+     "mid": 67.3,
+     "att": 80.5
+    },
+    "shape": {
+     "length": 28.3,
+     "width": 56.5,
+     "compact": 0.65,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 75.1,
+      "y": 38.3,
+      "n": 57
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 42.3,
+      "y": 29.2,
+      "n": 21
+     },
+     {
+      "id": 5507,
+      "name": "Nicolás Tagliafico",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 43.0,
+      "y": 68.0,
+      "n": 12
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 106.9,
+      "y": 41.5,
+      "n": 15
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 71.0,
+      "y": 15.0,
+      "n": 43
+     },
+     {
+      "id": 11456,
+      "name": "Lautaro Martínez",
+      "jersey": 22,
+      "role": "ATT",
+      "x": 51.7,
+      "y": 56.3,
+      "n": 16
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 70.3,
+      "y": 39.8,
+      "n": 58
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 71.9,
+      "y": 61.6,
+      "n": 26
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 45.4,
+      "y": 52.2,
+      "n": 20
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 65.1,
+      "y": 12.4,
+      "n": 12
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 57.2,
+      "y": 23.5,
+      "n": 35
+     }
+    ],
+    "lines": {
+     "def": 54.8,
+     "mid": 62.4,
+     "att": 73.0
+    },
+    "shape": {
+     "length": 18.2,
+     "width": 55.6,
+     "compact": 0.77,
+     "label": "high line"
+    }
+   }
+  },
+  "m90_105": {
+   "home": {
+    "players": [
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 55.1,
+      "y": 14.8,
+      "n": 24
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 39.6,
+      "y": 32.2,
+      "n": 27
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 73.3,
+      "y": 64.6,
+      "n": 17
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 79.6,
+      "y": 25.4,
+      "n": 15
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 52.0,
+      "y": 42.5,
+      "n": 17
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 49.0,
+      "y": 29.2,
+      "n": 40
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 36.4,
+      "y": 66.2,
+      "n": 16
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 9.6,
+      "y": 36.0,
+      "n": 28
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 79.5,
+      "y": 40.8,
+      "n": 24
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 75.9,
+      "y": 10.3,
+      "n": 23
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 35.1,
+      "y": 50.2,
+      "n": 40
+     }
+    ],
+    "lines": {
+     "def": 41.6,
+     "mid": 62.6,
+     "att": 79.6
+    },
+    "shape": {
+     "length": 38.0,
+     "width": 55.9,
+     "compact": 0.53,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 72.0,
+      "y": 38.2,
+      "n": 55
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 41.8,
+      "y": 27.0,
+      "n": 29
+     },
+     {
+      "id": 5507,
+      "name": "Nicolás Tagliafico",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 35.3,
+      "y": 67.1,
+      "n": 12
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 109.2,
+      "y": 40.8,
+      "n": 14
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 70.9,
+      "y": 15.2,
+      "n": 46
+     },
+     {
+      "id": 11456,
+      "name": "Lautaro Martínez",
+      "jersey": 22,
+      "role": "ATT",
+      "x": 48.7,
+      "y": 47.2,
+      "n": 25
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 69.0,
+      "y": 41.4,
+      "n": 67
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 71.5,
+      "y": 61.4,
+      "n": 27
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 49.6,
+      "y": 52.8,
+      "n": 27
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 54.1,
+      "y": 10.3,
+      "n": 23
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 56.8,
+      "y": 23.5,
+      "n": 34
+     }
+    ],
+    "lines": {
+     "def": 59.2,
+     "mid": 61.5,
+     "att": 74.8
+    },
+    "shape": {
+     "length": 15.6,
+     "width": 56.8,
+     "compact": 0.81,
+     "label": "high line"
+    }
+   }
+  },
+  "m95_110": {
+   "home": {
+    "players": [
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 57.3,
+      "y": 21.8,
+      "n": 11
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 36.4,
+      "y": 26.4,
+      "n": 13
+     },
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 71.3,
+      "y": 60.5,
+      "n": 10
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 71.4,
+      "y": 32.0,
+      "n": 14
+     },
+     {
+      "id": 7891,
+      "name": "Teun Koopmeiners",
+      "jersey": 20,
+      "role": "MID",
+      "x": 47.5,
+      "y": 33.9,
+      "n": 11
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 52.0,
+      "y": 30.3,
+      "n": 28
+     },
+     {
+      "id": 8125,
+      "name": "Denzel Dumfries",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 30.9,
+      "y": 67.6,
+      "n": 12
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 7.9,
+      "y": 39.0,
+      "n": 24
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 79.8,
+      "y": 42.2,
+      "n": 21
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 64.0,
+      "y": 15.6,
+      "n": 10
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 28.5,
+      "y": 48.6,
+      "n": 29
+     }
+    ],
+    "lines": {
+     "def": 38.3,
+     "mid": 58.7,
+     "att": 75.6
+    },
+    "shape": {
+     "length": 37.3,
+     "width": 52.1,
+     "compact": 0.53,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 71.1,
+      "y": 42.3,
+      "n": 40
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 41.8,
+      "y": 21.6,
+      "n": 41
+     },
+     {
+      "id": 5507,
+      "name": "Nicolás Tagliafico",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 53.4,
+      "y": 70.5,
+      "n": 8
+     },
+     {
+      "id": 6909,
+      "name": "Emiliano Martínez",
+      "jersey": 23,
+      "role": "GK",
+      "x": 108.4,
+      "y": 33.0,
+      "n": 7
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 74.2,
+      "y": 19.3,
+      "n": 31
+     },
+     {
+      "id": 11456,
+      "name": "Lautaro Martínez",
+      "jersey": 22,
+      "role": "ATT",
+      "x": 50.9,
+      "y": 50.0,
+      "n": 27
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 70.3,
+      "y": 41.9,
+      "n": 63
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 74.5,
+      "y": 62.3,
+      "n": 23
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 54.1,
+      "y": 48.7,
+      "n": 27
+     },
+     {
+      "id": 28263,
+      "name": "Gonzalo Montiel",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 45.1,
+      "y": 6.1,
+      "n": 14
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 52.1,
+      "y": 9.5,
+      "n": 22
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 62.4,
+      "y": 28.9,
+      "n": 24
+     }
+    ],
+    "lines": {
+     "def": 58.3,
+     "mid": 57.7,
+     "att": 73.7
+    },
+    "shape": {
+     "length": 15.4,
+     "width": 64.5,
+     "compact": 0.81,
+     "label": "high line"
+    }
+   }
+  },
+  "m100_115": {
+   "home": {
+    "players": [
+     {
+      "id": 3306,
+      "name": "Nathan Aké",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 46.0,
+      "y": 27.5,
+      "n": 5
+     },
+     {
+      "id": 3669,
+      "name": "Virgil van Dijk",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 17.5,
+      "y": 22.4,
+      "n": 12
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 69.6,
+      "y": 33.6,
+      "n": 12
+     },
+     {
+      "id": 8118,
+      "name": "Frenkie de Jong",
+      "jersey": 21,
+      "role": "MID",
+      "x": 34.8,
+      "y": 32.5,
+      "n": 10
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 7.0,
+      "y": 36.7,
+      "n": 12
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 87.7,
+      "y": 32.0,
+      "n": 7
+     },
+     {
+      "id": 20750,
+      "name": "Cody Gakpo",
+      "jersey": 8,
+      "role": "MID",
+      "x": 54.3,
+      "y": 23.3,
+      "n": 6
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 37.7,
+      "y": 54.0,
+      "n": 19
+     }
+    ],
+    "lines": {
+     "def": 33.7,
+     "mid": 44.5,
+     "att": 78.6
+    },
+    "shape": {
+     "length": 44.9,
+     "width": 31.6,
+     "compact": 0.44,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 2995,
+      "name": "Ángel Di María",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 35.4,
+      "y": 13.0,
+      "n": 12
+     },
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 71.4,
+      "y": 47.7,
+      "n": 13
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 41.8,
+      "y": 19.9,
+      "n": 41
+     },
+     {
+      "id": 5507,
+      "name": "Nicolás Tagliafico",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 58.4,
+      "y": 62.3,
+      "n": 11
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 77.6,
+      "y": 20.7,
+      "n": 19
+     },
+     {
+      "id": 11456,
+      "name": "Lautaro Martínez",
+      "jersey": 22,
+      "role": "ATT",
+      "x": 41.6,
+      "y": 42.8,
+      "n": 28
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 68.2,
+      "y": 43.1,
+      "n": 46
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 70.6,
+      "y": 63.8,
+      "n": 11
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 49.4,
+      "y": 52.3,
+      "n": 15
+     },
+     {
+      "id": 28263,
+      "name": "Gonzalo Montiel",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 38.9,
+      "y": 9.8,
+      "n": 21
+     },
+     {
+      "id": 29201,
+      "name": "Nahuel Molina",
+      "jersey": 26,
+      "role": "DEF",
+      "x": 46.0,
+      "y": 7.6,
+      "n": 12
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 49.4,
+      "y": 27.0,
+      "n": 24
+     }
+    ],
+    "lines": {
+     "def": 59.5,
+     "mid": 64.3,
+     "att": 80.4
+    },
+    "shape": {
+     "length": 20.9,
+     "width": 56.2,
+     "compact": 0.74,
+     "label": "high line"
+    }
+   }
+  },
+  "m105_120": {
+   "home": {
+    "players": [
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 88.8,
+      "y": 65.3,
+      "n": 6
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 47.1,
+      "y": 41.6,
+      "n": 8
+     },
+     {
+      "id": 8326,
+      "name": "Andries Noppert",
+      "jersey": 23,
+      "role": "GK",
+      "x": 6.9,
+      "y": 42.2,
+      "n": 7
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 79.0,
+      "y": 34.5,
+      "n": 13
+     },
+     {
+      "id": 21547,
+      "name": "Noa Lang",
+      "jersey": 12,
+      "role": "MID",
+      "x": 43.4,
+      "y": 26.2,
+      "n": 5
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 54.7,
+      "y": 53.0,
+      "n": 13
+     }
+    ],
+    "lines": {
+     "def": null,
+     "mid": 66.1,
+     "att": 63.1
+    },
+    "shape": null
+   },
+   "away": {
+    "players": [
+     {
+      "id": 2995,
+      "name": "Ángel Di María",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 33.9,
+      "y": 31.4,
+      "n": 32
+     },
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 64.3,
+      "y": 53.7,
+      "n": 16
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 38.0,
+      "y": 25.6,
+      "n": 43
+     },
+     {
+      "id": 5507,
+      "name": "Nicolás Tagliafico",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 36.6,
+      "y": 63.8,
+      "n": 16
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 66.9,
+      "y": 29.9,
+      "n": 24
+     },
+     {
+      "id": 11456,
+      "name": "Lautaro Martínez",
+      "jersey": 22,
+      "role": "ATT",
+      "x": 34.4,
+      "y": 44.8,
+      "n": 22
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 67.8,
+      "y": 42.1,
+      "n": 49
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 71.5,
+      "y": 64.5,
+      "n": 10
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 37.9,
+      "y": 57.1,
+      "n": 29
+     },
+     {
+      "id": 28263,
+      "name": "Gonzalo Montiel",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 44.7,
+      "y": 14.2,
+      "n": 33
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 48.2,
+      "y": 30.5,
+      "n": 39
+     }
+    ],
+    "lines": {
+     "def": 63.2,
+     "mid": 68.7,
+     "att": 84.6
+    },
+    "shape": {
+     "length": 21.4,
+     "width": 50.3,
+     "compact": 0.73,
+     "label": "high line"
+    }
+   }
+  },
+  "m107_122": {
+   "home": {
+    "players": [
+     {
+      "id": 7745,
+      "name": "Steven Berghuis",
+      "jersey": 11,
+      "role": "MID",
+      "x": 89.1,
+      "y": 63.1,
+      "n": 7
+     },
+     {
+      "id": 7829,
+      "name": "Wout Weghorst",
+      "jersey": 19,
+      "role": "ATT",
+      "x": 39.2,
+      "y": 45.9,
+      "n": 5
+     },
+     {
+      "id": 20033,
+      "name": "Luuk de Jong",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 79.0,
+      "y": 36.8,
+      "n": 14
+     },
+     {
+      "id": 21547,
+      "name": "Noa Lang",
+      "jersey": 12,
+      "role": "MID",
+      "x": 49.3,
+      "y": 30.2,
+      "n": 7
+     },
+     {
+      "id": 21809,
+      "name": "Jurriën Timber",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 56.3,
+      "y": 51.5,
+      "n": 12
+     }
+    ],
+    "lines": {
+     "def": null,
+     "mid": 69.2,
+     "att": 59.1
+    },
+    "shape": null
+   },
+   "away": {
+    "players": [
+     {
+      "id": 2995,
+      "name": "Ángel Di María",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 32.9,
+      "y": 30.5,
+      "n": 33
+     },
+     {
+      "id": 3090,
+      "name": "Nicolás Otamendi",
+      "jersey": 19,
+      "role": "DEF",
+      "x": 63.1,
+      "y": 55.1,
+      "n": 15
+     },
+     {
+      "id": 5503,
+      "name": "Lionel Messi",
+      "jersey": 10,
+      "role": "ATT",
+      "x": 36.3,
+      "y": 26.7,
+      "n": 39
+     },
+     {
+      "id": 5507,
+      "name": "Nicolás Tagliafico",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 33.2,
+      "y": 61.2,
+      "n": 13
+     },
+     {
+      "id": 7161,
+      "name": "Germán Pezzella",
+      "jersey": 6,
+      "role": "DEF",
+      "x": 69.0,
+      "y": 31.9,
+      "n": 24
+     },
+     {
+      "id": 11456,
+      "name": "Lautaro Martínez",
+      "jersey": 22,
+      "role": "ATT",
+      "x": 33.2,
+      "y": 45.1,
+      "n": 21
+     },
+     {
+      "id": 16308,
+      "name": "Leandro Paredes",
+      "jersey": 5,
+      "role": "MID",
+      "x": 67.7,
+      "y": 41.6,
+      "n": 40
+     },
+     {
+      "id": 27768,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "role": "DEF",
+      "x": 69.8,
+      "y": 64.7,
+      "n": 6
+     },
+     {
+      "id": 27886,
+      "name": "Alexis MacAllister",
+      "jersey": 20,
+      "role": "MID",
+      "x": 35.7,
+      "y": 57.5,
+      "n": 26
+     },
+     {
+      "id": 28263,
+      "name": "Gonzalo Montiel",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 45.7,
+      "y": 14.9,
+      "n": 29
+     },
+     {
+      "id": 38718,
+      "name": "Enzo Fernandez",
+      "jersey": 24,
+      "role": "MID",
+      "x": 42.5,
+      "y": 29.5,
+      "n": 36
+     }
+    ],
+    "lines": {
+     "def": 63.9,
+     "mid": 71.4,
+     "att": 85.9
+    },
+    "shape": {
+     "length": 22.0,
+     "width": 49.8,
+     "compact": 0.72,
+     "label": "high line"
+    }
+   }
+  }
+ },
+ "diagnostics": {
+  "kmeans_agreement_full": {
+   "home": 0.6,
+   "away": 0.62
+  }
+ }
+}

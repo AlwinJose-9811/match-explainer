@@ -1,0 +1,65 @@
+{
+ "match_id": 3869321,
+ "competition": "FIFA World Cup",
+ "season": "2022",
+ "stage": "Quarter-finals",
+ "date": "2022-12-09",
+ "teams": {
+  "home": {
+   "id": 941,
+   "name": "Netherlands",
+   "color": "#2E75B6"
+  },
+  "away": {
+   "id": 779,
+   "name": "Argentina",
+   "color": "#C55A11"
+  }
+ },
+ "score": {
+  "home": 2,
+  "away": 2,
+  "shootout": {
+   "home": 3,
+   "away": 4
+  },
+  "note": "Argentina won 4-3 on penalties after extra time."
+ },
+ "possession": {
+  "method": "sum of possession-sequence duration (penalty shootout excluded)",
+  "home": 0.5109,
+  "away": 0.4891
+ },
+ "stats": {
+  "home": {
+   "shots": 7,
+   "on_target": 2,
+   "passes": 691,
+   "passes_completed": 572,
+   "pass_accuracy": 0.8278,
+   "xg_model": 0.843,
+   "xg_statsbomb": 0.57,
+   "fouls": 37,
+   "corners": 2,
+   "yellow": 5,
+   "red": 0
+  },
+  "away": {
+   "shots": 14,
+   "on_target": 5,
+   "passes": 640,
+   "passes_completed": 531,
+   "pass_accuracy": 0.8297,
+   "xg_model": 1.728,
+   "xg_statsbomb": 1.939,
+   "fouls": 22,
+   "corners": 8,
+   "yellow": 8,
+   "red": 0
+  }
+ },
+ "story": {
+  "text": "Netherlands and Argentina drew 2-2 in the Quarter-finals of the FIFA World Cup 2022. Argentina won 4-3 on penalties after extra time. Netherlands had more of the ball (51 percent to 49 percent), and Argentina created the better chances by expected goals, or xG, a measure of chance quality (1.73 to 0.84). The goals came from Nahuel Molina at 34:04, Lionel Messi at 72:39 (penalty), Wout Weghorst at 82:17 and Wout Weghorst at 100:32.",
+  "label": "Automated analysis"
+ }
+}

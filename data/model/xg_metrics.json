@@ -1,0 +1,238 @@
+{
+ "date": "2026-10-25",
+ "seed": 42,
+ "best_C": 3.0,
+ "cv_log_loss_by_C": {
+  "0.01": 0.2853,
+  "0.03": 0.284,
+  "0.1": 0.2833,
+  "0.3": 0.283,
+  "1.0": 0.283,
+  "3.0": 0.2828
+ },
+ "libraries": {
+  "python": "3.13.3",
+  "scikit-learn": "1.9.1",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0"
+ },
+ "train": {
+  "competitions": [
+   "Premier League 2015/16",
+   "La Liga 2016/17",
+   "La Liga 2017/18",
+   "La Liga 2018/19",
+   "La Liga 2019/20",
+   "La Liga 2020/21",
+   "FA Women's Super League 2018/19",
+   "FA Women's Super League 2019/20",
+   "FA Women's Super League 2020/21"
+  ],
+  "matches": 877,
+  "raw_shots": 22526,
+  "excluded_shootout_period5": 0,
+  "excluded_penalties": 220,
+  "excluded_missing_location": 0,
+  "excluded_own_goals": 0,
+  "kept": 22306,
+  "goal_rate": 0.105
+ },
+ "test": {
+  "competitions": [
+   "UEFA Euro 2020"
+  ],
+  "matches": 51,
+  "raw_shots": 1289,
+  "excluded_shootout_period5": 38,
+  "excluded_penalties": 17,
+  "excluded_missing_location": 0,
+  "excluded_own_goals": 0,
+  "kept": 1234,
+  "goal_rate": 0.0989
+ },
+ "split": "train and test are different competitions; tuning uses 5-fold CV grouped by match",
+ "features": [
+  "x",
+  "y_abs",
+  "dist",
+  "angle",
+  "under_pressure",
+  "first_time",
+  "has_ff",
+  "is_open_goal",
+  "gk_dist",
+  "gk_off_centre",
+  "n_def_in_cone",
+  "nearest_def_dist",
+  "body_part",
+  "technique",
+  "play_pattern",
+  "shot_type"
+ ],
+ "forbidden_features": [
+  "shot outcome",
+  "shot end location",
+  "StatsBomb xG",
+  "key pass id"
+ ],
+ "metrics_test": {
+  "baseline_constant": {
+   "log_loss": 0.3228,
+   "brier": 0.0891,
+   "roc_auc": 0.5,
+   "total_xg": 129.6,
+   "goals": 122,
+   "shots": 1234
+  },
+  "baseline_distance_angle": {
+   "log_loss": 0.2901,
+   "brier": 0.0817,
+   "roc_auc": 0.7355,
+   "total_xg": 133.8,
+   "goals": 122,
+   "shots": 1234
+  },
+  "our_model": {
+   "log_loss": 0.2639,
+   "brier": 0.0747,
+   "roc_auc": 0.7941,
+   "total_xg": 127.6,
+   "goals": 122,
+   "shots": 1234,
+   "ece": 0.0173
+  },
+  "statsbomb_xg": {
+   "log_loss": 0.2508,
+   "brier": 0.0703,
+   "roc_auc": 0.8117,
+   "total_xg": 120.1,
+   "goals": 122,
+   "shots": 1234,
+   "ece": 0.0095
+  }
+ },
+ "by_freeze_frame": {
+  "with_freeze_frame": {
+   "log_loss": 0.2639,
+   "brier": 0.0747,
+   "roc_auc": 0.7941,
+   "total_xg": 127.6,
+   "goals": 122,
+   "shots": 1234
+  }
+ },
+ "calibration_curve": [
+  {
+   "predicted": 0.015,
+   "actual": 0.016
+  },
+  {
+   "predicted": 0.027,
+   "actual": 0.016
+  },
+  {
+   "predicted": 0.036,
+   "actual": 0.033
+  },
+  {
+   "predicted": 0.046,
+   "actual": 0.056
+  },
+  {
+   "predicted": 0.059,
+   "actual": 0.033
+  },
+  {
+   "predicted": 0.075,
+   "actual": 0.065
+  },
+  {
+   "predicted": 0.096,
+   "actual": 0.065
+  },
+  {
+   "predicted": 0.125,
+   "actual": 0.138
+  },
+  {
+   "predicted": 0.18,
+   "actual": 0.154
+  },
+  {
+   "predicted": 0.375,
+   "actual": 0.411
+  }
+ ],
+ "permutation_importance": [
+  {
+   "feature": "gk_dist",
+   "log_loss_increase": 0.0336
+  },
+  {
+   "feature": "angle",
+   "log_loss_increase": 0.025
+  },
+  {
+   "feature": "body_part",
+   "log_loss_increase": 0.0144
+  },
+  {
+   "feature": "dist",
+   "log_loss_increase": 0.009
+  },
+  {
+   "feature": "n_def_in_cone",
+   "log_loss_increase": 0.008
+  },
+  {
+   "feature": "technique",
+   "log_loss_increase": 0.0072
+  },
+  {
+   "feature": "nearest_def_dist",
+   "log_loss_increase": 0.006
+  },
+  {
+   "feature": "x",
+   "log_loss_increase": 0.0029
+  },
+  {
+   "feature": "y_abs",
+   "log_loss_increase": 0.0018
+  },
+  {
+   "feature": "play_pattern",
+   "log_loss_increase": 0.0018
+  },
+  {
+   "feature": "under_pressure",
+   "log_loss_increase": 0.0003
+  },
+  {
+   "feature": "shot_type",
+   "log_loss_increase": 0.0002
+  },
+  {
+   "feature": "first_time",
+   "log_loss_increase": -0.0
+  },
+  {
+   "feature": "has_ff",
+   "log_loss_increase": 0.0
+  },
+  {
+   "feature": "is_open_goal",
+   "log_loss_increase": 0.0
+  },
+  {
+   "feature": "gk_off_centre",
+   "log_loss_increase": 0.0
+  }
+ ],
+ "penalty": {
+  "rate": 0.7864,
+  "count": 220,
+  "goals": 173
+ },
+ "beats_distance_angle_baseline": true
+}
