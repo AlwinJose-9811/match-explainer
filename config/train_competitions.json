@@ -1,0 +1,10 @@
+{
+  "note": "Training/test competition-seasons for the xG model. FIFA World Cup 2022 is never used for training. Events only are fetched for these (shot freeze frames are inside the events files).",
+  "train": [
+    {"competition_id": 7, "season_id": 108, "name": "Ligue 1 2021/22"},
+    {"competition_id": 9, "season_id": 281, "name": "1. Bundesliga 2023/24"}
+  ],
+  "test": [
+    {"competition_id": 55, "season_id": 43, "name": "UEFA Euro 2020"}
+  ]
+}
