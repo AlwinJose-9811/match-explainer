@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "shots.json",
+  "type": "object",
+  "required": ["model_available", "shots"],
+  "properties": {
+    "model_available": {"type": "boolean"},
+    "shots": {"type": "array", "items": {
+      "type": "object",
+      "required": ["id", "period", "minute", "second", "clock", "team", "team_name", "player", "x", "y",
+                   "xg_model", "xg_statsbomb", "outcome", "body_part", "is_penalty", "is_goal"],
+      "properties": {
+        "id": {"type": "string"}, "period": {"type": "integer", "minimum": 1, "maximum": 4},
+        "minute": {"type": "integer"}, "second": {"type": "integer"}, "clock": {"type": "string"},
+        "team": {"enum": ["home", "away"]}, "team_name": {"type": "string"}, "player": {"type": ["string", "null"]},
+        "x": {"type": ["number", "null"], "minimum": 0, "maximum": 120},
+        "y": {"type": ["number", "null"], "minimum": 0, "maximum": 80},
+        "xg_model": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "xg_statsbomb": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "outcome": {"type": ["string", "null"]}, "body_part": {"type": ["string", "null"]},
+        "is_penalty": {"type": "boolean"}, "is_goal": {"type": "boolean"}}}}
+  }
+}

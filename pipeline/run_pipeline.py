@@ -13,8 +13,9 @@ from .export import update_index, write_json, write_summary
 from .load import DataError, load_match
 from .metrics import build_summary
 from .moments import build_moments
-from .normalize import events_frame
+from .normalize import events_frame, regulation
 from .positions import build_positions
+from .xg_predict import attach_xg, load_model, predict_shots
 from .validate import validate_json
 
 
@@ -28,7 +29,16 @@ def run(match_id: int) -> dict:
     positions = build_positions(df, data.lineups, t["home"]["name"], t["away"]["name"], cfg)
     validate_json(positions, "positions")
     moments = build_moments(df, data.three_sixty, t["home"]["name"], cfg)
+    bundle = load_model()
+    if bundle is None:
+        print("WARNING: models/xg_model.joblib missing - model xG left empty (run: python tasks.py train)",
+              file=sys.stderr)
+    shots = predict_shots(regulation(df), t["home"]["name"], bundle)
+    attach_xg(summary, moments, shots)
+    validate_json(summary, "summary")
+    validate_json(shots, "shots")
     validate_json(moments, "moments")
+    write_json(processed_dir(match_id) / "shots.json", shots)
     write_summary(match_id, summary)
     write_json(processed_dir(match_id) / "positions.json", positions)
     write_json(processed_dir(match_id) / "moments.json", moments)
@@ -55,8 +65,9 @@ def main(argv: list[str] | None = None) -> int:
     print(f"{t['home']['name']} {sc['home']}-{sc['away']} {t['away']['name']}"
           + (f"  (shootout {sc['shootout']['home']}-{sc['shootout']['away']})" if sc["shootout"] else ""))
     print(f"  possession {s['possession']['home']:.1%} / {s['possession']['away']:.1%}")
-    for k in ("shots", "on_target", "passes", "pass_accuracy", "xg_statsbomb", "fouls", "corners", "yellow", "red"):
-        print(f"  {k:<14}{st['home'][k]:>8}{st['away'][k]:>8}")
+    for k in ("shots", "on_target", "passes", "pass_accuracy", "xg_model", "xg_statsbomb", "fouls", "corners",
+              "yellow", "red"):
+        print(f"  {k:<14}{str(st['home'][k]):>8}{str(st['away'][k]):>8}")
     return 0
 
 

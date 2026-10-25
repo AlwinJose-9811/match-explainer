@@ -37,6 +37,17 @@ Verified against statsbomb/open-data on 2026-10-25.
   it is a diagnostic in positions.json and not shown in the UI.
 - Windows: named (full, first half, second half, extra time) plus 15-minute windows every 5 minutes.
 
+## Phase 4 decisions (xG model)
+- Logistic regression only (no gradient boosting). C chosen by 5-fold CV grouped by match on the training seasons.
+- Train: 877 matches (Premier League 2015/16, La Liga 2016/17-2020/21, FA WSL 2018/19-2020/21), 22,306 shots after
+  exclusions (220 penalties out). Test: UEFA Euro 2020 (51 matches), 1,234 shots; shootout shots excluded.
+- Penalty xG = training conversion rate 0.786 (173 of 220).
+- The freeze frame inside shot events marks the goalkeeper by `position.name == "Goalkeeper"`, not by a
+  `keeper` flag (360 files use the flag). The first training run missed this; fixed and retrained.
+- Every shot in the data has a freeze frame, so `has_ff` is constant and the has/without-freeze-frame split in the
+  model card shows one group.
+- Model xG sums per team are written into summary.json and moments.json; shots.json lists regular-time shots.
+
 ## Phase 3 decisions (moments)
 - Moment types: `goal` (incl. penalty goals, flagged `is_penalty`), `own_goal`, `penalty` (missed/saved), `red_card`,
   `shot` (xG >= threshold). Goals are never dropped by the cap or the 60 s spacing rule.
