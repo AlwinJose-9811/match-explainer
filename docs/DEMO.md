@@ -1,7 +1,7 @@
 # Demo script, viva preparation and backup plan
 
 ## Before you present (10 minutes)
-- [ ] `python tasks.py serve`, open http://localhost:8000 in Chrome or Edge. Keep it open on the Summary page.
+- [ ] `python tasks.py serve`, open http://localhost:8000 in Chrome or Edge. Keep it open on the landing page.
 - [ ] Turn Wi-Fi off and click through every page once (the site makes no external requests).
 - [ ] Check sound for the Listen button (Edge has the best built-in voices). If there is no voice, skip it.
 - [ ] Have the backup video and the PDF printouts of the pages on a phone or USB stick, outside this folder.
@@ -10,7 +10,7 @@
 ## 5-minute demo (the final, Argentina 3-3 France)
 | Time | Do | Say |
 |---|---|---|
-| 0:00 | Summary page | "Commentary tells you what happened. This tells you why, in plain words. This is the 2022 World Cup final." |
+| 0:00 | The landing page: let the ball trail draw across the pitch, then press **Explore the final** (you land on the Summary page) | "Commentary tells you what happened. This tells you why, in plain words. This is the 2022 World Cup final." |
 | 0:30 | Hover **xG (our model)** and **Possession** | "Every term explains itself. xG is the quality of a chance: 0.30 means about 3 in 10 shots like it score." Press **Listen to the story**. |
 | 1:15 | Pitch page, drag the slider | "Each dot is a player's average position. These dashed lines show how high each team defended. Around minute 60 Argentina sat deep and France pushed up." |
 | 2:15 | Key moments, open **35:22 Di Maria goal**, press Play | "The data rebuilds the move. Eight steps from Molina to Di Maria. The explanation says why it worked: a quick counter." |

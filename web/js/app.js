@@ -26,7 +26,7 @@ let index = null;
 function parseHash() {
   const [page, query = ''] = location.hash.replace(/^#\/?/, '').split('?');
   const m = Number(new URLSearchParams(query).get('m'));
-  return { page: PAGES.some(p => p.id === page) ? page : 'summary', matchId: m || null };
+  return { page: PAGES.some(p => p.id === page) ? page : 'home', matchId: m || null };   // no hash (or an unknown one) = the landing page
 }
 const hashFor = (page, matchId) => `#${page}?m=${matchId}`;
 
@@ -40,9 +40,21 @@ function showError(e) {
       h('code', null, 'python tasks.py build'), ' first.')));
 }
 
+async function showLanding() {
+  document.body.classList.add('is-landing');
+  clear(nav);
+  document.title = 'Match Explainer · See why the goal happened';
+  try {
+    clear(view).append(await (await import('./landing.js')).render({ index, load }));
+    window.scrollTo(0, 0);
+  } catch (e) { document.body.classList.remove('is-landing'); showError(e); }
+}
+
 async function route() {
   stopSpeaking();
   const { page, matchId } = parseHash();
+  if (page === 'home') { await showLanding(); return; }
+  document.body.classList.remove('is-landing');
   const id = matchId && index.matches.some(m => m.match_id === matchId) ? matchId : index.default;
   if (matchId !== id) { location.replace(hashFor(page, id)); return; }
   picker.value = String(id);

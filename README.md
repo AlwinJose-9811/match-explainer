@@ -20,6 +20,15 @@ python tasks.py serve
 
 Then open http://localhost:8000.
 
+![The landing page](docs/screens/landing.jpg)
+
+The site opens on a landing page: a flowing "liquid pitch" background, the real path of a World Cup goal drawn as a
+multi-exposure ball trail, and one-click entry to the final or any of the ten matches. It is drawn entirely in code
+(canvas and SVG, no images or fonts are loaded), keeps still for people who prefer reduced motion, and pauses when the
+tab is hidden. The pages inside keep light cards on a deep-green header.
+
+![A match summary](docs/screens/summary.jpg)
+
 ## What is in the site
 
 | Page | What it shows |

@@ -37,6 +37,18 @@ Verified against statsbomb/open-data on 2026-10-25.
   it is a diagnostic in positions.json and not shown in the UI.
 - Windows: named (full, first half, second half, extra time) plus 15-minute windows every 5 minutes.
 
+## Landing page and look (owner request: aesthetic opening page from two reference images)
+- The reference images were not used as assets (about 736 px wide, one watermarked, unclear rights). Their style was
+  recreated in code: `web/js/landing.js` paints a flowing "liquid pitch" on a canvas (mowing stripes bent by a slow vortex and
+  waves, cream highlights, a wavy horizon under a blue sky), adds film grain, and draws the real 35:22 goal of the final as a
+  Catmull-Rom path with a multi-exposure of balls and four stylised runners (decorative, not data).
+- The landing page opens first (no hash or an unknown hash = `#home`), every time; the logo returns to it. `#home?still` (or
+  reduced motion) shows the finished composition without animation.
+- Pages inside keep light cards; the header is deep green with a lime underline, the page background is warm off-white,
+  headings use a serif display stack (system fonts only: no font files are loaded).
+- Text over the art sits on a dark scrim or on pills at 78% opacity; tests check the worst-case contrast over the brightest highlight.
+- Screenshots in `docs/screens/` were rendered with headless Edge (the in-app preview pane cannot paint while hidden).
+
 ## Ten matches (owner request: five more famous World Cup 2022 games)
 - Added: Argentina 1-2 Saudi Arabia (3857300), Germany 1-2 Japan (3857284), Croatia 1-1 Brazil, Croatia won on penalties
   (3869420), France 2-0 Morocco (3869552), Portugal 6-1 Switzerland (3869254); all have 360 data and scores verified against the
