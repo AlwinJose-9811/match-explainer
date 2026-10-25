@@ -15,7 +15,7 @@
 | 1:15 | Pitch page, drag the slider | "Each dot is a player's average position. These dashed lines show how high each team defended. Around minute 60 Argentina sat deep and France pushed up." |
 | 2:15 | Key moments, open **35:22 Di Maria goal**, press Play | "The data rebuilds the move. Eight steps from Molina to Di Maria. The explanation says why it worked: a quick counter." |
 | 3:00 | Click **Players at the key pass** | "This is the 360 data: only the players visible on camera. The last visible defender is here, and the key pass reached behind that line." |
-| 3:30 | Open **80:59 Mbappe goal**, then point at the penalty cards | "Three of the six goals were penalties. They have no build-up, so they are shown as simple cards." |
+| 3:30 | Open **80:59 Mbappe goal** (and, if there is time, the **59:51 Messi chance**), then point at the penalty cards | "Three of the six goals were penalties. They have no build-up, so they are shown as simple cards." |
 | 4:00 | Model card | "Trained on 22 thousand shots from 877 league matches, tested on Euro 2020. Beats the distance-and-angle baseline, sits behind StatsBomb's own xG, and the limits are listed." |
 | 4:40 | Show the repository README | "Everything rebuilds with `python tasks.py all`, and the same pitch and replay code could later show positions detected from video." |
 

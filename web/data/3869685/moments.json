@@ -324,6 +324,305 @@
    "highlights_url": null
   },
   {
+   "type": "shot",
+   "event_id": "9615ffbc-b513-45e6-9ccc-015234483f95",
+   "period": 2,
+   "minute": 59,
+   "second": 51,
+   "clock": "59:51",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Lionel Andrés Messi Cuccittini",
+   "xg_statsbomb": 0.116,
+   "xg_model": 0.185,
+   "outcome": "Off T",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m03",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "6319549b-3048-475a-ad31-acd057f8c42c",
+     "from": [
+      57.6,
+      13.6
+     ],
+     "to": [
+      76.6,
+      8.9
+     ],
+     "player": "Nicolás Alejandro Tagliafico",
+     "recipient": "Ángel Fabián Di María Hernández",
+     "t": 0.0,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "82d94077-e4ec-4943-b5ca-bef7f3d51d61",
+     "from": [
+      76.6,
+      8.9
+     ],
+     "to": [
+      112.1,
+      22.4
+     ],
+     "player": "Ángel Fabián Di María Hernández",
+     "recipient": null,
+     "t": 2.14,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "fae50a7c-334c-4b1f-9f33-57cfa86af990",
+     "from": [
+      112.1,
+      22.4
+     ],
+     "to": [
+      106.6,
+      37.0
+     ],
+     "player": "Ángel Fabián Di María Hernández",
+     "recipient": "Lionel Andrés Messi Cuccittini",
+     "t": 11.53,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "4d64d991-1004-47c9-92e9-4ff2ecdd876a",
+     "from": [
+      106.6,
+      37.0
+     ],
+     "to": [
+      109.7,
+      46.0
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 12.81,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "9615ffbc-b513-45e6-9ccc-015234483f95",
+     "from": [
+      109.7,
+      46.0
+     ],
+     "to": [
+      120.0,
+      45.5
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 13.92,
+     "key": false,
+     "outcome": "Off T"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 97.9,
+       "y": 39.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 97.9,
+       "y": 17.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.1,
+       "y": 47.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.1,
+       "y": 36.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.2,
+       "y": 25.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.5,
+       "y": 44.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.6,
+       "y": 44.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.1,
+       "y": 29.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.1,
+       "y": 22.4,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 113.3,
+       "y": 23.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.8,
+       "y": 34.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.0,
+       "y": 31.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 115.2,
+       "y": 34.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 119.6,
+       "y": 36.4,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 115.2
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 95.2,
+       "y": 20.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.2,
+       "y": 32.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.2,
+       "y": 34.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.5,
+       "y": 26.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.7,
+       "y": 32.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.2,
+       "y": 35.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.2,
+       "y": 45.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.4,
+       "y": 27.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.7,
+       "y": 46.0,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 110.5,
+       "y": 44.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.2,
+       "y": 38.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 111.3,
+       "y": 36.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 118.2,
+       "y": 41.7,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 111.3
+    }
+   },
+   "facts": {
+    "sequence_len": 2,
+    "duration_s": 13.92,
+    "play_pattern": "Regular Play",
+    "body_part": "Right Foot",
+    "technique": "Normal",
+    "shot_distance": 11.9,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Ángel Fabián Di María Hernández",
+    "defensive_line_height": 4.8,
+    "gap_to_line": -8.6
+   },
+   "explanation": {
+    "text": "At 59:51, Lionel Messi had a big chance for Argentina after a 2-pass move, but it went off target. The chance was worth 0.18 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Ángel Di María.",
+    "why": "The team created a clear shooting chance from this move.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
    "type": "goal",
    "event_id": "6cc0d5e2-6999-4006-8a7a-34de4cbe3ffd",
    "period": 2,
@@ -338,7 +637,7 @@
    "outcome": "Goal",
    "is_goal": true,
    "is_penalty": true,
-   "id": "m03",
+   "id": "m04",
    "sequence": [],
    "snapshots": {
     "key_pass": null,
@@ -371,7 +670,7 @@
    "outcome": "Goal",
    "is_goal": true,
    "is_penalty": false,
-   "id": "m04",
+   "id": "m05",
    "sequence": [
     {
      "kind": "carry",
@@ -721,7 +1020,7 @@
    "outcome": "Blocked",
    "is_goal": false,
    "is_penalty": false,
-   "id": "m05",
+   "id": "m06",
    "sequence": [
     {
      "kind": "pass",
@@ -1130,6 +1429,252 @@
    "highlights_url": null
   },
   {
+   "type": "shot",
+   "event_id": "5d7d4f2f-62da-4de9-90e3-3660ba17c4f3",
+   "period": 3,
+   "minute": 105,
+   "second": 41,
+   "clock": "105:41",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Lautaro Javier Martínez",
+   "xg_statsbomb": 0.14,
+   "xg_model": 0.168,
+   "outcome": "Off T",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m07",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "8d374c71-ebb7-44d7-8da3-7021f140d0ca",
+     "from": [
+      67.2,
+      3.8
+     ],
+     "to": [
+      71.5,
+      8.3
+     ],
+     "player": "Marcos Javier Acuña",
+     "recipient": null,
+     "t": 0.0,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "3607594a-faed-4ae3-8b21-8beb96f52e86",
+     "from": [
+      71.5,
+      8.3
+     ],
+     "to": [
+      98.5,
+      32.4
+     ],
+     "player": "Marcos Javier Acuña",
+     "recipient": "Lautaro Javier Martínez",
+     "t": 1.17,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "25cad31a-542c-4d7a-9586-a3a8399fb847",
+     "from": [
+      98.5,
+      32.4
+     ],
+     "to": [
+      105.1,
+      33.5
+     ],
+     "player": "Lautaro Javier Martínez",
+     "recipient": null,
+     "t": 3.42,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "5d7d4f2f-62da-4de9-90e3-3660ba17c4f3",
+     "from": [
+      105.1,
+      33.5
+     ],
+     "to": [
+      120.0,
+      34.9
+     ],
+     "player": "Lautaro Javier Martínez",
+     "recipient": null,
+     "t": 4.23,
+     "key": false,
+     "outcome": "Off T"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 54.8,
+       "y": 17.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 57.9,
+       "y": 27.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 63.0,
+       "y": 14.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 63.4,
+       "y": 21.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 68.5,
+       "y": 2.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 70.6,
+       "y": 38.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 70.7,
+       "y": 2.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 71.5,
+       "y": 8.3,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 75.9,
+       "y": 4.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 76.1,
+       "y": 14.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 76.5,
+       "y": 46.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 83.0,
+       "y": 34.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 84.3,
+       "y": 26.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 85.5,
+       "y": 35.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 87.2,
+       "y": 24.5,
+       "role": "defender",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 87.2
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 109.0,
+       "y": 35.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.3,
+       "y": 45.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 93.5,
+       "y": 34.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 91.1,
+       "y": 34.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.2,
+       "y": 34.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.1,
+       "y": 33.5,
+       "role": "attacker",
+       "actor": true
+      }
+     ],
+     "offside_line_x": 109.0
+    }
+   },
+   "facts": {
+    "sequence_len": 1,
+    "duration_s": 4.23,
+    "play_pattern": "From Counter",
+    "body_part": "Left Foot",
+    "technique": "Half Volley",
+    "shot_distance": 16.3,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Marcos Javier Acuña",
+    "defensive_line_height": 32.8,
+    "gap_to_line": 11.3
+   },
+   "explanation": {
+    "text": "At 105:41, Lautaro Martínez had a big chance for Argentina on a fast counter-attack, but it went off target. The chance was worth 0.17 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Marcos Acuña.",
+    "why": "The attack started on a quick counter, before the defence could get back into position.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
    "type": "goal",
    "event_id": "54b889ec-6026-49ea-a913-e883dbe6e301",
    "period": 4,
@@ -1144,7 +1689,7 @@
    "outcome": "Goal",
    "is_goal": true,
    "is_penalty": false,
-   "id": "m06",
+   "id": "m08",
    "sequence": [
     {
      "kind": "shot",
@@ -1275,7 +1820,7 @@
    "outcome": "Goal",
    "is_goal": true,
    "is_penalty": true,
-   "id": "m07",
+   "id": "m09",
    "sequence": [],
    "snapshots": {
     "key_pass": null,
@@ -1308,7 +1853,7 @@
    "outcome": "Saved",
    "is_goal": false,
    "is_penalty": false,
-   "id": "m08",
+   "id": "m10",
    "sequence": [
     {
      "kind": "carry",

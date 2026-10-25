@@ -10,7 +10,7 @@
   ],
   "window_minutes": 15,
   "window_step": 5,
-  "moment_xg_threshold": 0.15,
+  "moment_xg_threshold": 0.10,
   "max_moments": 10,
   "min_gap_s": 60,
   "block_thresholds": [48, 54],

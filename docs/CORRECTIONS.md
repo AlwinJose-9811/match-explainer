@@ -75,7 +75,8 @@ Verified against statsbomb/open-data on 2026-10-25.
   `gap_to_line` = key-pass end x minus the line (positive = the pass reached behind the line).
   The line comes from visible players only; the UI says so. A snapshot at the shot falls back to the event's own
   shot freeze frame when the 360 file has no row for it (e.g. Alvarez 38:26 v Croatia).
-- Matches other than the final have fewer than 6 replays (Argentina v Croatia has 2 non-penalty moments).
+- `moment_xg_threshold` lowered from 0.15 to 0.10 (owner's request) so the final reaches 6+ animated replays
+  (10 moments: 6 goals + 4 big chances). Other matches have 5 to 7 moments; Argentina v Croatia has 5.
 - Average positions come from on-ball events only (biased towards where players touch the ball); state it in the UI.
 - StatsBomb asks for the data source credit and their logo when publishing: read LICENSE.pdf before going public.
 - xG split: train on Ligue 1 2021/22 + Bundesliga 2023/24, test on UEFA Euro 2020; WC 2022 is never trained on.

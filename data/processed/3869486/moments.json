@@ -1,6 +1,326 @@
 {
  "moments": [
   {
+   "type": "shot",
+   "event_id": "9f344f5d-4d72-4cf2-8eac-ed7c83a87f65",
+   "period": 1,
+   "minute": 5,
+   "second": 56,
+   "clock": "5:56",
+   "team": "home",
+   "team_name": "Morocco",
+   "player": "Youssef En-Nesyri",
+   "xg_statsbomb": 0.118,
+   "xg_model": 0.165,
+   "outcome": "Off T",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m01",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "8709a54e-44b2-4bca-912c-0eb0725a37fc",
+     "from": [
+      120.0,
+      0.1
+     ],
+     "to": [
+      112.7,
+      39.4
+     ],
+     "player": "Hakim Ziyech",
+     "recipient": "Youssef En-Nesyri",
+     "t": 0.0,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "9f344f5d-4d72-4cf2-8eac-ed7c83a87f65",
+     "from": [
+      112.7,
+      39.4
+     ],
+     "to": [
+      120.0,
+      38.1
+     ],
+     "player": "Youssef En-Nesyri",
+     "recipient": null,
+     "t": 1.71,
+     "key": false,
+     "outcome": "Off T"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 93.1,
+       "y": 37.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 94.7,
+       "y": 44.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.7,
+       "y": 26.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.5,
+       "y": 32.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.7,
+       "y": 42.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.1,
+       "y": 41.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 110.3,
+       "y": 35.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.5,
+       "y": 36.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 111.9,
+       "y": 33.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.6,
+       "y": 39.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.1,
+       "y": 43.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.6,
+       "y": 37.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.2,
+       "y": 41.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.3,
+       "y": 35.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 115.3,
+       "y": 33.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.4,
+       "y": 29.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 116.4,
+       "y": 35.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.5,
+       "y": 31.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 118.1,
+       "y": 39.6,
+       "role": "keeper",
+       "actor": false
+      },
+      {
+       "x": 120.0,
+       "y": 0.1,
+       "role": "attacker",
+       "actor": true
+      }
+     ],
+     "offside_line_x": 116.5
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 93.9,
+       "y": 38.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 95.1,
+       "y": 45.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.0,
+       "y": 34.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.9,
+       "y": 46.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.7,
+       "y": 33.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.1,
+       "y": 43.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.7,
+       "y": 39.4,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 113.1,
+       "y": 33.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 113.2,
+       "y": 38.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.4,
+       "y": 30.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.7,
+       "y": 33.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.1,
+       "y": 31.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.4,
+       "y": 41.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.2,
+       "y": 35.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.2,
+       "y": 34.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 115.3,
+       "y": 0.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 116.0,
+       "y": 22.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 117.0,
+       "y": 31.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 119.0,
+       "y": 40.0,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 115.2
+    }
+   },
+   "facts": {
+    "sequence_len": 1,
+    "duration_s": 1.71,
+    "play_pattern": "From Corner",
+    "body_part": "Head",
+    "technique": "Normal",
+    "shot_distance": 7.3,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Hakim Ziyech",
+    "defensive_line_height": 3.5,
+    "gap_to_line": -3.8
+   },
+   "explanation": {
+    "text": "At 5:56, Youssef En-Nesyri had a big chance for Morocco from a corner, but it went off target. The chance was worth 0.17 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Hakim Ziyech.",
+    "why": "The shot came from very close to goal, where chances are usually at their best.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
    "type": "goal",
    "event_id": "b5cf82d9-5c1a-49ac-af0d-2fada2d6f0e5",
    "period": 1,
@@ -15,7 +335,7 @@
    "outcome": "Goal",
    "is_goal": true,
    "is_penalty": false,
-   "id": "m01",
+   "id": "m02",
    "sequence": [
     {
      "kind": "pass",
@@ -466,6 +786,827 @@
    "highlights_url": null
   },
   {
+   "type": "shot",
+   "event_id": "4d09313e-118e-459a-9ee8-01dc7a56f08f",
+   "period": 2,
+   "minute": 57,
+   "second": 28,
+   "clock": "57:28",
+   "team": "away",
+   "team_name": "Portugal",
+   "player": "Gonçalo Matias Ramos",
+   "xg_statsbomb": 0.106,
+   "xg_model": 0.116,
+   "outcome": "Off T",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m03",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "dd6960fd-4589-4845-9b04-d8cec54def5a",
+     "from": [
+      46.5,
+      14.8
+     ],
+     "to": [
+      58.5,
+      29.8
+     ],
+     "player": "Bernardo Mota Veiga de Carvalho e Silva",
+     "recipient": null,
+     "t": 0.0,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "15add321-0c57-4fa5-8d5d-14301064a0e8",
+     "from": [
+      58.5,
+      29.8
+     ],
+     "to": [
+      57.0,
+      55.0
+     ],
+     "player": "Bernardo Mota Veiga de Carvalho e Silva",
+     "recipient": "Kléper Laveran Lima Ferreira",
+     "t": 4.83,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "ebf94b3e-299f-4c65-accb-d5143628603a",
+     "from": [
+      57.0,
+      55.0
+     ],
+     "to": [
+      65.5,
+      60.7
+     ],
+     "player": "Kléper Laveran Lima Ferreira",
+     "recipient": null,
+     "t": 6.53,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "a74854ed-4c49-4dfe-ad2a-3e7f290efc33",
+     "from": [
+      65.5,
+      60.7
+     ],
+     "to": [
+      85.7,
+      75.5
+     ],
+     "player": "Kléper Laveran Lima Ferreira",
+     "recipient": "Bruno Miguel Borges Fernandes",
+     "t": 8.48,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "ccfd9367-fafd-457f-b7d5-b8f6845a000c",
+     "from": [
+      85.7,
+      75.5
+     ],
+     "to": [
+      85.8,
+      75.8
+     ],
+     "player": "Bruno Miguel Borges Fernandes",
+     "recipient": null,
+     "t": 9.84,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "c9b36c5d-b40a-45f3-9736-5d1ac36d3c09",
+     "from": [
+      85.8,
+      75.8
+     ],
+     "to": [
+      95.0,
+      74.9
+     ],
+     "player": "Bruno Miguel Borges Fernandes",
+     "recipient": "José Diogo Dalot Teixeira",
+     "t": 11.9,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "c3f018ff-52bb-4f4d-96d5-ef3c1ca72d92",
+     "from": [
+      95.0,
+      74.9
+     ],
+     "to": [
+      98.5,
+      73.7
+     ],
+     "player": "José Diogo Dalot Teixeira",
+     "recipient": null,
+     "t": 12.95,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "85252307-9a2d-4363-9365-ee26ccb4d547",
+     "from": [
+      98.5,
+      73.7
+     ],
+     "to": [
+      91.2,
+      65.9
+     ],
+     "player": "José Diogo Dalot Teixeira",
+     "recipient": "Bruno Miguel Borges Fernandes",
+     "t": 13.07,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "0f034da1-eda0-4d3b-b063-bcadf60456a6",
+     "from": [
+      91.2,
+      65.9
+     ],
+     "to": [
+      91.2,
+      65.9
+     ],
+     "player": "Bruno Miguel Borges Fernandes",
+     "recipient": null,
+     "t": 13.78,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "78065608-62dc-4a80-b0b0-2bacb722aa26",
+     "from": [
+      91.2,
+      65.9
+     ],
+     "to": [
+      95.0,
+      55.7
+     ],
+     "player": "Bruno Miguel Borges Fernandes",
+     "recipient": "Otávio Edmilson da Silva Monteiro",
+     "t": 14.64,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "80835311-2e6c-42dc-a6c9-543a3dbf26a6",
+     "from": [
+      95.0,
+      55.7
+     ],
+     "to": [
+      98.2,
+      55.6
+     ],
+     "player": "Otávio Edmilson da Silva Monteiro",
+     "recipient": null,
+     "t": 15.08,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "9d1fb33c-db31-43cb-852f-b7d43b8ab8d9",
+     "from": [
+      98.2,
+      55.6
+     ],
+     "to": [
+      108.7,
+      40.0
+     ],
+     "player": "Otávio Edmilson da Silva Monteiro",
+     "recipient": "Gonçalo Matias Ramos",
+     "t": 16.38,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "4d09313e-118e-459a-9ee8-01dc7a56f08f",
+     "from": [
+      108.7,
+      40.0
+     ],
+     "to": [
+      120.0,
+      46.8
+     ],
+     "player": "Gonçalo Matias Ramos",
+     "recipient": null,
+     "t": 17.75,
+     "key": false,
+     "outcome": "Off T"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 79.7,
+       "y": 51.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 80.7,
+       "y": 17.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 88.2,
+       "y": 49.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 91.3,
+       "y": 52.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 92.3,
+       "y": 55.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 93.0,
+       "y": 32.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 93.3,
+       "y": 72.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 94.9,
+       "y": 62.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 97.2,
+       "y": 55.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 98.2,
+       "y": 55.6,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 100.5,
+       "y": 50.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.2,
+       "y": 39.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 101.4,
+       "y": 30.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 101.5,
+       "y": 59.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.3,
+       "y": 52.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.3,
+       "y": 32.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.5,
+       "y": 43.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.7,
+       "y": 53.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.8,
+       "y": 40.6,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 102.7
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 81.8,
+       "y": 52.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 91.4,
+       "y": 51.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 93.4,
+       "y": 56.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 96.1,
+       "y": 66.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 96.4,
+       "y": 50.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 96.9,
+       "y": 72.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 97.9,
+       "y": 34.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 97.9,
+       "y": 62.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 99.3,
+       "y": 57.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.8,
+       "y": 59.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.1,
+       "y": 51.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.3,
+       "y": 56.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.9,
+       "y": 43.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.6,
+       "y": 37.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.7,
+       "y": 35.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 108.6,
+       "y": 55.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 108.7,
+       "y": 40.0,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 116.0,
+       "y": 42.8,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 107.6
+    }
+   },
+   "facts": {
+    "sequence_len": 6,
+    "duration_s": 17.75,
+    "play_pattern": "From Goal Kick",
+    "body_part": "Head",
+    "technique": "Normal",
+    "shot_distance": 11.3,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Otávio Edmilson da Silva Monteiro",
+    "defensive_line_height": 17.3,
+    "gap_to_line": 6.0
+   },
+   "explanation": {
+    "text": "At 57:28, Gonçalo Ramos had a big chance for Portugal after a 6-pass move that started from a goal kick, but it went off target. The chance was worth 0.12 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Otavinho.",
+    "why": "The defence was stretched: the key pass reached 6.0 units beyond the last visible defender, leaving space to attack.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "66863928-254c-403c-8dc7-ffbd0b98fce5",
+   "period": 2,
+   "minute": 70,
+   "second": 44,
+   "clock": "70:44",
+   "team": "away",
+   "team_name": "Portugal",
+   "player": "Bernardo Mota Veiga de Carvalho e Silva",
+   "xg_statsbomb": 0.109,
+   "xg_model": 0.219,
+   "outcome": "Wayward",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m04",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "311f3536-1ff7-4b03-afa4-eb17da36ab75",
+     "from": [
+      114.3,
+      12.3
+     ],
+     "to": [
+      109.8,
+      35.9
+     ],
+     "player": "Bruno Miguel Borges Fernandes",
+     "recipient": "Bernardo Mota Veiga de Carvalho e Silva",
+     "t": 0.0,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "66863928-254c-403c-8dc7-ffbd0b98fce5",
+     "from": [
+      109.8,
+      35.9
+     ],
+     "to": [
+      114.5,
+      55.7
+     ],
+     "player": "Bernardo Mota Veiga de Carvalho e Silva",
+     "recipient": null,
+     "t": 0.96,
+     "key": false,
+     "outcome": "Wayward"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 94.0,
+       "y": 50.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 96.1,
+       "y": 35.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.5,
+       "y": 47.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 101.4,
+       "y": 36.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.8,
+       "y": 39.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.7,
+       "y": 46.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.3,
+       "y": 48.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.0,
+       "y": 47.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.8,
+       "y": 44.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.9,
+       "y": 37.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.4,
+       "y": 40.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 114.1,
+       "y": 42.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.1,
+       "y": 34.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 114.3,
+       "y": 12.3,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 114.5,
+       "y": 44.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 114.5,
+       "y": 39.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.5,
+       "y": 35.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.0,
+       "y": 23.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.9,
+       "y": 22.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.5,
+       "y": 41.9,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 115.9
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 97.5,
+       "y": 48.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 99.5,
+       "y": 33.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.7,
+       "y": 33.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.0,
+       "y": 44.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.8,
+       "y": 35.9,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 110.4,
+       "y": 42.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.2,
+       "y": 34.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.2,
+       "y": 29.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 115.7,
+       "y": 42.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.3,
+       "y": 11.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 116.7,
+       "y": 44.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 116.9,
+       "y": 42.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.0,
+       "y": 34.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.2,
+       "y": 36.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.2,
+       "y": 35.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 117.4,
+       "y": 20.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.5,
+       "y": 31.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.8,
+       "y": 41.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 118.5,
+       "y": 20.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 118.9,
+       "y": 40.1,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 118.5
+    }
+   },
+   "facts": {
+    "sequence_len": 1,
+    "duration_s": 0.96,
+    "play_pattern": "From Free Kick",
+    "body_part": "Right Foot",
+    "technique": "Normal",
+    "shot_distance": 11.0,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": false,
+    "assist_player": "Bruno Miguel Borges Fernandes",
+    "defensive_line_height": 4.1,
+    "gap_to_line": -6.1
+   },
+   "explanation": {
+    "text": "At 70:44, Bernardo Silva had a big chance for Portugal from a free kick, but it went well off target. The chance was worth 0.22 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Bruno Fernandes.",
+    "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
+  },
+  {
    "type": "red_card",
    "event_id": "f07d957c-b21b-498c-bd77-2df3c440cee5",
    "period": 2,
@@ -481,7 +1622,7 @@
    "is_goal": false,
    "is_penalty": false,
    "card": "Second Yellow",
-   "id": "m02",
+   "id": "m05",
    "sequence": [],
    "snapshots": {
     "key_pass": null,
@@ -513,7 +1654,7 @@
    "outcome": "Saved",
    "is_goal": false,
    "is_penalty": false,
-   "id": "m03",
+   "id": "m06",
    "sequence": [
     {
      "kind": "carry",
@@ -603,13 +1744,455 @@
     "label": "Automated analysis"
    },
    "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "d7d80857-d613-45c5-8c49-59d19af73f1d",
+   "period": 2,
+   "minute": 96,
+   "second": 40,
+   "clock": "96:40",
+   "team": "away",
+   "team_name": "Portugal",
+   "player": "Kléper Laveran Lima Ferreira",
+   "xg_statsbomb": 0.149,
+   "xg_model": 0.146,
+   "outcome": "Off T",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m07",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "a4c8cc4c-c061-4e3a-9d3a-71dd479da6bc",
+     "from": [
+      106.6,
+      80.0
+     ],
+     "to": [
+      110.2,
+      71.8
+     ],
+     "player": "Bruno Miguel Borges Fernandes",
+     "recipient": "Ricardo Jorge Luz Horta",
+     "t": 0.0,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "df106859-cbee-4a5c-8b03-0f9a8faab27a",
+     "from": [
+      110.2,
+      71.8
+     ],
+     "to": [
+      109.7,
+      71.0
+     ],
+     "player": "Ricardo Jorge Luz Horta",
+     "recipient": null,
+     "t": 1.19,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "00336b8e-816f-4a7f-803b-a12019fd22a9",
+     "from": [
+      109.7,
+      71.0
+     ],
+     "to": [
+      102.9,
+      74.1
+     ],
+     "player": "Ricardo Jorge Luz Horta",
+     "recipient": "Bruno Miguel Borges Fernandes",
+     "t": 1.61,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "977274d9-9bf2-496e-bf2c-c5633772f263",
+     "from": [
+      102.9,
+      74.1
+     ],
+     "to": [
+      102.9,
+      74.1
+     ],
+     "player": "Bruno Miguel Borges Fernandes",
+     "recipient": null,
+     "t": 2.68,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "c7dcad5d-b9b8-4e29-bac2-162cb089f833",
+     "from": [
+      102.9,
+      74.1
+     ],
+     "to": [
+      89.1,
+      69.1
+     ],
+     "player": "Bruno Miguel Borges Fernandes",
+     "recipient": "Vitor Machado Ferreira",
+     "t": 3.9,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "7253ec94-d7f2-421b-9a1c-a17fb017695d",
+     "from": [
+      89.1,
+      69.1
+     ],
+     "to": [
+      92.6,
+      68.9
+     ],
+     "player": "Vitor Machado Ferreira",
+     "recipient": null,
+     "t": 5.17,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "carry",
+     "event_id": "52015ff5-720c-474a-8154-52a395a9fe8c",
+     "from": [
+      116.6,
+      20.6
+     ],
+     "to": [
+      111.2,
+      12.1
+     ],
+     "player": "Rafael Alexandre Conceição Leão",
+     "recipient": null,
+     "t": 9.78,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "1a4a571d-dc17-4c8f-8662-3bde1f4b2c32",
+     "from": [
+      111.2,
+      12.1
+     ],
+     "to": [
+      114.1,
+      44.5
+     ],
+     "player": "Rafael Alexandre Conceição Leão",
+     "recipient": "Kléper Laveran Lima Ferreira",
+     "t": 14.93,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "d7d80857-d613-45c5-8c49-59d19af73f1d",
+     "from": [
+      114.1,
+      44.5
+     ],
+     "to": [
+      120.0,
+      45.2
+     ],
+     "player": "Kléper Laveran Lima Ferreira",
+     "recipient": null,
+     "t": 16.43,
+     "key": false,
+     "outcome": "Off T"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 84.9,
+       "y": 30.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 88.6,
+       "y": 45.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 90.0,
+       "y": 46.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 91.8,
+       "y": 23.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.8,
+       "y": 28.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.7,
+       "y": 57.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.7,
+       "y": 30.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 108.8,
+       "y": 45.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.6,
+       "y": 38.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 110.0,
+       "y": 44.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.4,
+       "y": 43.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 111.1,
+       "y": 38.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.2,
+       "y": 12.1,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 111.4,
+       "y": 39.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.5,
+       "y": 19.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.7,
+       "y": 33.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.4,
+       "y": 12.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.5,
+       "y": 25.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.0,
+       "y": 21.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 116.5,
+       "y": 38.0,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 112.5
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 88.6,
+       "y": 46.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 91.3,
+       "y": 46.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.0,
+       "y": 25.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.2,
+       "y": 56.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 108.6,
+       "y": 13.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.6,
+       "y": 49.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 110.7,
+       "y": 29.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.7,
+       "y": 15.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.8,
+       "y": 25.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 111.1,
+       "y": 22.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.5,
+       "y": 40.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.4,
+       "y": 36.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.5,
+       "y": 39.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 113.9,
+       "y": 45.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.1,
+       "y": 44.5,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 114.1,
+       "y": 33.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 115.1,
+       "y": 40.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.8,
+       "y": 42.0,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 115.1
+    }
+   },
+   "facts": {
+    "sequence_len": 4,
+    "duration_s": 16.43,
+    "play_pattern": "From Throw In",
+    "body_part": "Head",
+    "technique": "Normal",
+    "shot_distance": 7.4,
+    "under_pressure": true,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Rafael Alexandre Conceição Leão",
+    "defensive_line_height": 7.5,
+    "gap_to_line": 1.6
+   },
+   "explanation": {
+    "text": "At 96:40, Pepe had a big chance for Portugal after a 4-pass move that started from a throw-in, but it went off target. The chance was worth 0.15 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Rafael Leão.",
+    "why": "The shot came from very close to goal, where chances are usually at their best.",
+    "source": "template",
+    "label": "Automated analysis"
+   },
+   "highlights_url": null
   }
  ],
  "has_360": true,
  "names": {
   "Azzedine Ounahi": "Azzedine Ounahi",
+  "Bernardo Mota Veiga de Carvalho e Silva": "Bernardo Silva",
+  "Bruno Miguel Borges Fernandes": "Bruno Fernandes",
+  "Gonçalo Matias Ramos": "Gonçalo Ramos",
   "Hakim Ziyech": "Hakim Ziyech",
+  "José Diogo Dalot Teixeira": "Diogo Dalot",
+  "Kléper Laveran Lima Ferreira": "Pepe",
+  "Otávio Edmilson da Silva Monteiro": "Otavinho",
+  "Rafael Alexandre Conceição Leão": "Rafael Leão",
+  "Ricardo Jorge Luz Horta": "Ricardo Horta",
   "Sofiane Boufal": "Sofiane Boufal",
+  "Vitor Machado Ferreira": "Vitinha",
   "Walid Cheddira": "Walid Cheddira",
   "Yahia Attiyat allah": "Yahia Attiyat allah",
   "Youssef En-Nesyri": "Youssef En-Nesyri",
