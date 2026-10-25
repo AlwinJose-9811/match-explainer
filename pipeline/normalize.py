@@ -53,7 +53,7 @@ def flatten_event(e: dict[str, Any]) -> dict[str, Any]:
     loc = e.get("location")
     return {
         "id": e["id"], "index": e["index"], "period": e["period"], "ts": parse_ts(e["timestamp"]),
-        "minute": e["minute"], "second": e["second"], "type": e["type"]["name"],
+        "minute": e["minute"], "second": e["second"], "type": e["type"]["name"], "duration": e.get("duration"),
         "team": e["team"]["name"], "team_id": e["team"]["id"],
         "player": _name(e.get("player")), "player_id": (e.get("player") or {}).get("id"),
         "position": _name(e.get("position")),

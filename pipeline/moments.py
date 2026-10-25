@@ -13,6 +13,7 @@ import pandas as pd
 
 from .normalize import regulation
 from .snapshots import index_360, snapshot
+from .tracking import LEAD_S, build_movement, split_frame
 
 PERIOD_BASE_S = {1: 0, 2: 2700, 3: 5400, 4: 6300}
 MAX_STEPS, MAX_SECONDS = 12, 20.0
@@ -92,13 +93,35 @@ def build_sequence(reg: pd.DataFrame, shot: pd.Series) -> tuple[list[dict[str, A
     steps = [{"kind": r["type"].lower(), "event_id": r["id"], "from": [round(r["x"], 1), round(r["y"], 1)],
               "to": [round(r["end_x"], 1), round(r["end_y"], 1)], "player": r["player"],
               "recipient": r["pass_recipient"] if isinstance(r["pass_recipient"], str) else None,
-              "t": round(float(r["ts"]) - t0, 2), "key": r["id"] == key, "outcome": "Complete" if r["type"] == "Pass" else None}
+              "t": round(float(r["ts"]) - t0, 2), "dur": _dur(r), "key": r["id"] == key,
+              "outcome": "Complete" if r["type"] == "Pass" else None}
              for _, r in acts.iterrows()]
     end = [shot["end_x"], shot["end_y"]] if pd.notna(shot["end_x"]) else [120.0, 40.0]
     steps.append({"kind": "shot", "event_id": shot["id"], "from": [round(shot["x"], 1), round(shot["y"], 1)],
                   "to": [round(end[0], 1), round(end[1], 1)], "player": shot["player"], "recipient": None,
-                  "t": round(float(shot["ts"]) - t0, 2), "key": False, "outcome": shot["shot_outcome"]})
+                  "t": round(float(shot["ts"]) - t0, 2), "dur": _dur(shot), "key": False, "outcome": shot["shot_outcome"]})
     return steps, rebound
+
+
+def _dur(r: pd.Series) -> float | None:
+    """Real duration of the event in seconds (ball flight for a pass or shot, time on the ball for a carry)."""
+    d = r["duration"]
+    return None if pd.isna(d) else round(float(d), 2)
+
+
+def moment_movement(reg: pd.DataFrame, shot: pd.Series, steps: list[dict[str, Any]], f360: dict[str, list],
+                    jerseys: dict[str, int] | None) -> dict[str, Any] | None:
+    """Estimated movement of every visible player (both teams) from the 360 snapshot of each event in the move."""
+    if not f360:
+        return None
+    t0 = float(reg.loc[reg["id"] == steps[0]["event_id"], "ts"].iat[0])
+    win = reg[(reg["period"] == shot["period"]) & (reg["ts"] >= t0 - LEAD_S) & (reg["ts"] <= shot["ts"])]
+    frames = []
+    for r in win.itertuples():
+        snap = f360.get(r.id)
+        if snap:
+            frames.append({"t": float(r.ts), **split_frame(snap, r.team == shot["team"], r.player if isinstance(r.player, str) else None)})
+    return build_movement(frames, t0, jerseys)
 
 
 def moment_snapshots(shot: pd.Series, steps: list[dict[str, Any]], f360: dict[str, list]) -> dict[str, Any]:
@@ -125,22 +148,25 @@ def moment_facts(shot: pd.Series, steps: list[dict[str, Any]], snaps: dict[str, 
 
 
 def build_moments(df: pd.DataFrame, three_sixty: list[dict[str, Any]] | None, home: str,
-                  cfg: dict[str, Any]) -> dict[str, Any]:
+                  cfg: dict[str, Any], lineups: list[dict[str, Any]] | None = None) -> dict[str, Any]:
     """moments.json (explanations are added by the explanation stage)."""
     reg = regulation(df)
     f360 = index_360(three_sixty)
+    jerseys = {p["player_name"]: p["jersey_number"] for t in lineups or [] for p in t["lineup"] if p.get("jersey_number")}
     chosen = select_moments(detect_candidates(reg, home, cfg["moment_xg_threshold"]),
                             cfg["max_moments"], cfg["min_gap_s"])
     moments = []
     for i, c in enumerate(chosen, 1):
         m = {k: v for k, v in c.items() if k not in ("score", "clock_s", "index")}
         m["id"] = f"m{i:02d}"
-        m.update(sequence=[], snapshots={"key_pass": None, "shot": None}, facts={}, explanation=None, highlights_url=None)
+        m.update(sequence=[], snapshots={"key_pass": None, "shot": None}, movement=None, facts={}, explanation=None,
+                 highlights_url=None)
         if c["type"] in ("goal", "penalty", "shot") and not c["is_penalty"]:
             shot = reg[reg["id"] == c["event_id"]].iloc[0]
             steps, rebound = build_sequence(reg, shot)
             m["sequence"] = steps
             m["snapshots"] = moment_snapshots(shot, steps, f360) if f360 else m["snapshots"]
+            m["movement"] = moment_movement(reg, shot, steps, f360, jerseys)
             m["facts"] = moment_facts(shot, steps, m["snapshots"], rebound)
         elif c["is_penalty"]:
             m["facts"] = {"is_penalty": True, "outcome": c["outcome"]}

@@ -30,8 +30,15 @@
             "kind": {"enum": ["pass", "carry", "shot"]}, "event_id": {"type": "string"},
             "from": {"$ref": "#/$defs/point"}, "to": {"$ref": "#/$defs/point"},
             "player": {"type": ["string", "null"]}, "recipient": {"type": ["string", "null"]},
-            "t": {"type": "number", "minimum": 0}, "key": {"type": "boolean"},
+            "t": {"type": "number", "minimum": 0}, "dur": {"type": ["number", "null"], "minimum": 0}, "key": {"type": "boolean"},
             "outcome": {"type": ["string", "null"]}}}},
+        "movement": {"oneOf": [{"type": "null"}, {"type": "object", "required": ["t_start", "t_end", "tracks", "quality"], "properties": {
+          "t_start": {"type": "number"}, "t_end": {"type": "number"},
+          "quality": {"type": "object", "required": ["snapshots", "tracks", "avg_visible", "max_gap_s", "max_speed"]},
+          "tracks": {"type": "array", "items": {"type": "object", "required": ["id", "side", "keeper", "name", "jersey", "pts"], "properties": {
+            "id": {"type": "string"}, "side": {"enum": ["att", "def"]}, "keeper": {"type": "boolean"},
+            "name": {"type": ["string", "null"]}, "jersey": {"type": ["integer", "null"]},
+            "pts": {"type": "array", "minItems": 2, "items": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "number"}}}}}}}}]},
         "snapshots": {"type": "object", "required": ["key_pass", "shot"], "properties": {
           "key_pass": {"$ref": "#/$defs/snapshot"}, "shot": {"$ref": "#/$defs/snapshot"}}},
         "facts": {"type": "object"},

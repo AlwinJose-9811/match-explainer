@@ -29,7 +29,7 @@ def run(match_id: int) -> dict:
     t = summary["teams"]
     positions = build_positions(df, data.lineups, t["home"]["name"], t["away"]["name"], cfg)
     validate_json(positions, "positions")
-    moments = build_moments(df, data.three_sixty, t["home"]["name"], cfg)
+    moments = build_moments(df, data.three_sixty, t["home"]["name"], cfg, data.lineups)
     bundle = load_model()
     if bundle is None:
         print("WARNING: models/xg_model.joblib missing - model xG left empty (run: python tasks.py train)",

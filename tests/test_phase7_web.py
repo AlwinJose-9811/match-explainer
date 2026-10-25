@@ -17,14 +17,15 @@ moments_js = (WEB / "js" / "moments.js").read_text(encoding="utf8")
 node = shutil.which("node")
 
 NODE_TEST = r"""
-import { timeline, stepText } from 'file:///%s/web/js/replay.js';
-const steps = [{kind:'pass',t:0,player:'A',recipient:'B',from:[1,1],to:[2,2]},{kind:'carry',t:0.2,player:'B',from:[2,2],to:[3,3]},
-  {kind:'pass',t:10,player:'B',recipient:'C',from:[3,3],to:[4,4],key:true},{kind:'pass',t:10.5,player:'C',recipient:'D',from:[4,4],to:[5,5]},
-  {kind:'shot',t:14,player:'D',from:[5,5],to:[120,40],outcome:'Goal'}];
+import { timeline, stepText, trackAt } from 'file:///%s/web/js/replay.js';
+const steps = [{kind:'pass',t:0,dur:1.2,player:'A',recipient:'B',from:[1,1],to:[2,2]},{kind:'carry',t:1.5,dur:9,player:'B',from:[2,2],to:[3,3]},
+  {kind:'pass',t:10,dur:0.8,player:'B',recipient:'C',from:[3,3],to:[4,4],key:true},{kind:'pass',t:10.5,dur:null,player:'C',recipient:'D',from:[4,4],to:[5,5]},
+  {kind:'shot',t:14,dur:0.3,player:'D',from:[5,5],to:[120,40],outcome:'Goal'}];
 const tl = timeline(steps);
-const d = tl.map(x => +(x.end - x.start).toFixed(3));
-const contiguous = tl.every((x, i) => i === 0 ? x.start === 0 : Math.abs(x.start - tl[i-1].end) < 1e-9);
-console.log(JSON.stringify({d, contiguous, text: steps.map((s, i) => stepText(s, n => n, i))}));
+const track = {pts: [[0, 10, 10], [2, 20, 10], [4, 20, 30]]};
+const at = t => trackAt(track, t);
+console.log(JSON.stringify({starts: tl.map(x => x.start), ends: tl.map(x => +x.end.toFixed(3)),
+  mid: at(1), fadeIn: at(-0.2), fadeOut: at(4.4), gone: [at(-1), at(6)], text: steps.map((s, i) => stepText(s, n => n, i))}));
 """
 
 
@@ -35,9 +36,12 @@ def run_node(code: str) -> dict:
 
 
 @pytest.mark.skipif(node is None, reason="node not installed")
-def test_timeline_clamps_each_step_between_0_6_and_2_seconds():  # FR-A1, MX-03 6.7
+def test_timeline_runs_in_real_time_and_tracks_fade_in_and_out():  # FR-A1
     r = run_node(NODE_TEST % ROOT.as_posix())
-    assert r["d"] == [0.6, 2.0, 0.6, 1.225, 0.9] and r["contiguous"]
+    assert r["starts"] == [0, 1.5, 10, 10.5, 14]                       # each step starts at its event time
+    assert r["ends"] == [1.2, 10, 10.5, 11.3, 14.3]                    # real duration, but never past the next step's start; missing dur = 0.8 s
+    assert r["mid"]["x"] == 15 and r["mid"]["opacity"] == 1            # linear between snapshots
+    assert 0 < r["fadeIn"]["opacity"] < 1 and 0 < r["fadeOut"]["opacity"] < 1 and r["gone"] == [None, None]
     assert r["text"][2].endswith("the key pass") and "shoots (goal!)" in r["text"][4]
 
 
@@ -55,19 +59,23 @@ for (const id of %s) {
 console.log(JSON.stringify(out));
 """ % (ROOT.as_posix(), json.dumps(IDS), ROOT.as_posix())
     r = run_node(code)
-    assert r["n"] >= 10 and r["max"] < 25 and not r["bad"], r
+    assert r["n"] >= 10 and r["max"] < 35 and not r["bad"], r
 
 
 def test_replay_has_required_controls_and_reduced_motion_mode():  # FR-A2, FR-A3, FR-A6
-    for needle in ("Play replay", "Pause replay", "Restart replay", "[0.5, '0.5x']", "[1, '1x']", "type: 'range'",
+    for needle in ("Play replay", "Pause replay", "Restart replay", "[0.5, '0.5x']", "[1, '1x']", "[2, '2x']", "type: 'range'",
                    "prefers-reduced-motion", "Previous step", "Next step", "KEY PASS", "requestAnimationFrame"):
         assert needle in replay_js, needle
     assert "aria-live" in replay_js and "aria-label" in replay_js and "aria-valuetext" in replay_js
 
 
-def test_snapshots_show_visible_players_note_and_offside_line():  # FR-A4, FR-A5
-    for needle in ("Players at the key pass", "Players at the shot", "visible_players", "Last visible defender", "offside_line_x"):
+def test_replay_separates_ball_from_players_and_shows_both_teams():  # owner request: ball clearly visible, opposition + runs
+    for needle in ("Other players", "Runs", "Last defender line", "Freeze at the key pass", "Freeze at the shot", "visible_players",
+                   "Last visible defender", "movement", "trackAt", "defendSide"):
         assert needle in replay_js, needle
+    # layer order: players are appended before the ball layer so the ball is always on top
+    assert replay_js.index("svg.append(lineLayer, playerLayer, ballLayer)") > 0
+    assert "white casing" in replay_js
 
 
 def test_moments_page_filters_goals_and_labels_output():  # FR-K5, FR-E5

@@ -25,7 +25,7 @@ Then open http://localhost:8000.
 |---|---|
 | Summary | Score, possession (and how it is measured), plain-English stats table, match story, **Listen** button |
 | Pitch | Average positions per player, back/mid/front lines, team shape, a time-window slider |
-| Key moments | Goals and big chances replayed as an animation, the 360 view of visible players, a "why it worked" line |
+| Key moments | Goals and big chances replayed in real time: the ball path (bold, always on top) plus every player visible on camera for **both teams**, with their estimated runs, a live last-defender line, and a "why it worked" line |
 | Shots & xG | Shot map (marker size = chance quality) and a table of every shot |
 | Model card | Data, features, metrics against baselines and StatsBomb's xG, calibration, limits |
 | Glossary | 35 football and machine-learning terms; every underlined label also explains itself on hover or tap |
@@ -77,6 +77,11 @@ It beats the baselines, is well calibrated (error 0.017), and lands behind Stats
 - Event data has no continuous tracking. Positions are averages of where players touched the ball, and the tactical
   labels (low block / mid block / high line) are approximate and relative to these five matches.
 - 360 snapshots show only players visible on the TV picture, so the real last defender is sometimes missing.
+- The data has no full player tracking. Off-the-ball movement is **reconstructed**: each on-ball event carries an
+  anonymous snapshot of the visible players, the same player is matched between snapshots and the path is smoothed.
+  Checked against the event data, the passer's reconstructed position is within 0.6 yards at the median (2 yards at the
+  90th percentile, 7 at worst); in between snapshots (up to about 6 seconds apart) the exact route is an estimate.
+  Players off camera are not shown, and two moves with a single snapshot are ball-only.
 - Penalties use one fixed chance (79%); they are shown as a simple card with no build-up.
 - Explanations are templates filled with facts from the data and labelled **Automated analysis**. No language model is used.
 - Only five matches are included; more need the build steps above and are limited to matches in StatsBomb's free data.

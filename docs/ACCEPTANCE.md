@@ -31,8 +31,9 @@ Status as of the final build. **Done** = implemented and checked by a test or by
 | FR-A1 ball, arrows, dashed carries, shot arrow | Done | verified in the browser (arrows, ball, GOAL!) |
 | FR-A2 play, pause, restart, 0.5x/1x, scrubber | Done | keyboard-operable buttons and a range input |
 | FR-A3 step labels, key pass and shooter highlighted | Done | caption, numbered steps, KEY PASS label, shooter ring |
-| FR-A4 360 snapshot at key pass and shot | Done | open-play goals have snapshots; "visible players only" note |
-| FR-A5 last-defender line and gap | Done | line = max visible defender x (test); gap sentence shown |
+| FR-A4 360 snapshot at key pass and shot | Done | all visible players of both teams are shown during the replay, with "Freeze at the key pass / shot"; "visible players only" note |
+| FR-A5 last-defender line and gap | Done | live line = x of the deepest visible defender (test); gap sentence at the key pass |
+| Owner request: opposition positions and off-the-ball movement, ball path separate | Done, with limits | `tracking.py` reconstructs runs from 360 snapshots (both teams, mirrored into one frame); ball path is bold, white-cased and drawn on top; toggles for players, runs and the last-defender line. Accuracy vs the event data: median 0.6 yd, 90th percentile 2.0 yd, max 7.1 yd over 132 actions; implied speeds <= 14 yd/s; defending keepers land at the right end (mirroring test). It is an estimate (visible players only, up to ~6 s between snapshots), not tracking. Two single-snapshot moves are ball-only |
 | FR-A6 reduced motion | Done | tested by overriding the media query: step-by-step view with Previous/Next |
 | FR-X1 training exclusions logged | Done | counts in `xg_metrics.json` |
 | FR-X2 pre-shot features only | Done | leakage guard test |

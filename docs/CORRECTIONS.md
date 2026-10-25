@@ -37,6 +37,16 @@ Verified against statsbomb/open-data on 2026-10-25.
   it is a diagnostic in positions.json and not shown in the UI.
 - Windows: named (full, first half, second half, extra time) plus 15-minute windows every 5 minutes.
 
+## Replay v2: opposition and off-the-ball movement (owner request)
+- Replays now run in REAL time (ball steps use the events' real durations) instead of compressed 0.6-2 s steps; speeds 0.5x/1x/2x.
+- Player movement is reconstructed from the 360 snapshot attached to every event in the move (both teams): snapshots of
+  the other team's events are mirrored into the attacking team's frame, the same player is matched between snapshots
+  (Hungarian matching, speed gate, named actors pinned to their own track), then smoothed (0.6 s Gaussian). See
+  `pipeline/tracking.py`; `scripts/check_movement.py` prints accuracy against the event data.
+- This is an ESTIMATE: snapshots contain only players visible on the TV picture and carry no player identities; gaps between
+  snapshots reach about 6 s. The UI says so and shows the snapshot count and the longest gap.
+- Moves with fewer than two snapshots stay ball-only (two of 26 replays).
+
 ## Phase 8 fixes
 - Away team colour darkened from #C55A11 to #B75410: white text on #C55A11 was only 4.34:1 (needs 4.5:1, NFR-4);
   the new colour gives 4.9:1 and is still clearly distinct from the blue. A test now checks all text/background pairs.
