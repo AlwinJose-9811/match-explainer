@@ -30,7 +30,7 @@ export async function render({ load }) {
   const { home, away } = s.teams, sc = s.score;
   const meta = [s.competition + ' ' + s.season, s.stage, s.date].filter(Boolean).join(' · ');
   const story = s.story;
-  const listen = story ? listenButton(() => story.speech || story.text, 'Listen to the story') : null;
+  const listen = story ? listenButton(() => story.speech || story.text, 'Listen to the story', story.audio) : null;
 
   return h('div', null,
     h('section', { class: 'card center', 'aria-labelledby': 'score-h' },

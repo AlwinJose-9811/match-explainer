@@ -84,7 +84,8 @@ def test_tampered_explanation_fails_revalidation_and_output_is_deterministic(): 
     facts = text_facts(m, summary, names)
     assert validate_text(m["explanation"]["text"], facts, max_sentences=3, max_words=80) == []
     assert validate_text(m["explanation"]["text"].replace("Argentina", "Brazil"), facts)
-    assert explain_moment(m, summary, names) == m["explanation"] == explain_moment(m, summary, names)
+    stored = {k: v for k, v in m["explanation"].items() if k != "audio"}   # `audio` is linked afterwards, not generated
+    assert explain_moment(m, summary, names) == stored == explain_moment(m, summary, names)
 
 
 def test_display_names_use_nickname_with_explicit_overrides():

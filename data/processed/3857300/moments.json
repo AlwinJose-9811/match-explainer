@@ -1,0 +1,7334 @@
+{
+ "moments": [
+  {
+   "type": "shot",
+   "event_id": "529aa3ea-3b3d-460c-8e1e-11620dd054e2",
+   "period": 1,
+   "minute": 1,
+   "second": 34,
+   "clock": "1:34",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Lionel Andrés Messi Cuccittini",
+   "xg_statsbomb": 0.153,
+   "xg_model": 0.13,
+   "outcome": "Saved",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m01",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "415f8b85-c9aa-4806-bb5c-56993ecf313c",
+     "from": [
+      53.9,
+      12.5
+     ],
+     "to": [
+      55.7,
+      11.1
+     ],
+     "player": "Nicolás Hernán Otamendi",
+     "recipient": null,
+     "t": 0.0,
+     "dur": 1.33,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "0b578633-8a08-4323-b782-330578d4fc41",
+     "from": [
+      55.7,
+      11.1
+     ],
+     "to": [
+      46.7,
+      20.4
+     ],
+     "player": "Nicolás Hernán Otamendi",
+     "recipient": "Leandro Daniel Paredes",
+     "t": 1.33,
+     "dur": 1.33,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "b7e39582-ddee-4bf5-8e39-962c0df34cf9",
+     "from": [
+      46.7,
+      20.4
+     ],
+     "to": [
+      42.6,
+      19.2
+     ],
+     "player": "Leandro Daniel Paredes",
+     "recipient": null,
+     "t": 2.66,
+     "dur": 1.38,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "ee4dfd2b-f5b5-4996-97c9-31b8dfaab2dc",
+     "from": [
+      42.6,
+      19.2
+     ],
+     "to": [
+      40.8,
+      47.0
+     ],
+     "player": "Leandro Daniel Paredes",
+     "recipient": "Cristian Gabriel Romero",
+     "t": 4.04,
+     "dur": 1.71,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "f354fc41-9382-4726-bb37-e871ab093ec8",
+     "from": [
+      40.8,
+      47.0
+     ],
+     "to": [
+      46.4,
+      55.6
+     ],
+     "player": "Cristian Gabriel Romero",
+     "recipient": null,
+     "t": 5.75,
+     "dur": 2.54,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "657287c0-b924-46d6-ab33-79f5ec8c011b",
+     "from": [
+      46.4,
+      55.6
+     ],
+     "to": [
+      93.1,
+      74.7
+     ],
+     "player": "Cristian Gabriel Romero",
+     "recipient": "Ángel Fabián Di María Hernández",
+     "t": 8.29,
+     "dur": 2.72,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "2768cc43-4697-4dd5-983d-324112eb5766",
+     "from": [
+      93.1,
+      74.7
+     ],
+     "to": [
+      106.4,
+      64.6
+     ],
+     "player": "Ángel Fabián Di María Hernández",
+     "recipient": null,
+     "t": 11.01,
+     "dur": 4.56,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "68bdbf38-7fd7-48b5-a272-199dd3460194",
+     "from": [
+      106.4,
+      64.6
+     ],
+     "to": [
+      106.7,
+      42.9
+     ],
+     "player": "Ángel Fabián Di María Hernández",
+     "recipient": "Lautaro Javier Martínez",
+     "t": 15.56,
+     "dur": 1.51,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "86bfcebb-b2ef-4101-a294-cf8a2019878a",
+     "from": [
+      106.7,
+      42.9
+     ],
+     "to": [
+      106.0,
+      42.7
+     ],
+     "player": "Lautaro Javier Martínez",
+     "recipient": null,
+     "t": 17.07,
+     "dur": 0.13,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "529aa3ea-3b3d-460c-8e1e-11620dd054e2",
+     "from": [
+      104.5,
+      44.5
+     ],
+     "to": [
+      117.6,
+      40.3
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 18.85,
+     "dur": 0.62,
+     "key": false,
+     "outcome": "Saved"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 88.9,
+       "y": 68.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 89.7,
+       "y": 52.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 94.6,
+       "y": 54.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 96.4,
+       "y": 63.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 101.2,
+       "y": 27.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 101.6,
+       "y": 59.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.3,
+       "y": 64.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.1,
+       "y": 34.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.0,
+       "y": 63.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.1,
+       "y": 39.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.4,
+       "y": 64.6,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 107.8,
+       "y": 59.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.2,
+       "y": 39.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.0,
+       "y": 43.6,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 108.2
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 89.8,
+       "y": 62.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 97.5,
+       "y": 60.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 99.1,
+       "y": 31.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 99.7,
+       "y": 48.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.0,
+       "y": 33.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.5,
+       "y": 42.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.8,
+       "y": 37.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.5,
+       "y": 44.5,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 104.6,
+       "y": 62.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.9,
+       "y": 44.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.0,
+       "y": 54.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.9,
+       "y": 47.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.6,
+       "y": 46.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.3,
+       "y": 38.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.4,
+       "y": 47.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.9,
+       "y": 53.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 117.9,
+       "y": 41.8,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 108.4
+    }
+   },
+   "movement": {
+    "t_start": 0.0,
+    "t_end": 18.85,
+    "tracks": [
+     {
+      "id": "a1",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        53.7,
+        62.5
+       ],
+       [
+        0.0,
+        53.7,
+        62.5
+       ]
+      ]
+     },
+     {
+      "id": "a2",
+      "side": "att",
+      "keeper": false,
+      "name": "Nicolás Hernán Otamendi",
+      "jersey": 19,
+      "pts": [
+       [
+        0.0,
+        54.0,
+        12.4
+       ],
+       [
+        0.0,
+        54.0,
+        12.4
+       ],
+       [
+        1.33,
+        55.1,
+        10.9
+       ],
+       [
+        2.66,
+        52.4,
+        8.5
+       ],
+       [
+        2.66,
+        52.4,
+        8.5
+       ],
+       [
+        4.04,
+        47.7,
+        10.4
+       ],
+       [
+        5.75,
+        45.1,
+        14.2
+       ],
+       [
+        5.75,
+        45.1,
+        14.2
+       ],
+       [
+        8.29,
+        44.9,
+        22.9
+       ]
+      ]
+     },
+     {
+      "id": "a3",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        68.4,
+        53.0
+       ],
+       [
+        0.0,
+        68.4,
+        53.0
+       ],
+       [
+        1.33,
+        70.3,
+        50.8
+       ]
+      ]
+     },
+     {
+      "id": "a4",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        68.4,
+        0.6
+       ],
+       [
+        0.0,
+        68.4,
+        0.6
+       ],
+       [
+        1.33,
+        67.3,
+        -2.0
+       ],
+       [
+        2.66,
+        64.7,
+        -2.0
+       ],
+       [
+        2.66,
+        64.7,
+        -2.0
+       ],
+       [
+        4.04,
+        65.2,
+        0.6
+       ],
+       [
+        5.75,
+        70.5,
+        10.3
+       ],
+       [
+        5.75,
+        70.5,
+        10.3
+       ],
+       [
+        8.29,
+        68.9,
+        20.4
+       ]
+      ]
+     },
+     {
+      "id": "a5",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        71.2,
+        34.2
+       ],
+       [
+        0.0,
+        71.2,
+        34.2
+       ],
+       [
+        1.33,
+        72.4,
+        28.7
+       ],
+       [
+        2.66,
+        70.8,
+        26.2
+       ],
+       [
+        2.66,
+        70.8,
+        26.2
+       ],
+       [
+        5.75,
+        71.8,
+        29.9
+       ],
+       [
+        5.75,
+        71.8,
+        29.9
+       ],
+       [
+        8.29,
+        73.1,
+        37.1
+       ],
+       [
+        11.01,
+        86.1,
+        35.7
+       ],
+       [
+        11.01,
+        86.1,
+        35.7
+       ]
+      ]
+     },
+     {
+      "id": "a6",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        71.8,
+        44.3
+       ],
+       [
+        0.0,
+        71.8,
+        44.3
+       ],
+       [
+        1.33,
+        72.7,
+        40.9
+       ],
+       [
+        2.66,
+        70.8,
+        40.0
+       ],
+       [
+        2.66,
+        70.8,
+        40.0
+       ],
+       [
+        5.75,
+        69.2,
+        44.3
+       ],
+       [
+        5.75,
+        69.2,
+        44.3
+       ],
+       [
+        8.29,
+        74.5,
+        49.0
+       ],
+       [
+        11.01,
+        87.8,
+        51.2
+       ],
+       [
+        11.01,
+        87.8,
+        51.2
+       ]
+      ]
+     },
+     {
+      "id": "a7",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        72.6,
+        66.4
+       ],
+       [
+        0.0,
+        72.6,
+        66.4
+       ]
+      ]
+     },
+     {
+      "id": "a8",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        74.9,
+        9.5
+       ],
+       [
+        0.0,
+        74.9,
+        9.5
+       ],
+       [
+        1.33,
+        77.9,
+        12.2
+       ]
+      ]
+     },
+     {
+      "id": "a9",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        1.33,
+        76.8,
+        4.9
+       ],
+       [
+        2.66,
+        73.8,
+        4.9
+       ],
+       [
+        2.66,
+        73.8,
+        4.9
+       ],
+       [
+        4.04,
+        71.5,
+        1.3
+       ],
+       [
+        5.75,
+        68.9,
+        1.1
+       ],
+       [
+        5.75,
+        68.9,
+        1.1
+       ],
+       [
+        8.29,
+        71.7,
+        9.1
+       ]
+      ]
+     },
+     {
+      "id": "a10",
+      "side": "att",
+      "keeper": false,
+      "name": "Leandro Daniel Paredes",
+      "jersey": 5,
+      "pts": [
+       [
+        2.66,
+        46.6,
+        20.4
+       ],
+       [
+        2.66,
+        46.6,
+        20.4
+       ],
+       [
+        4.04,
+        43.1,
+        19.6
+       ],
+       [
+        5.75,
+        43.3,
+        26.6
+       ],
+       [
+        5.75,
+        43.3,
+        26.6
+       ],
+       [
+        8.29,
+        45.6,
+        38.6
+       ]
+      ]
+     },
+     {
+      "id": "a11",
+      "side": "att",
+      "keeper": false,
+      "name": "Cristian Gabriel Romero",
+      "jersey": 13,
+      "pts": [
+       [
+        4.04,
+        40.4,
+        45.0
+       ],
+       [
+        5.75,
+        40.8,
+        47.0
+       ],
+       [
+        5.75,
+        40.8,
+        47.0
+       ],
+       [
+        8.29,
+        46.4,
+        55.6
+       ]
+      ]
+     },
+     {
+      "id": "a12",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        5.75,
+        49.3,
+        72.7
+       ],
+       [
+        5.75,
+        49.3,
+        72.7
+       ],
+       [
+        8.29,
+        49.9,
+        76.9
+       ]
+      ]
+     },
+     {
+      "id": "a14",
+      "side": "att",
+      "keeper": false,
+      "name": "Ángel Fabián Di María Hernández",
+      "jersey": 11,
+      "pts": [
+       [
+        8.29,
+        72.4,
+        78.7
+       ],
+       [
+        11.01,
+        93.1,
+        74.7
+       ],
+       [
+        11.01,
+        93.1,
+        74.7
+       ]
+      ]
+     },
+     {
+      "id": "a15",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        15.56,
+        89.3,
+        68.4
+       ],
+       [
+        17.07,
+        92.8,
+        63.2
+       ],
+       [
+        17.07,
+        92.8,
+        63.2
+       ],
+       [
+        17.2,
+        92.9,
+        63.0
+       ],
+       [
+        17.67,
+        92.7,
+        61.8
+       ],
+       [
+        18.17,
+        92.0,
+        60.6
+       ],
+       [
+        18.25,
+        91.9,
+        60.5
+       ],
+       [
+        18.69,
+        91.2,
+        60.3
+       ],
+       [
+        18.85,
+        91.0,
+        60.3
+       ]
+      ]
+     },
+     {
+      "id": "a16",
+      "side": "att",
+      "keeper": false,
+      "name": "Lionel Andrés Messi Cuccittini",
+      "jersey": 10,
+      "pts": [
+       [
+        15.56,
+        90.4,
+        52.2
+       ],
+       [
+        17.07,
+        98.0,
+        47.0
+       ],
+       [
+        17.07,
+        98.0,
+        47.0
+       ],
+       [
+        17.2,
+        98.4,
+        46.8
+       ],
+       [
+        17.67,
+        100.2,
+        45.6
+       ],
+       [
+        18.17,
+        102.2,
+        44.2
+       ],
+       [
+        18.25,
+        102.5,
+        44.0
+       ],
+       [
+        18.69,
+        103.4,
+        43.4
+       ],
+       [
+        18.85,
+        103.7,
+        43.3
+       ]
+      ]
+     },
+     {
+      "id": "a17",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        15.56,
+        96.6,
+        62.8
+       ],
+       [
+        17.07,
+        99.4,
+        60.3
+       ],
+       [
+        17.07,
+        99.4,
+        60.3
+       ],
+       [
+        17.2,
+        99.4,
+        60.1
+       ],
+       [
+        17.67,
+        99.5,
+        59.3
+       ],
+       [
+        18.17,
+        99.2,
+        58.4
+       ],
+       [
+        18.25,
+        99.1,
+        58.3
+       ],
+       [
+        18.69,
+        98.6,
+        58.2
+       ],
+       [
+        18.85,
+        98.5,
+        58.2
+       ]
+      ]
+     },
+     {
+      "id": "a18",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        15.56,
+        101.7,
+        28.2
+       ],
+       [
+        17.07,
+        106.0,
+        35.1
+       ],
+       [
+        17.07,
+        106.0,
+        35.1
+       ],
+       [
+        17.2,
+        106.0,
+        35.2
+       ],
+       [
+        17.67,
+        106.0,
+        35.0
+       ],
+       [
+        18.17,
+        105.6,
+        35.0
+       ],
+       [
+        18.25,
+        105.5,
+        35.0
+       ],
+       [
+        18.69,
+        105.0,
+        35.3
+       ],
+       [
+        18.85,
+        104.8,
+        35.5
+       ]
+      ]
+     },
+     {
+      "id": "a19",
+      "side": "att",
+      "keeper": false,
+      "name": "Lautaro Javier Martínez",
+      "jersey": 22,
+      "pts": [
+       [
+        15.56,
+        106.1,
+        39.5
+       ],
+       [
+        17.07,
+        106.9,
+        42.8
+       ],
+       [
+        17.07,
+        106.9,
+        42.8
+       ],
+       [
+        17.2,
+        107.0,
+        42.8
+       ],
+       [
+        17.67,
+        107.6,
+        42.6
+       ],
+       [
+        18.17,
+        108.4,
+        42.3
+       ]
+      ]
+     },
+     {
+      "id": "a20",
+      "side": "att",
+      "keeper": false,
+      "name": "Ángel Fabián Di María Hernández",
+      "jersey": 11,
+      "pts": [
+       [
+        15.56,
+        107.0,
+        63.9
+       ],
+       [
+        17.07,
+        112.2,
+        57.1
+       ],
+       [
+        17.07,
+        112.2,
+        57.1
+       ],
+       [
+        17.2,
+        112.3,
+        56.8
+       ],
+       [
+        17.67,
+        112.5,
+        55.4
+       ],
+       [
+        18.17,
+        111.9,
+        52.9
+       ],
+       [
+        18.85,
+        109.0,
+        49.5
+       ]
+      ]
+     },
+     {
+      "id": "a21",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        17.67,
+        99.1,
+        27.7
+       ],
+       [
+        18.17,
+        101.8,
+        25.2
+       ]
+      ]
+     },
+     {
+      "id": "a22",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        18.25,
+        99.4,
+        28.4
+       ],
+       [
+        18.69,
+        99.4,
+        28.7
+       ],
+       [
+        18.85,
+        99.4,
+        28.9
+       ]
+      ]
+     },
+     {
+      "id": "a23",
+      "side": "att",
+      "keeper": false,
+      "name": "Lautaro Javier Martínez",
+      "jersey": 22,
+      "pts": [
+       [
+        18.25,
+        106.4,
+        42.7
+       ],
+       [
+        18.69,
+        106.6,
+        43.8
+       ]
+      ]
+     },
+     {
+      "id": "a24",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        18.25,
+        110.0,
+        51.1
+       ],
+       [
+        18.69,
+        109.8,
+        51.3
+       ],
+       [
+        18.85,
+        109.8,
+        51.4
+       ]
+      ]
+     },
+     {
+      "id": "d1",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        54.5,
+        35.5
+       ],
+       [
+        0.0,
+        54.5,
+        35.5
+       ],
+       [
+        1.33,
+        55.0,
+        29.3
+       ],
+       [
+        2.66,
+        51.3,
+        24.7
+       ],
+       [
+        2.66,
+        51.3,
+        24.7
+       ],
+       [
+        4.04,
+        49.0,
+        24.4
+       ],
+       [
+        5.75,
+        51.5,
+        32.1
+       ],
+       [
+        5.75,
+        51.5,
+        32.1
+       ],
+       [
+        8.29,
+        53.2,
+        45.4
+       ]
+      ]
+     },
+     {
+      "id": "d2",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        58.1,
+        21.9
+       ],
+       [
+        0.0,
+        58.1,
+        21.9
+       ],
+       [
+        1.33,
+        56.6,
+        13.0
+       ],
+       [
+        2.66,
+        55.1,
+        13.7
+       ],
+       [
+        2.66,
+        55.1,
+        13.7
+       ],
+       [
+        4.04,
+        53.8,
+        17.0
+       ],
+       [
+        5.75,
+        55.3,
+        24.4
+       ],
+       [
+        5.75,
+        55.3,
+        24.4
+       ],
+       [
+        8.29,
+        56.2,
+        35.2
+       ]
+      ]
+     },
+     {
+      "id": "d3",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        61.7,
+        54.5
+       ],
+       [
+        0.0,
+        61.7,
+        54.5
+       ]
+      ]
+     },
+     {
+      "id": "d4",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        63.0,
+        45.6
+       ],
+       [
+        0.0,
+        63.0,
+        45.6
+       ],
+       [
+        1.33,
+        63.0,
+        48.7
+       ],
+       [
+        2.66,
+        60.8,
+        49.4
+       ],
+       [
+        2.66,
+        60.8,
+        49.4
+       ],
+       [
+        4.04,
+        58.8,
+        50.8
+       ],
+       [
+        5.75,
+        59.7,
+        55.9
+       ],
+       [
+        5.75,
+        59.7,
+        55.9
+       ],
+       [
+        8.29,
+        60.0,
+        65.9
+       ]
+      ]
+     },
+     {
+      "id": "d5",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        68.8,
+        39.6
+       ],
+       [
+        0.0,
+        68.8,
+        39.6
+       ],
+       [
+        1.33,
+        64.8,
+        39.6
+       ],
+       [
+        2.66,
+        61.9,
+        38.4
+       ],
+       [
+        2.66,
+        61.9,
+        38.4
+       ],
+       [
+        4.04,
+        59.8,
+        39.7
+       ],
+       [
+        5.75,
+        60.0,
+        44.8
+       ],
+       [
+        5.75,
+        60.0,
+        44.8
+       ],
+       [
+        8.29,
+        60.8,
+        55.8
+       ]
+      ]
+     },
+     {
+      "id": "d6",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        70.4,
+        10.3
+       ],
+       [
+        0.0,
+        70.4,
+        10.3
+       ],
+       [
+        1.33,
+        71.8,
+        4.9
+       ],
+       [
+        2.66,
+        68.0,
+        2.8
+       ],
+       [
+        2.66,
+        68.0,
+        2.8
+       ],
+       [
+        4.04,
+        65.4,
+        4.7
+       ],
+       [
+        5.75,
+        65.5,
+        10.8
+       ],
+       [
+        5.75,
+        65.5,
+        10.8
+       ],
+       [
+        8.29,
+        67.6,
+        21.1
+       ]
+      ]
+     },
+     {
+      "id": "d7",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        71.6,
+        52.5
+       ],
+       [
+        0.0,
+        71.6,
+        52.5
+       ],
+       [
+        1.33,
+        72.6,
+        49.7
+       ]
+      ]
+     },
+     {
+      "id": "d8",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        73.1,
+        32.2
+       ],
+       [
+        0.0,
+        73.1,
+        32.2
+       ],
+       [
+        1.33,
+        69.7,
+        31.4
+       ],
+       [
+        2.66,
+        65.8,
+        28.8
+       ],
+       [
+        2.66,
+        65.8,
+        28.8
+       ],
+       [
+        4.04,
+        64.4,
+        28.2
+       ],
+       [
+        5.75,
+        66.2,
+        35.6
+       ],
+       [
+        5.75,
+        66.2,
+        35.6
+       ],
+       [
+        8.29,
+        73.1,
+        56.2
+       ],
+       [
+        11.01,
+        89.5,
+        67.9
+       ],
+       [
+        11.01,
+        89.5,
+        67.9
+       ]
+      ]
+     },
+     {
+      "id": "d9",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        73.7,
+        41.9
+       ],
+       [
+        0.0,
+        73.7,
+        41.9
+       ],
+       [
+        1.33,
+        75.6,
+        36.8
+       ]
+      ]
+     },
+     {
+      "id": "d10",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        76.3,
+        18.6
+       ],
+       [
+        0.0,
+        76.3,
+        18.6
+       ],
+       [
+        1.33,
+        75.5,
+        25.9
+       ],
+       [
+        2.66,
+        72.7,
+        25.4
+       ],
+       [
+        2.66,
+        72.7,
+        25.4
+       ],
+       [
+        5.75,
+        71.4,
+        30.0
+       ],
+       [
+        5.75,
+        71.4,
+        30.0
+       ],
+       [
+        8.29,
+        73.3,
+        28.9
+       ],
+       [
+        11.01,
+        90.3,
+        36.5
+       ],
+       [
+        11.01,
+        90.3,
+        36.5
+       ]
+      ]
+     },
+     {
+      "id": "d11",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.66,
+        74.2,
+        10.7
+       ],
+       [
+        2.66,
+        74.2,
+        10.7
+       ],
+       [
+        4.04,
+        70.9,
+        8.5
+       ],
+       [
+        5.75,
+        70.7,
+        19.8
+       ],
+       [
+        5.75,
+        70.7,
+        19.8
+       ],
+       [
+        8.29,
+        73.5,
+        39.2
+       ],
+       [
+        11.01,
+        88.7,
+        49.5
+       ],
+       [
+        11.01,
+        88.7,
+        49.5
+       ]
+      ]
+     },
+     {
+      "id": "d12",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        5.75,
+        71.4,
+        43.1
+       ],
+       [
+        5.75,
+        71.4,
+        43.1
+       ],
+       [
+        8.29,
+        73.8,
+        49.1
+       ],
+       [
+        11.01,
+        90.0,
+        55.3
+       ],
+       [
+        11.01,
+        90.0,
+        55.3
+       ]
+      ]
+     },
+     {
+      "id": "d14",
+      "side": "def",
+      "keeper": true,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        11.01,
+        111.0,
+        40.9
+       ],
+       [
+        11.01,
+        111.0,
+        40.9
+       ]
+      ]
+     },
+     {
+      "id": "d15",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        15.56,
+        95.2,
+        53.9
+       ],
+       [
+        17.07,
+        100.3,
+        50.0
+       ],
+       [
+        17.07,
+        100.3,
+        50.0
+       ],
+       [
+        17.2,
+        100.4,
+        49.8
+       ],
+       [
+        17.67,
+        100.8,
+        48.5
+       ],
+       [
+        18.17,
+        100.9,
+        47.1
+       ],
+       [
+        18.25,
+        100.9,
+        47.0
+       ],
+       [
+        18.69,
+        100.6,
+        46.6
+       ],
+       [
+        18.85,
+        100.5,
+        46.6
+       ]
+      ]
+     },
+     {
+      "id": "d16",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        15.56,
+        102.1,
+        58.7
+       ],
+       [
+        17.07,
+        106.6,
+        49.6
+       ],
+       [
+        17.07,
+        106.6,
+        49.6
+       ],
+       [
+        17.2,
+        106.7,
+        49.2
+       ],
+       [
+        17.67,
+        107.0,
+        47.4
+       ],
+       [
+        18.17,
+        107.1,
+        45.6
+       ],
+       [
+        18.25,
+        107.1,
+        45.4
+       ],
+       [
+        18.69,
+        107.0,
+        45.0
+       ],
+       [
+        18.85,
+        106.9,
+        45.0
+       ]
+      ]
+     },
+     {
+      "id": "d17",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        15.56,
+        103.8,
+        63.8
+       ],
+       [
+        17.07,
+        107.8,
+        56.1
+       ],
+       [
+        17.07,
+        107.8,
+        56.1
+       ],
+       [
+        17.2,
+        107.8,
+        55.8
+       ],
+       [
+        17.67,
+        107.5,
+        54.5
+       ],
+       [
+        18.17,
+        106.8,
+        53.0
+       ],
+       [
+        18.25,
+        106.7,
+        52.8
+       ],
+       [
+        18.69,
+        106.1,
+        52.4
+       ],
+       [
+        18.85,
+        105.9,
+        52.4
+       ]
+      ]
+     },
+     {
+      "id": "d18",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        15.56,
+        104.7,
+        34.3
+       ],
+       [
+        17.07,
+        110.0,
+        33.7
+       ],
+       [
+        17.07,
+        110.0,
+        33.7
+       ],
+       [
+        17.2,
+        109.9,
+        33.8
+       ],
+       [
+        17.67,
+        109.6,
+        34.5
+       ],
+       [
+        18.17,
+        108.9,
+        35.4
+       ],
+       [
+        18.25,
+        108.8,
+        35.6
+       ],
+       [
+        18.69,
+        108.2,
+        36.2
+       ],
+       [
+        18.85,
+        108.1,
+        36.4
+       ]
+      ]
+     },
+     {
+      "id": "d19",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        15.56,
+        106.2,
+        63.2
+       ],
+       [
+        17.07,
+        107.6,
+        61.3
+       ],
+       [
+        17.07,
+        107.6,
+        61.3
+       ],
+       [
+        17.2,
+        107.6,
+        61.1
+       ],
+       [
+        17.67,
+        107.4,
+        60.5
+       ],
+       [
+        18.17,
+        106.7,
+        60.0
+       ],
+       [
+        18.25,
+        106.6,
+        59.9
+       ],
+       [
+        18.69,
+        106.0,
+        60.0
+       ],
+       [
+        18.85,
+        105.8,
+        60.1
+       ]
+      ]
+     },
+     {
+      "id": "d20",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        15.56,
+        108.1,
+        58.5
+       ],
+       [
+        17.07,
+        110.7,
+        51.6
+       ],
+       [
+        17.07,
+        110.7,
+        51.6
+       ],
+       [
+        17.2,
+        110.7,
+        51.2
+       ],
+       [
+        17.67,
+        110.5,
+        49.3
+       ],
+       [
+        18.17,
+        110.0,
+        47.1
+       ],
+       [
+        18.25,
+        109.9,
+        46.8
+       ],
+       [
+        18.69,
+        109.4,
+        45.9
+       ],
+       [
+        18.85,
+        109.3,
+        45.8
+       ]
+      ]
+     },
+     {
+      "id": "d21",
+      "side": "def",
+      "keeper": false,
+      "name": "Abdulelah Saad Hameed Al-Malki",
+      "jersey": 8,
+      "pts": [
+       [
+        15.56,
+        108.2,
+        40.1
+       ],
+       [
+        17.07,
+        108.4,
+        43.2
+       ],
+       [
+        17.07,
+        108.4,
+        43.2
+       ],
+       [
+        17.2,
+        108.4,
+        43.2
+       ],
+       [
+        17.67,
+        108.0,
+        43.1
+       ],
+       [
+        18.17,
+        107.1,
+        43.2
+       ],
+       [
+        18.25,
+        106.9,
+        43.2
+       ],
+       [
+        18.69,
+        106.1,
+        43.4
+       ],
+       [
+        18.85,
+        105.9,
+        43.5
+       ]
+      ]
+     },
+     {
+      "id": "d22",
+      "side": "def",
+      "keeper": true,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        15.56,
+        117.2,
+        43.2
+       ],
+       [
+        17.07,
+        119.6,
+        39.6
+       ],
+       [
+        17.07,
+        119.6,
+        39.6
+       ],
+       [
+        17.2,
+        119.7,
+        39.5
+       ],
+       [
+        17.67,
+        119.7,
+        39.3
+       ],
+       [
+        18.17,
+        119.4,
+        39.3
+       ],
+       [
+        18.25,
+        119.3,
+        39.3
+       ],
+       [
+        18.69,
+        118.9,
+        39.6
+       ],
+       [
+        18.85,
+        118.7,
+        39.7
+       ]
+      ]
+     },
+     {
+      "id": "d23",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        17.07,
+        97.5,
+        30.3
+       ],
+       [
+        17.07,
+        97.5,
+        30.3
+       ],
+       [
+        17.2,
+        97.7,
+        30.2
+       ],
+       [
+        17.67,
+        98.9,
+        30.2
+       ],
+       [
+        18.17,
+        100.0,
+        30.4
+       ],
+       [
+        18.25,
+        100.2,
+        30.4
+       ],
+       [
+        18.69,
+        100.4,
+        30.9
+       ],
+       [
+        18.85,
+        100.4,
+        31.1
+       ]
+      ]
+     },
+     {
+      "id": "d24",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        17.07,
+        97.9,
+        40.8
+       ],
+       [
+        17.07,
+        97.9,
+        40.8
+       ],
+       [
+        17.2,
+        98.2,
+        40.7
+       ],
+       [
+        17.67,
+        99.9,
+        40.5
+       ],
+       [
+        18.17,
+        101.5,
+        40.5
+       ],
+       [
+        18.25,
+        101.7,
+        40.6
+       ],
+       [
+        18.69,
+        102.2,
+        41.0
+       ],
+       [
+        18.85,
+        102.3,
+        41.2
+       ]
+      ]
+     }
+    ],
+    "quality": {
+     "snapshots": 20,
+     "tracks": 46,
+     "avg_visible": 15.4,
+     "max_gap_s": 4.6,
+     "max_speed": 8.6
+    }
+   },
+   "facts": {
+    "sequence_len": 4,
+    "duration_s": 18.85,
+    "play_pattern": "Regular Play",
+    "body_part": "Left Foot",
+    "technique": "Normal",
+    "shot_distance": 16.1,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": false,
+    "assist_player": "Ángel Fabián Di María Hernández",
+    "defensive_line_height": 11.8,
+    "gap_to_line": -1.5
+   },
+   "explanation": {
+    "text": "At 1:34, Lionel Messi had a big chance for Argentina after a 4-pass move, but the goalkeeper saved it. The chance was worth 0.13 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Ángel Di María.",
+    "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "speech": "Big chance in the second minute! Lionel Messi shoots for Argentina... but the goalkeeper saves it! A smooth move of four passes opens the defence. Our model says about one in ten shots like that are goals. Ángel Di María played the pass that made it. Hit first time, the goalkeeper had almost no time to react.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3857300/m01-554534eb.ogg"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "87e2e8be-e11d-43d6-b9fd-fab92bf1bfb1",
+   "period": 1,
+   "minute": 9,
+   "second": 15,
+   "clock": "9:15",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Lionel Andrés Messi Cuccittini",
+   "xg_statsbomb": 0.783,
+   "xg_model": 0.786,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": true,
+   "id": "m02",
+   "sequence": [],
+   "snapshots": {
+    "key_pass": null,
+    "shot": null
+   },
+   "movement": null,
+   "facts": {
+    "is_penalty": true,
+    "outcome": "Goal"
+   },
+   "explanation": {
+    "text": "At 9:15, Lionel Messi scored a penalty for Argentina. A penalty is a free shot at the goalkeeper after a foul in the box, and about 8 in 10 are scored.",
+    "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
+    "speech": "The tenth minute, penalty for Argentina. Lionel Messi steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3857300/m02-07c3397a.ogg"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "0751ad88-9cbe-4424-8322-cbad542842b4",
+   "period": 2,
+   "minute": 47,
+   "second": 40,
+   "clock": "47:40",
+   "team": "away",
+   "team_name": "Saudi Arabia",
+   "player": "Saleh Khalid Al Shehri",
+   "xg_statsbomb": 0.081,
+   "xg_model": 0.111,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m03",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "361e5777-6fdd-479d-9adf-f2bf1fb37a85",
+     "from": [
+      49.9,
+      24.7
+     ],
+     "to": [
+      58.9,
+      17.7
+     ],
+     "player": "Mohammed Kanoo",
+     "recipient": "Nawaf Shaker Al Abid",
+     "t": 0.0,
+     "dur": 1.2,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "54b23124-5c76-459d-aa67-f3d7d9a183c6",
+     "from": [
+      58.9,
+      17.7
+     ],
+     "to": [
+      59.3,
+      17.7
+     ],
+     "player": "Nawaf Shaker Al Abid",
+     "recipient": null,
+     "t": 1.2,
+     "dur": 0.68,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "cc627d91-aa40-4603-b792-f4181f682e1c",
+     "from": [
+      59.3,
+      17.7
+     ],
+     "to": [
+      69.4,
+      4.2
+     ],
+     "player": "Nawaf Shaker Al Abid",
+     "recipient": "Salem Mohammed Al Dawsari",
+     "t": 1.88,
+     "dur": 0.95,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "9626e910-9b41-4275-93ce-bd898f59fec7",
+     "from": [
+      69.4,
+      4.2
+     ],
+     "to": [
+      69.2,
+      4.4
+     ],
+     "player": "Salem Mohammed Al Dawsari",
+     "recipient": null,
+     "t": 2.84,
+     "dur": 0.86,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "ae1b5587-efcc-4d6a-b508-537e1a19f68b",
+     "from": [
+      69.2,
+      4.4
+     ],
+     "to": [
+      69.6,
+      17.9
+     ],
+     "player": "Salem Mohammed Al Dawsari",
+     "recipient": "Nawaf Shaker Al Abid",
+     "t": 3.7,
+     "dur": 0.53,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "4fc13302-176b-449b-a5a0-1892b5d4ed2b",
+     "from": [
+      69.6,
+      17.9
+     ],
+     "to": [
+      70.4,
+      16.6
+     ],
+     "player": "Nawaf Shaker Al Abid",
+     "recipient": null,
+     "t": 4.23,
+     "dur": 0.8,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "carry",
+     "event_id": "44fca69d-cf4d-417c-847d-5694c78eb930",
+     "from": [
+      65.5,
+      17.9
+     ],
+     "to": [
+      65.7,
+      16.6
+     ],
+     "player": "Mohammed Kanoo",
+     "recipient": null,
+     "t": 6.39,
+     "dur": 0.8,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "carry",
+     "event_id": "a4314534-1e51-4fde-bd71-7f6413977921",
+     "from": [
+      62.1,
+      34.8
+     ],
+     "to": [
+      63.2,
+      38.0
+     ],
+     "player": "Abdulelah Saad Hameed Al-Malki",
+     "recipient": null,
+     "t": 10.97,
+     "dur": 1.24,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "a79f7eff-1652-47e8-83fd-0185910eab9d",
+     "from": [
+      63.2,
+      38.0
+     ],
+     "to": [
+      84.6,
+      34.4
+     ],
+     "player": "Abdulelah Saad Hameed Al-Malki",
+     "recipient": "Firas Tariq Nasser Al Albirakan",
+     "t": 12.21,
+     "dur": 1.42,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "7776302b-33ce-481b-8735-9bdc5345386c",
+     "from": [
+      84.6,
+      34.4
+     ],
+     "to": [
+      84.6,
+      34.4
+     ],
+     "player": "Firas Tariq Nasser Al Albirakan",
+     "recipient": null,
+     "t": 13.62,
+     "dur": 0.11,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "8eb9dbac-73e9-41ed-8a36-c739565aaa3d",
+     "from": [
+      84.6,
+      34.4
+     ],
+     "to": [
+      91.8,
+      33.5
+     ],
+     "player": "Firas Tariq Nasser Al Albirakan",
+     "recipient": "Saleh Khalid Al Shehri",
+     "t": 13.73,
+     "dur": 1.2,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "51e600e3-7be5-4c7e-82b6-365e5425e473",
+     "from": [
+      91.8,
+      33.5
+     ],
+     "to": [
+      108.0,
+      29.6
+     ],
+     "player": "Saleh Khalid Al Shehri",
+     "recipient": null,
+     "t": 14.93,
+     "dur": 2.28,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "0751ad88-9cbe-4424-8322-cbad542842b4",
+     "from": [
+      108.0,
+      29.6
+     ],
+     "to": [
+      120.0,
+      43.2
+     ],
+     "player": "Saleh Khalid Al Shehri",
+     "recipient": null,
+     "t": 17.21,
+     "dur": 1.13,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 73.3,
+       "y": 55.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 82.8,
+       "y": 10.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 84.1,
+       "y": 42.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 84.6,
+       "y": 34.4,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 85.0,
+       "y": 29.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 88.7,
+       "y": 34.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 89.3,
+       "y": 28.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.5,
+       "y": 34.7,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 89.3
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 103.2,
+       "y": 25.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.2,
+       "y": 40.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.6,
+       "y": 41.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.9,
+       "y": 39.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.0,
+       "y": 29.6,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 108.5,
+       "y": 30.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.3,
+       "y": 38.6,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 108.5
+    }
+   },
+   "movement": {
+    "t_start": 0.0,
+    "t_end": 17.21,
+    "tracks": [
+     {
+      "id": "a1",
+      "side": "att",
+      "keeper": false,
+      "name": "Hassan Mohammed Al-Tambakti",
+      "jersey": 17,
+      "pts": [
+       [
+        0.0,
+        42.6,
+        22.7
+       ],
+       [
+        1.2,
+        43.4,
+        23.4
+       ],
+       [
+        1.2,
+        43.4,
+        23.4
+       ],
+       [
+        1.88,
+        43.5,
+        24.1
+       ],
+       [
+        5.03,
+        42.1,
+        39.4
+       ],
+       [
+        6.64,
+        53.5,
+        30.2
+       ],
+       [
+        7.19,
+        53.9,
+        30.1
+       ],
+       [
+        7.63,
+        54.2,
+        30.2
+       ],
+       [
+        8.49,
+        55.0,
+        32.3
+       ],
+       [
+        8.85,
+        56.0,
+        33.1
+       ],
+       [
+        9.59,
+        58.8,
+        33.6
+       ],
+       [
+        9.9,
+        59.7,
+        33.7
+       ],
+       [
+        9.9,
+        59.7,
+        33.7
+       ],
+       [
+        10.09,
+        60.1,
+        33.8
+       ],
+       [
+        10.97,
+        62.0,
+        34.6
+       ],
+       [
+        10.97,
+        62.0,
+        34.6
+       ],
+       [
+        13.62,
+        84.6,
+        31.0
+       ],
+       [
+        13.62,
+        84.6,
+        31.0
+       ],
+       [
+        13.73,
+        84.6,
+        31.0
+       ],
+       [
+        16.51,
+        104.2,
+        31.1
+       ]
+      ]
+     },
+     {
+      "id": "a2",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        43.8,
+        24.1
+       ],
+       [
+        1.2,
+        44.7,
+        22.2
+       ],
+       [
+        1.2,
+        44.7,
+        22.2
+       ],
+       [
+        1.88,
+        45.0,
+        22.4
+       ]
+      ]
+     },
+     {
+      "id": "a3",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        44.1,
+        29.9
+       ],
+       [
+        1.2,
+        45.0,
+        28.6
+       ],
+       [
+        1.2,
+        45.0,
+        28.6
+       ],
+       [
+        1.88,
+        45.3,
+        29.5
+       ],
+       [
+        5.03,
+        57.4,
+        52.6
+       ],
+       [
+        6.39,
+        59.1,
+        47.0
+       ],
+       [
+        6.39,
+        59.1,
+        47.0
+       ],
+       [
+        6.64,
+        59.1,
+        47.3
+       ],
+       [
+        7.19,
+        59.0,
+        48.0
+       ],
+       [
+        7.63,
+        58.8,
+        48.4
+       ],
+       [
+        8.49,
+        57.8,
+        50.9
+       ],
+       [
+        8.85,
+        57.6,
+        52.2
+       ],
+       [
+        9.59,
+        57.7,
+        53.7
+       ],
+       [
+        9.9,
+        57.7,
+        53.9
+       ],
+       [
+        9.9,
+        57.7,
+        53.9
+       ],
+       [
+        10.09,
+        57.7,
+        54.1
+       ],
+       [
+        10.97,
+        56.8,
+        55.2
+       ],
+       [
+        10.97,
+        56.8,
+        55.2
+       ]
+      ]
+     },
+     {
+      "id": "a4",
+      "side": "att",
+      "keeper": false,
+      "name": "Nawaf Shaker Al Abid",
+      "jersey": 18,
+      "pts": [
+       [
+        0.0,
+        48.4,
+        51.4
+       ],
+       [
+        1.2,
+        49.7,
+        50.5
+       ],
+       [
+        1.2,
+        49.7,
+        50.5
+       ],
+       [
+        1.88,
+        49.9,
+        51.2
+       ],
+       [
+        5.03,
+        49.8,
+        64.6
+       ]
+      ]
+     },
+     {
+      "id": "a5",
+      "side": "att",
+      "keeper": false,
+      "name": "Saleh Khalid Al Shehri",
+      "jersey": 11,
+      "pts": [
+       [
+        0.0,
+        49.3,
+        12.8
+       ],
+       [
+        1.2,
+        49.6,
+        9.1
+       ],
+       [
+        1.2,
+        49.6,
+        9.1
+       ],
+       [
+        1.88,
+        50.5,
+        9.5
+       ],
+       [
+        2.84,
+        52.8,
+        7.9
+       ],
+       [
+        2.84,
+        52.8,
+        7.9
+       ],
+       [
+        6.39,
+        56.6,
+        3.8
+       ],
+       [
+        6.39,
+        56.6,
+        3.8
+       ],
+       [
+        6.64,
+        56.7,
+        4.3
+       ],
+       [
+        7.19,
+        56.8,
+        5.9
+       ],
+       [
+        7.63,
+        56.9,
+        7.5
+       ],
+       [
+        8.49,
+        56.1,
+        11.7
+       ],
+       [
+        8.85,
+        55.7,
+        13.2
+       ],
+       [
+        9.59,
+        55.3,
+        15.3
+       ],
+       [
+        9.9,
+        55.4,
+        15.9
+       ],
+       [
+        9.9,
+        55.4,
+        15.9
+       ],
+       [
+        10.09,
+        55.4,
+        16.4
+       ],
+       [
+        10.97,
+        55.3,
+        19.7
+       ],
+       [
+        10.97,
+        55.3,
+        19.7
+       ],
+       [
+        14.93,
+        92.0,
+        33.6
+       ],
+       [
+        14.93,
+        92.0,
+        33.6
+       ],
+       [
+        16.51,
+        102.0,
+        37.9
+       ],
+       [
+        17.21,
+        103.3,
+        39.1
+       ]
+      ]
+     },
+     {
+      "id": "a6",
+      "side": "att",
+      "keeper": false,
+      "name": "Mohammed Kanoo",
+      "jersey": 23,
+      "pts": [
+       [
+        0.0,
+        49.8,
+        24.2
+       ],
+       [
+        1.2,
+        49.9,
+        23.2
+       ],
+       [
+        1.2,
+        49.9,
+        23.2
+       ],
+       [
+        1.88,
+        51.8,
+        24.0
+       ],
+       [
+        2.84,
+        57.3,
+        23.8
+       ],
+       [
+        2.84,
+        57.3,
+        23.8
+       ],
+       [
+        3.7,
+        60.5,
+        25.8
+       ],
+       [
+        4.23,
+        61.3,
+        26.8
+       ],
+       [
+        4.23,
+        61.3,
+        26.8
+       ],
+       [
+        4.59,
+        61.5,
+        26.9
+       ],
+       [
+        5.03,
+        62.0,
+        26.3
+       ],
+       [
+        6.39,
+        65.5,
+        18.0
+       ],
+       [
+        6.39,
+        65.5,
+        18.0
+       ],
+       [
+        6.64,
+        65.6,
+        17.5
+       ],
+       [
+        7.19,
+        65.8,
+        16.3
+       ],
+       [
+        7.63,
+        65.8,
+        15.1
+       ],
+       [
+        8.49,
+        65.3,
+        15.6
+       ],
+       [
+        8.85,
+        65.0,
+        17.0
+       ],
+       [
+        9.59,
+        64.4,
+        19.9
+       ],
+       [
+        9.9,
+        64.2,
+        20.6
+       ],
+       [
+        9.9,
+        64.2,
+        20.6
+       ],
+       [
+        10.09,
+        64.1,
+        21.1
+       ],
+       [
+        10.97,
+        63.2,
+        23.6
+       ],
+       [
+        10.97,
+        63.2,
+        23.6
+       ]
+      ]
+     },
+     {
+      "id": "a7",
+      "side": "att",
+      "keeper": false,
+      "name": "Nawaf Shaker Al Abid",
+      "jersey": 18,
+      "pts": [
+       [
+        0.0,
+        58.7,
+        20.6
+       ],
+       [
+        1.2,
+        59.1,
+        17.8
+       ],
+       [
+        1.2,
+        59.1,
+        17.8
+       ],
+       [
+        1.88,
+        60.4,
+        16.9
+       ],
+       [
+        2.84,
+        64.9,
+        14.7
+       ],
+       [
+        2.84,
+        64.9,
+        14.7
+       ],
+       [
+        3.7,
+        68.1,
+        16.1
+       ],
+       [
+        4.23,
+        68.9,
+        16.9
+       ],
+       [
+        4.23,
+        68.9,
+        16.9
+       ],
+       [
+        4.59,
+        69.1,
+        17.0
+       ],
+       [
+        5.03,
+        69.4,
+        16.5
+       ],
+       [
+        6.39,
+        71.2,
+        15.0
+       ],
+       [
+        6.39,
+        71.2,
+        15.0
+       ],
+       [
+        6.64,
+        71.1,
+        15.6
+       ],
+       [
+        7.19,
+        70.8,
+        17.5
+       ],
+       [
+        7.63,
+        70.0,
+        19.4
+       ],
+       [
+        8.49,
+        67.3,
+        23.6
+       ],
+       [
+        8.85,
+        66.4,
+        24.2
+       ],
+       [
+        9.59,
+        65.6,
+        23.7
+       ],
+       [
+        9.9,
+        65.4,
+        23.7
+       ],
+       [
+        9.9,
+        65.4,
+        23.7
+       ],
+       [
+        10.09,
+        65.3,
+        23.9
+       ],
+       [
+        10.97,
+        64.6,
+        26.0
+       ],
+       [
+        10.97,
+        64.6,
+        26.0
+       ]
+      ]
+     },
+     {
+      "id": "a8",
+      "side": "att",
+      "keeper": false,
+      "name": "Salem Mohammed Al Dawsari",
+      "jersey": 10,
+      "pts": [
+       [
+        0.0,
+        65.0,
+        9.6
+       ],
+       [
+        1.2,
+        65.3,
+        6.9
+       ],
+       [
+        1.2,
+        65.3,
+        6.9
+       ],
+       [
+        1.88,
+        66.0,
+        6.8
+       ],
+       [
+        2.84,
+        68.8,
+        5.0
+       ],
+       [
+        2.84,
+        68.8,
+        5.0
+       ],
+       [
+        3.7,
+        68.3,
+        6.3
+       ],
+       [
+        4.23,
+        67.7,
+        6.9
+       ],
+       [
+        4.23,
+        67.7,
+        6.9
+       ],
+       [
+        4.59,
+        67.6,
+        6.7
+       ],
+       [
+        5.03,
+        68.1,
+        5.9
+       ],
+       [
+        6.39,
+        76.2,
+        1.8
+       ],
+       [
+        6.39,
+        76.2,
+        1.8
+       ],
+       [
+        6.64,
+        76.4,
+        2.1
+       ],
+       [
+        7.19,
+        76.5,
+        3.1
+       ],
+       [
+        8.49,
+        73.4,
+        4.7
+       ],
+       [
+        8.85,
+        73.0,
+        4.8
+       ],
+       [
+        9.59,
+        72.5,
+        5.4
+       ],
+       [
+        9.9,
+        72.3,
+        6.0
+       ],
+       [
+        9.9,
+        72.3,
+        6.0
+       ],
+       [
+        10.09,
+        72.2,
+        6.5
+       ],
+       [
+        10.97,
+        71.4,
+        9.8
+       ],
+       [
+        10.97,
+        71.4,
+        9.8
+       ],
+       [
+        13.62,
+        75.0,
+        8.1
+       ],
+       [
+        13.62,
+        75.0,
+        8.1
+       ]
+      ]
+     },
+     {
+      "id": "a9",
+      "side": "att",
+      "keeper": false,
+      "name": "Abdulelah Saad Hameed Al-Malki",
+      "jersey": 8,
+      "pts": [
+       [
+        0.0,
+        67.3,
+        17.8
+       ],
+       [
+        1.2,
+        65.3,
+        16.3
+       ],
+       [
+        1.2,
+        65.3,
+        16.3
+       ],
+       [
+        1.88,
+        65.6,
+        14.7
+       ],
+       [
+        2.84,
+        69.4,
+        11.1
+       ],
+       [
+        2.84,
+        69.4,
+        11.1
+       ],
+       [
+        3.7,
+        73.3,
+        11.8
+       ],
+       [
+        4.23,
+        74.6,
+        13.0
+       ],
+       [
+        4.23,
+        74.6,
+        13.0
+       ],
+       [
+        6.39,
+        59.0,
+        17.3
+       ],
+       [
+        6.39,
+        59.0,
+        17.3
+       ],
+       [
+        6.64,
+        59.0,
+        17.7
+       ],
+       [
+        7.19,
+        59.3,
+        19.0
+       ],
+       [
+        7.63,
+        59.5,
+        20.0
+       ],
+       [
+        8.49,
+        59.7,
+        23.6
+       ],
+       [
+        8.85,
+        59.9,
+        25.1
+       ],
+       [
+        9.59,
+        60.5,
+        27.5
+       ],
+       [
+        9.9,
+        60.8,
+        28.2
+       ],
+       [
+        9.9,
+        60.8,
+        28.2
+       ],
+       [
+        10.09,
+        61.0,
+        28.9
+       ],
+       [
+        10.97,
+        61.8,
+        32.9
+       ],
+       [
+        10.97,
+        61.8,
+        32.9
+       ]
+      ]
+     },
+     {
+      "id": "a10",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.84,
+        75.7,
+        42.7
+       ],
+       [
+        2.84,
+        75.7,
+        42.7
+       ],
+       [
+        3.7,
+        76.8,
+        43.9
+       ],
+       [
+        4.23,
+        77.1,
+        44.3
+       ],
+       [
+        4.23,
+        77.1,
+        44.3
+       ],
+       [
+        4.59,
+        77.1,
+        43.9
+       ],
+       [
+        5.03,
+        77.2,
+        43.1
+       ]
+      ]
+     },
+     {
+      "id": "a11",
+      "side": "att",
+      "keeper": false,
+      "name": "Firas Tariq Nasser Al Albirakan",
+      "jersey": 9,
+      "pts": [
+       [
+        4.23,
+        75.6,
+        12.9
+       ],
+       [
+        4.23,
+        75.6,
+        12.9
+       ],
+       [
+        4.59,
+        75.9,
+        12.2
+       ],
+       [
+        5.03,
+        76.8,
+        11.4
+       ],
+       [
+        6.39,
+        82.6,
+        11.4
+       ],
+       [
+        6.39,
+        82.6,
+        11.4
+       ],
+       [
+        8.49,
+        81.6,
+        21.5
+       ],
+       [
+        8.85,
+        81.6,
+        21.9
+       ],
+       [
+        10.97,
+        75.0,
+        42.9
+       ],
+       [
+        10.97,
+        75.0,
+        42.9
+       ],
+       [
+        13.62,
+        84.8,
+        34.5
+       ],
+       [
+        13.62,
+        84.8,
+        34.5
+       ],
+       [
+        13.73,
+        84.9,
+        34.6
+       ],
+       [
+        14.93,
+        87.5,
+        36.1
+       ],
+       [
+        14.93,
+        87.5,
+        36.1
+       ]
+      ]
+     },
+     {
+      "id": "a14",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        6.64,
+        53.6,
+        20.7
+       ],
+       [
+        7.19,
+        53.9,
+        21.0
+       ],
+       [
+        7.63,
+        54.2,
+        21.4
+       ],
+       [
+        8.49,
+        54.1,
+        24.5
+       ],
+       [
+        8.85,
+        53.9,
+        26.1
+       ],
+       [
+        9.59,
+        53.6,
+        28.6
+       ],
+       [
+        9.9,
+        53.6,
+        29.3
+       ],
+       [
+        9.9,
+        53.6,
+        29.3
+       ],
+       [
+        10.09,
+        53.6,
+        29.7
+       ],
+       [
+        10.97,
+        53.7,
+        32.6
+       ],
+       [
+        10.97,
+        53.7,
+        32.6
+       ]
+      ]
+     },
+     {
+      "id": "d1",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        40.5,
+        25.0
+       ],
+       [
+        1.2,
+        41.1,
+        21.6
+       ],
+       [
+        1.2,
+        41.1,
+        21.6
+       ],
+       [
+        5.03,
+        39.1,
+        39.0
+       ]
+      ]
+     },
+     {
+      "id": "d2",
+      "side": "def",
+      "keeper": false,
+      "name": "Lautaro Javier Martínez",
+      "jersey": 22,
+      "pts": [
+       [
+        0.0,
+        47.6,
+        29.8
+       ],
+       [
+        1.2,
+        51.1,
+        25.5
+       ],
+       [
+        1.2,
+        51.1,
+        25.5
+       ],
+       [
+        1.88,
+        53.1,
+        24.8
+       ],
+       [
+        2.84,
+        57.5,
+        22.0
+       ],
+       [
+        2.84,
+        57.5,
+        22.0
+       ],
+       [
+        3.7,
+        58.6,
+        22.9
+       ],
+       [
+        4.23,
+        58.4,
+        23.5
+       ],
+       [
+        4.23,
+        58.4,
+        23.5
+       ],
+       [
+        4.59,
+        58.3,
+        23.3
+       ],
+       [
+        5.03,
+        58.4,
+        22.3
+       ],
+       [
+        6.39,
+        63.8,
+        17.7
+       ],
+       [
+        6.39,
+        63.8,
+        17.7
+       ],
+       [
+        6.64,
+        64.2,
+        17.7
+       ],
+       [
+        7.19,
+        65.0,
+        17.3
+       ],
+       [
+        7.63,
+        65.6,
+        16.7
+       ],
+       [
+        8.49,
+        65.0,
+        17.6
+       ],
+       [
+        8.85,
+        64.1,
+        18.4
+       ],
+       [
+        9.59,
+        62.2,
+        19.6
+       ],
+       [
+        9.9,
+        61.7,
+        20.1
+       ],
+       [
+        9.9,
+        61.7,
+        20.1
+       ],
+       [
+        10.09,
+        61.4,
+        20.5
+       ],
+       [
+        10.97,
+        59.1,
+        23.3
+       ],
+       [
+        10.97,
+        59.1,
+        23.3
+       ],
+       [
+        13.62,
+        71.1,
+        37.9
+       ],
+       [
+        13.62,
+        71.1,
+        37.9
+       ]
+      ]
+     },
+     {
+      "id": "d3",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        53.3,
+        6.2
+       ],
+       [
+        1.2,
+        53.6,
+        5.5
+       ],
+       [
+        1.2,
+        53.6,
+        5.5
+       ],
+       [
+        1.88,
+        54.8,
+        5.4
+       ],
+       [
+        2.84,
+        58.4,
+        3.7
+       ],
+       [
+        2.84,
+        58.4,
+        3.7
+       ],
+       [
+        3.7,
+        59.5,
+        5.6
+       ],
+       [
+        4.23,
+        59.3,
+        6.8
+       ],
+       [
+        4.23,
+        59.3,
+        6.8
+       ],
+       [
+        4.59,
+        59.1,
+        6.8
+       ],
+       [
+        5.03,
+        59.1,
+        6.2
+       ],
+       [
+        6.39,
+        60.8,
+        1.7
+       ],
+       [
+        6.39,
+        60.8,
+        1.7
+       ],
+       [
+        6.64,
+        60.9,
+        2.1
+       ],
+       [
+        7.19,
+        60.8,
+        3.3
+       ],
+       [
+        7.63,
+        60.7,
+        4.4
+       ],
+       [
+        8.49,
+        59.3,
+        7.8
+       ],
+       [
+        8.85,
+        58.4,
+        8.6
+       ],
+       [
+        9.59,
+        56.4,
+        9.0
+       ],
+       [
+        9.9,
+        56.0,
+        9.1
+       ],
+       [
+        9.9,
+        56.0,
+        9.1
+       ],
+       [
+        10.09,
+        55.7,
+        9.2
+       ],
+       [
+        10.97,
+        53.9,
+        10.5
+       ],
+       [
+        10.97,
+        53.9,
+        10.5
+       ]
+      ]
+     },
+     {
+      "id": "d4",
+      "side": "def",
+      "keeper": false,
+      "name": "Rodrigo Javier De Paul",
+      "jersey": 7,
+      "pts": [
+       [
+        0.0,
+        55.2,
+        18.2
+       ],
+       [
+        1.2,
+        54.9,
+        17.8
+       ],
+       [
+        1.2,
+        54.9,
+        17.8
+       ],
+       [
+        1.88,
+        56.9,
+        16.5
+       ],
+       [
+        2.84,
+        62.9,
+        11.1
+       ],
+       [
+        2.84,
+        62.9,
+        11.1
+       ],
+       [
+        3.7,
+        67.1,
+        10.6
+       ],
+       [
+        4.23,
+        68.3,
+        11.2
+       ],
+       [
+        4.23,
+        68.3,
+        11.2
+       ],
+       [
+        4.59,
+        68.6,
+        11.5
+       ],
+       [
+        5.03,
+        69.0,
+        11.3
+       ],
+       [
+        6.39,
+        69.5,
+        10.6
+       ],
+       [
+        6.39,
+        69.5,
+        10.6
+       ],
+       [
+        6.64,
+        69.2,
+        11.2
+       ],
+       [
+        7.19,
+        68.6,
+        12.8
+       ],
+       [
+        7.63,
+        68.2,
+        14.2
+       ],
+       [
+        8.49,
+        68.3,
+        17.7
+       ],
+       [
+        8.85,
+        68.6,
+        19.0
+       ],
+       [
+        9.59,
+        69.3,
+        20.2
+       ],
+       [
+        9.9,
+        69.4,
+        20.5
+       ],
+       [
+        9.9,
+        69.4,
+        20.5
+       ],
+       [
+        10.09,
+        69.3,
+        20.8
+       ],
+       [
+        10.97,
+        68.0,
+        22.5
+       ],
+       [
+        10.97,
+        68.0,
+        22.5
+       ],
+       [
+        13.62,
+        89.4,
+        29.0
+       ],
+       [
+        13.62,
+        89.4,
+        29.0
+       ],
+       [
+        13.73,
+        89.5,
+        29.1
+       ],
+       [
+        14.93,
+        93.6,
+        33.5
+       ],
+       [
+        14.93,
+        93.6,
+        33.5
+       ],
+       [
+        16.51,
+        102.1,
+        41.8
+       ],
+       [
+        17.21,
+        103.5,
+        41.9
+       ]
+      ]
+     },
+     {
+      "id": "d5",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        57.2,
+        47.9
+       ],
+       [
+        1.2,
+        57.5,
+        47.0
+       ],
+       [
+        1.2,
+        57.5,
+        47.0
+       ],
+       [
+        1.88,
+        58.3,
+        47.2
+       ],
+       [
+        2.84,
+        60.8,
+        46.0
+       ],
+       [
+        2.84,
+        60.8,
+        46.0
+       ],
+       [
+        3.7,
+        61.0,
+        47.3
+       ],
+       [
+        4.23,
+        60.8,
+        47.9
+       ],
+       [
+        4.23,
+        60.8,
+        47.9
+       ],
+       [
+        4.59,
+        60.7,
+        47.8
+       ],
+       [
+        5.03,
+        61.0,
+        46.7
+       ],
+       [
+        6.39,
+        66.0,
+        41.3
+       ],
+       [
+        6.39,
+        66.0,
+        41.3
+       ],
+       [
+        6.64,
+        66.2,
+        41.7
+       ],
+       [
+        7.19,
+        66.6,
+        43.0
+       ],
+       [
+        7.63,
+        66.8,
+        44.3
+       ],
+       [
+        8.49,
+        66.5,
+        48.3
+       ],
+       [
+        8.85,
+        66.3,
+        49.9
+       ],
+       [
+        9.59,
+        65.8,
+        52.3
+       ],
+       [
+        9.9,
+        65.7,
+        53.0
+       ],
+       [
+        9.9,
+        65.7,
+        53.0
+       ],
+       [
+        10.09,
+        65.7,
+        53.5
+       ],
+       [
+        10.97,
+        65.2,
+        56.6
+       ],
+       [
+        10.97,
+        65.2,
+        56.6
+       ],
+       [
+        13.62,
+        73.3,
+        56.6
+       ],
+       [
+        13.62,
+        73.3,
+        56.6
+       ],
+       [
+        13.73,
+        73.3,
+        56.6
+       ],
+       [
+        14.93,
+        74.7,
+        57.0
+       ],
+       [
+        14.93,
+        74.7,
+        57.0
+       ]
+      ]
+     },
+     {
+      "id": "d6",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        62.6,
+        21.1
+       ],
+       [
+        1.2,
+        63.2,
+        18.0
+       ],
+       [
+        1.2,
+        63.2,
+        18.0
+       ],
+       [
+        1.88,
+        63.8,
+        16.2
+       ],
+       [
+        2.84,
+        67.6,
+        11.3
+       ],
+       [
+        2.84,
+        67.6,
+        11.3
+       ],
+       [
+        3.7,
+        70.5,
+        9.7
+       ]
+      ]
+     },
+     {
+      "id": "d7",
+      "side": "def",
+      "keeper": false,
+      "name": "Leandro Daniel Paredes",
+      "jersey": 5,
+      "pts": [
+       [
+        0.0,
+        65.4,
+        28.8
+       ],
+       [
+        1.2,
+        63.8,
+        26.8
+       ],
+       [
+        1.2,
+        63.8,
+        26.8
+       ],
+       [
+        1.88,
+        64.7,
+        26.1
+       ],
+       [
+        2.84,
+        68.8,
+        22.4
+       ],
+       [
+        2.84,
+        68.8,
+        22.4
+       ],
+       [
+        3.7,
+        71.1,
+        21.0
+       ],
+       [
+        4.23,
+        71.2,
+        20.3
+       ],
+       [
+        4.23,
+        71.2,
+        20.3
+       ],
+       [
+        4.59,
+        71.0,
+        19.6
+       ],
+       [
+        5.03,
+        70.6,
+        18.4
+       ],
+       [
+        6.39,
+        69.5,
+        15.8
+       ],
+       [
+        6.39,
+        69.5,
+        15.8
+       ],
+       [
+        6.64,
+        69.4,
+        16.2
+       ],
+       [
+        7.19,
+        69.2,
+        17.3
+       ],
+       [
+        7.63,
+        68.9,
+        18.1
+       ],
+       [
+        8.49,
+        67.6,
+        20.7
+       ],
+       [
+        8.85,
+        67.2,
+        22.1
+       ],
+       [
+        9.59,
+        67.1,
+        24.6
+       ],
+       [
+        9.9,
+        67.2,
+        25.3
+       ],
+       [
+        9.9,
+        67.2,
+        25.3
+       ],
+       [
+        10.09,
+        67.3,
+        25.8
+       ],
+       [
+        10.97,
+        67.4,
+        28.7
+       ],
+       [
+        10.97,
+        67.4,
+        28.7
+       ],
+       [
+        13.62,
+        88.9,
+        35.6
+       ],
+       [
+        13.62,
+        88.9,
+        35.6
+       ],
+       [
+        13.73,
+        89.0,
+        35.5
+       ],
+       [
+        14.93,
+        93.1,
+        34.9
+       ],
+       [
+        14.93,
+        93.1,
+        34.9
+       ],
+       [
+        16.51,
+        106.2,
+        37.5
+       ],
+       [
+        17.21,
+        107.3,
+        38.6
+       ]
+      ]
+     },
+     {
+      "id": "d8",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        70.3,
+        12.8
+       ],
+       [
+        1.2,
+        70.1,
+        11.2
+       ],
+       [
+        1.2,
+        70.1,
+        11.2
+       ],
+       [
+        1.88,
+        70.7,
+        10.1
+       ],
+       [
+        2.84,
+        71.8,
+        5.4
+       ],
+       [
+        2.84,
+        71.8,
+        5.4
+       ],
+       [
+        3.7,
+        69.9,
+        4.9
+       ],
+       [
+        4.23,
+        68.9,
+        5.2
+       ],
+       [
+        4.23,
+        68.9,
+        5.2
+       ],
+       [
+        4.59,
+        68.5,
+        5.4
+       ],
+       [
+        5.03,
+        68.7,
+        5.4
+       ],
+       [
+        6.39,
+        73.3,
+        5.8
+       ],
+       [
+        6.39,
+        73.3,
+        5.8
+       ],
+       [
+        6.64,
+        73.6,
+        6.2
+       ],
+       [
+        7.19,
+        74.4,
+        7.1
+       ],
+       [
+        7.63,
+        75.2,
+        7.9
+       ],
+       [
+        8.49,
+        76.2,
+        11.2
+       ],
+       [
+        8.85,
+        76.5,
+        12.1
+       ],
+       [
+        9.59,
+        76.8,
+        12.5
+       ],
+       [
+        9.9,
+        76.8,
+        12.7
+       ],
+       [
+        9.9,
+        76.8,
+        12.7
+       ],
+       [
+        10.09,
+        76.7,
+        12.9
+       ],
+       [
+        10.97,
+        75.6,
+        15.0
+       ],
+       [
+        10.97,
+        75.6,
+        15.0
+       ],
+       [
+        13.62,
+        83.0,
+        11.5
+       ],
+       [
+        13.62,
+        83.0,
+        11.5
+       ],
+       [
+        13.73,
+        83.1,
+        11.6
+       ],
+       [
+        14.93,
+        86.7,
+        16.6
+       ],
+       [
+        14.93,
+        86.7,
+        16.6
+       ],
+       [
+        16.51,
+        100.8,
+        23.4
+       ],
+       [
+        17.21,
+        102.2,
+        24.4
+       ]
+      ]
+     },
+     {
+      "id": "d9",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        71.1,
+        31.7
+       ],
+       [
+        1.88,
+        73.8,
+        31.7
+       ],
+       [
+        2.84,
+        78.0,
+        27.9
+       ],
+       [
+        2.84,
+        78.0,
+        27.9
+       ],
+       [
+        3.7,
+        81.6,
+        25.5
+       ],
+       [
+        4.23,
+        82.7,
+        24.6
+       ],
+       [
+        4.23,
+        82.7,
+        24.6
+       ],
+       [
+        4.59,
+        83.1,
+        23.9
+       ],
+       [
+        5.03,
+        83.5,
+        22.7
+       ],
+       [
+        6.64,
+        82.8,
+        15.9
+       ],
+       [
+        8.49,
+        84.0,
+        17.3
+       ]
+      ]
+     },
+     {
+      "id": "d10",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.84,
+        77.0,
+        42.9
+       ],
+       [
+        2.84,
+        77.0,
+        42.9
+       ],
+       [
+        3.7,
+        78.8,
+        44.3
+       ],
+       [
+        4.23,
+        79.3,
+        44.7
+       ],
+       [
+        4.23,
+        79.3,
+        44.7
+       ],
+       [
+        4.59,
+        79.5,
+        44.4
+       ],
+       [
+        5.03,
+        79.7,
+        43.6
+       ],
+       [
+        8.49,
+        80.9,
+        29.0
+       ]
+      ]
+     },
+     {
+      "id": "d11",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        4.23,
+        75.0,
+        15.0
+       ],
+       [
+        4.23,
+        75.0,
+        15.0
+       ],
+       [
+        4.59,
+        75.4,
+        14.7
+       ],
+       [
+        5.03,
+        76.4,
+        14.2
+       ],
+       [
+        6.39,
+        84.7,
+        10.9
+       ],
+       [
+        6.39,
+        84.7,
+        10.9
+       ]
+      ]
+     },
+     {
+      "id": "d17",
+      "side": "def",
+      "keeper": false,
+      "name": "Lionel Andrés Messi Cuccittini",
+      "jersey": 10,
+      "pts": [
+       [
+        5.03,
+        58.3,
+        35.0
+       ],
+       [
+        7.19,
+        52.9,
+        23.6
+       ],
+       [
+        7.63,
+        53.4,
+        23.8
+       ],
+       [
+        8.49,
+        55.3,
+        27.1
+       ],
+       [
+        8.85,
+        56.7,
+        28.8
+       ],
+       [
+        9.59,
+        59.8,
+        31.5
+       ],
+       [
+        9.9,
+        60.6,
+        32.1
+       ],
+       [
+        9.9,
+        60.6,
+        32.1
+       ],
+       [
+        10.09,
+        61.1,
+        32.4
+       ],
+       [
+        10.97,
+        62.7,
+        34.2
+       ],
+       [
+        10.97,
+        62.7,
+        34.2
+       ],
+       [
+        13.62,
+        84.2,
+        42.8
+       ],
+       [
+        13.62,
+        84.2,
+        42.8
+       ],
+       [
+        13.73,
+        84.4,
+        42.8
+       ],
+       [
+        14.93,
+        88.7,
+        43.5
+       ],
+       [
+        14.93,
+        88.7,
+        43.5
+       ]
+      ]
+     },
+     {
+      "id": "d20",
+      "side": "def",
+      "keeper": true,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        13.73,
+        111.9,
+        35.6
+       ],
+       [
+        14.93,
+        113.2,
+        38.5
+       ],
+       [
+        14.93,
+        113.2,
+        38.5
+       ],
+       [
+        16.51,
+        117.2,
+        38.3
+       ],
+       [
+        17.21,
+        116.8,
+        38.4
+       ]
+      ]
+     },
+     {
+      "id": "d21",
+      "side": "def",
+      "keeper": false,
+      "name": "Cristian Gabriel Romero",
+      "jersey": 13,
+      "pts": [
+       [
+        16.51,
+        105.4,
+        31.1
+       ],
+       [
+        17.21,
+        108.5,
+        30.0
+       ]
+      ]
+     }
+    ],
+    "quality": {
+     "snapshots": 32,
+     "tracks": 26,
+     "avg_visible": 13.8,
+     "max_gap_s": 2.7,
+     "max_speed": 10.4
+    }
+   },
+   "facts": {
+    "sequence_len": 5,
+    "duration_s": 17.21,
+    "play_pattern": "From Free Kick",
+    "body_part": "Left Foot",
+    "technique": "Normal",
+    "shot_distance": 15.9,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Firas Tariq Nasser Al Albirakan",
+    "defensive_line_height": 30.7,
+    "gap_to_line": 2.5
+   },
+   "explanation": {
+    "text": "At 47:40, Saleh Al Shehri scored for Saudi Arabia from a free kick. The chance was worth 0.11 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Firas Albirakan.",
+    "why": "A long passing move gave the team time to work a shooting chance.",
+    "speech": "The forty-eighth minute, and it's Saleh Al Shehri for Saudi Arabia! It comes from a free kick. Our model says about one in ten shots like that are goals. Firas Albirakan played the pass that made it. Patient build-up, and in the end the chance opened up.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3857300/m03-6f86c137.ogg"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "07c658a2-5845-4b8b-b6e7-60206fdcac0d",
+   "period": 2,
+   "minute": 52,
+   "second": 44,
+   "clock": "52:44",
+   "team": "away",
+   "team_name": "Saudi Arabia",
+   "player": "Salem Mohammed Al Dawsari",
+   "xg_statsbomb": 0.033,
+   "xg_model": 0.041,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m04",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "2c9f3fa2-83e1-469e-8c08-bdb14d546741",
+     "from": [
+      105.5,
+      28.2
+     ],
+     "to": [
+      106.6,
+      20.5
+     ],
+     "player": "Salem Mohammed Al Dawsari",
+     "recipient": null,
+     "t": 0.0,
+     "dur": 1.79,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "carry",
+     "event_id": "bf6a31af-44d7-4d3b-9114-4ebf335788db",
+     "from": [
+      108.3,
+      20.0
+     ],
+     "to": [
+      102.4,
+      25.3
+     ],
+     "player": "Salem Mohammed Al Dawsari",
+     "recipient": null,
+     "t": 2.49,
+     "dur": 2.05,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "07c658a2-5845-4b8b-b6e7-60206fdcac0d",
+     "from": [
+      102.4,
+      25.3
+     ],
+     "to": [
+      120.0,
+      43.4
+     ],
+     "player": "Salem Mohammed Al Dawsari",
+     "recipient": null,
+     "t": 4.54,
+     "dur": 0.79,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": null,
+    "shot": {
+     "players": [
+      {
+       "x": 91.6,
+       "y": 35.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 93.3,
+       "y": 57.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 97.7,
+       "y": 55.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.3,
+       "y": 18.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.5,
+       "y": 35.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.2,
+       "y": 27.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.4,
+       "y": 25.3,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 102.8,
+       "y": 17.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.2,
+       "y": 22.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.5,
+       "y": 23.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.3,
+       "y": 28.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 108.4,
+       "y": 44.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.4,
+       "y": 37.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 110.0,
+       "y": 37.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.8,
+       "y": 31.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 118.1,
+       "y": 37.4,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 110.8
+    }
+   },
+   "movement": {
+    "t_start": 0.0,
+    "t_end": 4.54,
+    "tracks": [
+     {
+      "id": "a1",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        92.0,
+        48.1
+       ],
+       [
+        0.0,
+        92.0,
+        48.1
+       ],
+       [
+        1.36,
+        90.3,
+        45.1
+       ],
+       [
+        1.79,
+        90.4,
+        44.3
+       ],
+       [
+        2.41,
+        90.2,
+        43.4
+       ]
+      ]
+     },
+     {
+      "id": "a2",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        102.5,
+        61.3
+       ],
+       [
+        0.0,
+        102.5,
+        61.3
+       ],
+       [
+        1.36,
+        97.7,
+        60.4
+       ],
+       [
+        1.79,
+        97.3,
+        59.9
+       ],
+       [
+        2.41,
+        96.7,
+        59.2
+       ]
+      ]
+     },
+     {
+      "id": "a3",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        103.4,
+        50.4
+       ],
+       [
+        0.0,
+        103.4,
+        50.4
+       ],
+       [
+        1.36,
+        101.6,
+        44.6
+       ],
+       [
+        1.79,
+        101.5,
+        43.2
+       ],
+       [
+        2.41,
+        101.1,
+        41.1
+       ],
+       [
+        3.03,
+        101.0,
+        39.1
+       ],
+       [
+        4.04,
+        101.5,
+        37.4
+       ],
+       [
+        4.54,
+        101.3,
+        36.7
+       ]
+      ]
+     },
+     {
+      "id": "a4",
+      "side": "att",
+      "keeper": false,
+      "name": "Salem Mohammed Al Dawsari",
+      "jersey": 10,
+      "pts": [
+       [
+        0.0,
+        105.3,
+        28.1
+       ],
+       [
+        0.0,
+        105.3,
+        28.1
+       ],
+       [
+        1.36,
+        100.0,
+        24.2
+       ],
+       [
+        1.79,
+        98.6,
+        23.0
+       ],
+       [
+        2.41,
+        97.1,
+        21.6
+       ]
+      ]
+     },
+     {
+      "id": "a5",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        108.4,
+        35.8
+       ],
+       [
+        0.0,
+        108.4,
+        35.8
+       ],
+       [
+        1.36,
+        108.0,
+        32.5
+       ],
+       [
+        1.79,
+        108.1,
+        32.2
+       ],
+       [
+        2.41,
+        107.8,
+        32.0
+       ]
+      ]
+     },
+     {
+      "id": "a6",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        110.8,
+        41.8
+       ],
+       [
+        0.0,
+        110.8,
+        41.8
+       ],
+       [
+        1.36,
+        109.1,
+        41.3
+       ],
+       [
+        1.79,
+        109.3,
+        41.0
+       ],
+       [
+        2.41,
+        109.2,
+        40.6
+       ],
+       [
+        4.04,
+        110.5,
+        39.8
+       ],
+       [
+        4.54,
+        110.2,
+        39.1
+       ]
+      ]
+     },
+     {
+      "id": "a7",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        1.36,
+        93.9,
+        23.6
+       ],
+       [
+        2.49,
+        99.3,
+        18.5
+       ],
+       [
+        2.49,
+        99.3,
+        18.5
+       ],
+       [
+        3.03,
+        99.4,
+        17.8
+       ]
+      ]
+     },
+     {
+      "id": "a15",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        1.79,
+        106.0,
+        21.5
+       ],
+       [
+        2.41,
+        105.3,
+        21.2
+       ],
+       [
+        4.04,
+        100.3,
+        19.8
+       ],
+       [
+        4.54,
+        99.9,
+        19.3
+       ]
+      ]
+     },
+     {
+      "id": "a16",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.49,
+        92.7,
+        40.4
+       ],
+       [
+        2.49,
+        92.7,
+        40.4
+       ],
+       [
+        3.03,
+        92.3,
+        40.2
+       ],
+       [
+        4.04,
+        92.1,
+        38.6
+       ],
+       [
+        4.54,
+        92.0,
+        37.6
+       ]
+      ]
+     },
+     {
+      "id": "a17",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.49,
+        98.3,
+        56.6
+       ],
+       [
+        2.49,
+        98.3,
+        56.6
+       ],
+       [
+        3.03,
+        97.3,
+        56.9
+       ],
+       [
+        4.04,
+        94.5,
+        59.2
+       ],
+       [
+        4.54,
+        93.9,
+        59.0
+       ]
+      ]
+     },
+     {
+      "id": "a18",
+      "side": "att",
+      "keeper": false,
+      "name": "Salem Mohammed Al Dawsari",
+      "jersey": 10,
+      "pts": [
+       [
+        2.49,
+        107.9,
+        20.0
+       ],
+       [
+        2.49,
+        107.9,
+        20.0
+       ],
+       [
+        3.03,
+        107.5,
+        20.0
+       ],
+       [
+        4.54,
+        102.6,
+        25.0
+       ]
+      ]
+     },
+     {
+      "id": "a19",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.49,
+        110.0,
+        30.1
+       ],
+       [
+        2.49,
+        110.0,
+        30.1
+       ],
+       [
+        3.03,
+        109.2,
+        29.8
+       ],
+       [
+        4.04,
+        106.4,
+        27.7
+       ]
+      ]
+     },
+     {
+      "id": "a20",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.49,
+        111.7,
+        38.6
+       ],
+       [
+        2.49,
+        111.7,
+        38.6
+       ],
+       [
+        3.03,
+        111.2,
+        37.7
+       ],
+       [
+        4.04,
+        109.2,
+        32.2
+       ],
+       [
+        4.54,
+        108.7,
+        30.6
+       ]
+      ]
+     },
+     {
+      "id": "d1",
+      "side": "def",
+      "keeper": false,
+      "name": "Ángel Fabián Di María Hernández",
+      "jersey": 11,
+      "pts": [
+       [
+        0.0,
+        98.4,
+        22.3
+       ],
+       [
+        0.0,
+        98.4,
+        22.3
+       ],
+       [
+        1.36,
+        100.8,
+        23.7
+       ],
+       [
+        2.41,
+        102.5,
+        25.9
+       ],
+       [
+        4.04,
+        108.0,
+        31.2
+       ],
+       [
+        4.54,
+        108.9,
+        31.2
+       ]
+      ]
+     },
+     {
+      "id": "d2",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        98.9,
+        60.1
+       ],
+       [
+        0.0,
+        98.9,
+        60.1
+       ],
+       [
+        1.36,
+        98.0,
+        58.6
+       ],
+       [
+        1.79,
+        98.2,
+        58.2
+       ],
+       [
+        2.41,
+        98.0,
+        58.0
+       ]
+      ]
+     },
+     {
+      "id": "d3",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        106.0,
+        36.2
+       ],
+       [
+        0.0,
+        106.0,
+        36.2
+       ],
+       [
+        1.36,
+        107.3,
+        34.0
+       ],
+       [
+        1.79,
+        108.8,
+        33.0
+       ],
+       [
+        2.41,
+        111.3,
+        31.8
+       ],
+       [
+        3.03,
+        112.6,
+        31.9
+       ],
+       [
+        4.04,
+        111.9,
+        35.0
+       ],
+       [
+        4.54,
+        111.3,
+        36.0
+       ]
+      ]
+     },
+     {
+      "id": "d4",
+      "side": "def",
+      "keeper": false,
+      "name": "Ángel Fabián Di María Hernández",
+      "jersey": 11,
+      "pts": [
+       [
+        0.0,
+        107.1,
+        29.7
+       ],
+       [
+        0.0,
+        107.1,
+        29.7
+       ],
+       [
+        1.36,
+        105.9,
+        22.5
+       ],
+       [
+        1.79,
+        105.7,
+        21.0
+       ],
+       [
+        2.41,
+        105.3,
+        19.0
+       ],
+       [
+        3.03,
+        105.2,
+        17.6
+       ],
+       [
+        4.54,
+        102.9,
+        17.1
+       ]
+      ]
+     },
+     {
+      "id": "d5",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        108.0,
+        52.0
+       ],
+       [
+        0.0,
+        108.0,
+        52.0
+       ],
+       [
+        1.36,
+        106.9,
+        48.5
+       ],
+       [
+        1.79,
+        107.1,
+        47.8
+       ],
+       [
+        2.41,
+        107.0,
+        47.3
+       ]
+      ]
+     },
+     {
+      "id": "d6",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        108.7,
+        42.6
+       ],
+       [
+        0.0,
+        108.7,
+        42.6
+       ],
+       [
+        1.36,
+        108.0,
+        41.1
+       ],
+       [
+        1.79,
+        108.3,
+        40.6
+       ],
+       [
+        2.41,
+        108.4,
+        40.2
+       ]
+      ]
+     },
+     {
+      "id": "d7",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        109.0,
+        37.0
+       ],
+       [
+        0.0,
+        109.0,
+        37.0
+       ],
+       [
+        1.36,
+        104.3,
+        31.2
+       ],
+       [
+        1.79,
+        104.5,
+        30.8
+       ],
+       [
+        2.41,
+        104.8,
+        31.3
+       ]
+      ]
+     },
+     {
+      "id": "d8",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        113.6,
+        35.1
+       ],
+       [
+        0.0,
+        113.6,
+        35.1
+       ],
+       [
+        1.36,
+        113.0,
+        34.4
+       ],
+       [
+        1.79,
+        114.2,
+        33.1
+       ],
+       [
+        2.49,
+        116.1,
+        31.0
+       ],
+       [
+        2.49,
+        116.1,
+        31.0
+       ]
+      ]
+     },
+     {
+      "id": "d9",
+      "side": "def",
+      "keeper": true,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        117.5,
+        38.6
+       ],
+       [
+        0.0,
+        117.5,
+        38.6
+       ],
+       [
+        1.36,
+        117.7,
+        38.9
+       ],
+       [
+        1.79,
+        118.3,
+        38.6
+       ],
+       [
+        4.04,
+        119.1,
+        39.5
+       ],
+       [
+        4.54,
+        118.8,
+        38.9
+       ]
+      ]
+     },
+     {
+      "id": "d19",
+      "side": "def",
+      "keeper": false,
+      "name": "Nahuel Molina Lucero",
+      "jersey": 26,
+      "pts": [
+       [
+        1.79,
+        109.4,
+        22.2
+       ],
+       [
+        2.41,
+        106.4,
+        20.2
+       ]
+      ]
+     },
+     {
+      "id": "d20",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.49,
+        100.0,
+        56.8
+       ],
+       [
+        2.49,
+        100.0,
+        56.8
+       ],
+       [
+        3.03,
+        99.4,
+        57.1
+       ],
+       [
+        4.04,
+        98.3,
+        57.9
+       ],
+       [
+        4.54,
+        98.1,
+        57.2
+       ]
+      ]
+     },
+     {
+      "id": "d21",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.49,
+        103.6,
+        39.6
+       ],
+       [
+        2.49,
+        103.6,
+        39.6
+       ]
+      ]
+     },
+     {
+      "id": "d22",
+      "side": "def",
+      "keeper": false,
+      "name": "Rodrigo Javier De Paul",
+      "jersey": 7,
+      "pts": [
+       [
+        2.49,
+        106.3,
+        24.0
+       ],
+       [
+        2.49,
+        106.3,
+        24.0
+       ],
+       [
+        3.03,
+        105.9,
+        23.7
+       ]
+      ]
+     },
+     {
+      "id": "d23",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.49,
+        108.1,
+        17.6
+       ],
+       [
+        2.49,
+        108.1,
+        17.6
+       ],
+       [
+        3.03,
+        107.6,
+        18.3
+       ],
+       [
+        4.04,
+        105.7,
+        21.0
+       ],
+       [
+        4.54,
+        105.3,
+        21.8
+       ]
+      ]
+     },
+     {
+      "id": "d24",
+      "side": "def",
+      "keeper": false,
+      "name": "Leandro Daniel Paredes",
+      "jersey": 5,
+      "pts": [
+       [
+        2.49,
+        107.9,
+        31.0
+       ],
+       [
+        2.49,
+        107.9,
+        31.0
+       ],
+       [
+        3.03,
+        107.2,
+        30.7
+       ],
+       [
+        4.04,
+        105.4,
+        27.7
+       ],
+       [
+        4.54,
+        104.4,
+        27.2
+       ]
+      ]
+     },
+     {
+      "id": "d25",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.49,
+        109.4,
+        46.0
+       ],
+       [
+        2.49,
+        109.4,
+        46.0
+       ],
+       [
+        3.03,
+        109.0,
+        46.1
+       ],
+       [
+        4.04,
+        109.2,
+        46.6
+       ],
+       [
+        4.54,
+        109.1,
+        46.1
+       ]
+      ]
+     },
+     {
+      "id": "d26",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.49,
+        110.0,
+        19.7
+       ],
+       [
+        2.49,
+        110.0,
+        19.7
+       ],
+       [
+        4.04,
+        108.8,
+        23.5
+       ],
+       [
+        4.54,
+        108.4,
+        23.6
+       ]
+      ]
+     },
+     {
+      "id": "d27",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.49,
+        111.0,
+        39.1
+       ],
+       [
+        2.49,
+        111.0,
+        39.1
+       ],
+       [
+        3.03,
+        110.7,
+        39.4
+       ],
+       [
+        4.04,
+        111.5,
+        41.1
+       ]
+      ]
+     }
+    ],
+    "quality": {
+     "snapshots": 11,
+     "tracks": 31,
+     "avg_visible": 15.5,
+     "max_gap_s": 1.4,
+     "max_speed": 6.5
+    }
+   },
+   "facts": {
+    "sequence_len": 0,
+    "duration_s": 4.54,
+    "play_pattern": "Regular Play",
+    "body_part": "Right Foot",
+    "technique": "Normal",
+    "shot_distance": 22.9,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": true,
+    "assist_player": null,
+    "defensive_line_height": 9.2,
+    "gap_to_line": null
+   },
+   "explanation": {
+    "text": "At 52:44, Salem Al Dawsari scored for Saudi Arabia from a rebound after an earlier shot in the same move. The chance was worth 0.04 xG (expected goals), meaning fewer than 1 in 10 shots like this are goals.",
+    "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
+    "speech": "Goal! Salem Al Dawsari scores for Saudi Arabia in the fifty-third minute! Salem Al Dawsari is first to the rebound. Our model says fewer than one in ten shots like that are goals. The first shot was saved, and the defence was caught out as the ball ran loose.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3857300/m04-3f15ae89.ogg"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "eb0b5b02-374c-4bae-8a81-c2bcdc7841e0",
+   "period": 2,
+   "minute": 62,
+   "second": 47,
+   "clock": "62:47",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Nicolás Alejandro Tagliafico",
+   "xg_statsbomb": 0.636,
+   "xg_model": 0.501,
+   "outcome": "Saved",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m05",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "7ecb72e0-f443-4577-8c49-00be033341c8",
+     "from": [
+      116.6,
+      36.3
+     ],
+     "to": [
+      116.1,
+      37.2
+     ],
+     "player": "Nicolás Alejandro Tagliafico",
+     "recipient": null,
+     "t": 0.0,
+     "dur": 0.04,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "eb0b5b02-374c-4bae-8a81-c2bcdc7841e0",
+     "from": [
+      116.1,
+      37.2
+     ],
+     "to": [
+      119.5,
+      37.5
+     ],
+     "player": "Nicolás Alejandro Tagliafico",
+     "recipient": null,
+     "t": 0.04,
+     "dur": 0.45,
+     "key": false,
+     "outcome": "Saved"
+    }
+   ],
+   "snapshots": {
+    "key_pass": null,
+    "shot": {
+     "players": [
+      {
+       "x": 98.3,
+       "y": 26.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.8,
+       "y": 36.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.5,
+       "y": 33.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.9,
+       "y": 41.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.9,
+       "y": 31.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.3,
+       "y": 45.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.0,
+       "y": 39.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 113.3,
+       "y": 35.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 114.3,
+       "y": 39.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.2,
+       "y": 33.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 115.5,
+       "y": 56.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 115.8,
+       "y": 44.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.9,
+       "y": 48.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 116.1,
+       "y": 37.2,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 117.8,
+       "y": 45.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 119.7,
+       "y": 63.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 119.9,
+       "y": 40.6,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 119.7
+    }
+   },
+   "movement": {
+    "t_start": -0.4,
+    "t_end": 0.04,
+    "tracks": [
+     {
+      "id": "a1",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        99.7,
+        32.6
+       ],
+       [
+        -0.38,
+        99.8,
+        32.6
+       ],
+       [
+        -0.07,
+        99.9,
+        32.7
+       ],
+       [
+        0.0,
+        99.9,
+        32.7
+       ],
+       [
+        0.0,
+        99.9,
+        32.7
+       ],
+       [
+        0.04,
+        100.0,
+        32.7
+       ]
+      ]
+     },
+     {
+      "id": "a2",
+      "side": "att",
+      "keeper": false,
+      "name": "Lisandro Martínez",
+      "jersey": 25,
+      "pts": [
+       [
+        -0.4,
+        111.7,
+        39.3
+       ],
+       [
+        -0.38,
+        111.7,
+        39.3
+       ],
+       [
+        -0.07,
+        111.8,
+        39.2
+       ],
+       [
+        0.0,
+        111.8,
+        39.2
+       ],
+       [
+        0.0,
+        111.8,
+        39.2
+       ],
+       [
+        0.04,
+        111.8,
+        39.2
+       ]
+      ]
+     },
+     {
+      "id": "a3",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        113.0,
+        35.3
+       ],
+       [
+        -0.38,
+        113.0,
+        35.3
+       ],
+       [
+        -0.07,
+        113.1,
+        35.2
+       ],
+       [
+        0.0,
+        113.1,
+        35.2
+       ],
+       [
+        0.0,
+        113.1,
+        35.2
+       ],
+       [
+        0.04,
+        113.1,
+        35.2
+       ]
+      ]
+     },
+     {
+      "id": "a4",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        114.6,
+        32.9
+       ],
+       [
+        -0.38,
+        114.6,
+        33.0
+       ],
+       [
+        -0.07,
+        114.7,
+        33.0
+       ],
+       [
+        0.0,
+        114.7,
+        33.0
+       ],
+       [
+        0.0,
+        114.7,
+        33.0
+       ],
+       [
+        0.04,
+        114.8,
+        33.0
+       ]
+      ]
+     },
+     {
+      "id": "a5",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        115.4,
+        47.8
+       ],
+       [
+        -0.38,
+        115.4,
+        47.8
+       ],
+       [
+        -0.07,
+        115.5,
+        47.8
+       ],
+       [
+        0.0,
+        115.6,
+        47.8
+       ],
+       [
+        0.0,
+        115.6,
+        47.8
+       ],
+       [
+        0.04,
+        115.6,
+        47.7
+       ]
+      ]
+     },
+     {
+      "id": "a6",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        115.2,
+        57.1
+       ],
+       [
+        -0.38,
+        115.2,
+        57.1
+       ],
+       [
+        -0.07,
+        115.3,
+        57.0
+       ],
+       [
+        0.0,
+        115.3,
+        57.0
+       ],
+       [
+        0.0,
+        115.3,
+        57.0
+       ],
+       [
+        0.04,
+        115.3,
+        57.0
+       ]
+      ]
+     },
+     {
+      "id": "a7",
+      "side": "att",
+      "keeper": false,
+      "name": "Nicolás Alejandro Tagliafico",
+      "jersey": 3,
+      "pts": [
+       [
+        -0.4,
+        115.7,
+        37.3
+       ],
+       [
+        -0.38,
+        115.7,
+        37.3
+       ],
+       [
+        -0.07,
+        115.8,
+        37.3
+       ],
+       [
+        0.0,
+        115.8,
+        37.3
+       ],
+       [
+        0.0,
+        115.8,
+        37.3
+       ],
+       [
+        0.04,
+        115.8,
+        37.2
+       ]
+      ]
+     },
+     {
+      "id": "a8",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        117.2,
+        44.7
+       ],
+       [
+        -0.38,
+        117.2,
+        44.7
+       ],
+       [
+        -0.07,
+        117.3,
+        44.7
+       ],
+       [
+        0.0,
+        117.4,
+        44.8
+       ],
+       [
+        0.0,
+        117.4,
+        44.8
+       ],
+       [
+        0.04,
+        117.4,
+        44.8
+       ]
+      ]
+     },
+     {
+      "id": "d1",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        98.2,
+        26.5
+       ],
+       [
+        -0.38,
+        98.2,
+        26.5
+       ],
+       [
+        -0.07,
+        98.2,
+        26.4
+       ],
+       [
+        0.0,
+        98.2,
+        26.4
+       ],
+       [
+        0.0,
+        98.2,
+        26.4
+       ],
+       [
+        0.04,
+        98.2,
+        26.4
+       ]
+      ]
+     },
+     {
+      "id": "d2",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        99.5,
+        36.8
+       ],
+       [
+        -0.38,
+        99.5,
+        36.8
+       ],
+       [
+        -0.07,
+        99.6,
+        36.7
+       ],
+       [
+        0.0,
+        99.6,
+        36.7
+       ],
+       [
+        0.0,
+        99.6,
+        36.7
+       ],
+       [
+        0.04,
+        99.6,
+        36.7
+       ]
+      ]
+     },
+     {
+      "id": "d3",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        100.4,
+        41.2
+       ],
+       [
+        -0.38,
+        100.4,
+        41.2
+       ],
+       [
+        -0.07,
+        100.5,
+        41.2
+       ],
+       [
+        0.0,
+        100.5,
+        41.1
+       ],
+       [
+        0.0,
+        100.5,
+        41.1
+       ],
+       [
+        0.04,
+        100.5,
+        41.1
+       ]
+      ]
+     },
+     {
+      "id": "d4",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        105.7,
+        32.0
+       ],
+       [
+        -0.38,
+        105.7,
+        32.0
+       ],
+       [
+        -0.07,
+        105.8,
+        31.9
+       ],
+       [
+        0.0,
+        105.8,
+        31.9
+       ],
+       [
+        0.0,
+        105.8,
+        31.9
+       ],
+       [
+        0.04,
+        105.8,
+        31.9
+       ]
+      ]
+     },
+     {
+      "id": "d5",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        110.0,
+        45.3
+       ],
+       [
+        -0.38,
+        110.0,
+        45.3
+       ],
+       [
+        -0.07,
+        110.0,
+        45.3
+       ],
+       [
+        0.0,
+        110.1,
+        45.3
+       ],
+       [
+        0.0,
+        110.1,
+        45.3
+       ],
+       [
+        0.04,
+        110.1,
+        45.3
+       ]
+      ]
+     },
+     {
+      "id": "d6",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        114.1,
+        40.0
+       ],
+       [
+        -0.38,
+        114.1,
+        40.0
+       ],
+       [
+        -0.07,
+        114.2,
+        39.9
+       ],
+       [
+        0.0,
+        114.2,
+        39.8
+       ],
+       [
+        0.0,
+        114.2,
+        39.8
+       ],
+       [
+        0.04,
+        114.2,
+        39.8
+       ]
+      ]
+     },
+     {
+      "id": "d7",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        115.5,
+        44.7
+       ],
+       [
+        -0.38,
+        115.5,
+        44.7
+       ],
+       [
+        -0.07,
+        115.6,
+        44.6
+       ],
+       [
+        0.0,
+        115.6,
+        44.6
+       ],
+       [
+        0.0,
+        115.6,
+        44.6
+       ],
+       [
+        0.04,
+        115.6,
+        44.6
+       ]
+      ]
+     },
+     {
+      "id": "d8",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        119.1,
+        62.6
+       ],
+       [
+        -0.38,
+        119.1,
+        62.6
+       ],
+       [
+        -0.07,
+        119.3,
+        62.7
+       ],
+       [
+        0.0,
+        119.3,
+        62.7
+       ],
+       [
+        0.0,
+        119.3,
+        62.7
+       ],
+       [
+        0.04,
+        119.3,
+        62.7
+       ]
+      ]
+     },
+     {
+      "id": "d9",
+      "side": "def",
+      "keeper": true,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.4,
+        119.5,
+        40.8
+       ],
+       [
+        -0.38,
+        119.5,
+        40.8
+       ],
+       [
+        -0.07,
+        119.6,
+        40.7
+       ],
+       [
+        0.0,
+        119.6,
+        40.7
+       ],
+       [
+        0.0,
+        119.6,
+        40.7
+       ],
+       [
+        0.04,
+        119.6,
+        40.7
+       ]
+      ]
+     }
+    ],
+    "quality": {
+     "snapshots": 6,
+     "tracks": 17,
+     "avg_visible": 17.0,
+     "max_gap_s": 0.3,
+     "max_speed": 0.6
+    }
+   },
+   "facts": {
+    "sequence_len": 0,
+    "duration_s": 0.04,
+    "play_pattern": "From Corner",
+    "body_part": "Other",
+    "technique": "Normal",
+    "shot_distance": 4.8,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": true,
+    "assist_player": null,
+    "defensive_line_height": 0.3,
+    "gap_to_line": null
+   },
+   "explanation": {
+    "text": "At 62:47, Nicolás Tagliafico had a big chance for Argentina from a rebound after an earlier shot in the same move, but the goalkeeper saved it. The chance was worth 0.50 xG (expected goals), meaning about 5 in 10 shots like this are goals.",
+    "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
+    "speech": "The sixty-third minute, and Argentina have a big chance. Nicolás Tagliafico shoots... but the goalkeeper saves it! Nicolás Tagliafico is first to the rebound. Our model says about five in ten shots like that are goals. The first shot was saved, and the defence was caught out as the ball ran loose.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3857300/m05-8671bfdc.ogg"
+   },
+   "highlights_url": null
+  }
+ ],
+ "has_360": true,
+ "names": {
+  "Abdulelah Saad Hameed Al-Malki": "Abdulelah Al Malki",
+  "Cristian Gabriel Romero": "Cristian Romero",
+  "Firas Tariq Nasser Al Albirakan": "Firas Albirakan",
+  "Lautaro Javier Martínez": "Lautaro Martínez",
+  "Leandro Daniel Paredes": "Leandro Paredes",
+  "Lionel Andrés Messi Cuccittini": "Lionel Messi",
+  "Mohammed Kanoo": "Mohammed Kanoo",
+  "Nawaf Shaker Al Abid": "Nawaf Al Abid",
+  "Nicolás Alejandro Tagliafico": "Nicolás Tagliafico",
+  "Nicolás Hernán Otamendi": "Nicolás Otamendi",
+  "Saleh Khalid Al Shehri": "Saleh Al Shehri",
+  "Salem Mohammed Al Dawsari": "Salem Al Dawsari",
+  "Ángel Fabián Di María Hernández": "Ángel Di María"
+ }
+}

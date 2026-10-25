@@ -1,0 +1,4987 @@
+{
+ "frame": "away team mirrored (x' = 120 - x, y' = 80 - y); lines are in each team's own frame",
+ "match_end_minute": 95,
+ "window_minutes": 15,
+ "windows": [
+  {
+   "id": "full",
+   "label": "Full match",
+   "start": 0,
+   "end": 95,
+   "kind": "full"
+  },
+  {
+   "id": "p1",
+   "label": "First half",
+   "start": 0,
+   "end": 45,
+   "kind": "period"
+  },
+  {
+   "id": "p2",
+   "label": "Second half",
+   "start": 45,
+   "end": 90,
+   "kind": "period"
+  },
+  {
+   "id": "m0_15",
+   "label": "0-15 min",
+   "start": 0,
+   "end": 15,
+   "kind": "slide"
+  },
+  {
+   "id": "m5_20",
+   "label": "5-20 min",
+   "start": 5,
+   "end": 20,
+   "kind": "slide"
+  },
+  {
+   "id": "m10_25",
+   "label": "10-25 min",
+   "start": 10,
+   "end": 25,
+   "kind": "slide"
+  },
+  {
+   "id": "m15_30",
+   "label": "15-30 min",
+   "start": 15,
+   "end": 30,
+   "kind": "slide"
+  },
+  {
+   "id": "m20_35",
+   "label": "20-35 min",
+   "start": 20,
+   "end": 35,
+   "kind": "slide"
+  },
+  {
+   "id": "m25_40",
+   "label": "25-40 min",
+   "start": 25,
+   "end": 40,
+   "kind": "slide"
+  },
+  {
+   "id": "m30_45",
+   "label": "30-45 min",
+   "start": 30,
+   "end": 45,
+   "kind": "slide"
+  },
+  {
+   "id": "m35_50",
+   "label": "35-50 min",
+   "start": 35,
+   "end": 50,
+   "kind": "slide"
+  },
+  {
+   "id": "m40_55",
+   "label": "40-55 min",
+   "start": 40,
+   "end": 55,
+   "kind": "slide"
+  },
+  {
+   "id": "m45_60",
+   "label": "45-60 min",
+   "start": 45,
+   "end": 60,
+   "kind": "slide"
+  },
+  {
+   "id": "m50_65",
+   "label": "50-65 min",
+   "start": 50,
+   "end": 65,
+   "kind": "slide"
+  },
+  {
+   "id": "m55_70",
+   "label": "55-70 min",
+   "start": 55,
+   "end": 70,
+   "kind": "slide"
+  },
+  {
+   "id": "m60_75",
+   "label": "60-75 min",
+   "start": 60,
+   "end": 75,
+   "kind": "slide"
+  },
+  {
+   "id": "m65_80",
+   "label": "65-80 min",
+   "start": 65,
+   "end": 80,
+   "kind": "slide"
+  },
+  {
+   "id": "m70_85",
+   "label": "70-85 min",
+   "start": 70,
+   "end": 85,
+   "kind": "slide"
+  },
+  {
+   "id": "m75_90",
+   "label": "75-90 min",
+   "start": 75,
+   "end": 90,
+   "kind": "slide"
+  },
+  {
+   "id": "m80_95",
+   "label": "80-95 min",
+   "start": 80,
+   "end": 95,
+   "kind": "slide"
+  }
+ ],
+ "data": {
+  "full": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 67.3,
+      "y": 44.4,
+      "n": 128
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 66.4,
+      "y": 47.4,
+      "n": 118
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 33.7,
+      "y": 23.9,
+      "n": 119
+     },
+     {
+      "id": 5207,
+      "name": "Cristiano Ronaldo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 68.8,
+      "y": 46.1,
+      "n": 22
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 64.0,
+      "y": 13.4,
+      "n": 108
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 45.8,
+      "y": 46.5,
+      "n": 169
+     },
+     {
+      "id": 9927,
+      "name": "Rúben Neves",
+      "jersey": 18,
+      "role": "MID",
+      "x": 39.6,
+      "y": 43.2,
+      "n": 36
+     },
+     {
+      "id": 10868,
+      "name": "Ricardo Horta",
+      "jersey": 21,
+      "role": "ATT",
+      "x": 73.9,
+      "y": 40.1,
+      "n": 32
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 57.3,
+      "y": 35.7,
+      "n": 104
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 66.2,
+      "y": 26.2,
+      "n": 110
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 57.7,
+      "y": 69.5,
+      "n": 93
+     },
+     {
+      "id": 18360,
+      "name": "Rafael Leão",
+      "jersey": 15,
+      "role": "ATT",
+      "x": 77.4,
+      "y": 22.7,
+      "n": 12
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 38.5,
+      "y": 59.3,
+      "n": 153
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 8.0,
+      "y": 42.1,
+      "n": 76
+     },
+     {
+      "id": 34639,
+      "name": "Vitinha",
+      "jersey": 16,
+      "role": "MID",
+      "x": 61.1,
+      "y": 40.7,
+      "n": 34
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 82.9,
+      "y": 36.9,
+      "n": 80
+     }
+    ],
+    "lines": {
+     "def": 48.5,
+     "mid": 54.2,
+     "att": 72.6
+    },
+    "shape": {
+     "length": 24.1,
+     "width": 56.1,
+     "compact": 0.7,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 62.7,
+      "y": 46.1,
+      "n": 204
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "MID",
+      "x": 37.2,
+      "y": 28.6,
+      "n": 134
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 58.0,
+      "y": 9.0,
+      "n": 137
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 82.2,
+      "y": 46.2,
+      "n": 98
+     },
+     {
+      "id": 5538,
+      "name": "Denis Zakaria",
+      "jersey": 6,
+      "role": "MID",
+      "x": 51.7,
+      "y": 26.7,
+      "n": 43
+     },
+     {
+      "id": 5543,
+      "name": "Haris Seferović",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 36.2,
+      "y": 28.9,
+      "n": 19
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 63.6,
+      "y": 68.0,
+      "n": 175
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 46.7,
+      "y": 35.7,
+      "n": 70
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 80.5,
+      "y": 22.4,
+      "n": 169
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 108.7,
+      "y": 38.4,
+      "n": 86
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 49.6,
+      "y": 52.1,
+      "n": 67
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 56.9,
+      "y": 36.7,
+      "n": 43
+     },
+     {
+      "id": 29006,
+      "name": "Noah Okafor",
+      "jersey": 19,
+      "role": "MID",
+      "x": 39.1,
+      "y": 58.3,
+      "n": 34
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 84.6,
+      "y": 48.6,
+      "n": 109
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 48.5,
+      "y": 70.2,
+      "n": 104
+     },
+     {
+      "id": 41655,
+      "name": "Ardon Jashari",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 51.9,
+      "y": 54.1,
+      "n": 16
+     }
+    ],
+    "lines": {
+     "def": 50.4,
+     "mid": 70.5,
+     "att": 75.1
+    },
+    "shape": {
+     "length": 24.7,
+     "width": 61.3,
+     "compact": 0.69,
+     "label": "mid block"
+    }
+   }
+  },
+  "p1": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 65.7,
+      "y": 47.2,
+      "n": 87
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 66.4,
+      "y": 46.2,
+      "n": 74
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 31.0,
+      "y": 27.1,
+      "n": 65
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 65.2,
+      "y": 13.7,
+      "n": 65
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 42.8,
+      "y": 51.6,
+      "n": 103
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 58.5,
+      "y": 38.8,
+      "n": 66
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 65.2,
+      "y": 24.6,
+      "n": 82
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 59.2,
+      "y": 71.1,
+      "n": 61
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 39.8,
+      "y": 60.4,
+      "n": 104
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 8.9,
+      "y": 43.3,
+      "n": 42
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 81.8,
+      "y": 36.3,
+      "n": 59
+     }
+    ],
+    "lines": {
+     "def": 48.8,
+     "mid": 55.7,
+     "att": 71.1
+    },
+    "shape": {
+     "length": 22.3,
+     "width": 57.5,
+     "compact": 0.72,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 68.0,
+      "y": 47.0,
+      "n": 86
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 40.3,
+      "y": 53.3,
+      "n": 59
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 59.0,
+      "y": 10.6,
+      "n": 40
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 82.2,
+      "y": 46.2,
+      "n": 98
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 67.2,
+      "y": 68.1,
+      "n": 96
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 47.4,
+      "y": 29.4,
+      "n": 33
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 83.5,
+      "y": 24.6,
+      "n": 69
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 108.6,
+      "y": 37.9,
+      "n": 51
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 40.3,
+      "y": 64.5,
+      "n": 50
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 56.4,
+      "y": 38.5,
+      "n": 39
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 45.8,
+      "y": 71.6,
+      "n": 89
+     }
+    ],
+    "lines": {
+     "def": 52.5,
+     "mid": 65.1,
+     "att": 76.1
+    },
+    "shape": {
+     "length": 23.6,
+     "width": 61.0,
+     "compact": 0.71,
+     "label": "mid block"
+    }
+   }
+  },
+  "p2": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 70.7,
+      "y": 38.5,
+      "n": 41
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 66.3,
+      "y": 49.5,
+      "n": 44
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 36.9,
+      "y": 20.2,
+      "n": 54
+     },
+     {
+      "id": 5207,
+      "name": "Cristiano Ronaldo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 68.8,
+      "y": 46.1,
+      "n": 22
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 62.3,
+      "y": 13.0,
+      "n": 43
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 50.6,
+      "y": 38.6,
+      "n": 66
+     },
+     {
+      "id": 9927,
+      "name": "Rúben Neves",
+      "jersey": 18,
+      "role": "MID",
+      "x": 39.6,
+      "y": 43.2,
+      "n": 36
+     },
+     {
+      "id": 10868,
+      "name": "Ricardo Horta",
+      "jersey": 21,
+      "role": "ATT",
+      "x": 73.9,
+      "y": 40.1,
+      "n": 32
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 55.2,
+      "y": 30.2,
+      "n": 38
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 69.3,
+      "y": 31.1,
+      "n": 28
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 54.8,
+      "y": 66.3,
+      "n": 32
+     },
+     {
+      "id": 18360,
+      "name": "Rafael Leão",
+      "jersey": 15,
+      "role": "ATT",
+      "x": 77.4,
+      "y": 22.7,
+      "n": 12
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 35.8,
+      "y": 57.0,
+      "n": 49
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 6.8,
+      "y": 40.6,
+      "n": 34
+     },
+     {
+      "id": 34639,
+      "name": "Vitinha",
+      "jersey": 16,
+      "role": "MID",
+      "x": 61.1,
+      "y": 40.7,
+      "n": 34
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 86.0,
+      "y": 38.6,
+      "n": 21
+     }
+    ],
+    "lines": {
+     "def": 47.5,
+     "mid": 55.5,
+     "att": 73.6
+    },
+    "shape": {
+     "length": 26.1,
+     "width": 53.4,
+     "compact": 0.67,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 58.9,
+      "y": 45.4,
+      "n": 118
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "MID",
+      "x": 34.8,
+      "y": 9.2,
+      "n": 75
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 57.7,
+      "y": 8.3,
+      "n": 97
+     },
+     {
+      "id": 5538,
+      "name": "Denis Zakaria",
+      "jersey": 6,
+      "role": "MID",
+      "x": 51.7,
+      "y": 26.7,
+      "n": 43
+     },
+     {
+      "id": 5543,
+      "name": "Haris Seferović",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 36.2,
+      "y": 28.9,
+      "n": 19
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 59.2,
+      "y": 67.8,
+      "n": 79
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 46.0,
+      "y": 41.2,
+      "n": 37
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 78.4,
+      "y": 20.9,
+      "n": 100
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 108.7,
+      "y": 39.1,
+      "n": 35
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 76.8,
+      "y": 15.8,
+      "n": 17
+     },
+     {
+      "id": 29006,
+      "name": "Noah Okafor",
+      "jersey": 19,
+      "role": "MID",
+      "x": 39.1,
+      "y": 58.3,
+      "n": 34
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 84.6,
+      "y": 48.6,
+      "n": 109
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "MID",
+      "x": 64.3,
+      "y": 62.3,
+      "n": 15
+     },
+     {
+      "id": 41655,
+      "name": "Ardon Jashari",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 51.9,
+      "y": 54.1,
+      "n": 16
+     }
+    ],
+    "lines": {
+     "def": 50.0,
+     "mid": 65.7,
+     "att": 75.3
+    },
+    "shape": {
+     "length": 25.3,
+     "width": 59.5,
+     "compact": 0.68,
+     "label": "mid block"
+    }
+   }
+  },
+  "m0_15": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 55.8,
+      "y": 39.9,
+      "n": 38
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 66.2,
+      "y": 29.0,
+      "n": 23
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 28.4,
+      "y": 24.2,
+      "n": 33
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 57.8,
+      "y": 6.5,
+      "n": 22
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 40.6,
+      "y": 51.8,
+      "n": 36
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 53.4,
+      "y": 38.1,
+      "n": 29
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 60.5,
+      "y": 15.0,
+      "n": 26
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 50.5,
+      "y": 69.7,
+      "n": 20
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 38.2,
+      "y": 57.1,
+      "n": 44
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 8.3,
+      "y": 42.1,
+      "n": 25
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 73.2,
+      "y": 35.2,
+      "n": 13
+     }
+    ],
+    "lines": {
+     "def": 43.7,
+     "mid": 49.9,
+     "att": 66.6
+    },
+    "shape": {
+     "length": 22.9,
+     "width": 63.2,
+     "compact": 0.71,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 67.3,
+      "y": 47.1,
+      "n": 30
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 33.0,
+      "y": 65.6,
+      "n": 28
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 60.4,
+      "y": 9.5,
+      "n": 18
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 87.5,
+      "y": 44.4,
+      "n": 38
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 69.3,
+      "y": 69.3,
+      "n": 41
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 47.1,
+      "y": 23.1,
+      "n": 16
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 80.2,
+      "y": 26.4,
+      "n": 15
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 108.7,
+      "y": 39.3,
+      "n": 21
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 35.1,
+      "y": 70.8,
+      "n": 19
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 61.1,
+      "y": 46.5,
+      "n": 10
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 47.3,
+      "y": 72.3,
+      "n": 43
+     }
+    ],
+    "lines": {
+     "def": 51.1,
+     "mid": 65.5,
+     "att": 79.9
+    },
+    "shape": {
+     "length": 28.8,
+     "width": 62.8,
+     "compact": 0.64,
+     "label": "mid block"
+    }
+   }
+  },
+  "m5_20": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 57.4,
+      "y": 49.7,
+      "n": 32
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 56.8,
+      "y": 44.1,
+      "n": 24
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 32.2,
+      "y": 25.4,
+      "n": 25
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 65.4,
+      "y": 13.2,
+      "n": 11
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 36.7,
+      "y": 47.3,
+      "n": 40
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 52.3,
+      "y": 49.9,
+      "n": 21
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 68.1,
+      "y": 19.4,
+      "n": 19
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 49.5,
+      "y": 72.8,
+      "n": 20
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 37.2,
+      "y": 63.8,
+      "n": 28
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 9.5,
+      "y": 43.2,
+      "n": 14
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 75.4,
+      "y": 38.4,
+      "n": 20
+     }
+    ],
+    "lines": {
+     "def": 46.1,
+     "mid": 48.8,
+     "att": 66.8
+    },
+    "shape": {
+     "length": 20.7,
+     "width": 59.5,
+     "compact": 0.74,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 67.9,
+      "y": 48.8,
+      "n": 31
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 34.2,
+      "y": 59.7,
+      "n": 31
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 57.7,
+      "y": 7.5,
+      "n": 16
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 87.2,
+      "y": 44.5,
+      "n": 37
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 72.0,
+      "y": 68.5,
+      "n": 41
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 48.3,
+      "y": 22.0,
+      "n": 14
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 79.8,
+      "y": 21.2,
+      "n": 15
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 108.7,
+      "y": 39.3,
+      "n": 21
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 35.0,
+      "y": 66.8,
+      "n": 21
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 63.1,
+      "y": 38.8,
+      "n": 15
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 46.0,
+      "y": 73.5,
+      "n": 41
+     }
+    ],
+    "lines": {
+     "def": 51.4,
+     "mid": 64.7,
+     "att": 78.8
+    },
+    "shape": {
+     "length": 27.4,
+     "width": 66.0,
+     "compact": 0.66,
+     "label": "mid block"
+    }
+   }
+  },
+  "m10_25": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 61.8,
+      "y": 41.3,
+      "n": 38
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 61.4,
+      "y": 45.8,
+      "n": 27
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 34.6,
+      "y": 23.5,
+      "n": 25
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 74.4,
+      "y": 16.7,
+      "n": 23
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 40.4,
+      "y": 44.9,
+      "n": 41
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 53.1,
+      "y": 47.1,
+      "n": 29
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 63.0,
+      "y": 22.8,
+      "n": 27
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 47.7,
+      "y": 74.0,
+      "n": 23
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 34.9,
+      "y": 65.7,
+      "n": 30
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 9.4,
+      "y": 48.5,
+      "n": 6
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 83.4,
+      "y": 41.8,
+      "n": 27
+     }
+    ],
+    "lines": {
+     "def": 47.9,
+     "mid": 51.8,
+     "att": 69.2
+    },
+    "shape": {
+     "length": 21.3,
+     "width": 57.3,
+     "compact": 0.73,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 72.9,
+      "y": 42.1,
+      "n": 23
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 39.0,
+      "y": 46.7,
+      "n": 18
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 51.6,
+      "y": 7.0,
+      "n": 17
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 77.8,
+      "y": 46.8,
+      "n": 22
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 71.2,
+      "y": 63.7,
+      "n": 27
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 49.4,
+      "y": 22.7,
+      "n": 13
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 77.8,
+      "y": 21.8,
+      "n": 12
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 109.3,
+      "y": 42.8,
+      "n": 8
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 40.6,
+      "y": 65.4,
+      "n": 24
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 62.2,
+      "y": 40.2,
+      "n": 19
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 38.8,
+      "y": 73.6,
+      "n": 23
+     }
+    ],
+    "lines": {
+     "def": 56.6,
+     "mid": 61.4,
+     "att": 75.8
+    },
+    "shape": {
+     "length": 19.2,
+     "width": 66.5,
+     "compact": 0.76,
+     "label": "high line"
+    }
+   }
+  },
+  "m15_30": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 65.5,
+      "y": 36.5,
+      "n": 19
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 62.2,
+      "y": 68.7,
+      "n": 14
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 35.1,
+      "y": 21.9,
+      "n": 13
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 73.6,
+      "y": 17.0,
+      "n": 21
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 41.0,
+      "y": 46.1,
+      "n": 26
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 54.7,
+      "y": 38.1,
+      "n": 17
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 58.4,
+      "y": 22.0,
+      "n": 25
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 45.5,
+      "y": 74.2,
+      "n": 20
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 28.4,
+      "y": 67.7,
+      "n": 17
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 6.6,
+      "y": 50.4,
+      "n": 6
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 77.9,
+      "y": 40.4,
+      "n": 29
+     }
+    ],
+    "lines": {
+     "def": 45.7,
+     "mid": 53.7,
+     "att": 66.1
+    },
+    "shape": {
+     "length": 20.4,
+     "width": 57.1,
+     "compact": 0.75,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 72.1,
+      "y": 47.9,
+      "n": 18
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 52.3,
+      "y": 27.8,
+      "n": 15
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 56.6,
+      "y": 8.2,
+      "n": 10
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 82.3,
+      "y": 48.0,
+      "n": 21
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 70.3,
+      "y": 66.5,
+      "n": 23
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 43.8,
+      "y": 24.1,
+      "n": 9
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 84.0,
+      "y": 24.0,
+      "n": 20
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 108.0,
+      "y": 36.2,
+      "n": 13
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 49.7,
+      "y": 59.8,
+      "n": 12
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 57.4,
+      "y": 25.1,
+      "n": 13
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 39.0,
+      "y": 76.1,
+      "n": 12
+     }
+    ],
+    "lines": {
+     "def": 53.6,
+     "mid": 60.3,
+     "att": 72.0
+    },
+    "shape": {
+     "length": 18.4,
+     "width": 67.8,
+     "compact": 0.77,
+     "label": "mid block"
+    }
+   }
+  },
+  "m20_35": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 62.3,
+      "y": 42.6,
+      "n": 20
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 57.0,
+      "y": 47.9,
+      "n": 15
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 37.5,
+      "y": 27.2,
+      "n": 13
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 68.6,
+      "y": 17.6,
+      "n": 23
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 47.3,
+      "y": 60.5,
+      "n": 25
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 53.0,
+      "y": 37.9,
+      "n": 24
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 61.3,
+      "y": 24.8,
+      "n": 22
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 60.8,
+      "y": 73.5,
+      "n": 20
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 40.1,
+      "y": 63.3,
+      "n": 20
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 9.7,
+      "y": 45.7,
+      "n": 8
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 80.0,
+      "y": 40.2,
+      "n": 24
+     }
+    ],
+    "lines": {
+     "def": 51.8,
+     "mid": 54.2,
+     "att": 66.1
+    },
+    "shape": {
+     "length": 14.3,
+     "width": 55.9,
+     "compact": 0.82,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 74.9,
+      "y": 46.9,
+      "n": 17
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 52.6,
+      "y": 27.4,
+      "n": 13
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 59.2,
+      "y": 10.7,
+      "n": 9
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 85.4,
+      "y": 46.4,
+      "n": 25
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 68.2,
+      "y": 66.9,
+      "n": 24
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 50.9,
+      "y": 30.4,
+      "n": 5
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 90.9,
+      "y": 25.8,
+      "n": 24
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 109.7,
+      "y": 34.3,
+      "n": 19
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 49.8,
+      "y": 59.0,
+      "n": 15
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 48.9,
+      "y": 29.2,
+      "n": 9
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 40.2,
+      "y": 76.0,
+      "n": 15
+     }
+    ],
+    "lines": {
+     "def": 51.2,
+     "mid": 62.1,
+     "att": 68.3
+    },
+    "shape": {
+     "length": 17.1,
+     "width": 65.2,
+     "compact": 0.79,
+     "label": "mid block"
+    }
+   }
+  },
+  "m25_40": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 65.7,
+      "y": 62.0,
+      "n": 13
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 52.3,
+      "y": 40.3,
+      "n": 11
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 35.9,
+      "y": 35.3,
+      "n": 7
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 57.6,
+      "y": 18.6,
+      "n": 8
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 45.7,
+      "y": 67.3,
+      "n": 21
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 50.0,
+      "y": 38.0,
+      "n": 14
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 75.7,
+      "y": 25.6,
+      "n": 11
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 69.4,
+      "y": 73.5,
+      "n": 21
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 45.2,
+      "y": 65.0,
+      "n": 18
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 10.2,
+      "y": 39.2,
+      "n": 6
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 83.4,
+      "y": 35.4,
+      "n": 14
+     }
+    ],
+    "lines": {
+     "def": 52.0,
+     "mid": 53.8,
+     "att": 70.5
+    },
+    "shape": {
+     "length": 18.5,
+     "width": 55.0,
+     "compact": 0.77,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 67.7,
+      "y": 44.2,
+      "n": 33
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 45.6,
+      "y": 29.5,
+      "n": 11
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 63.0,
+      "y": 17.5,
+      "n": 9
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 75.1,
+      "y": 46.4,
+      "n": 36
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 59.0,
+      "y": 69.7,
+      "n": 37
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 59.1,
+      "y": 32.4,
+      "n": 6
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 83.7,
+      "y": 25.0,
+      "n": 31
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 110.5,
+      "y": 33.6,
+      "n": 20
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 42.4,
+      "y": 61.0,
+      "n": 15
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 53.7,
+      "y": 45.1,
+      "n": 13
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 48.7,
+      "y": 74.2,
+      "n": 30
+     }
+    ],
+    "lines": {
+     "def": 54.1,
+     "mid": 65.4,
+     "att": 67.7
+    },
+    "shape": {
+     "length": 13.6,
+     "width": 56.7,
+     "compact": 0.83,
+     "label": "high line"
+    }
+   }
+  },
+  "m30_45": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 77.0,
+      "y": 59.5,
+      "n": 23
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 64.2,
+      "y": 49.6,
+      "n": 32
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 37.5,
+      "y": 35.0,
+      "n": 9
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 71.4,
+      "y": 13.0,
+      "n": 11
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 41.6,
+      "y": 60.0,
+      "n": 32
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 64.3,
+      "y": 45.6,
+      "n": 12
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 76.6,
+      "y": 35.9,
+      "n": 28
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 79.1,
+      "y": 71.6,
+      "n": 17
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 48.2,
+      "y": 59.1,
+      "n": 31
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 12.7,
+      "y": 41.7,
+      "n": 9
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 95.0,
+      "y": 30.2,
+      "n": 17
+     }
+    ],
+    "lines": {
+     "def": 59.1,
+     "mid": 61.0,
+     "att": 78.6
+    },
+    "shape": {
+     "length": 19.5,
+     "width": 58.6,
+     "compact": 0.76,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 66.7,
+      "y": 43.3,
+      "n": 33
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 43.8,
+      "y": 52.6,
+      "n": 11
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 56.2,
+      "y": 15.2,
+      "n": 9
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 76.7,
+      "y": 46.5,
+      "n": 35
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 60.6,
+      "y": 68.8,
+      "n": 30
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 65.5,
+      "y": 30.8,
+      "n": 5
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 84.6,
+      "y": 24.1,
+      "n": 34
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 108.7,
+      "y": 37.6,
+      "n": 16
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 39.7,
+      "y": 61.0,
+      "n": 19
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 50.6,
+      "y": 49.4,
+      "n": 13
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 47.7,
+      "y": 69.0,
+      "n": 28
+     }
+    ],
+    "lines": {
+     "def": 54.9,
+     "mid": 67.7,
+     "att": 65.4
+    },
+    "shape": {
+     "length": 10.5,
+     "width": 53.8,
+     "compact": 0.87,
+     "label": "high line"
+    }
+   }
+  },
+  "m35_50": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 84.5,
+      "y": 50.9,
+      "n": 31
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 75.0,
+      "y": 44.7,
+      "n": 36
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 30.8,
+      "y": 25.2,
+      "n": 23
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 62.8,
+      "y": 14.6,
+      "n": 25
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 42.3,
+      "y": 41.1,
+      "n": 34
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 65.2,
+      "y": 32.1,
+      "n": 22
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 67.7,
+      "y": 35.1,
+      "n": 25
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 76.7,
+      "y": 64.5,
+      "n": 15
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 40.8,
+      "y": 60.7,
+      "n": 37
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 8.7,
+      "y": 42.6,
+      "n": 18
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 98.8,
+      "y": 27.1,
+      "n": 17
+     }
+    ],
+    "lines": {
+     "def": 52.8,
+     "mid": 64.0,
+     "att": 80.5
+    },
+    "shape": {
+     "length": 27.7,
+     "width": 49.9,
+     "compact": 0.65,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 69.7,
+      "y": 46.2,
+      "n": 42
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 41.5,
+      "y": 55.3,
+      "n": 16
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 71.8,
+      "y": 8.5,
+      "n": 27
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 74.9,
+      "y": 48.6,
+      "n": 34
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 64.9,
+      "y": 67.7,
+      "n": 34
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 51.9,
+      "y": 53.7,
+      "n": 9
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 83.8,
+      "y": 21.3,
+      "n": 46
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 108.9,
+      "y": 42.2,
+      "n": 14
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 52.7,
+      "y": 45.6,
+      "n": 23
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 55.6,
+      "y": 38.5,
+      "n": 18
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 93.8,
+      "y": 44.7,
+      "n": 19
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 52.1,
+      "y": 64.2,
+      "n": 35
+     }
+    ],
+    "lines": {
+     "def": 46.5,
+     "mid": 60.7,
+     "att": 73.3
+    },
+    "shape": {
+     "length": 26.8,
+     "width": 59.2,
+     "compact": 0.67,
+     "label": "low block"
+    }
+   }
+  },
+  "m40_55": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 83.8,
+      "y": 48.7,
+      "n": 28
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 77.3,
+      "y": 45.4,
+      "n": 36
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 30.2,
+      "y": 22.1,
+      "n": 31
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 65.5,
+      "y": 15.1,
+      "n": 31
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 42.8,
+      "y": 38.7,
+      "n": 34
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 63.6,
+      "y": 27.0,
+      "n": 29
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 67.3,
+      "y": 29.9,
+      "n": 33
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 83.8,
+      "y": 59.0,
+      "n": 10
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 45.0,
+      "y": 57.6,
+      "n": 34
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 8.8,
+      "y": 43.0,
+      "n": 20
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 96.5,
+      "y": 30.2,
+      "n": 19
+     }
+    ],
+    "lines": {
+     "def": 56.1,
+     "mid": 63.4,
+     "att": 80.3
+    },
+    "shape": {
+     "length": 24.2,
+     "width": 44.0,
+     "compact": 0.7,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 78.0,
+      "y": 47.4,
+      "n": 23
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 42.4,
+      "y": 54.0,
+      "n": 15
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 78.1,
+      "y": 6.2,
+      "n": 29
+     },
+     {
+      "id": 5537,
+      "name": "Fabian Schär",
+      "jersey": 22,
+      "role": "DEF",
+      "x": 87.3,
+      "y": 51.2,
+      "n": 12
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 87.3,
+      "y": 65.5,
+      "n": 22
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 54.8,
+      "y": 59.0,
+      "n": 8
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 88.3,
+      "y": 20.1,
+      "n": 49
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 107.9,
+      "y": 42.9,
+      "n": 14
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 65.9,
+      "y": 28.5,
+      "n": 23
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 52.1,
+      "y": 22.2,
+      "n": 10
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 94.0,
+      "y": 44.6,
+      "n": 34
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 58.3,
+      "y": 53.6,
+      "n": 16
+     }
+    ],
+    "lines": {
+     "def": 37.8,
+     "mid": 54.7,
+     "att": 71.4
+    },
+    "shape": {
+     "length": 33.6,
+     "width": 59.2,
+     "compact": 0.58,
+     "label": "low block"
+    }
+   }
+  },
+  "m45_60": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 87.3,
+      "y": 43.8,
+      "n": 15
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 85.8,
+      "y": 38.8,
+      "n": 18
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 31.2,
+      "y": 23.4,
+      "n": 33
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 61.9,
+      "y": 16.9,
+      "n": 27
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 46.3,
+      "y": 31.7,
+      "n": 23
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 61.0,
+      "y": 24.0,
+      "n": 27
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 66.4,
+      "y": 17.9,
+      "n": 12
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 84.1,
+      "y": 62.2,
+      "n": 9
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 45.1,
+      "y": 62.9,
+      "n": 25
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 7.7,
+      "y": 41.7,
+      "n": 14
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 88.7,
+      "y": 34.7,
+      "n": 12
+     }
+    ],
+    "lines": {
+     "def": 55.6,
+     "mid": 64.9,
+     "att": 80.3
+    },
+    "shape": {
+     "length": 24.7,
+     "width": 46.0,
+     "compact": 0.69,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 76.1,
+      "y": 45.2,
+      "n": 30
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "ATT",
+      "x": 41.7,
+      "y": 39.0,
+      "n": 11
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 78.8,
+      "y": 9.1,
+      "n": 32
+     },
+     {
+      "id": 5538,
+      "name": "Denis Zakaria",
+      "jersey": 6,
+      "role": "MID",
+      "x": 60.6,
+      "y": 15.3,
+      "n": 6
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 85.8,
+      "y": 66.1,
+      "n": 26
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 46.5,
+      "y": 54.8,
+      "n": 9
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 86.6,
+      "y": 19.5,
+      "n": 47
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 110.4,
+      "y": 40.3,
+      "n": 15
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 76.8,
+      "y": 15.8,
+      "n": 17
+     },
+     {
+      "id": 16026,
+      "name": "Djibril Sow",
+      "jersey": 15,
+      "role": "MID",
+      "x": 61.8,
+      "y": 20.6,
+      "n": 7
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 94.4,
+      "y": 47.7,
+      "n": 44
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "DEF",
+      "x": 65.7,
+      "y": 58.9,
+      "n": 14
+     }
+    ],
+    "lines": {
+     "def": 37.7,
+     "mid": 51.2,
+     "att": 75.9
+    },
+    "shape": {
+     "length": 38.2,
+     "width": 57.0,
+     "compact": 0.52,
+     "label": "low block"
+    }
+   }
+  },
+  "m50_65": {
+   "home": {
+    "players": [
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 92.4,
+      "y": 72.6,
+      "n": 5
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 32.2,
+      "y": 20.8,
+      "n": 17
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 77.0,
+      "y": 17.1,
+      "n": 6
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 32.8,
+      "y": 31.5,
+      "n": 7
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 52.4,
+      "y": 27.0,
+      "n": 12
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 60.5,
+      "y": 17.0,
+      "n": 12
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 60.7,
+      "y": 66.0,
+      "n": 7
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 58.0,
+      "y": 56.6,
+      "n": 9
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 6.5,
+      "y": 36.6,
+      "n": 7
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 74.6,
+      "y": 42.6,
+      "n": 7
+     }
+    ],
+    "lines": {
+     "def": 57.0,
+     "mid": 42.6,
+     "att": 75.8
+    },
+    "shape": {
+     "length": 18.8,
+     "width": 55.5,
+     "compact": 0.77,
+     "label": "high line"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 63.8,
+      "y": 50.1,
+      "n": 28
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "MID",
+      "x": 31.6,
+      "y": 12.1,
+      "n": 19
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 55.3,
+      "y": 9.2,
+      "n": 24
+     },
+     {
+      "id": 5538,
+      "name": "Denis Zakaria",
+      "jersey": 6,
+      "role": "MID",
+      "x": 55.9,
+      "y": 25.5,
+      "n": 14
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 66.9,
+      "y": 67.7,
+      "n": 33
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 53.7,
+      "y": 38.0,
+      "n": 13
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 81.2,
+      "y": 22.3,
+      "n": 39
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 108.9,
+      "y": 37.4,
+      "n": 15
+     },
+     {
+      "id": 6983,
+      "name": "Remo Freuler",
+      "jersey": 8,
+      "role": "MID",
+      "x": 78.7,
+      "y": 19.1,
+      "n": 8
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 88.3,
+      "y": 47.9,
+      "n": 41
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "MID",
+      "x": 52.6,
+      "y": 73.6,
+      "n": 11
+     }
+    ],
+    "lines": {
+     "def": 47.1,
+     "mid": 63.5,
+     "att": null
+    },
+    "shape": null
+   }
+  },
+  "m55_70": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 69.2,
+      "y": 52.4,
+      "n": 23
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 66.9,
+      "y": 69.5,
+      "n": 12
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 33.9,
+      "y": 27.3,
+      "n": 11
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 70.6,
+      "y": 24.8,
+      "n": 6
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 57.8,
+      "y": 40.8,
+      "n": 16
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 60.6,
+      "y": 40.6,
+      "n": 15
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 69.0,
+      "y": 37.0,
+      "n": 18
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 41.3,
+      "y": 67.0,
+      "n": 5
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 34.7,
+      "y": 62.1,
+      "n": 10
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 5.1,
+      "y": 36.9,
+      "n": 7
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 81.0,
+      "y": 40.9,
+      "n": 9
+     }
+    ],
+    "lines": {
+     "def": 45.1,
+     "mid": 62.5,
+     "att": 72.3
+    },
+    "shape": {
+     "length": 27.2,
+     "width": 44.7,
+     "compact": 0.66,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 56.3,
+      "y": 51.7,
+      "n": 31
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "MID",
+      "x": 26.8,
+      "y": 11.0,
+      "n": 28
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 38.9,
+      "y": 8.6,
+      "n": 27
+     },
+     {
+      "id": 5538,
+      "name": "Denis Zakaria",
+      "jersey": 6,
+      "role": "MID",
+      "x": 60.0,
+      "y": 27.3,
+      "n": 22
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 49.7,
+      "y": 69.0,
+      "n": 29
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 48.3,
+      "y": 42.1,
+      "n": 16
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 78.6,
+      "y": 23.8,
+      "n": 31
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 110.9,
+      "y": 37.0,
+      "n": 10
+     },
+     {
+      "id": 29006,
+      "name": "Noah Okafor",
+      "jersey": 19,
+      "role": "MID",
+      "x": 42.4,
+      "y": 73.0,
+      "n": 6
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 81.1,
+      "y": 51.9,
+      "n": 37
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "MID",
+      "x": 46.3,
+      "y": 73.3,
+      "n": 8
+     }
+    ],
+    "lines": {
+     "def": 57.9,
+     "mid": 73.6,
+     "att": null
+    },
+    "shape": null
+   }
+  },
+  "m60_75": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 70.9,
+      "y": 51.6,
+      "n": 26
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 61.7,
+      "y": 68.7,
+      "n": 12
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 34.2,
+      "y": 23.5,
+      "n": 8
+     },
+     {
+      "id": 5207,
+      "name": "Cristiano Ronaldo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 61.3,
+      "y": 48.1,
+      "n": 5
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 68.7,
+      "y": 26.8,
+      "n": 7
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 56.9,
+      "y": 44.2,
+      "n": 24
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 56.1,
+      "y": 40.1,
+      "n": 19
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 68.9,
+      "y": 38.3,
+      "n": 19
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 42.7,
+      "y": 65.3,
+      "n": 6
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 26.3,
+      "y": 60.2,
+      "n": 7
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 6.6,
+      "y": 41.8,
+      "n": 12
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 82.3,
+      "y": 43.9,
+      "n": 9
+     }
+    ],
+    "lines": {
+     "def": 43.0,
+     "mid": 61.3,
+     "att": 68.6
+    },
+    "shape": {
+     "length": 25.6,
+     "width": 45.2,
+     "compact": 0.68,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 56.5,
+      "y": 59.4,
+      "n": 34
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "MID",
+      "x": 24.8,
+      "y": 7.9,
+      "n": 27
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 40.2,
+      "y": 9.0,
+      "n": 27
+     },
+     {
+      "id": 5538,
+      "name": "Denis Zakaria",
+      "jersey": 6,
+      "role": "MID",
+      "x": 54.1,
+      "y": 33.9,
+      "n": 19
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 52.3,
+      "y": 69.4,
+      "n": 33
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 45.3,
+      "y": 45.9,
+      "n": 19
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 77.1,
+      "y": 25.5,
+      "n": 19
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 108.7,
+      "y": 32.9,
+      "n": 8
+     },
+     {
+      "id": 29006,
+      "name": "Noah Okafor",
+      "jersey": 19,
+      "role": "MID",
+      "x": 42.4,
+      "y": 73.0,
+      "n": 6
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 77.2,
+      "y": 49.5,
+      "n": 33
+     },
+     {
+      "id": 30401,
+      "name": "Ruben Vargas",
+      "jersey": 17,
+      "role": "MID",
+      "x": 40.3,
+      "y": 74.9,
+      "n": 7
+     }
+    ],
+    "lines": {
+     "def": 58.3,
+     "mid": 76.4,
+     "att": null
+    },
+    "shape": null
+   }
+  },
+  "m65_80": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 67.0,
+      "y": 44.1,
+      "n": 32
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 52.4,
+      "y": 53.2,
+      "n": 17
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 33.1,
+      "y": 23.4,
+      "n": 10
+     },
+     {
+      "id": 5207,
+      "name": "Cristiano Ronaldo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 62.4,
+      "y": 35.9,
+      "n": 9
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 61.6,
+      "y": 20.0,
+      "n": 15
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 55.1,
+      "y": 42.3,
+      "n": 28
+     },
+     {
+      "id": 10868,
+      "name": "Ricardo Horta",
+      "jersey": 21,
+      "role": "ATT",
+      "x": 70.0,
+      "y": 17.8,
+      "n": 7
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 62.2,
+      "y": 38.1,
+      "n": 16
+     },
+     {
+      "id": 12041,
+      "name": "João Félix",
+      "jersey": 11,
+      "role": "ATT",
+      "x": 75.9,
+      "y": 41.7,
+      "n": 16
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 35.0,
+      "y": 49.0,
+      "n": 12
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 8.1,
+      "y": 45.1,
+      "n": 10
+     },
+     {
+      "id": 34639,
+      "name": "Vitinha",
+      "jersey": 16,
+      "role": "MID",
+      "x": 67.0,
+      "y": 5.7,
+      "n": 12
+     },
+     {
+      "id": 38803,
+      "name": "Gonçalo Ramos",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 86.7,
+      "y": 40.8,
+      "n": 8
+     }
+    ],
+    "lines": {
+     "def": 43.2,
+     "mid": 62.8,
+     "att": 69.5
+    },
+    "shape": {
+     "length": 26.3,
+     "width": 47.5,
+     "compact": 0.67,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 55.9,
+      "y": 51.7,
+      "n": 35
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "MID",
+      "x": 25.2,
+      "y": 7.5,
+      "n": 28
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 40.4,
+      "y": 10.3,
+      "n": 28
+     },
+     {
+      "id": 5538,
+      "name": "Denis Zakaria",
+      "jersey": 6,
+      "role": "MID",
+      "x": 52.0,
+      "y": 33.0,
+      "n": 12
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 54.9,
+      "y": 69.6,
+      "n": 25
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 39.1,
+      "y": 47.8,
+      "n": 15
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 61.6,
+      "y": 22.5,
+      "n": 16
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 101.6,
+      "y": 33.9,
+      "n": 7
+     },
+     {
+      "id": 29006,
+      "name": "Noah Okafor",
+      "jersey": 19,
+      "role": "MID",
+      "x": 41.1,
+      "y": 63.0,
+      "n": 17
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 68.7,
+      "y": 44.7,
+      "n": 22
+     }
+    ],
+    "lines": {
+     "def": 63.6,
+     "mid": 76.5,
+     "att": null
+    },
+    "shape": null
+   }
+  },
+  "m70_85": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 57.6,
+      "y": 23.7,
+      "n": 10
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 47.4,
+      "y": 46.2,
+      "n": 16
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 35.8,
+      "y": 18.9,
+      "n": 11
+     },
+     {
+      "id": 5207,
+      "name": "Cristiano Ronaldo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 63.6,
+      "y": 39.3,
+      "n": 12
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 55.5,
+      "y": 16.8,
+      "n": 9
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 46.5,
+      "y": 43.0,
+      "n": 23
+     },
+     {
+      "id": 9927,
+      "name": "Rúben Neves",
+      "jersey": 18,
+      "role": "MID",
+      "x": 33.6,
+      "y": 42.0,
+      "n": 13
+     },
+     {
+      "id": 10868,
+      "name": "Ricardo Horta",
+      "jersey": 21,
+      "role": "ATT",
+      "x": 60.9,
+      "y": 21.4,
+      "n": 11
+     },
+     {
+      "id": 11184,
+      "name": "Otavinho",
+      "jersey": 25,
+      "role": "MID",
+      "x": 50.6,
+      "y": 41.2,
+      "n": 6
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 58.4,
+      "y": 71.1,
+      "n": 6
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 36.7,
+      "y": 53.9,
+      "n": 19
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 7.3,
+      "y": 43.7,
+      "n": 11
+     },
+     {
+      "id": 34639,
+      "name": "Vitinha",
+      "jersey": 16,
+      "role": "MID",
+      "x": 57.4,
+      "y": 26.6,
+      "n": 19
+     }
+    ],
+    "lines": {
+     "def": 46.6,
+     "mid": 49.2,
+     "att": 57.3
+    },
+    "shape": {
+     "length": 10.7,
+     "width": 54.4,
+     "compact": 0.87,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 54.9,
+      "y": 46.9,
+      "n": 56
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "MID",
+      "x": 36.2,
+      "y": 7.3,
+      "n": 32
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 55.8,
+      "y": 9.0,
+      "n": 34
+     },
+     {
+      "id": 5538,
+      "name": "Denis Zakaria",
+      "jersey": 6,
+      "role": "MID",
+      "x": 44.9,
+      "y": 35.0,
+      "n": 10
+     },
+     {
+      "id": 5543,
+      "name": "Haris Seferović",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 43.0,
+      "y": 21.7,
+      "n": 6
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 56.4,
+      "y": 69.7,
+      "n": 25
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 41.4,
+      "y": 38.7,
+      "n": 16
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 61.3,
+      "y": 21.6,
+      "n": 19
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 105.0,
+      "y": 40.0,
+      "n": 12
+     },
+     {
+      "id": 29006,
+      "name": "Noah Okafor",
+      "jersey": 19,
+      "role": "MID",
+      "x": 34.0,
+      "y": 61.7,
+      "n": 17
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 73.6,
+      "y": 48.7,
+      "n": 30
+     }
+    ],
+    "lines": {
+     "def": 58.2,
+     "mid": 77.5,
+     "att": 77.8
+    },
+    "shape": {
+     "length": 19.6,
+     "width": 62.3,
+     "compact": 0.76,
+     "label": "high line"
+    }
+   }
+  },
+  "m75_90": {
+   "home": {
+    "players": [
+     {
+      "id": 3193,
+      "name": "Bernardo Silva",
+      "jersey": 10,
+      "role": "MID",
+      "x": 46.3,
+      "y": 14.4,
+      "n": 7
+     },
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 57.9,
+      "y": 44.9,
+      "n": 19
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 38.6,
+      "y": 19.9,
+      "n": 15
+     },
+     {
+      "id": 5207,
+      "name": "Cristiano Ronaldo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 68.0,
+      "y": 33.0,
+      "n": 11
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 59.4,
+      "y": 11.0,
+      "n": 11
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 52.1,
+      "y": 39.0,
+      "n": 28
+     },
+     {
+      "id": 9927,
+      "name": "Rúben Neves",
+      "jersey": 18,
+      "role": "MID",
+      "x": 45.1,
+      "y": 44.2,
+      "n": 26
+     },
+     {
+      "id": 10868,
+      "name": "Ricardo Horta",
+      "jersey": 21,
+      "role": "ATT",
+      "x": 74.5,
+      "y": 37.0,
+      "n": 29
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 57.7,
+      "y": 62.5,
+      "n": 11
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 37.2,
+      "y": 52.4,
+      "n": 20
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 6.1,
+      "y": 39.7,
+      "n": 6
+     },
+     {
+      "id": 34639,
+      "name": "Vitinha",
+      "jersey": 16,
+      "role": "MID",
+      "x": 55.5,
+      "y": 31.5,
+      "n": 25
+     }
+    ],
+    "lines": {
+     "def": 48.2,
+     "mid": 49.7,
+     "att": 66.8
+    },
+    "shape": {
+     "length": 18.6,
+     "width": 51.5,
+     "compact": 0.77,
+     "label": "mid block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 51.3,
+      "y": 39.6,
+      "n": 57
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "MID",
+      "x": 37.0,
+      "y": 7.5,
+      "n": 40
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 50.5,
+      "y": 6.0,
+      "n": 39
+     },
+     {
+      "id": 5538,
+      "name": "Denis Zakaria",
+      "jersey": 6,
+      "role": "MID",
+      "x": 46.1,
+      "y": 22.9,
+      "n": 18
+     },
+     {
+      "id": 5543,
+      "name": "Haris Seferović",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 32.0,
+      "y": 20.9,
+      "n": 12
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 31.8,
+      "y": 63.9,
+      "n": 18
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 42.6,
+      "y": 32.6,
+      "n": 12
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 67.0,
+      "y": 20.0,
+      "n": 33
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 105.9,
+      "y": 42.4,
+      "n": 10
+     },
+     {
+      "id": 29006,
+      "name": "Noah Okafor",
+      "jersey": 19,
+      "role": "MID",
+      "x": 34.1,
+      "y": 54.9,
+      "n": 25
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 72.4,
+      "y": 48.3,
+      "n": 25
+     },
+     {
+      "id": 41655,
+      "name": "Ardon Jashari",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 38.6,
+      "y": 51.2,
+      "n": 10
+     }
+    ],
+    "lines": {
+     "def": 64.6,
+     "mid": 77.9,
+     "att": 82.2
+    },
+    "shape": {
+     "length": 17.6,
+     "width": 57.9,
+     "compact": 0.78,
+     "label": "high line"
+    }
+   }
+  },
+  "m80_95": {
+   "home": {
+    "players": [
+     {
+      "id": 5204,
+      "name": "Bruno Fernandes",
+      "jersey": 8,
+      "role": "ATT",
+      "x": 65.3,
+      "y": 53.9,
+      "n": 13
+     },
+     {
+      "id": 5206,
+      "name": "Rúben Dias",
+      "jersey": 4,
+      "role": "DEF",
+      "x": 45.3,
+      "y": 22.7,
+      "n": 19
+     },
+     {
+      "id": 5207,
+      "name": "Cristiano Ronaldo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 73.3,
+      "y": 53.2,
+      "n": 13
+     },
+     {
+      "id": 5209,
+      "name": "Raphaël Guerreiro",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 59.9,
+      "y": 4.0,
+      "n": 12
+     },
+     {
+      "id": 5214,
+      "name": "William Carvalho",
+      "jersey": 14,
+      "role": "MID",
+      "x": 55.5,
+      "y": 41.1,
+      "n": 23
+     },
+     {
+      "id": 9927,
+      "name": "Rúben Neves",
+      "jersey": 18,
+      "role": "MID",
+      "x": 39.6,
+      "y": 43.2,
+      "n": 36
+     },
+     {
+      "id": 10868,
+      "name": "Ricardo Horta",
+      "jersey": 21,
+      "role": "ATT",
+      "x": 75.0,
+      "y": 46.4,
+      "n": 25
+     },
+     {
+      "id": 16028,
+      "name": "Diogo Dalot",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 51.7,
+      "y": 67.4,
+      "n": 21
+     },
+     {
+      "id": 18360,
+      "name": "Rafael Leão",
+      "jersey": 15,
+      "role": "ATT",
+      "x": 77.4,
+      "y": 22.7,
+      "n": 12
+     },
+     {
+      "id": 20016,
+      "name": "Pepe",
+      "jersey": 3,
+      "role": "DEF",
+      "x": 29.7,
+      "y": 60.3,
+      "n": 23
+     },
+     {
+      "id": 32975,
+      "name": "Diogo Costa",
+      "jersey": 22,
+      "role": "GK",
+      "x": 5.0,
+      "y": 38.4,
+      "n": 8
+     },
+     {
+      "id": 34639,
+      "name": "Vitinha",
+      "jersey": 16,
+      "role": "MID",
+      "x": 57.9,
+      "y": 59.7,
+      "n": 22
+     }
+    ],
+    "lines": {
+     "def": 46.7,
+     "mid": 51.0,
+     "att": 72.7
+    },
+    "shape": {
+     "length": 26.0,
+     "width": 63.4,
+     "compact": 0.68,
+     "label": "low block"
+    }
+   },
+   "away": {
+    "players": [
+     {
+      "id": 3500,
+      "name": "Granit Xhaka",
+      "jersey": 10,
+      "role": "MID",
+      "x": 53.9,
+      "y": 39.2,
+      "n": 48
+     },
+     {
+      "id": 3533,
+      "name": "Xherdan Shaqiri",
+      "jersey": 23,
+      "role": "MID",
+      "x": 48.0,
+      "y": 9.0,
+      "n": 26
+     },
+     {
+      "id": 3913,
+      "name": "Edimilson Fernandes",
+      "jersey": 2,
+      "role": "DEF",
+      "x": 63.1,
+      "y": 7.6,
+      "n": 29
+     },
+     {
+      "id": 5538,
+      "name": "Denis Zakaria",
+      "jersey": 6,
+      "role": "MID",
+      "x": 47.9,
+      "y": 23.2,
+      "n": 17
+     },
+     {
+      "id": 5543,
+      "name": "Haris Seferović",
+      "jersey": 9,
+      "role": "ATT",
+      "x": 34.7,
+      "y": 26.7,
+      "n": 15
+     },
+     {
+      "id": 5544,
+      "name": "Ricardo Rodríguez",
+      "jersey": 13,
+      "role": "DEF",
+      "x": 41.1,
+      "y": 67.3,
+      "n": 16
+     },
+     {
+      "id": 5545,
+      "name": "Breel Embolo",
+      "jersey": 7,
+      "role": "ATT",
+      "x": 47.9,
+      "y": 24.3,
+      "n": 6
+     },
+     {
+      "id": 5549,
+      "name": "Manuel Akanji",
+      "jersey": 5,
+      "role": "DEF",
+      "x": 75.9,
+      "y": 20.4,
+      "n": 23
+     },
+     {
+      "id": 5550,
+      "name": "Yann Sommer",
+      "jersey": 1,
+      "role": "GK",
+      "x": 110.9,
+      "y": 43.6,
+      "n": 10
+     },
+     {
+      "id": 29006,
+      "name": "Noah Okafor",
+      "jersey": 19,
+      "role": "MID",
+      "x": 37.1,
+      "y": 53.6,
+      "n": 17
+     },
+     {
+      "id": 29012,
+      "name": "Eray Cömert",
+      "jersey": 18,
+      "role": "DEF",
+      "x": 85.6,
+      "y": 55.5,
+      "n": 27
+     },
+     {
+      "id": 41655,
+      "name": "Ardon Jashari",
+      "jersey": 26,
+      "role": "ATT",
+      "x": 51.9,
+      "y": 54.1,
+      "n": 16
+     }
+    ],
+    "lines": {
+     "def": 53.6,
+     "mid": 73.3,
+     "att": 75.2
+    },
+    "shape": {
+     "length": 21.6,
+     "width": 59.7,
+     "compact": 0.73,
+     "label": "mid block"
+    }
+   }
+  }
+ },
+ "diagnostics": {
+  "kmeans_agreement_full": {
+   "home": 0.53,
+   "away": 0.6
+  }
+ }
+}

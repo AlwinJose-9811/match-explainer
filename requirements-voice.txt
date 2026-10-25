@@ -1,0 +1,4 @@
+# Optional: only needed to (re)render the recorded commentary voice (python tasks.py voice).
+# The site, the tests and the normal build do not need these; the rendered clips are in the repository (web/audio).
+kokoro-onnx>=0.5
+soundfile>=0.12

@@ -14,8 +14,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def at(pts: list[list[float]], t: float) -> tuple[float, float] | None:
-    if t < pts[0][0] - 0.5 or t > pts[-1][0] + 0.5:
+def at(pts: list[list[float]], t: float, slack: float = 0.5) -> tuple[float, float] | None:
+    if t < pts[0][0] - slack or t > pts[-1][0] + slack:
         return None
     for a, b in zip(pts, pts[1:]):
         if a[0] <= t <= b[0]:
@@ -25,13 +25,17 @@ def at(pts: list[list[float]], t: float) -> tuple[float, float] | None:
 
 
 def actor_errors(m: dict) -> list[float]:
+    """Error of the player's track at each of his actions. A player whose first track ended (he left the camera view for
+    a while) can have a second track with the same name, so only tracks that really cover the moment are compared."""
     errs = []
-    tracks = {tr["name"]: tr for tr in m["movement"]["tracks"] if tr["name"]}
+    tracks: dict[str, list] = {}
+    for tr in m["movement"]["tracks"]:
+        if tr["name"]:
+            tracks.setdefault(tr["name"], []).append(tr)
     for s in m["sequence"]:
-        tr = tracks.get(s["player"])
-        p = tr and at(tr["pts"], s["t"])
-        if p:
-            errs.append(math.hypot(p[0] - s["from"][0], p[1] - s["from"][1]))
+        found = [p for tr in tracks.get(s["player"], []) if (p := at(tr["pts"], s["t"], slack=0.0))]
+        if found:
+            errs.append(min(math.hypot(p[0] - s["from"][0], p[1] - s["from"][1]) for p in found))
     return errs
 
 

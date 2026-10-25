@@ -1,0 +1,64 @@
+{
+ "match_id": 3857284,
+ "competition": "FIFA World Cup",
+ "season": "2022",
+ "stage": "Group Stage",
+ "date": "2022-11-23",
+ "teams": {
+  "home": {
+   "id": 770,
+   "name": "Germany",
+   "color": "#2E75B6"
+  },
+  "away": {
+   "id": 778,
+   "name": "Japan",
+   "color": "#B75410"
+  }
+ },
+ "score": {
+  "home": 1,
+  "away": 2,
+  "shootout": null,
+  "note": null
+ },
+ "possession": {
+  "method": "sum of possession-sequence duration (penalty shootout excluded)",
+  "home": 0.745,
+  "away": 0.255
+ },
+ "stats": {
+  "home": {
+   "shots": 26,
+   "on_target": 9,
+   "passes": 826,
+   "passes_completed": 723,
+   "pass_accuracy": 0.8753,
+   "xg_model": 3.102,
+   "xg_statsbomb": 2.768,
+   "fouls": 7,
+   "corners": 6,
+   "yellow": 0,
+   "red": 0
+  },
+  "away": {
+   "shots": 12,
+   "on_target": 4,
+   "passes": 294,
+   "passes_completed": 215,
+   "pass_accuracy": 0.7313,
+   "xg_model": 1.496,
+   "xg_statsbomb": 1.249,
+   "fouls": 15,
+   "corners": 6,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "story": {
+  "text": "Japan beat Germany 2-1 in the Group Stage of the FIFA World Cup 2022. Germany had more of the ball (74 percent to 26 percent), and Germany also created the better chances by expected goals, or xG, a measure of chance quality (3.10 to 1.50). The goals came from İlkay Gündoğan at 32:35 (penalty), Ritsu Doan at 74:46 and Takuma Asano at 82:42.",
+  "speech": "Japan beat Germany in the Group Stage of the FIFA World Cup twenty twenty-two, two one. Germany had more of the ball, seventy-four percent, and Germany also created the better chances. The goals came from İlkay Gündoğan in the thirty-third minute, from the spot, Ritsu Doan in the seventy-fifth minute, and Takuma Asano in the eighty-third minute.",
+  "label": "Automated analysis",
+  "audio": "audio/3857284/story-d4afd0e0.ogg"
+ }
+}

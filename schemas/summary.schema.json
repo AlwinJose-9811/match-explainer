@@ -34,7 +34,7 @@
       "properties": {"home": {"$ref": "#/$defs/stats"}, "away": {"$ref": "#/$defs/stats"}}
     },
     "story": {"oneOf": [{"type": "null"}, {"type": "object", "required": ["text", "label"],
-      "properties": {"text": {"type": "string"}, "speech": {"type": "string"}, "label": {"const": "Automated analysis"}}}]}
+      "properties": {"text": {"type": "string"}, "speech": {"type": "string"}, "audio": {"type": "string"}, "label": {"const": "Automated analysis"}}}]}
   },
   "$defs": {
     "team": {"type": "object", "required": ["id", "name", "color"],

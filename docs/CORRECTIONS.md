@@ -37,6 +37,23 @@ Verified against statsbomb/open-data on 2026-10-25.
   it is a diagnostic in positions.json and not shown in the UI.
 - Windows: named (full, first half, second half, extra time) plus 15-minute windows every 5 minutes.
 
+## Ten matches (owner request: five more famous World Cup 2022 games)
+- Added: Argentina 1-2 Saudi Arabia (3857300), Germany 1-2 Japan (3857284), Croatia 1-1 Brazil, Croatia won on penalties
+  (3869420), France 2-0 Morocco (3869552), Portugal 6-1 Switzerland (3869254); all have 360 data and scores verified against the
+  matches file (`config/default.json` `expect`). Helper: `scripts/find_matches.py`.
+- Defensive-line terciles over all ten matches (431 windows) are 46.9 and 54.2, so `block_thresholds` is [47, 54].
+- "Round of 16" contains digits; the spoken scripts now turn any number in a stage or competition name into words.
+
+## Recorded voice (owner request: natural human British male commentator)
+- `python tasks.py voice` renders every spoken script to an OGG clip with the Kokoro neural voice `bm_george` (offline, Apache-2.0
+  model files from github.com/thewh1teagle/kokoro-onnx, release model-files-v1.0, kept in `C:/mx-data/kokoro`, not in the repo;
+  packages in `requirements-voice.txt`). Per-sentence pace (faster on "!", slower before "..."), natural pauses, equalised loudness.
+- Clips are named by a hash of voice, speed and text, so a changed script re-renders only that clip; the site falls back to the
+  browser voice if a clip is missing or cannot play. The voice engine crashes after ~80 sentences in one process, so rendering runs
+  in batches of five clips, each in a fresh process.
+- Audio tests only check clips are present, current, audible and unclipped. How natural they sound has to be judged by listening.
+- Foreign names may be mispronounced by the English voice; `pronunciations` in `config/default.json` can respell any name.
+
 ## Voice v2 (owner request: more natural, human, exciting)
 - Each explanation and story now carries a separate `speech` script (`pipeline/speech_script.py`) written to be heard:
   numbers and clock times become words ("the thirty-sixth minute", "three all"), no "xG" jargon, exclamations on goals,
@@ -55,7 +72,8 @@ Verified against statsbomb/open-data on 2026-10-25.
   `pipeline/tracking.py`; `scripts/check_movement.py` prints accuracy against the event data.
 - This is an ESTIMATE: snapshots contain only players visible on the TV picture and carry no player identities; gaps between
   snapshots reach about 6 s. The UI says so and shows the snapshot count and the longest gap.
-- Moves with fewer than two snapshots stay ball-only (two of 26 replays).
+- Moves with fewer than two snapshots stay ball-only (2 of 63 replays across the ten matches).
+- A player who leaves the camera view for a while and returns can get two tracks (his old one fades out, a new one starts).
 
 ## Phase 8 fixes
 - Away team colour darkened from #C55A11 to #B75410: white text on #C55A11 was only 4.34:1 (needs 4.5:1, NFR-4);

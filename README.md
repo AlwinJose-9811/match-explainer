@@ -5,7 +5,8 @@ replays of the key moments, and a trained expected-goals (xG) model with an hone
 
 An offline Python pipeline turns free [StatsBomb open data](https://github.com/statsbomb/open-data) into a small bundle of
 JSON files; a static website (vanilla JavaScript + SVG, no framework, no backend) reads it. It works offline and loads
-nothing from third parties. Five 2022 World Cup matches are included, with the final (Argentina 3-3 France) as the default.
+nothing from third parties. Ten 2022 World Cup matches are included (the final, Argentina v Saudi Arabia, Germany v Japan, Croatia v Brazil,
+France v Morocco, Portugal v Switzerland and more), with the final (Argentina 3-3 France) as the default.
 
 ## Quick start
 
@@ -75,20 +76,21 @@ It beats the baselines, is well calibrated (error 0.017), and lands behind Stats
 ## Limits
 
 - Event data has no continuous tracking. Positions are averages of where players touched the ball, and the tactical
-  labels (low block / mid block / high line) are approximate and relative to these five matches.
+  labels (low block / mid block / high line) are approximate and relative to these ten matches.
 - 360 snapshots show only players visible on the TV picture, so the real last defender is sometimes missing.
 - The data has no full player tracking. Off-the-ball movement is **reconstructed**: each on-ball event carries an
   anonymous snapshot of the visible players, the same player is matched between snapshots and the path is smoothed.
-  Checked against the event data, the passer's reconstructed position is within 0.6 yards at the median (2 yards at the
-  90th percentile, 7 at worst); in between snapshots (up to about 6 seconds apart) the exact route is an estimate.
-  Players off camera are not shown, and two moves with a single snapshot are ball-only.
+  Checked against the event data over 369 actions in the ten matches, the passer's reconstructed position is within 0.6
+  yards at the median (1.9 yards at the 90th percentile, 13 at worst); in between snapshots (up to about 6 seconds apart)
+  the exact route is an estimate. Players off camera are not shown, and 2 of the 63 replays have a single snapshot and are ball-only.
 - Penalties use one fixed chance (79%); they are shown as a simple card with no build-up.
 - Explanations are templates filled with facts from the data and labelled **Automated analysis**. No language model is used.
-- Only five matches are included; more need the build steps above and are limited to matches in StatsBomb's free data.
-- The Listen button reads a separate commentary-style script (numbers as words, exclamations on goals, a pause before
-  the punchline) with the best English voice your browser has. Quality depends on the voices installed: Microsoft Edge
-  offers neural "Natural" voices (they work online), while the basic Windows voices sound robotic. A voice picker lets you
-  choose; ★ marks the most natural ones.
+- Only ten matches are included; more need the build steps above and are limited to matches in StatsBomb's free data.
+- The Listen button plays a recorded commentary in a British male neural voice (Kokoro, rendered offline, so it works on
+  any device without internet). The script is written to be heard (numbers as words, excitement on goals, a pause before a
+  penalty). English voices tend to stumble on some foreign names. If a clip is missing the site falls back to the browser's
+  own voice, which can also be chosen in the voice picker (Microsoft Edge has natural voices; the basic Windows ones are robotic).
+  Re-render with `python tasks.py voice` (needs `requirements-voice.txt` and the model files, see `pipeline/voice.py`).
 
 ## Data and attribution
 

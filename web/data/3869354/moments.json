@@ -2002,7 +2002,8 @@
     "why": "A long passing move gave the team time to work a shooting chance.",
     "speech": "Big chance in the eleventh minute! Olivier Giroud shoots for France... but the goalkeeper saves it! A smooth move of five passes opens the defence. Our model says about three in ten shots like that are goals. Ousmane Dembélé played the pass that made it. Patient build-up, and in the end the chance opened up.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869354/m01-5ce7fe16.ogg"
    },
    "highlights_url": null
   },
@@ -4095,7 +4096,8 @@
     "why": "A long passing move gave the team time to work a shooting chance.",
     "speech": "France strike! Aurélien Tchouaméni finds the net in the seventeenth minute! A smooth move of five passes opens the defence. Our model says fewer than one in ten shots like that are goals. Antoine Griezmann played the pass that made it. Patient build-up, and in the end the chance opened up.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869354/m02-4e00919b.ogg"
    },
    "highlights_url": null
   },
@@ -4259,7 +4261,8 @@
     "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
     "speech": "The twenty-second minute, and England have a big chance. Jude Bellingham shoots... but a defender gets in the way! Jude Bellingham is first to the rebound. Our model says about one in ten shots like that are goals. Jordan Henderson played the pass that made it. The first shot was saved, and the defence was caught out as the ball ran loose.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869354/m03-a83f0e9a.ogg"
    },
    "highlights_url": null
   },
@@ -4294,7 +4297,8 @@
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
     "speech": "The fifty-fourth minute, penalty for England. Harry Kane steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869354/m04-5b4ffacd.ogg"
    },
    "highlights_url": null
   },
@@ -5294,7 +5298,8 @@
     "why": "The defence was stretched: the key pass reached 9.7 units beyond the last visible defender, leaving space to attack.",
     "speech": "France strike! Olivier Giroud finds the net in the seventy-eighth minute! It comes from a corner. Our model says about one in ten shots like that are goals. Antoine Griezmann played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869354/m05-deb5e107.ogg"
    },
    "highlights_url": null
   },
@@ -5329,7 +5334,8 @@
     "why": "Even though most penalties are scored, a save, a miss or the post can still stop one.",
     "speech": "The eighty-fourth minute, penalty for England. Harry Kane steps up, but it goes wide! Most penalties go in, so that one really hurts.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869354/m06-021ab828.ogg"
    },
    "highlights_url": null
   }

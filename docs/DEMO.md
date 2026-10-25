@@ -28,11 +28,11 @@ If something fails: refresh the page; if the server is down, restart `python tas
 | How did you avoid leakage? | Only information known at the moment of the shot is used. A test fails the build if an outcome, end location or StatsBomb xG feature appears. The split is by competition, never by random shot, because shots in a match are correlated. |
 | Why not use StatsBomb's xG? | It is shown as a benchmark. Training our own demonstrates the method; the gap (log loss 0.264 against 0.251) is reported honestly. |
 | Why not predict who wins? | Match outcomes are noisy and not explanatory. xG explains chance quality, which is what the site teaches. |
-| How accurate are the tactics labels? | They are rule-based on average positions from event data, so they are approximate; thresholds come from the five matches and the page says so. |
+| How accurate are the tactics labels? | They are rule-based on average positions from event data, so they are approximate; thresholds come from the ten matches and the page says so. |
 | Is the text reliable? | It is built from templates and facts only, checked by a validator that rejects any name or number not in the facts, and always labelled Automated analysis. No language model is used. |
 | What would you do next? | More matches, a language model with the same validator for richer wording, then a computer-vision pipeline for video using the same pitch and replay components. |
 | Is it legal to use the data? | Free with attribution under StatsBomb's user agreement; add their logo before publishing publicly. No broadcast footage is used. |
-| What are the limits? | Event data has no tracking; 360 shows visible players only; five matches; one fixed chance for penalties. |
+| What are the limits? | Event data has no tracking; 360 shows visible players only; ten matches; one fixed chance for penalties; player runs between camera snapshots are estimates. |
 
 ## Backup recording (3 minutes)
 1. Press Win+G (Xbox Game Bar), click Capture, then Record, or use OBS.

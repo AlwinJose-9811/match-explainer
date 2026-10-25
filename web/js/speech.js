@@ -1,15 +1,21 @@
-// "Listen" button: reads the commentary aloud with the browser's built-in speech synthesis.
-// To sound natural it picks the best English voice installed (neural "Natural"/"Online" voices rank first, e.g. in
-// Microsoft Edge), reads one sentence at a time with a livelier tone for "!" and a slower, building tone before "...",
-// and leaves a human-sized pause between sentences. Nothing is sent anywhere by this site; whether a voice is processed
-// online is up to the browser's own voice. A voice picker lets you choose another one.
+// "Listen" button. Preferred: a recorded neural commentary voice (audio files made at build time, plays offline on any
+// device). Fallback, or if you pick another voice: the browser's own speech synthesis. For that we choose the best
+// English voice installed (neural "Natural"/"Online" voices rank first, e.g. in Microsoft Edge), read one sentence at a
+// time with a livelier tone for "!" and a slower, building tone before "...", and leave human-sized pauses.
+// Nothing is sent anywhere by this site; whether a browser voice is processed online is up to the browser.
 import { h, clear } from './dom.js';
 
+const RECORDED = '__recorded';
 export const speechSupported = () => 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 let chosen = null;          // voiceURI picked by the user (kept for this page visit only)
 let token = 0;              // increments to cancel an utterance chain
+let currentAudio = null;
 
-export function stopSpeaking() { token++; if (speechSupported()) window.speechSynthesis.cancel(); }
+export function stopSpeaking() {
+  token++;
+  if (currentAudio) { currentAudio.pause(); currentAudio.currentTime = 0; currentAudio = null; }
+  if (speechSupported()) window.speechSynthesis.cancel();
+}
 
 /** Higher is better. Non-English voices are excluded. */
 export function voiceScore(v) {
@@ -23,7 +29,7 @@ export function voiceScore(v) {
   if (/(zira|david|mark|hazel)\b/i.test(v.name) && !/natural|online/i.test(v.name)) s -= 20;   // the older robotic Windows voices
   return s;
 }
-const englishVoices = () => window.speechSynthesis.getVoices().filter(v => voiceScore(v) > -1000).sort((a, b) => voiceScore(b) - voiceScore(a));
+const englishVoices = () => (speechSupported() ? window.speechSynthesis.getVoices() : []).filter(v => voiceScore(v) > -1000).sort((a, b) => voiceScore(b) - voiceScore(a));
 const currentVoice = () => { const vs = englishVoices(); return vs.find(v => v.voiceURI === chosen) || vs[0] || null; };
 
 /** Split commentary into sentences: [{ text, kind }] where kind is 'excited' (!), 'build' (...) or 'plain'. */
@@ -49,26 +55,45 @@ function speakAll(text, onDone) {
   next(0);
 }
 
-/** A "Listen" button plus a voice picker. Returns null when the browser has no speech synthesis. */
-export function listenButton(getText, label = 'Listen') {
-  if (!speechSupported()) return null;
+function playRecording(url, onDone, onFail) {
+  stopSpeaking();
+  const a = new Audio(url);
+  currentAudio = a;
+  a.onended = () => { if (currentAudio === a) currentAudio = null; onDone(); };
+  a.onerror = () => { if (currentAudio === a) currentAudio = null; onFail(); };
+  a.play().catch(() => { if (currentAudio === a) currentAudio = null; onFail(); });
+}
+
+/** A "Listen" button plus a voice picker. `audioUrl` is the recorded clip (optional). Null when nothing can speak. */
+export function listenButton(getText, label = 'Listen', audioUrl = null) {
+  if (!audioUrl && !speechSupported()) return null;
   const btn = h('button', { type: 'button', class: 'btn', 'aria-pressed': 'false' }, `\u{1F50A} ${label}`);
   const select = h('select', { class: 'voice-pick', 'aria-label': 'Choose the voice' });
+  const hint = h('span', { class: 'muted voice-hint' });
+  let useRecording = !!audioUrl;
   const reset = () => { btn.setAttribute('aria-pressed', 'false'); btn.textContent = `\u{1F50A} ${label}`; };
   const fill = () => {
-    const vs = englishVoices();
-    clear(select).append(...vs.map(v => h('option', { value: v.voiceURI, selected: v === currentVoice() }, `${v.name.replace(/^Microsoft /, '')}${/natural|neural|online/i.test(v.name) ? ' ★' : ''}`)));
-    select.hidden = vs.length < 2;
+    const vs = englishVoices(), cur = currentVoice();
+    clear(select).append(...(audioUrl ? [h('option', { value: RECORDED, selected: useRecording }, 'Commentator (recorded)')] : []),
+      ...vs.map(v => h('option', { value: v.voiceURI, selected: !useRecording && v === cur }, `${v.name.replace(/^Microsoft /, '')}${/natural|neural|online/i.test(v.name) ? ' ★' : ''}`)));
+    select.hidden = select.options.length < 2;
+    hint.textContent = useRecording ? 'Recorded British commentator voice (works offline).'
+      : '★ = most natural browser voices. In Microsoft Edge these sound best.';
   };
   fill();
-  window.speechSynthesis.addEventListener('voiceschanged', fill);   // voices load asynchronously in most browsers
-  select.addEventListener('change', () => { chosen = select.value; if (btn.getAttribute('aria-pressed') === 'true') { stopSpeaking(); reset(); } });
+  if (speechSupported()) window.speechSynthesis.addEventListener('voiceschanged', fill);   // voices load asynchronously in most browsers
+  select.addEventListener('change', () => {
+    useRecording = select.value === RECORDED;
+    if (!useRecording) chosen = select.value;
+    stopSpeaking(); reset(); fill();
+  });
+  const speakWithBrowser = () => (speechSupported() ? speakAll(getText(), reset) : reset());
   btn.addEventListener('click', () => {
     if (btn.getAttribute('aria-pressed') === 'true') { stopSpeaking(); reset(); return; }
     btn.setAttribute('aria-pressed', 'true');
     btn.textContent = '⏹ Stop';
-    speakAll(getText(), reset);
+    if (useRecording) playRecording(audioUrl, reset, () => { useRecording = false; fill(); speakWithBrowser(); });   // a missing clip falls back to the browser voice
+    else speakWithBrowser();
   });
-  return h('span', { class: 'listen' }, btn, select,
-    h('span', { class: 'muted voice-hint' }, '★ = most natural voices. For the best voice use Microsoft Edge.'));
+  return h('span', { class: 'listen' }, btn, select, hint);
 }

@@ -47,7 +47,8 @@ def year_words(y: int) -> str:
 def speak_years(text: str) -> str:
     """Replace every 19xx/20xx in a name like 'FIFA World Cup 2022' or '2015/2016' with spoken years."""
     out = re.sub(r"\b((?:19|20)\d{2})/((?:19|20)\d{2})\b", lambda m: f"{year_words(int(m[1]))} to {year_words(int(m[2]))}", text)
-    return re.sub(r"\b((?:19|20)\d{2})\b", lambda m: year_words(int(m[1])), out)
+    out = re.sub(r"\b((?:19|20)\d{2})\b", lambda m: year_words(int(m[1])), out)
+    return re.sub(r"\b\d{1,3}\b", lambda m: words(int(m[0])), out)   # e.g. "Round of 16"
 
 
 def per_ten(xg: float) -> str:
@@ -140,7 +141,7 @@ def spoken_story(summary: dict[str, Any], moments: dict[str, Any], names: dict[s
     t, sc, ps = summary["teams"], summary["score"], summary["possession"]
     h, a, hs, as_ = t["home"]["name"], t["away"]["name"], sc["home"], sc["away"]
     event = speak_years(f"{summary['competition']} {summary['season']}")
-    where = f" in the {summary['stage']} of the {event}" if summary.get("stage") else f" in the {event}"
+    where = f" in the {speak_years(summary['stage'])} of the {event}" if summary.get("stage") else f" in the {event}"
     first = (f"{h} and {a} drew{where}, {words(hs)} all." if hs == as_ else
              f"{(h if hs > as_ else a)} beat {(a if hs > as_ else h)}{where}, {score_words(max(hs, as_), min(hs, as_))}.")
     out = [first]

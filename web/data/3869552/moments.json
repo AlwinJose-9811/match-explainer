@@ -1,0 +1,4500 @@
+{
+ "moments": [
+  {
+   "type": "goal",
+   "event_id": "f4d06d6c-d7fb-41e4-b25e-1cb9a106f88b",
+   "period": 1,
+   "minute": 4,
+   "second": 40,
+   "clock": "4:40",
+   "team": "home",
+   "team_name": "France",
+   "player": "Theo Bernard François Hernández",
+   "xg_statsbomb": 0.098,
+   "xg_model": 0.266,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m01",
+   "sequence": [
+    {
+     "kind": "shot",
+     "event_id": "f4d06d6c-d7fb-41e4-b25e-1cb9a106f88b",
+     "from": [
+      115.7,
+      31.5
+     ],
+     "to": [
+      120.0,
+      38.9
+     ],
+     "player": "Theo Bernard François Hernández",
+     "recipient": null,
+     "t": 0.0,
+     "dur": 0.45,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": null,
+    "shot": {
+     "players": [
+      {
+       "x": 91.7,
+       "y": 64.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 94.8,
+       "y": 65.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.4,
+       "y": 42.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.7,
+       "y": 44.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.1,
+       "y": 48.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.6,
+       "y": 45.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.3,
+       "y": 45.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.6,
+       "y": 39.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.6,
+       "y": 46.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.1,
+       "y": 38.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 115.7,
+       "y": 31.5,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 117.1,
+       "y": 32.8,
+       "role": "keeper",
+       "actor": false
+      },
+      {
+       "x": 117.5,
+       "y": 41.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.6,
+       "y": 54.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 119.8,
+       "y": 37.9,
+       "role": "defender",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 119.8
+    }
+   },
+   "movement": {
+    "t_start": -0.27,
+    "t_end": 0.0,
+    "tracks": [
+     {
+      "id": "a1",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        90.8,
+        65.6
+       ],
+       [
+        0.0,
+        91.7,
+        64.3
+       ]
+      ]
+     },
+     {
+      "id": "a2",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        100.7,
+        45.2
+       ],
+       [
+        0.0,
+        102.4,
+        42.5
+       ]
+      ]
+     },
+     {
+      "id": "a3",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        102.7,
+        47.1
+       ],
+       [
+        0.0,
+        104.7,
+        44.2
+       ]
+      ]
+     },
+     {
+      "id": "a4",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        112.9,
+        41.3
+       ],
+       [
+        0.0,
+        115.1,
+        38.5
+       ]
+      ]
+     },
+     {
+      "id": "a5",
+      "side": "att",
+      "keeper": false,
+      "name": "Theo Bernard François Hernández",
+      "jersey": 22,
+      "pts": [
+       [
+        -0.27,
+        113.7,
+        32.4
+       ],
+       [
+        0.0,
+        115.7,
+        31.5
+       ]
+      ]
+     },
+     {
+      "id": "a6",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        117.0,
+        55.9
+       ],
+       [
+        0.0,
+        117.6,
+        54.6
+       ]
+      ]
+     },
+     {
+      "id": "d1",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        93.6,
+        66.3
+       ],
+       [
+        0.0,
+        94.8,
+        65.3
+       ]
+      ]
+     },
+     {
+      "id": "d2",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        107.4,
+        50.4
+       ],
+       [
+        0.0,
+        109.1,
+        48.7
+       ]
+      ]
+     },
+     {
+      "id": "d3",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        108.0,
+        46.7
+       ],
+       [
+        0.0,
+        109.6,
+        45.4
+       ]
+      ]
+     },
+     {
+      "id": "d4",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        108.7,
+        47.6
+       ],
+       [
+        0.0,
+        110.3,
+        45.9
+       ]
+      ]
+     },
+     {
+      "id": "d5",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        109.4,
+        41.5
+       ],
+       [
+        0.0,
+        111.6,
+        39.5
+       ]
+      ]
+     },
+     {
+      "id": "d6",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        109.7,
+        48.4
+       ],
+       [
+        0.0,
+        111.6,
+        46.0
+       ]
+      ]
+     },
+     {
+      "id": "d7",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        114.9,
+        43.4
+       ],
+       [
+        0.0,
+        117.5,
+        41.1
+       ]
+      ]
+     },
+     {
+      "id": "d8",
+      "side": "def",
+      "keeper": true,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        115.4,
+        36.0
+       ],
+       [
+        0.0,
+        117.1,
+        32.8
+       ]
+      ]
+     },
+     {
+      "id": "d9",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.27,
+        117.6,
+        39.7
+       ],
+       [
+        0.0,
+        119.8,
+        37.9
+       ]
+      ]
+     }
+    ],
+    "quality": {
+     "snapshots": 2,
+     "tracks": 15,
+     "avg_visible": 15.0,
+     "max_gap_s": 0.3,
+     "max_speed": 0.0
+    }
+   },
+   "facts": {
+    "sequence_len": 0,
+    "duration_s": 0.0,
+    "play_pattern": "From Throw In",
+    "body_part": "Left Foot",
+    "technique": "Half Volley",
+    "shot_distance": 9.5,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": true,
+    "assist_player": null,
+    "defensive_line_height": 0.2,
+    "gap_to_line": null
+   },
+   "explanation": {
+    "text": "At 4:40, Theo Hernández scored for France from a rebound after an earlier shot in the same move. The chance was worth 0.27 xG (expected goals), meaning about 3 in 10 shots like this are goals.",
+    "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
+    "speech": "Goal! Theo Hernández scores for France in the fifth minute! Theo Hernández is first to the rebound. Our model says about three in ten shots like that are goals. The first shot was saved, and the defence was caught out as the ball ran loose.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3869552/m01-12c9641f.ogg"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "65cfdd1e-7a29-4830-8194-a0869a13510b",
+   "period": 1,
+   "minute": 35,
+   "second": 14,
+   "clock": "35:14",
+   "team": "home",
+   "team_name": "France",
+   "player": "Olivier Giroud",
+   "xg_statsbomb": 0.264,
+   "xg_model": 0.332,
+   "outcome": "Off T",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m02",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "ca5a87f4-f0c8-40b1-8ffd-8077b1bf15d3",
+     "from": [
+      90.3,
+      20.0
+     ],
+     "to": [
+      105.8,
+      42.5
+     ],
+     "player": "Aurélien Djani Tchouaméni",
+     "recipient": "Olivier Giroud",
+     "t": 0.0,
+     "dur": 1.08,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "65cfdd1e-7a29-4830-8194-a0869a13510b",
+     "from": [
+      105.8,
+      42.5
+     ],
+     "to": [
+      120.0,
+      35.0
+     ],
+     "player": "Olivier Giroud",
+     "recipient": null,
+     "t": 1.13,
+     "dur": 0.7,
+     "key": false,
+     "outcome": "Off T"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 79.1,
+       "y": 52.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 88.8,
+       "y": 24.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 90.3,
+       "y": 20.0,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 99.3,
+       "y": 28.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.2,
+       "y": 39.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.2,
+       "y": 49.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.7,
+       "y": 34.7,
+       "role": "keeper",
+       "actor": false
+      },
+      {
+       "x": 111.3,
+       "y": 38.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.4,
+       "y": 30.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.5,
+       "y": 36.3,
+       "role": "defender",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 112.5
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 85.7,
+       "y": 41.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 89.5,
+       "y": 53.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 93.6,
+       "y": 30.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 96.7,
+       "y": 27.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.5,
+       "y": 30.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.8,
+       "y": 42.5,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 106.8,
+       "y": 54.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.1,
+       "y": 42.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.3,
+       "y": 37.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.5,
+       "y": 40.2,
+       "role": "keeper",
+       "actor": false
+      },
+      {
+       "x": 114.8,
+       "y": 32.5,
+       "role": "attacker",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 113.3
+    }
+   },
+   "movement": {
+    "t_start": 0.0,
+    "t_end": 1.13,
+    "tracks": [
+     {
+      "id": "a1",
+      "side": "att",
+      "keeper": false,
+      "name": "Aurélien Djani Tchouaméni",
+      "jersey": 8,
+      "pts": [
+       [
+        0.0,
+        91.2,
+        22.6
+       ],
+       [
+        1.08,
+        93.4,
+        29.0
+       ],
+       [
+        1.13,
+        93.4,
+        29.1
+       ]
+      ]
+     },
+     {
+      "id": "a2",
+      "side": "att",
+      "keeper": false,
+      "name": "Olivier Giroud",
+      "jersey": 9,
+      "pts": [
+       [
+        0.0,
+        103.9,
+        40.6
+       ],
+       [
+        1.08,
+        105.6,
+        42.3
+       ],
+       [
+        1.13,
+        105.6,
+        42.3
+       ]
+      ]
+     },
+     {
+      "id": "a3",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        105.7,
+        51.0
+       ],
+       [
+        1.08,
+        106.8,
+        53.9
+       ],
+       [
+        1.13,
+        106.8,
+        53.9
+       ]
+      ]
+     },
+     {
+      "id": "a4",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        112.3,
+        31.2
+       ],
+       [
+        1.08,
+        114.6,
+        32.4
+       ],
+       [
+        1.13,
+        114.6,
+        32.5
+       ]
+      ]
+     },
+     {
+      "id": "d1",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        81.8,
+        52.5
+       ],
+       [
+        1.08,
+        88.4,
+        53.6
+       ],
+       [
+        1.13,
+        88.5,
+        53.7
+       ]
+      ]
+     },
+     {
+      "id": "d2",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        90.9,
+        25.4
+       ],
+       [
+        1.08,
+        96.1,
+        27.2
+       ],
+       [
+        1.13,
+        96.2,
+        27.2
+       ]
+      ]
+     },
+     {
+      "id": "d3",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        100.1,
+        29.4
+       ],
+       [
+        1.08,
+        102.1,
+        31.0
+       ],
+       [
+        1.13,
+        102.2,
+        31.1
+       ]
+      ]
+     },
+     {
+      "id": "d4",
+      "side": "def",
+      "keeper": true,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        110.8,
+        36.1
+       ],
+       [
+        1.08,
+        113.2,
+        39.5
+       ],
+       [
+        1.13,
+        113.3,
+        39.6
+       ]
+      ]
+     },
+     {
+      "id": "d5",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        111.6,
+        39.5
+       ],
+       [
+        1.08,
+        112.3,
+        41.8
+       ],
+       [
+        1.13,
+        112.4,
+        41.8
+       ]
+      ]
+     },
+     {
+      "id": "d6",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        112.9,
+        36.5
+       ],
+       [
+        1.08,
+        113.7,
+        36.9
+       ],
+       [
+        1.13,
+        113.7,
+        37.0
+       ]
+      ]
+     },
+     {
+      "id": "d7",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        1.08,
+        85.4,
+        41.4
+       ],
+       [
+        1.13,
+        85.7,
+        41.1
+       ]
+      ]
+     }
+    ],
+    "quality": {
+     "snapshots": 3,
+     "tracks": 11,
+     "avg_visible": 10.7,
+     "max_gap_s": 1.1,
+     "max_speed": 6.2
+    }
+   },
+   "facts": {
+    "sequence_len": 1,
+    "duration_s": 1.13,
+    "play_pattern": "From Counter",
+    "body_part": "Left Foot",
+    "technique": "Normal",
+    "shot_distance": 14.4,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": true,
+    "assist_player": "Aurélien Djani Tchouaméni",
+    "defensive_line_height": 7.5,
+    "gap_to_line": -6.7
+   },
+   "explanation": {
+    "text": "At 35:14, Olivier Giroud had a big chance for France from a rebound after an earlier shot in the same move, but it went off target. The chance was worth 0.33 xG (expected goals), meaning about 3 in 10 shots like this are goals. The last pass before the shot came from Aurélien Tchouaméni.",
+    "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
+    "speech": "The thirty-sixth minute, and France have a big chance. Olivier Giroud shoots... but it goes wide! Olivier Giroud is first to the rebound. Our model says about three in ten shots like that are goals. Aurélien Tchouaméni played the pass that made it. The first shot was saved, and the defence was caught out as the ball ran loose.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3869552/m02-dc603b43.ogg"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "7aaedea3-0cdf-4082-8ea9-efbb40703b91",
+   "period": 2,
+   "minute": 52,
+   "second": 40,
+   "clock": "52:40",
+   "team": "away",
+   "team_name": "Morocco",
+   "player": "Yahia Attiyat allah",
+   "xg_statsbomb": 0.249,
+   "xg_model": 0.154,
+   "outcome": "Wayward",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m03",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "f3107850-68ce-4fd5-8c8c-29e13206a6ef",
+     "from": [
+      65.0,
+      65.8
+     ],
+     "to": [
+      68.6,
+      63.8
+     ],
+     "player": "Azzedine Ounahi",
+     "recipient": null,
+     "t": 0.0,
+     "dur": 0.79,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "57a19915-28fa-436d-a0ba-1ebf1aa085fb",
+     "from": [
+      68.6,
+      63.8
+     ],
+     "to": [
+      82.0,
+      76.7
+     ],
+     "player": "Azzedine Ounahi",
+     "recipient": "Hakim Ziyech",
+     "t": 0.79,
+     "dur": 1.38,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "312fc555-8f3a-4546-984a-8adcb8d18447",
+     "from": [
+      82.0,
+      76.7
+     ],
+     "to": [
+      82.3,
+      74.1
+     ],
+     "player": "Hakim Ziyech",
+     "recipient": null,
+     "t": 2.17,
+     "dur": 1.26,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "1a7c7739-b575-403b-8366-e57bf2e346d7",
+     "from": [
+      82.3,
+      74.1
+     ],
+     "to": [
+      84.3,
+      61.1
+     ],
+     "player": "Hakim Ziyech",
+     "recipient": "Azzedine Ounahi",
+     "t": 3.43,
+     "dur": 1.0,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "97a27ebf-9857-4097-b04b-a8364d07c8b6",
+     "from": [
+      84.3,
+      61.1
+     ],
+     "to": [
+      88.2,
+      60.5
+     ],
+     "player": "Azzedine Ounahi",
+     "recipient": null,
+     "t": 4.44,
+     "dur": 1.31,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "7764e674-3348-4b33-a363-9baa9db8a31e",
+     "from": [
+      88.2,
+      60.5
+     ],
+     "to": [
+      93.4,
+      60.0
+     ],
+     "player": "Azzedine Ounahi",
+     "recipient": "Sofiane Boufal",
+     "t": 5.75,
+     "dur": 0.61,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "7dd05c74-37f0-429b-b6d7-1dac352c1bce",
+     "from": [
+      93.4,
+      60.0
+     ],
+     "to": [
+      94.2,
+      60.0
+     ],
+     "player": "Sofiane Boufal",
+     "recipient": null,
+     "t": 6.36,
+     "dur": 0.65,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "6f3d2869-d17a-4df8-a0e3-9a70090350bb",
+     "from": [
+      94.2,
+      60.0
+     ],
+     "to": [
+      101.5,
+      73.8
+     ],
+     "player": "Sofiane Boufal",
+     "recipient": "Hakim Ziyech",
+     "t": 7.01,
+     "dur": 1.11,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "aade912b-f92a-40dc-9eb7-d4b69d4b6ede",
+     "from": [
+      101.5,
+      73.8
+     ],
+     "to": [
+      104.0,
+      73.0
+     ],
+     "player": "Hakim Ziyech",
+     "recipient": null,
+     "t": 8.12,
+     "dur": 0.44,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "edead456-63f7-4324-9772-764c281b4877",
+     "from": [
+      104.0,
+      73.0
+     ],
+     "to": [
+      113.7,
+      67.0
+     ],
+     "player": "Hakim Ziyech",
+     "recipient": "Sofiane Boufal",
+     "t": 8.57,
+     "dur": 1.4,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "63018f6f-847c-4b65-a3ab-7194124f36b4",
+     "from": [
+      113.7,
+      67.0
+     ],
+     "to": [
+      111.1,
+      65.8
+     ],
+     "player": "Sofiane Boufal",
+     "recipient": null,
+     "t": 9.97,
+     "dur": 0.22,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "53d82e48-8929-49a7-945d-27c760d4e96c",
+     "from": [
+      111.1,
+      65.8
+     ],
+     "to": [
+      109.8,
+      35.1
+     ],
+     "player": "Sofiane Boufal",
+     "recipient": "Yahia Attiyat allah",
+     "t": 10.19,
+     "dur": 2.52,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "7aaedea3-0cdf-4082-8ea9-efbb40703b91",
+     "from": [
+      109.8,
+      35.1
+     ],
+     "to": [
+      110.4,
+      53.5
+     ],
+     "player": "Yahia Attiyat allah",
+     "recipient": null,
+     "t": 12.77,
+     "dur": 0.1,
+     "key": false,
+     "outcome": "Wayward"
+    }
+   ],
+   "snapshots": {
+    "key_pass": null,
+    "shot": {
+     "players": [
+      {
+       "x": 99.3,
+       "y": 63.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.7,
+       "y": 35.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.8,
+       "y": 57.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.2,
+       "y": 69.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.3,
+       "y": 44.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 108.0,
+       "y": 36.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.2,
+       "y": 64.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.8,
+       "y": 35.1,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 111.1,
+       "y": 45.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.2,
+       "y": 36.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.9,
+       "y": 47.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 118.4,
+       "y": 56.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 118.6,
+       "y": 40.9,
+       "role": "keeper",
+       "actor": false
+      },
+      {
+       "x": 118.9,
+       "y": 50.3,
+       "role": "attacker",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 118.4
+    }
+   },
+   "movement": {
+    "t_start": 0.0,
+    "t_end": 12.77,
+    "tracks": [
+     {
+      "id": "a1",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        56.6,
+        65.8
+       ],
+       [
+        0.0,
+        56.6,
+        65.8
+       ],
+       [
+        0.79,
+        57.3,
+        64.3
+       ]
+      ]
+     },
+     {
+      "id": "a2",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        63.3,
+        48.4
+       ],
+       [
+        0.0,
+        63.3,
+        48.4
+       ],
+       [
+        0.79,
+        63.8,
+        46.2
+       ],
+       [
+        2.17,
+        64.5,
+        39.0
+       ],
+       [
+        2.17,
+        64.5,
+        39.0
+       ]
+      ]
+     },
+     {
+      "id": "a3",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        64.2,
+        21.3
+       ],
+       [
+        0.0,
+        64.2,
+        21.3
+       ],
+       [
+        0.79,
+        65.5,
+        20.7
+       ],
+       [
+        2.17,
+        68.5,
+        18.8
+       ],
+       [
+        2.17,
+        68.5,
+        18.8
+       ],
+       [
+        3.43,
+        70.6,
+        24.3
+       ],
+       [
+        4.44,
+        70.7,
+        27.4
+       ],
+       [
+        4.44,
+        70.7,
+        27.4
+       ]
+      ]
+     },
+     {
+      "id": "a4",
+      "side": "att",
+      "keeper": false,
+      "name": "Azzedine Ounahi",
+      "jersey": 8,
+      "pts": [
+       [
+        0.0,
+        65.6,
+        65.4
+       ],
+       [
+        0.0,
+        65.6,
+        65.4
+       ],
+       [
+        0.79,
+        67.5,
+        64.5
+       ],
+       [
+        2.17,
+        75.2,
+        61.4
+       ],
+       [
+        2.17,
+        75.2,
+        61.4
+       ],
+       [
+        3.43,
+        82.4,
+        61.5
+       ],
+       [
+        4.44,
+        84.3,
+        61.1
+       ],
+       [
+        4.44,
+        84.3,
+        61.1
+       ],
+       [
+        5.75,
+        88.0,
+        58.9
+       ],
+       [
+        6.36,
+        88.6,
+        57.4
+       ],
+       [
+        6.36,
+        88.6,
+        57.4
+       ],
+       [
+        7.01,
+        90.0,
+        55.6
+       ],
+       [
+        8.12,
+        95.6,
+        53.3
+       ],
+       [
+        8.12,
+        95.6,
+        53.3
+       ],
+       [
+        8.57,
+        96.2,
+        53.0
+       ],
+       [
+        11.15,
+        107.3,
+        44.8
+       ],
+       [
+        12.77,
+        107.3,
+        44.8
+       ]
+      ]
+     },
+     {
+      "id": "a5",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        76.2,
+        78.7
+       ],
+       [
+        0.0,
+        76.2,
+        78.7
+       ],
+       [
+        0.79,
+        78.2,
+        76.5
+       ],
+       [
+        2.17,
+        84.7,
+        69.6
+       ],
+       [
+        2.17,
+        84.7,
+        69.6
+       ],
+       [
+        3.43,
+        91.2,
+        66.5
+       ],
+       [
+        4.44,
+        93.0,
+        64.6
+       ],
+       [
+        4.44,
+        93.0,
+        64.6
+       ],
+       [
+        5.75,
+        97.0,
+        60.4
+       ],
+       [
+        6.36,
+        97.6,
+        58.7
+       ],
+       [
+        6.36,
+        97.6,
+        58.7
+       ],
+       [
+        7.01,
+        99.0,
+        57.0
+       ],
+       [
+        8.12,
+        103.8,
+        57.7
+       ],
+       [
+        8.12,
+        103.8,
+        57.7
+       ],
+       [
+        8.57,
+        104.2,
+        57.8
+       ],
+       [
+        11.15,
+        99.0,
+        64.1
+       ],
+       [
+        11.15,
+        99.0,
+        64.1
+       ],
+       [
+        12.77,
+        99.3,
+        63.6
+       ]
+      ]
+     },
+     {
+      "id": "a6",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        78.8,
+        30.8
+       ],
+       [
+        0.0,
+        78.8,
+        30.8
+       ],
+       [
+        0.79,
+        80.2,
+        29.8
+       ],
+       [
+        2.17,
+        84.2,
+        27.4
+       ],
+       [
+        2.17,
+        84.2,
+        27.4
+       ],
+       [
+        3.43,
+        88.1,
+        29.5
+       ],
+       [
+        4.44,
+        88.7,
+        31.4
+       ],
+       [
+        4.44,
+        88.7,
+        31.4
+       ],
+       [
+        5.75,
+        87.1,
+        35.3
+       ],
+       [
+        6.36,
+        86.4,
+        35.1
+       ],
+       [
+        6.36,
+        86.4,
+        35.1
+       ],
+       [
+        7.01,
+        86.6,
+        34.6
+       ],
+       [
+        8.12,
+        89.8,
+        35.4
+       ],
+       [
+        8.12,
+        89.8,
+        35.4
+       ],
+       [
+        11.15,
+        105.7,
+        35.4
+       ],
+       [
+        12.77,
+        105.7,
+        35.4
+       ]
+      ]
+     },
+     {
+      "id": "a7",
+      "side": "att",
+      "keeper": false,
+      "name": "Yahia Attiyat allah",
+      "jersey": 25,
+      "pts": [
+       [
+        0.0,
+        83.4,
+        40.7
+       ],
+       [
+        0.0,
+        83.4,
+        40.7
+       ],
+       [
+        0.79,
+        85.5,
+        39.3
+       ],
+       [
+        2.17,
+        91.7,
+        35.9
+       ],
+       [
+        2.17,
+        91.7,
+        35.9
+       ],
+       [
+        3.43,
+        96.3,
+        37.3
+       ],
+       [
+        4.44,
+        97.4,
+        38.3
+       ],
+       [
+        4.44,
+        97.4,
+        38.3
+       ],
+       [
+        5.75,
+        100.3,
+        37.7
+       ],
+       [
+        6.36,
+        100.3,
+        37.5
+       ],
+       [
+        6.36,
+        100.3,
+        37.5
+       ],
+       [
+        7.01,
+        101.1,
+        37.2
+       ],
+       [
+        8.12,
+        105.4,
+        37.3
+       ],
+       [
+        8.12,
+        105.4,
+        37.3
+       ],
+       [
+        8.57,
+        105.9,
+        37.2
+       ],
+       [
+        11.15,
+        109.8,
+        35.1
+       ],
+       [
+        12.77,
+        109.8,
+        35.1
+       ]
+      ]
+     },
+     {
+      "id": "a8",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        83.9,
+        10.2
+       ],
+       [
+        0.0,
+        83.9,
+        10.2
+       ],
+       [
+        0.79,
+        84.5,
+        8.4
+       ],
+       [
+        2.17,
+        84.4,
+        4.3
+       ],
+       [
+        2.17,
+        84.4,
+        4.3
+       ],
+       [
+        3.43,
+        85.8,
+        6.9
+       ],
+       [
+        4.44,
+        86.4,
+        7.9
+       ],
+       [
+        4.44,
+        86.4,
+        7.9
+       ],
+       [
+        5.75,
+        88.8,
+        9.2
+       ],
+       [
+        6.36,
+        88.8,
+        8.8
+       ],
+       [
+        6.36,
+        88.8,
+        8.8
+       ],
+       [
+        7.01,
+        88.9,
+        8.0
+       ]
+      ]
+     },
+     {
+      "id": "a9",
+      "side": "att",
+      "keeper": false,
+      "name": "Sofiane Boufal",
+      "jersey": 17,
+      "pts": [
+       [
+        0.0,
+        89.6,
+        45.8
+       ],
+       [
+        0.0,
+        89.6,
+        45.8
+       ],
+       [
+        0.79,
+        91.0,
+        45.4
+       ],
+       [
+        2.17,
+        94.8,
+        45.5
+       ],
+       [
+        2.17,
+        94.8,
+        45.5
+       ],
+       [
+        3.43,
+        96.8,
+        50.9
+       ],
+       [
+        4.44,
+        95.9,
+        54.2
+       ],
+       [
+        4.44,
+        95.9,
+        54.2
+       ],
+       [
+        5.75,
+        94.4,
+        59.8
+       ],
+       [
+        6.36,
+        94.0,
+        60.1
+       ],
+       [
+        6.36,
+        94.0,
+        60.1
+       ],
+       [
+        7.01,
+        95.0,
+        60.8
+       ],
+       [
+        8.12,
+        101.8,
+        64.5
+       ],
+       [
+        8.12,
+        101.8,
+        64.5
+       ],
+       [
+        8.57,
+        102.7,
+        64.8
+       ],
+       [
+        11.15,
+        118.9,
+        50.3
+       ],
+       [
+        12.77,
+        118.9,
+        50.3
+       ]
+      ]
+     },
+     {
+      "id": "a10",
+      "side": "att",
+      "keeper": false,
+      "name": "Hakim Ziyech",
+      "jersey": 7,
+      "pts": [
+       [
+        2.17,
+        82.0,
+        76.6
+       ],
+       [
+        2.17,
+        82.0,
+        76.6
+       ],
+       [
+        3.43,
+        82.0,
+        74.5
+       ],
+       [
+        4.44,
+        81.6,
+        74.5
+       ],
+       [
+        4.44,
+        81.6,
+        74.5
+       ],
+       [
+        5.75,
+        87.6,
+        75.3
+       ],
+       [
+        6.36,
+        89.2,
+        74.5
+       ],
+       [
+        6.36,
+        89.2,
+        74.5
+       ],
+       [
+        7.01,
+        92.3,
+        73.4
+       ],
+       [
+        8.12,
+        101.5,
+        73.5
+       ],
+       [
+        8.12,
+        101.5,
+        73.5
+       ],
+       [
+        8.57,
+        102.4,
+        73.5
+       ],
+       [
+        11.15,
+        106.2,
+        69.7
+       ],
+       [
+        12.77,
+        106.2,
+        69.7
+       ]
+      ]
+     },
+     {
+      "id": "d1",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        67.7,
+        27.5
+       ],
+       [
+        0.0,
+        67.7,
+        27.5
+       ],
+       [
+        0.79,
+        68.7,
+        26.0
+       ],
+       [
+        2.17,
+        70.7,
+        22.3
+       ],
+       [
+        2.17,
+        70.7,
+        22.3
+       ],
+       [
+        3.43,
+        72.5,
+        25.1
+       ],
+       [
+        4.44,
+        72.7,
+        27.4
+       ],
+       [
+        4.44,
+        72.7,
+        27.4
+       ]
+      ]
+     },
+     {
+      "id": "d2",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        79.5,
+        48.2
+       ],
+       [
+        0.0,
+        79.5,
+        48.2
+       ],
+       [
+        0.79,
+        81.3,
+        47.2
+       ],
+       [
+        2.17,
+        86.9,
+        45.9
+       ],
+       [
+        2.17,
+        86.9,
+        45.9
+       ],
+       [
+        3.43,
+        89.9,
+        51.0
+       ],
+       [
+        4.44,
+        90.0,
+        54.0
+       ],
+       [
+        4.44,
+        90.0,
+        54.0
+       ],
+       [
+        5.75,
+        92.3,
+        57.2
+       ],
+       [
+        6.36,
+        92.6,
+        56.9
+       ],
+       [
+        6.36,
+        92.6,
+        56.9
+       ],
+       [
+        7.01,
+        94.2,
+        56.3
+       ],
+       [
+        8.12,
+        100.3,
+        56.7
+       ],
+       [
+        8.12,
+        100.3,
+        56.7
+       ],
+       [
+        8.57,
+        100.9,
+        56.7
+       ],
+       [
+        11.15,
+        105.8,
+        57.3
+       ],
+       [
+        12.77,
+        105.8,
+        57.3
+       ]
+      ]
+     },
+     {
+      "id": "d3",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        81.3,
+        62.0
+       ],
+       [
+        0.0,
+        81.3,
+        62.0
+       ],
+       [
+        0.79,
+        82.7,
+        61.7
+       ],
+       [
+        2.17,
+        87.3,
+        62.8
+       ],
+       [
+        2.17,
+        87.3,
+        62.8
+       ],
+       [
+        3.43,
+        87.7,
+        66.4
+       ],
+       [
+        4.44,
+        86.8,
+        66.5
+       ],
+       [
+        4.44,
+        86.8,
+        66.5
+       ],
+       [
+        5.75,
+        90.4,
+        62.1
+       ],
+       [
+        6.36,
+        90.9,
+        60.8
+       ],
+       [
+        6.36,
+        90.9,
+        60.8
+       ],
+       [
+        7.01,
+        92.3,
+        60.9
+       ],
+       [
+        8.12,
+        99.3,
+        65.2
+       ],
+       [
+        8.12,
+        99.3,
+        65.2
+       ],
+       [
+        8.57,
+        100.2,
+        65.4
+       ],
+       [
+        11.15,
+        115.4,
+        63.3
+       ],
+       [
+        12.77,
+        118.3,
+        57.0
+       ]
+      ]
+     },
+     {
+      "id": "d4",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        83.1,
+        39.0
+       ],
+       [
+        0.0,
+        83.1,
+        39.0
+       ],
+       [
+        0.79,
+        84.8,
+        37.6
+       ],
+       [
+        2.17,
+        89.9,
+        34.7
+       ],
+       [
+        2.17,
+        89.9,
+        34.7
+       ],
+       [
+        3.43,
+        93.7,
+        37.8
+       ],
+       [
+        4.44,
+        94.2,
+        40.3
+       ],
+       [
+        4.44,
+        94.2,
+        40.3
+       ],
+       [
+        5.75,
+        95.0,
+        44.1
+       ],
+       [
+        6.36,
+        95.1,
+        43.9
+       ],
+       [
+        6.36,
+        95.1,
+        43.9
+       ],
+       [
+        7.01,
+        96.5,
+        43.6
+       ],
+       [
+        8.12,
+        102.4,
+        45.2
+       ],
+       [
+        8.12,
+        102.4,
+        45.2
+       ],
+       [
+        8.57,
+        102.9,
+        45.5
+       ],
+       [
+        11.15,
+        116.9,
+        47.8
+       ]
+      ]
+     },
+     {
+      "id": "d5",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        86.2,
+        29.5
+       ],
+       [
+        0.0,
+        86.2,
+        29.5
+       ],
+       [
+        0.79,
+        87.6,
+        28.4
+       ],
+       [
+        2.17,
+        91.0,
+        27.0
+       ],
+       [
+        2.17,
+        91.0,
+        27.0
+       ],
+       [
+        3.43,
+        93.9,
+        30.0
+       ],
+       [
+        4.44,
+        94.0,
+        32.2
+       ],
+       [
+        4.44,
+        94.0,
+        32.2
+       ],
+       [
+        5.75,
+        93.7,
+        35.9
+       ],
+       [
+        6.36,
+        93.4,
+        35.7
+       ],
+       [
+        6.36,
+        93.4,
+        35.7
+       ],
+       [
+        7.01,
+        94.0,
+        35.2
+       ],
+       [
+        8.12,
+        98.4,
+        35.6
+       ],
+       [
+        8.12,
+        98.4,
+        35.6
+       ],
+       [
+        8.57,
+        98.9,
+        35.7
+       ],
+       [
+        11.15,
+        108.0,
+        36.1
+       ],
+       [
+        12.77,
+        108.0,
+        36.1
+       ]
+      ]
+     },
+     {
+      "id": "d6",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        91.2,
+        34.4
+       ],
+       [
+        0.0,
+        91.2,
+        34.4
+       ],
+       [
+        0.79,
+        92.4,
+        33.9
+       ],
+       [
+        2.17,
+        95.4,
+        33.5
+       ],
+       [
+        2.17,
+        95.4,
+        33.5
+       ],
+       [
+        3.43,
+        98.1,
+        34.9
+       ],
+       [
+        4.44,
+        98.2,
+        34.8
+       ],
+       [
+        4.44,
+        98.2,
+        34.8
+       ],
+       [
+        5.75,
+        99.9,
+        36.6
+       ],
+       [
+        6.36,
+        100.0,
+        36.2
+       ],
+       [
+        6.36,
+        100.0,
+        36.2
+       ],
+       [
+        7.01,
+        101.0,
+        35.4
+       ],
+       [
+        8.12,
+        106.7,
+        34.7
+       ],
+       [
+        8.12,
+        106.7,
+        34.7
+       ],
+       [
+        8.57,
+        107.2,
+        34.7
+       ],
+       [
+        11.15,
+        112.2,
+        36.3
+       ],
+       [
+        12.77,
+        112.2,
+        36.3
+       ]
+      ]
+     },
+     {
+      "id": "d7",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        91.5,
+        52.2
+       ],
+       [
+        0.0,
+        91.5,
+        52.2
+       ],
+       [
+        0.79,
+        92.7,
+        50.9
+       ],
+       [
+        2.17,
+        96.8,
+        47.0
+       ],
+       [
+        2.17,
+        96.8,
+        47.0
+       ],
+       [
+        3.43,
+        98.3,
+        51.1
+       ],
+       [
+        4.44,
+        97.4,
+        53.6
+       ],
+       [
+        4.44,
+        97.4,
+        53.6
+       ],
+       [
+        5.75,
+        98.9,
+        54.4
+       ],
+       [
+        6.36,
+        99.2,
+        53.4
+       ],
+       [
+        6.36,
+        99.2,
+        53.4
+       ],
+       [
+        7.01,
+        100.4,
+        52.7
+       ],
+       [
+        8.12,
+        105.8,
+        54.5
+       ],
+       [
+        8.12,
+        105.8,
+        54.5
+       ],
+       [
+        8.57,
+        106.5,
+        54.6
+       ],
+       [
+        11.15,
+        109.3,
+        51.3
+       ]
+      ]
+     },
+     {
+      "id": "d8",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        91.7,
+        45.4
+       ],
+       [
+        0.0,
+        91.7,
+        45.4
+       ],
+       [
+        0.79,
+        93.0,
+        44.5
+       ],
+       [
+        2.17,
+        97.1,
+        39.3
+       ],
+       [
+        2.17,
+        97.1,
+        39.3
+       ],
+       [
+        3.43,
+        99.3,
+        39.7
+       ],
+       [
+        4.44,
+        99.0,
+        40.6
+       ],
+       [
+        4.44,
+        99.0,
+        40.6
+       ],
+       [
+        5.75,
+        100.9,
+        41.0
+       ],
+       [
+        6.36,
+        101.1,
+        40.3
+       ],
+       [
+        6.36,
+        101.1,
+        40.3
+       ],
+       [
+        7.01,
+        102.2,
+        39.2
+       ],
+       [
+        8.12,
+        107.6,
+        38.1
+       ],
+       [
+        8.12,
+        107.6,
+        38.1
+       ],
+       [
+        8.57,
+        108.0,
+        38.2
+       ],
+       [
+        11.15,
+        111.1,
+        45.1
+       ],
+       [
+        12.77,
+        111.1,
+        45.1
+       ]
+      ]
+     },
+     {
+      "id": "d9",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        2.17,
+        93.4,
+        67.2
+       ],
+       [
+        2.17,
+        93.4,
+        67.2
+       ],
+       [
+        3.43,
+        95.3,
+        66.3
+       ],
+       [
+        4.44,
+        95.4,
+        65.2
+       ],
+       [
+        4.44,
+        95.4,
+        65.2
+       ],
+       [
+        5.75,
+        97.7,
+        61.4
+       ],
+       [
+        6.36,
+        98.0,
+        60.4
+       ],
+       [
+        6.36,
+        98.0,
+        60.4
+       ],
+       [
+        7.01,
+        98.8,
+        60.9
+       ],
+       [
+        8.12,
+        102.4,
+        67.4
+       ],
+       [
+        8.12,
+        102.4,
+        67.4
+       ],
+       [
+        8.57,
+        102.9,
+        68.0
+       ],
+       [
+        11.15,
+        108.1,
+        65.1
+       ],
+       [
+        11.15,
+        108.1,
+        65.1
+       ],
+       [
+        12.77,
+        108.1,
+        64.3
+       ]
+      ]
+     },
+     {
+      "id": "d10",
+      "side": "def",
+      "keeper": true,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        3.43,
+        116.5,
+        39.5
+       ],
+       [
+        4.44,
+        115.5,
+        40.3
+       ],
+       [
+        4.44,
+        115.5,
+        40.3
+       ],
+       [
+        5.75,
+        115.6,
+        40.9
+       ],
+       [
+        6.36,
+        115.3,
+        40.2
+       ],
+       [
+        6.36,
+        115.3,
+        40.2
+       ],
+       [
+        7.01,
+        115.5,
+        39.5
+       ],
+       [
+        8.12,
+        118.1,
+        40.1
+       ],
+       [
+        8.12,
+        118.1,
+        40.1
+       ],
+       [
+        8.57,
+        118.5,
+        40.1
+       ],
+       [
+        11.15,
+        118.6,
+        40.9
+       ],
+       [
+        12.77,
+        118.6,
+        40.9
+       ]
+      ]
+     },
+     {
+      "id": "d13",
+      "side": "def",
+      "keeper": false,
+      "name": "Raphaël Varane",
+      "jersey": 4,
+      "pts": [
+       [
+        11.15,
+        113.5,
+        45.5
+       ],
+       [
+        12.77,
+        116.9,
+        47.8
+       ]
+      ]
+     }
+    ],
+    "quality": {
+     "snapshots": 18,
+     "tracks": 21,
+     "avg_visible": 16.2,
+     "max_gap_s": 2.6,
+     "max_speed": 8.4
+    }
+   },
+   "facts": {
+    "sequence_len": 6,
+    "duration_s": 12.77,
+    "play_pattern": "From Throw In",
+    "body_part": "Right Foot",
+    "technique": "Half Volley",
+    "shot_distance": 11.3,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": false,
+    "assist_player": "Sofiane Boufal",
+    "defensive_line_height": 1.6,
+    "gap_to_line": -8.6
+   },
+   "explanation": {
+    "text": "At 52:40, Yahia Attiyat allah had a big chance for Morocco after a 6-pass move that started from a throw-in, but it went well off target. The chance was worth 0.15 xG (expected goals), meaning about 2 in 10 shots like this are goals. The last pass before the shot came from Sofiane Boufal.",
+    "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
+    "speech": "The fifty-third minute, and Morocco have a big chance. Yahia Attiyat allah shoots... but it sails well wide! A smooth move of six passes opens the defence. Our model says about two in ten shots like that are goals. Sofiane Boufal played the pass that made it. Hit first time, the goalkeeper had almost no time to react.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3869552/m03-8c93bcde.ogg"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "fab43625-d55e-46b5-b7d6-5fcf6079868f",
+   "period": 2,
+   "minute": 70,
+   "second": 57,
+   "clock": "70:57",
+   "team": "home",
+   "team_name": "France",
+   "player": "Marcus Thuram",
+   "xg_statsbomb": 0.116,
+   "xg_model": 0.131,
+   "outcome": "Off T",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m04",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "91d7cab0-f655-45e3-b485-68837450b4a3",
+     "from": [
+      91.2,
+      19.1
+     ],
+     "to": [
+      114.5,
+      45.5
+     ],
+     "player": "Antoine Griezmann",
+     "recipient": "Marcus Thuram",
+     "t": 0.0,
+     "dur": 1.61,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "fab43625-d55e-46b5-b7d6-5fcf6079868f",
+     "from": [
+      114.5,
+      45.5
+     ],
+     "to": [
+      120.0,
+      46.9
+     ],
+     "player": "Marcus Thuram",
+     "recipient": null,
+     "t": 1.61,
+     "dur": 0.6,
+     "key": false,
+     "outcome": "Off T"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 90.0,
+       "y": 29.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 91.2,
+       "y": 19.1,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 91.9,
+       "y": 36.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 99.5,
+       "y": 40.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.5,
+       "y": 25.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.7,
+       "y": 25.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.7,
+       "y": 43.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.3,
+       "y": 30.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.3,
+       "y": 50.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.3,
+       "y": 36.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.5,
+       "y": 44.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.8,
+       "y": 32.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.0,
+       "y": 47.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.3,
+       "y": 42.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.8,
+       "y": 49.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.9,
+       "y": 41.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.0,
+       "y": 48.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.3,
+       "y": 46.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.0,
+       "y": 43.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 114.5,
+       "y": 36.9,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 104.0
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 90.2,
+       "y": 17.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 95.0,
+       "y": 35.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.0,
+       "y": 24.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.1,
+       "y": 41.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.1,
+       "y": 23.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.5,
+       "y": 51.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 105.5,
+       "y": 29.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 107.2,
+       "y": 43.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.9,
+       "y": 32.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.3,
+       "y": 35.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.5,
+       "y": 45.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 110.8,
+       "y": 41.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.1,
+       "y": 40.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.6,
+       "y": 41.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.8,
+       "y": 46.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.8,
+       "y": 45.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 114.0,
+       "y": 43.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.5,
+       "y": 45.5,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 114.8,
+       "y": 38.2,
+       "role": "keeper",
+       "actor": false
+      },
+      {
+       "x": 115.2,
+       "y": 49.1,
+       "role": "defender",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 115.2
+    }
+   },
+   "movement": {
+    "t_start": 0.0,
+    "t_end": 1.61,
+    "tracks": [
+     {
+      "id": "a2",
+      "side": "att",
+      "keeper": false,
+      "name": "Antoine Griezmann",
+      "jersey": 7,
+      "pts": [
+       [
+        0.0,
+        91.1,
+        19.0
+       ],
+       [
+        1.61,
+        90.2,
+        17.7
+       ],
+       [
+        1.61,
+        90.2,
+        17.7
+       ]
+      ]
+     },
+     {
+      "id": "a3",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        92.1,
+        36.0
+       ],
+       [
+        1.61,
+        95.0,
+        35.9
+       ],
+       [
+        1.61,
+        95.0,
+        35.9
+       ]
+      ]
+     },
+     {
+      "id": "a4",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        102.5,
+        30.4
+       ],
+       [
+        1.61,
+        105.4,
+        29.1
+       ],
+       [
+        1.61,
+        105.4,
+        29.1
+       ]
+      ]
+     },
+     {
+      "id": "a5",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        102.3,
+        50.4
+       ],
+       [
+        1.61,
+        101.6,
+        51.4
+       ],
+       [
+        1.61,
+        101.6,
+        51.4
+       ]
+      ]
+     },
+     {
+      "id": "a6",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        103.0,
+        44.8
+       ],
+       [
+        1.61,
+        113.2,
+        44.3
+       ],
+       [
+        1.61,
+        113.2,
+        44.3
+       ]
+      ]
+     },
+     {
+      "id": "a7",
+      "side": "att",
+      "keeper": false,
+      "name": "Marcus Thuram",
+      "jersey": 26,
+      "pts": [
+       [
+        0.0,
+        103.6,
+        47.6
+       ],
+       [
+        1.61,
+        114.3,
+        45.5
+       ],
+       [
+        1.61,
+        114.3,
+        45.5
+       ]
+      ]
+     },
+     {
+      "id": "a8",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        104.6,
+        45.9
+       ],
+       [
+        1.61,
+        109.4,
+        45.0
+       ],
+       [
+        1.61,
+        109.4,
+        45.0
+       ]
+      ]
+     },
+     {
+      "id": "a9",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        105.4,
+        43.1
+       ],
+       [
+        1.61,
+        112.5,
+        41.8
+       ],
+       [
+        1.61,
+        112.5,
+        41.8
+       ]
+      ]
+     },
+     {
+      "id": "d1",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        99.5,
+        40.5
+       ],
+       [
+        1.61,
+        100.1,
+        41.9
+       ],
+       [
+        1.61,
+        100.1,
+        41.9
+       ]
+      ]
+     },
+     {
+      "id": "d2",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        101.4,
+        25.5
+       ],
+       [
+        1.61,
+        100.0,
+        24.6
+       ],
+       [
+        1.61,
+        100.0,
+        24.6
+       ]
+      ]
+     },
+     {
+      "id": "d3",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        101.7,
+        24.9
+       ],
+       [
+        1.61,
+        101.1,
+        23.1
+       ],
+       [
+        1.61,
+        101.1,
+        23.1
+       ]
+      ]
+     },
+     {
+      "id": "d4",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        102.0,
+        43.8
+       ],
+       [
+        1.61,
+        107.2,
+        43.4
+       ],
+       [
+        1.61,
+        107.2,
+        43.4
+       ]
+      ]
+     },
+     {
+      "id": "d5",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        102.6,
+        36.5
+       ],
+       [
+        1.61,
+        108.2,
+        35.5
+       ],
+       [
+        1.61,
+        108.2,
+        35.5
+       ]
+      ]
+     },
+     {
+      "id": "d6",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        103.1,
+        32.5
+       ],
+       [
+        1.61,
+        107.8,
+        32.8
+       ],
+       [
+        1.61,
+        107.8,
+        32.8
+       ]
+      ]
+     },
+     {
+      "id": "d7",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        103.8,
+        42.7
+       ],
+       [
+        1.61,
+        113.8,
+        43.7
+       ],
+       [
+        1.61,
+        113.8,
+        43.7
+       ]
+      ]
+     },
+     {
+      "id": "d8",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        104.4,
+        49.8
+       ],
+       [
+        1.61,
+        115.0,
+        49.1
+       ],
+       [
+        1.61,
+        115.0,
+        49.1
+       ]
+      ]
+     },
+     {
+      "id": "d9",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        104.3,
+        41.0
+       ],
+       [
+        1.61,
+        110.7,
+        41.1
+       ],
+       [
+        1.61,
+        110.7,
+        41.1
+       ]
+      ]
+     },
+     {
+      "id": "d10",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        104.5,
+        48.3
+       ],
+       [
+        1.61,
+        112.7,
+        46.7
+       ],
+       [
+        1.61,
+        112.7,
+        46.7
+       ]
+      ]
+     },
+     {
+      "id": "d11",
+      "side": "def",
+      "keeper": true,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        0.0,
+        114.5,
+        37.0
+       ],
+       [
+        1.61,
+        114.8,
+        38.2
+       ],
+       [
+        1.61,
+        114.8,
+        38.2
+       ]
+      ]
+     }
+    ],
+    "quality": {
+     "snapshots": 4,
+     "tracks": 19,
+     "avg_visible": 19.5,
+     "max_gap_s": 1.6,
+     "max_speed": 6.8
+    }
+   },
+   "facts": {
+    "sequence_len": 1,
+    "duration_s": 1.61,
+    "play_pattern": "From Free Kick",
+    "body_part": "Head",
+    "technique": "Normal",
+    "shot_distance": 7.8,
+    "under_pressure": true,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Antoine Griezmann",
+    "defensive_line_height": 16.0,
+    "gap_to_line": 10.5
+   },
+   "explanation": {
+    "text": "At 70:57, Marcus Thuram had a big chance for France from a free kick, but it went off target. The chance was worth 0.13 xG (expected goals), meaning about 1 in 10 shots like this are goals. The last pass before the shot came from Antoine Griezmann.",
+    "why": "The defence was stretched: the key pass reached 10.5 units beyond the last visible defender, leaving space to attack.",
+    "speech": "Big chance in the seventy-first minute! Marcus Thuram shoots for France... but it goes wide! It comes from a free kick. Our model says about one in ten shots like that are goals. Antoine Griezmann played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3869552/m04-b0bb4e9f.ogg"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "0502086f-c98a-47b2-83c0-dfb26991cbb4",
+   "period": 2,
+   "minute": 78,
+   "second": 49,
+   "clock": "78:49",
+   "team": "home",
+   "team_name": "France",
+   "player": "Randal Kolo Muani",
+   "xg_statsbomb": 0.852,
+   "xg_model": 0.513,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m05",
+   "sequence": [
+    {
+     "kind": "shot",
+     "event_id": "0502086f-c98a-47b2-83c0-dfb26991cbb4",
+     "from": [
+      115.6,
+      43.8
+     ],
+     "to": [
+      120.0,
+      42.5
+     ],
+     "player": "Randal Kolo Muani",
+     "recipient": null,
+     "t": 0.0,
+     "dur": 0.33,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": null,
+    "shot": {
+     "players": [
+      {
+       "x": 96.2,
+       "y": 32.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.0,
+       "y": 27.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.4,
+       "y": 33.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.1,
+       "y": 28.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 110.1,
+       "y": 30.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.3,
+       "y": 31.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 110.4,
+       "y": 29.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.1,
+       "y": 34.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.3,
+       "y": 35.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.9,
+       "y": 43.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.6,
+       "y": 43.8,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 115.8,
+       "y": 39.4,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 114.9
+    }
+   },
+   "movement": {
+    "t_start": -0.04,
+    "t_end": 0.0,
+    "tracks": [
+     {
+      "id": "a2",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.04,
+        109.1,
+        31.0
+       ],
+       [
+        0.0,
+        110.3,
+        31.7
+       ]
+      ]
+     },
+     {
+      "id": "d3",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.04,
+        111.1,
+        33.6
+       ],
+       [
+        0.0,
+        111.1,
+        34.4
+       ]
+      ]
+     },
+     {
+      "id": "d4",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.04,
+        111.4,
+        31.8
+       ],
+       [
+        0.0,
+        110.1,
+        30.8
+       ]
+      ]
+     }
+    ],
+    "quality": {
+     "snapshots": 2,
+     "tracks": 3,
+     "avg_visible": 12.0,
+     "max_gap_s": 0.0,
+     "max_speed": 0.0
+    }
+   },
+   "facts": {
+    "sequence_len": 0,
+    "duration_s": 0.0,
+    "play_pattern": "From Goal Kick",
+    "body_part": "Right Foot",
+    "technique": "Normal",
+    "shot_distance": 5.8,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": true,
+    "assist_player": null,
+    "defensive_line_height": 5.1,
+    "gap_to_line": null
+   },
+   "explanation": {
+    "text": "At 78:49, Randal Kolo Muani scored for France from a rebound after an earlier shot in the same move. The chance was worth 0.51 xG (expected goals), meaning about 5 in 10 shots like this are goals.",
+    "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
+    "speech": "France strike! Randal Kolo Muani finds the net in the seventy-ninth minute! Randal Kolo Muani is first to the rebound. Our model says about five in ten shots like that are goals. The first shot was saved, and the defence was caught out as the ball ran loose.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3869552/m05-0a95f9d5.ogg"
+   },
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "a7a84a01-7131-47ca-89fa-aa853dc9ce89",
+   "period": 2,
+   "minute": 93,
+   "second": 35,
+   "clock": "93:35",
+   "team": "away",
+   "team_name": "Morocco",
+   "player": "Abderrazak Hamdallah",
+   "xg_statsbomb": 0.506,
+   "xg_model": 0.422,
+   "outcome": "Blocked",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m06",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "02e50f85-e073-4381-b929-ed419504533f",
+     "from": [
+      116.0,
+      34.6
+     ],
+     "to": [
+      115.9,
+      37.4
+     ],
+     "player": "Abderrazak Hamdallah",
+     "recipient": null,
+     "t": 0.0,
+     "dur": 0.13,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "a7a84a01-7131-47ca-89fa-aa853dc9ce89",
+     "from": [
+      115.9,
+      37.4
+     ],
+     "to": [
+      118.7,
+      38.6
+     ],
+     "player": "Abderrazak Hamdallah",
+     "recipient": null,
+     "t": 0.13,
+     "dur": 0.24,
+     "key": false,
+     "outcome": "Blocked"
+    }
+   ],
+   "snapshots": {
+    "key_pass": null,
+    "shot": {
+     "players": [
+      {
+       "x": 101.1,
+       "y": 40.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.3,
+       "y": 47.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.8,
+       "y": 32.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.9,
+       "y": 46.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.6,
+       "y": 53.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 111.0,
+       "y": 43.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.9,
+       "y": 40.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 113.6,
+       "y": 43.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.0,
+       "y": 29.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.9,
+       "y": 37.4,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 117.2,
+       "y": 42.0,
+       "role": "keeper",
+       "actor": false
+      },
+      {
+       "x": 118.1,
+       "y": 39.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 118.5,
+       "y": 37.0,
+       "role": "attacker",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 118.1
+    }
+   },
+   "movement": {
+    "t_start": -0.45,
+    "t_end": 0.13,
+    "tracks": [
+     {
+      "id": "a1",
+      "side": "att",
+      "keeper": false,
+      "name": "Azzedine Ounahi",
+      "jersey": 8,
+      "pts": [
+       [
+        -0.45,
+        110.2,
+        42.5
+       ],
+       [
+        0.0,
+        110.5,
+        42.3
+       ],
+       [
+        0.0,
+        110.5,
+        42.3
+       ],
+       [
+        0.13,
+        110.5,
+        42.2
+       ]
+      ]
+     },
+     {
+      "id": "a2",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        110.6,
+        52.0
+       ],
+       [
+        0.0,
+        110.6,
+        52.0
+       ],
+       [
+        0.0,
+        110.6,
+        52.0
+       ],
+       [
+        0.13,
+        110.6,
+        52.0
+       ]
+      ]
+     },
+     {
+      "id": "a3",
+      "side": "att",
+      "keeper": false,
+      "name": "Abderrazak Hamdallah",
+      "jersey": 9,
+      "pts": [
+       [
+        -0.45,
+        115.7,
+        35.4
+       ],
+       [
+        0.0,
+        115.8,
+        35.5
+       ],
+       [
+        0.0,
+        115.8,
+        35.5
+       ],
+       [
+        0.13,
+        115.8,
+        35.5
+       ]
+      ]
+     },
+     {
+      "id": "a4",
+      "side": "att",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        118.8,
+        35.3
+       ],
+       [
+        0.0,
+        118.8,
+        35.4
+       ],
+       [
+        0.0,
+        118.8,
+        35.4
+       ],
+       [
+        0.13,
+        118.8,
+        35.4
+       ]
+      ]
+     },
+     {
+      "id": "d1",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        100.8,
+        39.4
+       ],
+       [
+        0.0,
+        100.8,
+        39.4
+       ],
+       [
+        0.0,
+        100.8,
+        39.4
+       ],
+       [
+        0.13,
+        100.9,
+        39.4
+       ]
+      ]
+     },
+     {
+      "id": "d2",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        104.0,
+        46.1
+       ],
+       [
+        0.0,
+        104.1,
+        46.1
+       ],
+       [
+        0.0,
+        104.1,
+        46.1
+       ],
+       [
+        0.13,
+        104.1,
+        46.1
+       ]
+      ]
+     },
+     {
+      "id": "d3",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        107.4,
+        30.9
+       ],
+       [
+        0.0,
+        107.4,
+        31.0
+       ],
+       [
+        0.0,
+        107.4,
+        31.0
+       ],
+       [
+        0.13,
+        107.5,
+        31.1
+       ]
+      ]
+     },
+     {
+      "id": "d4",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        109.5,
+        44.9
+       ],
+       [
+        0.0,
+        109.3,
+        45.0
+       ],
+       [
+        0.0,
+        109.3,
+        45.0
+       ],
+       [
+        0.13,
+        109.2,
+        45.0
+       ]
+      ]
+     },
+     {
+      "id": "d5",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        113.3,
+        42.3
+       ],
+       [
+        0.0,
+        113.4,
+        42.4
+       ],
+       [
+        0.0,
+        113.4,
+        42.4
+       ],
+       [
+        0.13,
+        113.4,
+        42.4
+       ]
+      ]
+     },
+     {
+      "id": "d6",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        112.9,
+        38.4
+       ],
+       [
+        0.0,
+        112.9,
+        38.7
+       ],
+       [
+        0.0,
+        112.9,
+        38.7
+       ],
+       [
+        0.13,
+        112.9,
+        38.8
+       ]
+      ]
+     },
+     {
+      "id": "d7",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        114.7,
+        27.8
+       ],
+       [
+        0.0,
+        114.7,
+        27.8
+       ],
+       [
+        0.0,
+        114.7,
+        27.8
+       ],
+       [
+        0.13,
+        114.7,
+        27.9
+       ]
+      ]
+     },
+     {
+      "id": "d8",
+      "side": "def",
+      "keeper": false,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        117.7,
+        38.3
+       ],
+       [
+        0.0,
+        117.8,
+        38.3
+       ],
+       [
+        0.0,
+        117.8,
+        38.3
+       ],
+       [
+        0.13,
+        117.8,
+        38.3
+       ]
+      ]
+     },
+     {
+      "id": "d9",
+      "side": "def",
+      "keeper": true,
+      "name": null,
+      "jersey": null,
+      "pts": [
+       [
+        -0.45,
+        117.4,
+        40.9
+       ],
+       [
+        0.0,
+        117.3,
+        40.9
+       ],
+       [
+        0.0,
+        117.3,
+        40.9
+       ],
+       [
+        0.13,
+        117.3,
+        40.9
+       ]
+      ]
+     }
+    ],
+    "quality": {
+     "snapshots": 4,
+     "tracks": 13,
+     "avg_visible": 13.0,
+     "max_gap_s": 0.5,
+     "max_speed": 0.9
+    }
+   },
+   "facts": {
+    "sequence_len": 0,
+    "duration_s": 0.13,
+    "play_pattern": "From Corner",
+    "body_part": "Other",
+    "technique": "Normal",
+    "shot_distance": 4.9,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": true,
+    "assist_player": null,
+    "defensive_line_height": 1.9,
+    "gap_to_line": null
+   },
+   "explanation": {
+    "text": "At 93:35, Abderrazak Hamdallah had a big chance for Morocco from a rebound after an earlier shot in the same move, but a defender blocked it. The chance was worth 0.42 xG (expected goals), meaning about 4 in 10 shots like this are goals.",
+    "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
+    "speech": "The ninety-fourth minute, and Morocco have a big chance. Abderrazak Hamdallah shoots... but a defender gets in the way! Abderrazak Hamdallah is first to the rebound. Our model says about four in ten shots like that are goals. The first shot was saved, and the defence was caught out as the ball ran loose.",
+    "source": "template",
+    "label": "Automated analysis",
+    "audio": "audio/3869552/m06-e378022e.ogg"
+   },
+   "highlights_url": null
+  }
+ ],
+ "has_360": true,
+ "names": {
+  "Abderrazak Hamdallah": "Abderrazak Hamdallah",
+  "Antoine Griezmann": "Antoine Griezmann",
+  "Aurélien Djani Tchouaméni": "Aurélien Tchouaméni",
+  "Azzedine Ounahi": "Azzedine Ounahi",
+  "Hakim Ziyech": "Hakim Ziyech",
+  "Marcus Thuram": "Marcus Thuram",
+  "Olivier Giroud": "Olivier Giroud",
+  "Randal Kolo Muani": "Randal Kolo Muani",
+  "Sofiane Boufal": "Sofiane Boufal",
+  "Theo Bernard François Hernández": "Theo Hernández",
+  "Yahia Attiyat allah": "Yahia Attiyat allah"
+ }
+}

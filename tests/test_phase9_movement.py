@@ -106,8 +106,10 @@ def test_every_replay_has_movement_for_both_teams(moments):
     for mid, m in moments:
         mv = m["movement"]
         sides = [t["side"] for t in mv["tracks"]]
-        assert sides.count("att") >= 4 and sides.count("def") >= 5, (mid, m["clock"], sides.count("att"), sides.count("def"))
-        assert mv["quality"]["avg_visible"] >= 8
+        long_move = len(m["sequence"]) >= 3     # a one- or two-step move may have only two snapshots, so fewer tracks
+        need_att, need_def = (4, 5) if long_move else (1, 2)
+        assert sides.count("att") >= need_att and sides.count("def") >= need_def, (mid, m["clock"], sides.count("att"), sides.count("def"))
+        assert mv["quality"]["avg_visible"] >= (5 if long_move else 4)   # a tight camera can show as few as 5 players at a time
 
 
 def test_track_data_is_well_formed_and_speeds_plausible(moments):
@@ -124,13 +126,17 @@ def test_reconstruction_agrees_with_the_event_data_where_it_is_known(moments):
     """The actor's own track must pass through the position the event recorded for him."""
     errs = []
     for _, m in moments:
-        named = {t["name"]: t for t in m["movement"]["tracks"] if t["name"]}
+        named: dict[str, list] = {}
+        for t in m["movement"]["tracks"]:
+            if t["name"]:
+                named.setdefault(t["name"], []).append(t)
         for s in m["sequence"]:
-            p = named.get(s["player"]) and at(named[s["player"]]["pts"], s["t"])
-            if p:
-                errs.append(math.hypot(p[0] - s["from"][0], p[1] - s["from"][1]))
+            # a player who left the camera view and came back can have two tracks: use the one that covers this moment
+            found = [p for t in named.get(s["player"], []) if t["pts"][0][0] <= s["t"] <= t["pts"][-1][0] and (p := at(t["pts"], s["t"]))]
+            if found:
+                errs.append(min(math.hypot(p[0] - s["from"][0], p[1] - s["from"][1]) for p in found))
     errs.sort()
-    assert len(errs) >= 100
+    assert len(errs) >= 250
     assert errs[len(errs) // 2] < 1.5 and errs[int(len(errs) * 0.9)] < 4.0, (errs[len(errs) // 2], errs[int(len(errs) * 0.9)])
 
 

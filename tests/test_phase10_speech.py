@@ -25,6 +25,7 @@ def test_years_scores_and_chances_are_spoken_naturally():
     assert year_words(2022) == "twenty twenty-two" and year_words(2005) == "two thousand and five" and year_words(2000) == "two thousand"
     assert speak_years("FIFA World Cup 2022") == "FIFA World Cup twenty twenty-two"
     assert speak_years("La Liga 2015/2016") == "La Liga twenty fifteen to twenty sixteen"
+    assert speak_years("Round of 16") == "Round of sixteen"
     assert score_words(3, 0) == "three nil" and score_words(2, 2) == "two two"
     assert per_ten(0.4) == "about four in ten" and per_ten(0.02) == "fewer than one in ten"
 

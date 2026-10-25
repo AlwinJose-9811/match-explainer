@@ -1749,7 +1749,8 @@
     "why": "The defence was stretched: the key pass reached 5.1 units beyond the last visible defender, leaving space to attack.",
     "speech": "Goal! Nahuel Molina scores for Argentina in the thirty-fifth minute! A smooth move of three passes opens the defence. Our model says about three in ten shots like that are goals. Lionel Messi played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869321/m01-b25d6883.ogg"
    },
    "highlights_url": null
   },
@@ -1784,7 +1785,8 @@
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
     "speech": "The seventy-third minute, penalty for Argentina. Lionel Messi steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869321/m02-a4b5c948.ogg"
    },
    "highlights_url": null
   },
@@ -4315,7 +4317,8 @@
     "why": "The team created a clear shooting chance from this move.",
     "speech": "The eighty-third minute, and it's Wout Weghorst for Netherlands! It comes from a free kick. Our model says about one in ten shots like that are goals. Steven Berghuis played the pass that made it. A clear chance, from a clean move.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869321/m03-aafe49e6.ogg"
    },
    "highlights_url": null
   },
@@ -5314,7 +5317,8 @@
     "why": "The shot came from very close to goal, where chances are usually at their best.",
     "speech": "Goal! Wout Weghorst scores for Netherlands in the one hundred and first minute! It comes from a free kick. Our model says about four in ten shots like that are goals. Teun Koopmeiners played the pass that made it. From that close to goal, chances are usually at their best.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869321/m04-0dc2c78d.ogg"
    },
    "highlights_url": null
   },
@@ -8125,7 +8129,8 @@
     "why": "The shot was taken first time, which gives the goalkeeper very little time to react.",
     "speech": "The one hundred and fourteenth minute, and Argentina have a big chance. Lautaro Martínez shoots... but a defender gets in the way! It comes from a free kick. Our model says about two in ten shots like that are goals. Enzo Fernandez played the pass that made it. Hit first time, the goalkeeper had almost no time to react.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869321/m05-30e29d20.ogg"
    },
    "highlights_url": null
   }

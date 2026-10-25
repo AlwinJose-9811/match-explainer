@@ -8,8 +8,10 @@ from __future__ import annotations
 
 from typing import Any
 
+from .config import load_config
 from .speech_script import spoken_moment, spoken_story
 from .validate import validate_text
+from .voice import audio_rel
 
 LABEL = "Automated analysis"
 SET_PIECE = {"From Corner": "from a corner", "From Free Kick": "from a free kick", "From Throw In": "from a throw-in",
@@ -186,3 +188,14 @@ def explain_match(summary: dict[str, Any], moments: dict[str, Any], lineups: lis
     for m in moments["moments"]:
         used |= {s["player"] for s in m["sequence"]} | {s["recipient"] for s in m["sequence"]}
     moments["names"] = {n: names.get(n, n) for n in sorted(x for x in used if x)}  # full name -> display name for the UI
+    link_audio(summary, moments)
+
+
+def link_audio(summary: dict[str, Any], moments: dict[str, Any]) -> None:
+    """Point each explanation and the story at its rendered clip (if python -m pipeline.voice has made it)."""
+    cfg, mid = load_config(), summary["match_id"]
+    pairs = [("story", summary["story"])] + [(m["id"], m["explanation"]) for m in moments["moments"]]
+    for key, obj in pairs:
+        path = audio_rel(mid, key, obj.get("speech") or obj["text"], cfg)
+        if path:
+            obj["audio"] = path

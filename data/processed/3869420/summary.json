@@ -1,0 +1,67 @@
+{
+ "match_id": 3869420,
+ "competition": "FIFA World Cup",
+ "season": "2022",
+ "stage": "Quarter-finals",
+ "date": "2022-12-09",
+ "teams": {
+  "home": {
+   "id": 785,
+   "name": "Croatia",
+   "color": "#2E75B6"
+  },
+  "away": {
+   "id": 781,
+   "name": "Brazil",
+   "color": "#B75410"
+  }
+ },
+ "score": {
+  "home": 1,
+  "away": 1,
+  "shootout": {
+   "home": 4,
+   "away": 2
+  },
+  "note": "Croatia won 4-2 on penalties after extra time."
+ },
+ "possession": {
+  "method": "sum of possession-sequence duration (penalty shootout excluded)",
+  "home": 0.4972,
+  "away": 0.5028
+ },
+ "stats": {
+  "home": {
+   "shots": 9,
+   "on_target": 1,
+   "passes": 737,
+   "passes_completed": 639,
+   "pass_accuracy": 0.867,
+   "xg_model": 0.783,
+   "xg_statsbomb": 0.633,
+   "fouls": 23,
+   "corners": 3,
+   "yellow": 2,
+   "red": 0
+  },
+  "away": {
+   "shots": 20,
+   "on_target": 11,
+   "passes": 747,
+   "passes_completed": 652,
+   "pass_accuracy": 0.8728,
+   "xg_model": 1.861,
+   "xg_statsbomb": 1.816,
+   "fouls": 25,
+   "corners": 7,
+   "yellow": 3,
+   "red": 0
+  }
+ },
+ "story": {
+  "text": "Croatia and Brazil drew 1-1 in the Quarter-finals of the FIFA World Cup 2022. Croatia won 4-2 on penalties after extra time. Croatia had more of the ball (50 percent to 50 percent), and Brazil created the better chances by expected goals, or xG, a measure of chance quality (1.86 to 0.78). The goals came from Neymar at 105:35 and Bruno Petković at 116:02.",
+  "speech": "Croatia and Brazil drew in the Quarter-finals of the FIFA World Cup twenty twenty-two, one all. Croatia won it four two on penalties after extra time. Brazil had more of the ball, fifty percent, and Brazil also created the better chances. The goals came from Neymar in the one hundred and sixth minute, and Bruno Petković in the one hundred and seventeenth minute.",
+  "label": "Automated analysis",
+  "audio": "audio/3869420/story-23ebf974.ogg"
+ }
+}

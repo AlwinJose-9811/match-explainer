@@ -12,7 +12,7 @@ plus the "Listen" button.
 - Fetch data: python tasks.py fetch   (raw data lives OUTSIDE the repo, see config/default.json raw_dir)
 - Verify data: python tasks.py verify
 - Train xG: python tasks.py train
-- Build all 5 matches: python tasks.py build   (single: python -m pipeline.run_pipeline --match-id 3869685)
+- Build all picker matches (10): python tasks.py build   (then optionally python tasks.py voice for the recorded commentary)   (single: python -m pipeline.run_pipeline --match-id 3869685)
 - Test: python tasks.py test
 - Serve site: python tasks.py serve   (http://localhost:8000)
 

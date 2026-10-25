@@ -7,12 +7,12 @@ Status as of the final build. **Done** = implemented and checked by a test or by
 |---|---|---|
 | FR-D1 read local files, no network | Done | Pipeline reads only `raw_dir`; all tests run offline |
 | FR-D2 clear error naming match and file | Done | `test_missing_events_file_names_match_and_item` |
-| FR-D3 120x80 frame, mirror helper | Done | mirror involution test; goals start at x >= 80 on all five matches |
+| FR-D3 120x80 frame, mirror helper | Done | mirror involution test; goals start at x >= 80 on all ten matches |
 | FR-D4 period 5 excluded, shootout reported separately | Done | possession/positions/xG unchanged; final shows 4-2 separately |
-| FR-D5 `--match-id` for any match | Done | all five picker matches built this way |
+| FR-D5 `--match-id` for any match | Done | all ten picker matches built this way |
 | FR-S1 default match loads without a click | Done | final loads on page open |
 | FR-S2 match picker | Done | dropdown reloads every page (browser-checked on 30 page/match combinations) |
-| FR-M1 teams, score, extra time/penalties note | Done | summary page; scores equal the matches file (tested for all five) |
+| FR-M1 teams, score, extra time/penalties note | Done | summary page; scores equal the matches file (tested for all ten) |
 | FR-M2 statistics equal independent recount | Done | `test_stats_match_independent_recount` |
 | FR-M3 tooltip on every stat label (>= 8 terms) | Done | 12 labelled terms, test checks every label has text |
 | FR-M4 possession method shown | Done | note under the possession bar |
@@ -33,7 +33,7 @@ Status as of the final build. **Done** = implemented and checked by a test or by
 | FR-A3 step labels, key pass and shooter highlighted | Done | caption, numbered steps, KEY PASS label, shooter ring |
 | FR-A4 360 snapshot at key pass and shot | Done | all visible players of both teams are shown during the replay, with "Freeze at the key pass / shot"; "visible players only" note |
 | FR-A5 last-defender line and gap | Done | live line = x of the deepest visible defender (test); gap sentence at the key pass |
-| Owner request: opposition positions and off-the-ball movement, ball path separate | Done, with limits | `tracking.py` reconstructs runs from 360 snapshots (both teams, mirrored into one frame); ball path is bold, white-cased and drawn on top; toggles for players, runs and the last-defender line. Accuracy vs the event data: median 0.6 yd, 90th percentile 2.0 yd, max 7.1 yd over 132 actions; implied speeds <= 14 yd/s; defending keepers land at the right end (mirroring test). It is an estimate (visible players only, up to ~6 s between snapshots), not tracking. Two single-snapshot moves are ball-only |
+| Owner request: opposition positions and off-the-ball movement, ball path separate | Done, with limits | `tracking.py` reconstructs runs from 360 snapshots (both teams, mirrored into one frame); ball path is bold, white-cased and drawn on top; toggles for players, runs and the last-defender line. Accuracy vs the event data: median 0.6 yd, 90th percentile 1.9 yd, max 13 yd over 369 actions in the ten matches; implied speeds <= 16 yd/s; defending keepers land at the right end (mirroring test). It is an estimate (visible players only, up to ~6 s between snapshots), not tracking. 2 of 63 replays have one snapshot and are ball-only |
 | FR-A6 reduced motion | Done | tested by overriding the media query: step-by-step view with Previous/Next |
 | FR-X1 training exclusions logged | Done | counts in `xg_metrics.json` |
 | FR-X2 pre-shot features only | Done | leakage guard test |
@@ -42,7 +42,7 @@ Status as of the final build. **Done** = implemented and checked by a test or by
 | FR-X5 per-shot xG, penalties at the stored rate | Done | tests: range, penalty rate, totals add up |
 | FR-X6 shot map | Done | marker size = xG, goals outlined, accessible table |
 | FR-X7 model card | Done | renders from the metrics file |
-| FR-E1 explanation and why for every moment | Done | tested on all five matches |
+| FR-E1 explanation and why for every moment | Done | tested on all ten matches |
 | FR-E2 generated at build time, no LLM needed | Done | no LLM at all in this build |
 | FR-E3 template fallback | Done (trivially) | templates are the only source |
 | FR-E4 validator rejects invented names/numbers | Done | injected-name and number tests |

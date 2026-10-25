@@ -32,6 +32,8 @@ TASKS = {
     "build": build,
     "test": lambda: run(PY, "-m", "pytest", "-q"),
     "serve": lambda: run(PY, "-m", "http.server", "-d", "web", "8000"),
+    # optional: render the recorded commentary voice (needs requirements-voice.txt and the Kokoro model files, see pipeline/voice.py)
+    "voice": lambda: run(PY, "-m", "pipeline.voice"),
 }
 
 

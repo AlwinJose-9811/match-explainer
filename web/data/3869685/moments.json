@@ -31,7 +31,8 @@
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
     "speech": "The twenty-third minute, penalty for Argentina. Lionel Messi steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869685/m01-58f935c0.ogg"
    },
    "highlights_url": null
   },
@@ -1420,7 +1421,8 @@
     "why": "The attack started on a quick counter, before the defence could get back into position.",
     "speech": "Argentina strike! Ángel Di María finds the net in the thirty-sixth minute! It all starts with a lightning counter-attack. Our model says about four in ten shots like that are goals. Alexis MacAllister played the pass that made it. The defence simply could not get back in time.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869685/m02-23adf19e.ogg"
    },
    "highlights_url": null
   },
@@ -2803,7 +2805,8 @@
     "why": "The team created a clear shooting chance from this move.",
     "speech": "The sixtieth minute, and Argentina have a big chance. Lionel Messi shoots... but it goes wide! A smooth move of two passes opens the defence. Our model says about two in ten shots like that are goals. Ángel Di María played the pass that made it. A clear chance, from a clean move.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869685/m03-f4790ddf.ogg"
    },
    "highlights_url": null
   },
@@ -2838,7 +2841,8 @@
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
     "speech": "The eightieth minute, penalty for France. Kylian Mbappé steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869685/m04-cdbf33d5.ogg"
    },
    "highlights_url": null
   },
@@ -4172,7 +4176,8 @@
     "why": "The defence was stretched: the key pass reached 5.5 units beyond the last visible defender, leaving space to attack.",
     "speech": "France strike! Kylian Mbappé finds the net in the eighty-first minute! A smooth move of four passes opens the defence. Our model says about one in ten shots like that are goals. Marcus Thuram played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869685/m05-8f65c056.ogg"
    },
    "highlights_url": null
   },
@@ -6665,7 +6670,8 @@
     "why": "A long passing move gave the team time to work a shooting chance.",
     "speech": "The one hundred and fifth minute, and Argentina have a big chance. Lautaro Martínez shoots... but a defender gets in the way! A smooth move of six passes opens the defence. Our model says about two in ten shots like that are goals. Lionel Messi played the pass that made it. Patient build-up, and in the end the chance opened up.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869685/m06-5aea28f0.ogg"
    },
    "highlights_url": null
   },
@@ -7387,7 +7393,8 @@
     "why": "The attack started on a quick counter, before the defence could get back into position.",
     "speech": "Big chance in the one hundred and sixth minute! Lautaro Martínez shoots for Argentina... but it goes wide! It all starts with a lightning counter-attack. Our model says about two in ten shots like that are goals. Marcos Acuña played the pass that made it. The defence simply could not get back in time.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869685/m07-7ff09d58.ogg"
    },
    "highlights_url": null
   },
@@ -7797,7 +7804,8 @@
     "why": "The first shot was saved, and the defence had not yet got back into shape when the ball came loose.",
     "speech": "Argentina strike! Lionel Messi finds the net in the one hundred and eighth minute! Lionel Messi is first to the rebound. Our model says about six in ten shots like that are goals. The first shot was saved, and the defence was caught out as the ball ran loose.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869685/m08-658030a5.ogg"
    },
    "highlights_url": null
   },
@@ -7832,7 +7840,8 @@
     "why": "Penalties are scored most of the time, so the foul that earned it mattered more than the kick.",
     "speech": "The one hundred and eighteenth minute, penalty for France. Kylian Mbappé steps up... and scores! Most penalties go in, about eight in ten of them, so the odds favour the taker.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869685/m09-cfd17c33.ogg"
    },
    "highlights_url": null
   },
@@ -8721,7 +8730,8 @@
     "why": "The defence was stretched: the key pass reached 12.8 units beyond the last visible defender, leaving space to attack.",
     "speech": "Big chance in the one hundred and twenty-third minute! Randal Kolo Muani shoots for France... but the goalkeeper saves it! It comes from a free kick. Our model says about two in ten shots like that are goals. Ibrahima Konaté played the pass that made it. The defence was stretched, and the pass found space behind the last defender.",
     "source": "template",
-    "label": "Automated analysis"
+    "label": "Automated analysis",
+    "audio": "audio/3869685/m10-a90c065c.ogg"
    },
    "highlights_url": null
   }

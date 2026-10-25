@@ -1,0 +1,64 @@
+{
+ "match_id": 3869254,
+ "competition": "FIFA World Cup",
+ "season": "2022",
+ "stage": "Round of 16",
+ "date": "2022-12-06",
+ "teams": {
+  "home": {
+   "id": 780,
+   "name": "Portugal",
+   "color": "#2E75B6"
+  },
+  "away": {
+   "id": 773,
+   "name": "Switzerland",
+   "color": "#B75410"
+  }
+ },
+ "score": {
+  "home": 6,
+  "away": 1,
+  "shootout": null,
+  "note": null
+ },
+ "possession": {
+  "method": "sum of possession-sequence duration (penalty shootout excluded)",
+  "home": 0.4675,
+  "away": 0.5325
+ },
+ "stats": {
+  "home": {
+   "shots": 15,
+   "on_target": 9,
+   "passes": 488,
+   "passes_completed": 404,
+   "pass_accuracy": 0.8279,
+   "xg_model": 2.397,
+   "xg_statsbomb": 2.284,
+   "fouls": 14,
+   "corners": 6,
+   "yellow": 0,
+   "red": 0
+  },
+  "away": {
+   "shots": 10,
+   "on_target": 3,
+   "passes": 528,
+   "passes_completed": 438,
+   "pass_accuracy": 0.8295,
+   "xg_model": 0.959,
+   "xg_statsbomb": 1.272,
+   "fouls": 15,
+   "corners": 6,
+   "yellow": 2,
+   "red": 0
+  }
+ },
+ "story": {
+  "text": "Portugal beat Switzerland 6-1 in the Round of 16 of the FIFA World Cup 2022. Switzerland had more of the ball (53 percent to 47 percent), and Portugal created the better chances by expected goals, or xG, a measure of chance quality (2.40 to 0.96). The goals came from Gonçalo Ramos at 16:43, Pepe at 32:35, Gonçalo Ramos at 50:05, Raphaël Guerreiro at 54:55, Manuel Akanji at 57:05, Gonçalo Ramos at 66:12 and Rafael Leão at 91:12.",
+  "speech": "Portugal beat Switzerland in the Round of sixteen of the FIFA World Cup twenty twenty-two, six one. Switzerland had more of the ball, fifty-three percent, and Portugal created the better chances. The goals came from Gonçalo Ramos in the seventeenth minute, Pepe in the thirty-third minute, Gonçalo Ramos in the fifty-first minute, Raphaël Guerreiro in the fifty-fifth minute, Manuel Akanji in the fifty-eighth minute, Gonçalo Ramos in the sixty-seventh minute, and Rafael Leão in the ninety-second minute.",
+  "label": "Automated analysis",
+  "audio": "audio/3869254/story-59e7995a.ogg"
+ }
+}
