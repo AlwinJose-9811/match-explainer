@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "positions.json",
+  "type": "object",
+  "required": ["frame", "match_end_minute", "window_minutes", "windows", "data"],
+  "properties": {
+    "frame": {"type": "string"},
+    "match_end_minute": {"type": "integer", "minimum": 1},
+    "window_minutes": {"type": "integer", "minimum": 1},
+    "windows": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["id", "label", "start", "end", "kind"],
+      "properties": {"id": {"type": "string"}, "label": {"type": "string"}, "start": {"type": "integer"},
+                     "end": {"type": "integer"}, "kind": {"enum": ["full", "period", "slide"]}}}},
+    "data": {"type": "object", "additionalProperties": {
+      "type": "object", "required": ["home", "away"],
+      "properties": {"home": {"$ref": "#/$defs/side"}, "away": {"$ref": "#/$defs/side"}}}},
+    "diagnostics": {"type": "object"}
+  },
+  "$defs": {
+    "side": {"type": "object", "required": ["players", "lines", "shape"], "properties": {
+      "players": {"type": "array", "items": {"type": "object", "required": ["id", "name", "role", "x", "y", "n"],
+        "properties": {"id": {"type": "integer"}, "name": {"type": "string"}, "jersey": {"type": ["integer", "null"]},
+                       "role": {"enum": ["GK", "DEF", "MID", "ATT", null]},
+                       "x": {"type": "number", "minimum": 0, "maximum": 120},
+                       "y": {"type": "number", "minimum": 0, "maximum": 80},
+                       "n": {"type": "integer", "minimum": 5}}}},
+      "lines": {"type": "object", "required": ["def", "mid", "att"], "properties": {
+        "def": {"type": ["number", "null"]}, "mid": {"type": ["number", "null"]}, "att": {"type": ["number", "null"]}}},
+      "shape": {"oneOf": [{"type": "null"}, {"type": "object", "required": ["length", "width", "compact", "label"],
+        "properties": {"length": {"type": "number"}, "width": {"type": "number"},
+                       "compact": {"type": "number", "minimum": 0, "maximum": 1},
+                       "label": {"enum": ["low block", "mid block", "high line"]}}}]}
+    }}
+  }
+}

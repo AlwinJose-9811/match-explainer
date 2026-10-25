@@ -8,11 +8,12 @@ from __future__ import annotations
 import argparse
 import sys
 
-from .config import load_config, raw_dir
-from .export import update_index, write_summary
+from .config import load_config, processed_dir, raw_dir
+from .export import update_index, write_json, write_summary
 from .load import DataError, load_match
 from .metrics import build_summary
 from .normalize import events_frame
+from .positions import build_positions
 from .validate import validate_json
 
 
@@ -22,7 +23,11 @@ def run(match_id: int) -> dict:
     df = events_frame(data.events)
     summary = build_summary(data, df)
     validate_json(summary, "summary")
+    t = summary["teams"]
+    positions = build_positions(df, data.lineups, t["home"]["name"], t["away"]["name"], cfg)
+    validate_json(positions, "positions")
     write_summary(match_id, summary)
+    write_json(processed_dir(match_id) / "positions.json", positions)
     update_index(summary)
     return summary
 

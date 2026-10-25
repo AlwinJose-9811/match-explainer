@@ -29,6 +29,13 @@ Verified against statsbomb/open-data on 2026-10-25.
 - Demo the 35:22 Di Maria goal and the 80:59 Mbappe volley, not a penalty.
 - Player names in StatsBomb are full legal names; templates need a short-name map (lineup `player_nickname`).
 - Block-label thresholds come from the data distribution, not tuned to make TC-13 pass.
+  Measured on the 5 picker matches (223 windows, both teams): defensive-line terciles are 48.0 and 53.5, so
+  `block_thresholds` is [48, 54] (not [35, 48], which would label nearly every window "high line").
+  The labels are therefore relative to these matches; the UI says so.
+- A role group needs at least 2 players in a window before its line is shown (a single defender gave nonsense).
+- The k-means cross-check agrees with the role grouping for only 60-80% of players (spec asked for 80%+);
+  it is a diagnostic in positions.json and not shown in the UI.
+- Windows: named (full, first half, second half, extra time) plus 15-minute windows every 5 minutes.
 - Average positions come from on-ball events only (biased towards where players touch the ball); state it in the UI.
 - StatsBomb asks for the data source credit and their logo when publishing: read LICENSE.pdf before going public.
 - xG split: train on Ligue 1 2021/22 + Bundesliga 2023/24, test on UEFA Euro 2020; WC 2022 is never trained on.

@@ -9,10 +9,11 @@
     {"match_id": 3869486, "competition_id": 43, "season_id": 106, "label": "Quarter-final: Morocco v Portugal", "expect": {"home": "Morocco", "away": "Portugal", "home_score": 1, "away_score": 0}}
   ],
   "window_minutes": 15,
+  "window_step": 5,
   "moment_xg_threshold": 0.15,
   "max_moments": 10,
   "min_gap_s": 60,
-  "block_thresholds": [35, 48],
+  "block_thresholds": [48, 54],
   "replay_compression": 0.35,
   "seed": 42,
   "listen_button": true
