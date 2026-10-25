@@ -1577,5 +1577,21 @@
    "highlights_url": null
   }
  ],
- "has_360": true
+ "has_360": true,
+ "names": {
+  "Adrien Rabiot": "Adrien Rabiot",
+  "Alexis Mac Allister": "Alexis MacAllister",
+  "Ibrahima Konaté": "Ibrahima Konaté",
+  "Julián Álvarez": "Julián Álvarez",
+  "Kingsley Coman": "Kingsley Coman",
+  "Kylian Mbappé Lottin": "Kylian Mbappé",
+  "Lautaro Javier Martínez": "Lautaro Martínez",
+  "Lionel Andrés Messi Cuccittini": "Lionel Messi",
+  "Marcos Javier Acuña": "Marcos Acuña",
+  "Marcus Thuram": "Marcus Thuram",
+  "Nahuel Molina Lucero": "Nahuel Molina",
+  "Nicolás Alejandro Tagliafico": "Nicolás Tagliafico",
+  "Randal Kolo Muani": "Randal Kolo Muani",
+  "Ángel Fabián Di María Hernández": "Ángel Di María"
+ }
 }
