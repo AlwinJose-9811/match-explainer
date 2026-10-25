@@ -1,0 +1,594 @@
+{
+ "moments": [
+  {
+   "type": "goal",
+   "event_id": "b5cf82d9-5c1a-49ac-af0d-2fada2d6f0e5",
+   "period": 1,
+   "minute": 41,
+   "second": 36,
+   "clock": "41:36",
+   "team": "home",
+   "team_name": "Morocco",
+   "player": "Youssef En-Nesyri",
+   "xg_statsbomb": 0.2,
+   "xg_model": null,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m01",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "33de802a-3f6b-4f3a-820e-04c429fbf295",
+     "from": [
+      44.7,
+      65.7
+     ],
+     "to": [
+      51.4,
+      59.2
+     ],
+     "player": "Azzedine Ounahi",
+     "recipient": "Hakim Ziyech",
+     "t": 0.0,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "a1c2b2ab-b18a-444c-9aa9-4564c70036e2",
+     "from": [
+      51.4,
+      59.2
+     ],
+     "to": [
+      50.8,
+      49.6
+     ],
+     "player": "Hakim Ziyech",
+     "recipient": null,
+     "t": 0.61,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "ddca8265-ef7e-46a2-bf3a-fe5ffdbb0097",
+     "from": [
+      50.8,
+      49.6
+     ],
+     "to": [
+      74.9,
+      6.0
+     ],
+     "player": "Hakim Ziyech",
+     "recipient": "Sofiane Boufal",
+     "t": 2.78,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "ea7668cf-8c55-4974-8341-8623a90efc1f",
+     "from": [
+      74.9,
+      6.0
+     ],
+     "to": [
+      68.0,
+      17.5
+     ],
+     "player": "Sofiane Boufal",
+     "recipient": null,
+     "t": 4.58,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "02277f28-e58f-457d-b1f0-498ec2aa1bd8",
+     "from": [
+      68.0,
+      17.5
+     ],
+     "to": [
+      73.1,
+      32.5
+     ],
+     "player": "Sofiane Boufal",
+     "recipient": "Azzedine Ounahi",
+     "t": 8.36,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "c9dc4de0-9a4d-4b47-8d43-17a182a40a53",
+     "from": [
+      73.1,
+      32.5
+     ],
+     "to": [
+      76.9,
+      29.3
+     ],
+     "player": "Azzedine Ounahi",
+     "recipient": null,
+     "t": 9.22,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "7e601884-3b3a-4b64-960e-25db14f9c0ae",
+     "from": [
+      76.9,
+      29.3
+     ],
+     "to": [
+      84.2,
+      26.8
+     ],
+     "player": "Azzedine Ounahi",
+     "recipient": "Sofiane Boufal",
+     "t": 11.13,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "pass",
+     "event_id": "cae5e539-3ffd-4a20-b447-2dced065c87f",
+     "from": [
+      84.2,
+      26.8
+     ],
+     "to": [
+      80.5,
+      21.0
+     ],
+     "player": "Sofiane Boufal",
+     "recipient": "Azzedine Ounahi",
+     "t": 11.85,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "5ed43246-09c2-46f7-8840-957066be605e",
+     "from": [
+      80.5,
+      21.0
+     ],
+     "to": [
+      80.2,
+      21.2
+     ],
+     "player": "Azzedine Ounahi",
+     "recipient": null,
+     "t": 12.27,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "512c28ab-1295-4e97-be0e-9d8b408b8e7c",
+     "from": [
+      82.6,
+      17.0
+     ],
+     "to": [
+      92.4,
+      6.0
+     ],
+     "player": "Azzedine Ounahi",
+     "recipient": "Yahia Attiyat allah",
+     "t": 13.35,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "2d85cf40-f449-4361-a06b-7f01c0190090",
+     "from": [
+      92.4,
+      6.0
+     ],
+     "to": [
+      92.4,
+      6.0
+     ],
+     "player": "Yahia Attiyat allah",
+     "recipient": null,
+     "t": 14.93,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "3f854ce6-f91a-400f-8347-aa7290bd9b5e",
+     "from": [
+      92.4,
+      6.0
+     ],
+     "to": [
+      112.6,
+      39.7
+     ],
+     "player": "Yahia Attiyat allah",
+     "recipient": "Youssef En-Nesyri",
+     "t": 16.99,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "b5cf82d9-5c1a-49ac-af0d-2fada2d6f0e5",
+     "from": [
+      112.6,
+      39.7
+     ],
+     "to": [
+      120.0,
+      42.7
+     ],
+     "player": "Youssef En-Nesyri",
+     "recipient": null,
+     "t": 19.03,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 78.2,
+       "y": 36.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 80.5,
+       "y": 18.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 86.4,
+       "y": 50.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 89.1,
+       "y": 13.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 90.9,
+       "y": 33.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 92.4,
+       "y": 6.0,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 92.5,
+       "y": 21.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 93.4,
+       "y": 54.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 95.1,
+       "y": 37.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.4,
+       "y": 18.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 98.7,
+       "y": 0.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.8,
+       "y": 10.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.8,
+       "y": 44.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.1,
+       "y": 31.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.7,
+       "y": 44.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.2,
+       "y": 31.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 105.3,
+       "y": 36.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.0,
+       "y": 37.2,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 105.3
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 95.7,
+       "y": 26.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.5,
+       "y": 52.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.7,
+       "y": 42.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.9,
+       "y": 40.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.4,
+       "y": 2.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.8,
+       "y": 15.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.1,
+       "y": 55.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.6,
+       "y": 25.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.8,
+       "y": 36.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 109.7,
+       "y": 48.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.3,
+       "y": 38.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.3,
+       "y": 41.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.6,
+       "y": 39.7,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 113.1,
+       "y": 41.3,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 112.3
+    }
+   },
+   "facts": {
+    "sequence_len": 7,
+    "duration_s": 19.03,
+    "play_pattern": "From Free Kick",
+    "body_part": "Head",
+    "technique": "Normal",
+    "shot_distance": 7.4,
+    "under_pressure": true,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Yahia Attiyat allah",
+    "defensive_line_height": 14.7,
+    "gap_to_line": 7.3
+   },
+   "explanation": null,
+   "highlights_url": null
+  },
+  {
+   "type": "red_card",
+   "event_id": "f07d957c-b21b-498c-bd77-2df3c440cee5",
+   "period": 2,
+   "minute": 92,
+   "second": 9,
+   "clock": "92:09",
+   "team": "home",
+   "team_name": "Morocco",
+   "player": "Walid Cheddira",
+   "xg_statsbomb": null,
+   "xg_model": null,
+   "outcome": null,
+   "is_goal": false,
+   "is_penalty": false,
+   "card": "Second Yellow",
+   "id": "m02",
+   "sequence": [],
+   "snapshots": {
+    "key_pass": null,
+    "shot": null
+   },
+   "facts": {
+    "card": "Second Yellow"
+   },
+   "explanation": null,
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "69bc4e3c-2854-42c1-89ba-e159f7515567",
+   "period": 2,
+   "minute": 95,
+   "second": 20,
+   "clock": "95:20",
+   "team": "home",
+   "team_name": "Morocco",
+   "player": "Zakaria Aboukhlal",
+   "xg_statsbomb": 0.391,
+   "xg_model": null,
+   "outcome": "Saved",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m03",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "fcbfe9e2-fda4-40c6-8a23-46ecf35b2819",
+     "from": [
+      73.1,
+      49.3
+     ],
+     "to": [
+      101.1,
+      45.9
+     ],
+     "player": "Zakaria Aboukhlal",
+     "recipient": null,
+     "t": 0.0,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "69bc4e3c-2854-42c1-89ba-e159f7515567",
+     "from": [
+      101.1,
+      45.9
+     ],
+     "to": [
+      106.0,
+      44.3
+     ],
+     "player": "Zakaria Aboukhlal",
+     "recipient": null,
+     "t": 3.01,
+     "key": false,
+     "outcome": "Saved"
+    }
+   ],
+   "snapshots": {
+    "key_pass": null,
+    "shot": {
+     "players": [
+      {
+       "x": 86.5,
+       "y": 33.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 97.3,
+       "y": 40.1,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.1,
+       "y": 45.9,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 104.8,
+       "y": 41.4,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 97.3
+    }
+   },
+   "facts": {
+    "sequence_len": 0,
+    "duration_s": 3.01,
+    "play_pattern": "Regular Play",
+    "body_part": "Right Foot",
+    "technique": "Lob",
+    "shot_distance": 19.8,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": null,
+    "defensive_line_height": 22.7,
+    "gap_to_line": null
+   },
+   "explanation": null,
+   "highlights_url": null
+  }
+ ],
+ "has_360": true
+}

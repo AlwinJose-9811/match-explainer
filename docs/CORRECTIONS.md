@@ -36,6 +36,20 @@ Verified against statsbomb/open-data on 2026-10-25.
 - The k-means cross-check agrees with the role grouping for only 60-80% of players (spec asked for 80%+);
   it is a diagnostic in positions.json and not shown in the UI.
 - Windows: named (full, first half, second half, extra time) plus 15-minute windows every 5 minutes.
+
+## Phase 3 decisions (moments)
+- Moment types: `goal` (incl. penalty goals, flagged `is_penalty`), `own_goal`, `penalty` (missed/saved), `red_card`,
+  `shot` (xG >= threshold). Goals are never dropped by the cap or the 60 s spacing rule.
+- Clock shown as StatsBomb minute:second (e.g. 80:59); ranking uses StatsBomb xG until the model's xG is attached (P4).
+- Build-up: same team, possession and period, completed passes and carries only, last 12 within 20 s.
+  If an earlier shot of the same possession exists the sequence starts after it and `facts.rebound` is true
+  (Messi 107:58 in the final has no key pass and a one-step sequence for this reason).
+- 360 coordinates share the event frame (checked: the actor's 360 location equals the event location).
+- `offside_line_x` = x of the deepest visible defender (needs 2 visible defenders); `defensive_line_height` = 120 - that;
+  `gap_to_line` = key-pass end x minus the line (positive = the pass reached behind the line).
+  The line comes from visible players only; the UI says so. A snapshot at the shot falls back to the event's own
+  shot freeze frame when the 360 file has no row for it (e.g. Alvarez 38:26 v Croatia).
+- Matches other than the final have fewer than 6 replays (Argentina v Croatia has 2 non-penalty moments).
 - Average positions come from on-ball events only (biased towards where players touch the ball); state it in the UI.
 - StatsBomb asks for the data source credit and their logo when publishing: read LICENSE.pdf before going public.
 - xG split: train on Ligue 1 2021/22 + Bundesliga 2023/24, test on UEFA Euro 2020; WC 2022 is never trained on.

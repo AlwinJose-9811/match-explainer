@@ -1,0 +1,1541 @@
+{
+ "moments": [
+  {
+   "type": "goal",
+   "event_id": "6d527ebc-a948-4cd8-ac82-daced35bb715",
+   "period": 1,
+   "minute": 22,
+   "second": 24,
+   "clock": "22:24",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Lionel Andrés Messi Cuccittini",
+   "xg_statsbomb": 0.783,
+   "xg_model": null,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": true,
+   "id": "m01",
+   "sequence": [],
+   "snapshots": {
+    "key_pass": null,
+    "shot": null
+   },
+   "facts": {
+    "is_penalty": true,
+    "outcome": "Goal"
+   },
+   "explanation": null,
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "ef86f4d9-7acd-4ed0-a5ec-9129079e8fbe",
+   "period": 1,
+   "minute": 35,
+   "second": 22,
+   "clock": "35:22",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Ángel Fabián Di María Hernández",
+   "xg_statsbomb": 0.303,
+   "xg_model": null,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m02",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "9afa860b-47cd-4be3-84cc-9f0846027721",
+     "from": [
+      25.9,
+      71.8
+     ],
+     "to": [
+      41.6,
+      59.2
+     ],
+     "player": "Nahuel Molina Lucero",
+     "recipient": "Alexis Mac Allister",
+     "t": 0.0,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "pass",
+     "event_id": "eedd2a31-c982-4dd2-a0b7-1db4c44639ad",
+     "from": [
+      41.8,
+      59.0
+     ],
+     "to": [
+      53.1,
+      61.8
+     ],
+     "player": "Alexis Mac Allister",
+     "recipient": "Lionel Andrés Messi Cuccittini",
+     "t": 1.47,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "b6de9b57-20ee-4cf3-ba6e-652981de52f7",
+     "from": [
+      53.1,
+      61.8
+     ],
+     "to": [
+      52.9,
+      61.8
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 2.45,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "3bfc095a-7e8d-468c-8edd-6739a72a09d3",
+     "from": [
+      52.9,
+      61.8
+     ],
+     "to": [
+      62.5,
+      68.2
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": "Julián Álvarez",
+     "t": 2.92,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "81f143ae-d714-4008-9ca5-740c27301bd9",
+     "from": [
+      62.5,
+      68.2
+     ],
+     "to": [
+      63.2,
+      68.2
+     ],
+     "player": "Julián Álvarez",
+     "recipient": null,
+     "t": 4.35,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "5a800227-911a-4490-b828-14ece1f81d76",
+     "from": [
+      63.2,
+      68.2
+     ],
+     "to": [
+      99.3,
+      54.9
+     ],
+     "player": "Julián Álvarez",
+     "recipient": "Alexis Mac Allister",
+     "t": 4.42,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "pass",
+     "event_id": "ed70825d-8a40-470d-8b30-fd315ab5f0a6",
+     "from": [
+      99.3,
+      54.9
+     ],
+     "to": [
+      111.8,
+      32.1
+     ],
+     "player": "Alexis Mac Allister",
+     "recipient": "Ángel Fabián Di María Hernández",
+     "t": 8.07,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "ef86f4d9-7acd-4ed0-a5ec-9129079e8fbe",
+     "from": [
+      111.8,
+      32.1
+     ],
+     "to": [
+      120.0,
+      41.7
+     ],
+     "player": "Ángel Fabián Di María Hernández",
+     "recipient": null,
+     "t": 9.76,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 83.7,
+       "y": 63.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 90.5,
+       "y": 58.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 92.8,
+       "y": 56.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 94.7,
+       "y": 43.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 95.5,
+       "y": 30.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 99.1,
+       "y": 52.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.3,
+       "y": 54.9,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 117.3,
+       "y": 43.9,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 99.1
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 90.7,
+       "y": 50.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 93.8,
+       "y": 59.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.9,
+       "y": 48.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 107.7,
+       "y": 48.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.7,
+       "y": 53.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 110.5,
+       "y": 38.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 111.8,
+       "y": 32.1,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 112.1,
+       "y": 52.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 114.5,
+       "y": 36.1,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 112.1
+    }
+   },
+   "facts": {
+    "sequence_len": 5,
+    "duration_s": 9.76,
+    "play_pattern": "From Counter",
+    "body_part": "Left Foot",
+    "technique": "Normal",
+    "shot_distance": 11.4,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": false,
+    "assist_player": "Alexis Mac Allister",
+    "defensive_line_height": 20.9,
+    "gap_to_line": 12.7
+   },
+   "explanation": null,
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "6cc0d5e2-6999-4006-8a7a-34de4cbe3ffd",
+   "period": 2,
+   "minute": 79,
+   "second": 24,
+   "clock": "79:24",
+   "team": "away",
+   "team_name": "France",
+   "player": "Kylian Mbappé Lottin",
+   "xg_statsbomb": 0.783,
+   "xg_model": null,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": true,
+   "id": "m03",
+   "sequence": [],
+   "snapshots": {
+    "key_pass": null,
+    "shot": null
+   },
+   "facts": {
+    "is_penalty": true,
+    "outcome": "Goal"
+   },
+   "explanation": null,
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "03fb2918-e1e7-4ec8-89ff-7bc5531e853d",
+   "period": 2,
+   "minute": 80,
+   "second": 59,
+   "clock": "80:59",
+   "team": "away",
+   "team_name": "France",
+   "player": "Kylian Mbappé Lottin",
+   "xg_statsbomb": 0.102,
+   "xg_model": null,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m04",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "bb06c6c1-cb7c-4ce2-937b-3e85a9db9f69",
+     "from": [
+      69.2,
+      68.0
+     ],
+     "to": [
+      84.8,
+      71.2
+     ],
+     "player": "Kingsley Coman",
+     "recipient": null,
+     "t": 0.0,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "bc74169c-e8e1-4b00-b51b-0c4aa74b2cf6",
+     "from": [
+      84.8,
+      71.2
+     ],
+     "to": [
+      78.8,
+      58.3
+     ],
+     "player": "Kingsley Coman",
+     "recipient": "Adrien Rabiot",
+     "t": 5.17,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "0a384cc8-2395-4fb6-88e2-fd857a01a918",
+     "from": [
+      78.8,
+      58.3
+     ],
+     "to": [
+      79.2,
+      54.1
+     ],
+     "player": "Adrien Rabiot",
+     "recipient": null,
+     "t": 6.04,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "e6cb3fe0-cfee-4672-9986-645c11e20adb",
+     "from": [
+      79.2,
+      54.1
+     ],
+     "to": [
+      93.1,
+      24.1
+     ],
+     "player": "Adrien Rabiot",
+     "recipient": "Kylian Mbappé Lottin",
+     "t": 7.31,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "pass",
+     "event_id": "45ef8ec8-6ae8-46c7-9ae4-65538e52b622",
+     "from": [
+      93.1,
+      24.1
+     ],
+     "to": [
+      94.8,
+      36.3
+     ],
+     "player": "Kylian Mbappé Lottin",
+     "recipient": "Marcus Thuram",
+     "t": 9.08,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "cb448733-1f03-49fc-9224-e8d642023031",
+     "from": [
+      94.8,
+      36.3
+     ],
+     "to": [
+      94.8,
+      36.3
+     ],
+     "player": "Marcus Thuram",
+     "recipient": null,
+     "t": 10.16,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "7b1441f1-4911-44d7-ac4b-f3f8f11daa76",
+     "from": [
+      94.8,
+      36.3
+     ],
+     "to": [
+      104.8,
+      30.1
+     ],
+     "player": "Marcus Thuram",
+     "recipient": "Kylian Mbappé Lottin",
+     "t": 10.21,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "03fb2918-e1e7-4ec8-89ff-7bc5531e853d",
+     "from": [
+      104.8,
+      30.1
+     ],
+     "to": [
+      120.0,
+      41.5
+     ],
+     "player": "Kylian Mbappé Lottin",
+     "recipient": null,
+     "t": 11.6,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 74.2,
+       "y": 62.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 78.6,
+       "y": 49.4,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 79.9,
+       "y": 54.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 88.2,
+       "y": 41.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 89.2,
+       "y": 30.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 93.4,
+       "y": 51.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 94.8,
+       "y": 36.3,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 95.0,
+       "y": 26.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 96.7,
+       "y": 70.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 96.8,
+       "y": 51.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 97.1,
+       "y": 37.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 97.1,
+       "y": 27.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.1,
+       "y": 48.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.3,
+       "y": 40.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.2,
+       "y": 46.6,
+       "role": "attacker",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 99.3
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 93.5,
+       "y": 39.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 98.2,
+       "y": 67.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 99.0,
+       "y": 36.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.3,
+       "y": 48.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 100.4,
+       "y": 46.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.0,
+       "y": 38.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 102.2,
+       "y": 27.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.8,
+       "y": 43.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.6,
+       "y": 37.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 104.2,
+       "y": 43.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.8,
+       "y": 30.1,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 116.3,
+       "y": 39.5,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 103.6
+    }
+   },
+   "facts": {
+    "sequence_len": 4,
+    "duration_s": 11.6,
+    "play_pattern": "From Throw In",
+    "body_part": "Right Foot",
+    "technique": "Volley",
+    "shot_distance": 18.1,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": false,
+    "assist_player": "Marcus Thuram",
+    "defensive_line_height": 20.7,
+    "gap_to_line": 5.5
+   },
+   "explanation": null,
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "d3ba40fa-09d6-4488-b17d-672aaa2928d7",
+   "period": 3,
+   "minute": 104,
+   "second": 28,
+   "clock": "104:28",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Lautaro Javier Martínez",
+   "xg_statsbomb": 0.233,
+   "xg_model": null,
+   "outcome": "Blocked",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m05",
+   "sequence": [
+    {
+     "kind": "pass",
+     "event_id": "e3f08230-b079-4c47-b32c-37740d258fe3",
+     "from": [
+      86.5,
+      25.4
+     ],
+     "to": [
+      74.9,
+      24.1
+     ],
+     "player": "Marcos Javier Acuña",
+     "recipient": "Nicolás Alejandro Tagliafico",
+     "t": 0.0,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "9d04c5aa-7227-4f3d-844b-d65b437756c5",
+     "from": [
+      74.9,
+      24.1
+     ],
+     "to": [
+      75.1,
+      23.9
+     ],
+     "player": "Nicolás Alejandro Tagliafico",
+     "recipient": null,
+     "t": 1.06,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "5b66fe29-a6c8-4a89-a5d3-bd3eef8f1513",
+     "from": [
+      75.1,
+      23.9
+     ],
+     "to": [
+      81.6,
+      30.5
+     ],
+     "player": "Nicolás Alejandro Tagliafico",
+     "recipient": "Alexis Mac Allister",
+     "t": 1.71,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "739e3557-c0ba-46cd-9547-56fee1987896",
+     "from": [
+      81.6,
+      30.5
+     ],
+     "to": [
+      80.9,
+      34.6
+     ],
+     "player": "Alexis Mac Allister",
+     "recipient": null,
+     "t": 2.5,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "66ef6487-71ba-4d76-ac56-3c7afeca094d",
+     "from": [
+      80.9,
+      34.6
+     ],
+     "to": [
+      83.7,
+      44.0
+     ],
+     "player": "Alexis Mac Allister",
+     "recipient": "Lionel Andrés Messi Cuccittini",
+     "t": 4.11,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "305d2706-6f86-4d2f-a7d1-fc1d480e11cd",
+     "from": [
+      83.7,
+      44.0
+     ],
+     "to": [
+      86.0,
+      34.4
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 4.88,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "bea489c7-9f37-4064-8e67-c7b20f725d99",
+     "from": [
+      86.0,
+      34.4
+     ],
+     "to": [
+      97.0,
+      45.3
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": "Alexis Mac Allister",
+     "t": 7.98,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "3d46550f-a025-4a8a-a718-e6ca66fc0c9a",
+     "from": [
+      97.0,
+      45.3
+     ],
+     "to": [
+      97.0,
+      45.3
+     ],
+     "player": "Alexis Mac Allister",
+     "recipient": null,
+     "t": 8.64,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "44bef3f4-9e4d-43f9-b19f-8dfdaca7782c",
+     "from": [
+      97.0,
+      45.3
+     ],
+     "to": [
+      101.0,
+      38.2
+     ],
+     "player": "Alexis Mac Allister",
+     "recipient": "Lionel Andrés Messi Cuccittini",
+     "t": 9.2,
+     "key": false,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "bdee7fc4-af57-45ad-b249-c46eb138b448",
+     "from": [
+      101.0,
+      38.2
+     ],
+     "to": [
+      103.4,
+      37.6
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 9.75,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "4110d7e1-c550-49c4-a07f-80df35b94088",
+     "from": [
+      103.4,
+      37.6
+     ],
+     "to": [
+      107.9,
+      47.8
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": "Lautaro Javier Martínez",
+     "t": 9.87,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "carry",
+     "event_id": "585259bd-3e93-4122-b62b-bece6b54a6cd",
+     "from": [
+      107.9,
+      47.8
+     ],
+     "to": [
+      108.8,
+      45.3
+     ],
+     "player": "Lautaro Javier Martínez",
+     "recipient": null,
+     "t": 10.59,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "shot",
+     "event_id": "d3ba40fa-09d6-4488-b17d-672aaa2928d7",
+     "from": [
+      108.8,
+      45.3
+     ],
+     "to": [
+      110.6,
+      44.2
+     ],
+     "player": "Lautaro Javier Martínez",
+     "recipient": null,
+     "t": 11.19,
+     "key": false,
+     "outcome": "Blocked"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 85.3,
+       "y": 59.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 88.3,
+       "y": 43.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 93.3,
+       "y": 36.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 94.1,
+       "y": 37.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 96.4,
+       "y": 31.9,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 96.6,
+       "y": 41.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 97.7,
+       "y": 42.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.2,
+       "y": 14.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 100.9,
+       "y": 41.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 101.8,
+       "y": 40.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.4,
+       "y": 37.6,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 103.5,
+       "y": 47.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 104.1,
+       "y": 36.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.2,
+       "y": 33.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 117.2,
+       "y": 41.6,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 106.2
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 97.8,
+       "y": 40.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 98.8,
+       "y": 36.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 99.4,
+       "y": 30.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 106.0,
+       "y": 41.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 106.5,
+       "y": 38.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 108.8,
+       "y": 45.3,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 109.6,
+       "y": 44.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.4,
+       "y": 37.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 112.1,
+       "y": 40.3,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 116.7,
+       "y": 42.3,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 112.1
+    }
+   },
+   "facts": {
+    "sequence_len": 6,
+    "duration_s": 11.19,
+    "play_pattern": "Regular Play",
+    "body_part": "Right Foot",
+    "technique": "Normal",
+    "shot_distance": 12.4,
+    "under_pressure": false,
+    "first_time": false,
+    "rebound": false,
+    "assist_player": "Lionel Andrés Messi Cuccittini",
+    "defensive_line_height": 13.8,
+    "gap_to_line": 1.7
+   },
+   "explanation": null,
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "54b889ec-6026-49ea-a913-e883dbe6e301",
+   "period": 4,
+   "minute": 107,
+   "second": 58,
+   "clock": "107:58",
+   "team": "home",
+   "team_name": "Argentina",
+   "player": "Lionel Andrés Messi Cuccittini",
+   "xg_statsbomb": 0.488,
+   "xg_model": null,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": false,
+   "id": "m06",
+   "sequence": [
+    {
+     "kind": "shot",
+     "event_id": "54b889ec-6026-49ea-a913-e883dbe6e301",
+     "from": [
+      116.6,
+      43.0
+     ],
+     "to": [
+      120.0,
+      40.9
+     ],
+     "player": "Lionel Andrés Messi Cuccittini",
+     "recipient": null,
+     "t": 0.0,
+     "key": false,
+     "outcome": "Goal"
+    }
+   ],
+   "snapshots": {
+    "key_pass": null,
+    "shot": {
+     "players": [
+      {
+       "x": 92.9,
+       "y": 25.0,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.7,
+       "y": 40.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 109.7,
+       "y": 48.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 110.5,
+       "y": 38.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 112.6,
+       "y": 40.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 115.8,
+       "y": 33.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 116.6,
+       "y": 43.0,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 116.7,
+       "y": 49.7,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 118.2,
+       "y": 43.5,
+       "role": "keeper",
+       "actor": false
+      },
+      {
+       "x": 118.4,
+       "y": 48.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 119.7,
+       "y": 39.3,
+       "role": "defender",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 119.7
+    }
+   },
+   "facts": {
+    "sequence_len": 0,
+    "duration_s": 0.0,
+    "play_pattern": "Regular Play",
+    "body_part": "Right Foot",
+    "technique": "Half Volley",
+    "shot_distance": 4.5,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": true,
+    "assist_player": null,
+    "defensive_line_height": 0.3,
+    "gap_to_line": null
+   },
+   "explanation": null,
+   "highlights_url": null
+  },
+  {
+   "type": "goal",
+   "event_id": "d9b92dbd-4fea-4f48-b2fb-d7222eab2dbd",
+   "period": 4,
+   "minute": 117,
+   "second": 5,
+   "clock": "117:05",
+   "team": "away",
+   "team_name": "France",
+   "player": "Kylian Mbappé Lottin",
+   "xg_statsbomb": 0.783,
+   "xg_model": null,
+   "outcome": "Goal",
+   "is_goal": true,
+   "is_penalty": true,
+   "id": "m07",
+   "sequence": [],
+   "snapshots": {
+    "key_pass": null,
+    "shot": null
+   },
+   "facts": {
+    "is_penalty": true,
+    "outcome": "Goal"
+   },
+   "explanation": null,
+   "highlights_url": null
+  },
+  {
+   "type": "shot",
+   "event_id": "959edead-09fb-40b0-b6a3-72e73bd30d5a",
+   "period": 4,
+   "minute": 122,
+   "second": 44,
+   "clock": "122:44",
+   "team": "away",
+   "team_name": "France",
+   "player": "Randal Kolo Muani",
+   "xg_statsbomb": 0.278,
+   "xg_model": null,
+   "outcome": "Saved",
+   "is_goal": false,
+   "is_penalty": false,
+   "id": "m08",
+   "sequence": [
+    {
+     "kind": "carry",
+     "event_id": "64369f04-dadc-4ded-82ff-9a3db5bdb2ee",
+     "from": [
+      61.7,
+      43.4
+     ],
+     "to": [
+      62.7,
+      42.7
+     ],
+     "player": "Ibrahima Konaté",
+     "recipient": null,
+     "t": 0.0,
+     "key": false,
+     "outcome": null
+    },
+    {
+     "kind": "pass",
+     "event_id": "d56cde7d-5b7b-45d7-9a28-49b6d4dcfc69",
+     "from": [
+      62.7,
+      42.7
+     ],
+     "to": [
+      103.7,
+      45.1
+     ],
+     "player": "Ibrahima Konaté",
+     "recipient": "Randal Kolo Muani",
+     "t": 0.73,
+     "key": true,
+     "outcome": "Complete"
+    },
+    {
+     "kind": "shot",
+     "event_id": "959edead-09fb-40b0-b6a3-72e73bd30d5a",
+     "from": [
+      103.7,
+      45.1
+     ],
+     "to": [
+      109.7,
+      44.1
+     ],
+     "player": "Randal Kolo Muani",
+     "recipient": null,
+     "t": 4.01,
+     "key": false,
+     "outcome": "Saved"
+    }
+   ],
+   "snapshots": {
+    "key_pass": {
+     "players": [
+      {
+       "x": 57.9,
+       "y": 43.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 59.8,
+       "y": 31.0,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 62.7,
+       "y": 42.7,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 63.9,
+       "y": 56.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 66.1,
+       "y": 54.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 66.6,
+       "y": 43.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 69.8,
+       "y": 25.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 71.0,
+       "y": 46.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 72.3,
+       "y": 35.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 74.7,
+       "y": 41.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 78.9,
+       "y": 44.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 83.8,
+       "y": 50.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 84.3,
+       "y": 26.5,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 86.0,
+       "y": 47.8,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 87.4,
+       "y": 43.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 87.6,
+       "y": 42.1,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 87.8,
+       "y": 59.3,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 89.5,
+       "y": 53.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 90.9,
+       "y": 34.9,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 92.4,
+       "y": 36.3,
+       "role": "attacker",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 90.9
+    },
+    "shot": {
+     "players": [
+      {
+       "x": 87.9,
+       "y": 39.5,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 88.8,
+       "y": 60.6,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 93.1,
+       "y": 52.7,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 94.0,
+       "y": 38.8,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 94.6,
+       "y": 43.6,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.0,
+       "y": 36.4,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 102.3,
+       "y": 41.2,
+       "role": "defender",
+       "actor": false
+      },
+      {
+       "x": 103.1,
+       "y": 36.2,
+       "role": "attacker",
+       "actor": false
+      },
+      {
+       "x": 103.7,
+       "y": 45.1,
+       "role": "attacker",
+       "actor": true
+      },
+      {
+       "x": 109.9,
+       "y": 43.5,
+       "role": "keeper",
+       "actor": false
+      }
+     ],
+     "offside_line_x": 102.3
+    }
+   },
+   "facts": {
+    "sequence_len": 1,
+    "duration_s": 4.01,
+    "play_pattern": "From Free Kick",
+    "body_part": "Right Foot",
+    "technique": "Half Volley",
+    "shot_distance": 17.1,
+    "under_pressure": false,
+    "first_time": true,
+    "rebound": false,
+    "assist_player": "Ibrahima Konaté",
+    "defensive_line_height": 29.1,
+    "gap_to_line": 12.8
+   },
+   "explanation": null,
+   "highlights_url": null
+  }
+ ],
+ "has_360": true
+}

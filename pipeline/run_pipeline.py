@@ -12,6 +12,7 @@ from .config import load_config, processed_dir, raw_dir
 from .export import update_index, write_json, write_summary
 from .load import DataError, load_match
 from .metrics import build_summary
+from .moments import build_moments
 from .normalize import events_frame
 from .positions import build_positions
 from .validate import validate_json
@@ -26,8 +27,11 @@ def run(match_id: int) -> dict:
     t = summary["teams"]
     positions = build_positions(df, data.lineups, t["home"]["name"], t["away"]["name"], cfg)
     validate_json(positions, "positions")
+    moments = build_moments(df, data.three_sixty, t["home"]["name"], cfg)
+    validate_json(moments, "moments")
     write_summary(match_id, summary)
     write_json(processed_dir(match_id) / "positions.json", positions)
+    write_json(processed_dir(match_id) / "moments.json", moments)
     update_index(summary)
     return summary
 
